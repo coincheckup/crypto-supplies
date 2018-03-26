@@ -19,7 +19,7 @@ const getSupplies = (file) => {
 
             res((response) => {
                 if (response instanceof Error) {
-                    throw response;
+                    console.log(file, chalk.red(response.message));
                 } else {
                     console.log(file, chalk.green(JSON.stringify(response)));
                 }
