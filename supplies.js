@@ -8,18 +8,36 @@ const vm = new NodeVM({
     },
     timeout: 1000
 });
+
 const fs = require('fs');
+const chalk = require('chalk');
 
-fs.readdir('./coins', (err, files) => {
-    files.forEach(file => {
-        // console.log(file, 'started');
-
-        fs.readFile('./coins/' + file, 'utf8', (err, script) => {
+const getSupplies = (file) => {
+    fs.readFile(file, 'utf8', (err, script) => {
+        try {
             let res = vm.run(script, 'supplies.js');
 
             res((response) => {
-                console.log(file, response);
+                if (response instanceof Error) {
+                    throw response;
+                } else {
+                    console.log(file, chalk.green(JSON.stringify(response)));
+                }
             });
+        } catch (e) {
+            console.log(file, chalk.red(e.message));
+        }
+    });
+};
+
+if (process.argv.length > 2) {
+    const file = './coins/' + process.argv[2];
+
+    getSupplies(file);
+} else {
+    fs.readdir('./coins', (err, files) => {
+        files.forEach(file => {
+            getSupplies('./coins/' + file);
         });
     });
-});
+}
