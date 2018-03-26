@@ -6,11 +6,17 @@ The end goal is to have a more transparent and up to date source than what's out
 
 As such, please help out by submitting a pull request with your favorite coin(s) to track.
 
-# How to run
+# How to run all coins available
 
 1. Clone or download the repository
 2. Run `npm install`
 3. Run `node supplies.js`
+
+# How to run an individual coin
+
+1. Clone or download the repository
+2. Run `npm install`
+3. Run `node supplies.js bitcoin.js`
 
 # Sample output
 
