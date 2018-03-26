@@ -6,6 +6,14 @@ The end goal is to have a more transparent and up to date source than what's out
 
 As such, please help out by submitting a pull request with your favorite coin(s) to track.
 
+# Contributing
+
+1. Fork the project
+2. Work on integrating your favorite coins
+3. Create a pull request back to the original project
+
+Please submit ATOMIC EDITS, one pull request per one coin, do not mix them.
+
 # How to run all coins available
 
 1. Clone or download the repository
