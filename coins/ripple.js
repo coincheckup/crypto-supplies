@@ -11,7 +11,7 @@ module.exports = (callback) => {
                 m: 100000000000
             });
         } else {
-            callback(null);
+            callback(new Error('Request error ' + response.statusCode));
         }
     });
 };

@@ -15,7 +15,7 @@ module.exports = (callback) => {
                 });
             });
         } else {
-            callback(null);
+            callback(new Error('Request error ' + response.statusCode));
         }
     });
 };

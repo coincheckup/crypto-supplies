@@ -9,7 +9,7 @@ module.exports = (callback) => {
                 m: 18900000
             });
         } else {
-            callback(null);
+            callback(new Error('Request error ' + response.statusCode));
         }
     });
 };

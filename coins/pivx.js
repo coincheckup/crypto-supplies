@@ -7,7 +7,7 @@ module.exports = (callback) => {
                 c: Number(body)
             });
         } else {
-            callback(null);
+            callback(new Error('Request error ' + response.statusCode));
         }
     });
 };

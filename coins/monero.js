@@ -9,7 +9,7 @@ module.exports = (callback) => {
                 c: Math.round(supply * 100) / 100
             });
         } else {
-            callback(null);
+            callback(new Error('Request error ' + response.statusCode));
         }
     });
 };

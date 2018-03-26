@@ -11,7 +11,7 @@ module.exports = (callback) => {
                 t: 21000000
             });
         } else {
-            // callback(error);
+            callback(new Error('Request error ' + response.statusCode));
         }
     });
 };
