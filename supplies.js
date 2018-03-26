@@ -12,7 +12,7 @@ const fs = require('fs');
 
 fs.readdir('./coins', (err, files) => {
     files.forEach(file => {
-        console.log(file, 'started');
+        // console.log(file, 'started');
 
         fs.readFile('./coins/' + file, 'utf8', (err, script) => {
             let res = vm.run(script, 'supplies.js');
