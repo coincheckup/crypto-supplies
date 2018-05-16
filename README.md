@@ -42,10 +42,10 @@ You can optionally pass an argument to override the TTL via `--cacheTTL 10` for 
 
 # Optional flags
 
-`--help` displays available commands and flags
-`--pretty` a boolean flag with no arguments, pretty prints output
-`--only-implemented` a boolean flag with no arguments, only displays implemented coins
-`--cacheTTL 10`  an integer flag with one argument, the number of seconds to cache responses
+- `--help` displays available commands and flags
+- `--pretty` a boolean flag with no arguments, pretty prints output
+- `--only-implemented` a boolean flag with no arguments, only displays implemented coins
+- `--cacheTTL 10`  an integer flag with one argument, the number of seconds to cache responses
 
 # Sample basic output
 
