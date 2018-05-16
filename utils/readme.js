@@ -2,11 +2,13 @@ const fs = require('fs');
 
 fs.readdir(__dirname + '/../coins', (err, files) => {
     var readme = fs.readFileSync(__dirname + '/../README.src.md').toString(),
-        states = `# Coin implementation statuses
+        states = `
+# Coin implementation statuses
 
-ID | Status
---- | ---
-`;
+`,
+        counts = '',
+        numImplemented = 0,
+        table = 'ID | Status\n';
 
     files.forEach(file => {
         var path = __dirname + '/../coins/' + file;
@@ -15,10 +17,21 @@ ID | Status
 
         var implemented = src.indexOf('Not Implemented') === -1;
 
-        states += file.replace('.js', '') + ' | ' + (implemented ? '*+ Done*' : '`-- Not done`') + "\n";
+        numImplemented += implemented === true;
+
+        table += file.replace('.js', '') + ' | ' + (implemented ? '*+ Done*' : '`-- Not done`') + "\n";
     });
 
-    fs.writeFileSync(__dirname + '/../README.md', readme + states);
+    counts = '*Total*: '
+        + String(files.length)
+        + ' -- *Implemented*: '
+        + String(numImplemented)
+        +
+        ' -- *To do*: '
+        + (files.length - numImplemented)
+        + "\n\n";
+
+    fs.writeFileSync(__dirname + '/../README.md', readme + states + counts + table);
 
     console.log('Done writing README.md with coin statuses');
 });
