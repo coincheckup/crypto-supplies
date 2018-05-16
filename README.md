@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1732 -- *Implemented*: 183 -- *To do*: 1549
+*Total*: 1732 -- *Implemented*: 184 -- *To do*: 1548
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1668,7 +1668,7 @@ ID | Name | Symbol | Implementation | Status
 [tripio](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tripio.js) | Tripio | TRIO | Not Implemented | `-- Not done`
 [tristar-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tristar-coin.js) | Tristar Coin | TSTR | Not Implemented | `-- Not done`
 [trollcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trollcoin.js) | Trollcoin | TROLL | Dynamic | *+ Done*
-[tron](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tron.js) | TRON | TRX | Not Implemented | `-- Not done`
+[tron](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tron.js) | TRON | TRX | Dynamic | *+ Done*
 [truckcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/truckcoin.js) | Truckcoin | TRK | Not Implemented | `-- Not done`
 [true-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/true-chain.js) | True Chain | TRUE | Not Implemented | `-- Not done`
 [true-usd](https://github.com/coincheckup/crypto-supplies/blob/master/coins/true-usd.js) | N/A | N/A | N/A | `-- Not done`
