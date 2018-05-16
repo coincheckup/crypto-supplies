@@ -1,10 +1,14 @@
 /**
  * @title EOS
  * @symbol EOS
- * @implementation Not Implemented
+ * @implementation Static
  */
+
 var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+    callback({
+        c: 860530370,
+        t: 1000000000
+    });
 };
