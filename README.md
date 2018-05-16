@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1732 -- *Implemented*: 181 -- *To do*: 1551
+*Total*: 1732 -- *Implemented*: 183 -- *To do*: 1549
 
 
 ID | Name | Symbol | Implementation | Status
@@ -663,7 +663,7 @@ ID | Name | Symbol | Implementation | Status
 [enjin-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/enjin-coin.js) | Enjin Coin | ENJ | Not Implemented | `-- Not done`
 [entcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/entcash.js) | ENTCash | ENT | Not Implemented | `-- Not done`
 [envion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/envion.js) | Envion | EVN | Not Implemented | `-- Not done`
-[eos](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eos.js) | EOS | EOS | Not Implemented | `-- Not done`
+[eos](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eos.js) | EOS | EOS | Static | *+ Done*
 [eosdac](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eosdac.js) | eosDAC | EOSDAC | Not Implemented | `-- Not done`
 [eot-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eot-token.js) | N/A | N/A | N/A | `-- Not done`
 [equal](https://github.com/coincheckup/crypto-supplies/blob/master/coins/equal.js) | Equal | EQL | Not Implemented | `-- Not done`
@@ -1548,7 +1548,7 @@ ID | Name | Symbol | Implementation | Status
 [stealthcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stealthcoin.js) | N/A | N/A | N/A | `-- Not done`
 [steem-dollars](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steem-dollars.js) | Steem Dollars | SBD | Not Implemented | `-- Not done`
 [steem](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steem.js) | Steem | STEEM | Not Implemented | `-- Not done`
-[stellar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stellar.js) | Stellar | XLM | Not Implemented | `-- Not done`
+[stellar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stellar.js) | Stellar | XLM | Dynamic | *+ Done*
 [stellite](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stellite.js) | Stellite | XTL | Not Implemented | `-- Not done`
 [steneum-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steneum-coin.js) | Steneum Coin | STN | Not Implemented | `-- Not done`
 [steps](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steps.js) | Steps | STEPS | Not Implemented | `-- Not done`
