@@ -96,6 +96,7 @@ litecoin
 *Total*: 1589 -- *Implemented*: 179 -- *To do*: 1410
 
 ID | Status
+--- | ---
 0x | `-- Not done`
 1337coin | `-- Not done`
 1world | `-- Not done`

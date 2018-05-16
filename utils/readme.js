@@ -8,7 +8,7 @@ fs.readdir(__dirname + '/../coins', (err, files) => {
 `,
         counts = '',
         numImplemented = 0,
-        table = 'ID | Status\n';
+        table = 'ID | Status\n--- | ---\n';
 
     files.forEach(file => {
         var path = __dirname + '/../coins/' + file;
