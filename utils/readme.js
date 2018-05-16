@@ -9,7 +9,10 @@ fs.readdir(__dirname + '/../coins', (err, files) => {
 `,
         counts = '',
         numImplemented = 0,
-        table = 'ID | Name | Symbol | Implementation | Status\n--- | ---\n';
+        table = `
+ID | Name | Symbol | Implementation | Status
+--- | --- | --- | --- | ---
+`;
 
     files.forEach(file => {
         var path = __dirname + '/../coins/' + file;

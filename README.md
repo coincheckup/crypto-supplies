@@ -95,8 +95,9 @@ litecoin
 
 *Total*: 1732 -- *Implemented*: 180 -- *To do*: 1552
 
+
 ID | Name | Symbol | Implementation | Status
---- | ---
+--- | --- | --- | --- | ---
 0x | 0x | ZRX | Not Implemented | `-- Not done`
 1337coin | Elite | 1337 | Not Implemented | `-- Not done`
 1world | 1World | 1WO | Not Implemented | `-- Not done`
