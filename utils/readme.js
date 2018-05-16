@@ -36,7 +36,7 @@ ID | Name | Symbol | Implementation | Status
 
         numImplemented += implemented === true;
 
-        table += file.replace('.js', '')
+        table += '[' + file.replace('.js', '') + '](' + 'https://github.com/coincheckup/crypto-supplies/blob/master/coins/' + file + ')'
             + ' | '
             + (metaObj !== null && typeof metaObj.title !== 'undefined' ? metaObj.title : 'N/A')
             + ' | '
