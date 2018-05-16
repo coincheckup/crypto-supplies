@@ -1,24 +1,31 @@
 {
   "name": "crypto-supplies",
   "description": "Cryptocurrency circulating, available and total supplies",
-  "keywords": ["cryptocurrency", "supply", "crypto", "coins"],
+  "keywords": [
+    "cryptocurrency",
+    "supply",
+    "crypto",
+    "coins"
+  ],
   "bugs": {
-    "url" : "https://github.com/coincheckup/crypto-supplies/issues"
+    "url": "https://github.com/coincheckup/crypto-supplies/issues"
   },
   "author": {
-    "name" : "CoinCheckup.com",
-    "email" : "support@coincheckup.com",
-    "url" : "https://coincheckup.com/"
+    "name": "CoinCheckup.com",
+    "email": "support@coincheckup.com",
+    "url": "https://coincheckup.com/"
   },
   "contributors": [
     {
-        "name" : "Valentin Bora",
-        "email" : "valentin@coincheckup.com",
-        "url" : "https://coincheckup.com/"
+      "name": "Valentin Bora",
+      "email": "valentin@coincheckup.com",
+      "url": "https://coincheckup.com/"
     }
   ],
   "version": "0.1.0",
-  "engines" : { "node" : ">=6.4.0" },
+  "engines": {
+    "node": ">=6.4.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/coincheckup/crypto-supplies.git"
@@ -26,8 +33,11 @@
   "homepage": "https://github.com/coincheckup/crypto-supplies",
   "license": "AGPL-3.0-or-later",
   "dependencies": {
+    "cacheman": "^2.2.1",
+    "cacheman-file": "^0.2.1",
     "chalk": "^2.3.2",
     "request": "^2.85.0",
-    "vm2": "^3.5.2"
+    "vm2": "^3.5.2",
+    "yargs": "^11.0.0"
   }
 }
