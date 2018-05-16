@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1732 -- *Implemented*: 180 -- *To do*: 1552
+*Total*: 1732 -- *Implemented*: 181 -- *To do*: 1551
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1438,7 +1438,7 @@ ID | Name | Symbol | Implementation | Status
 [salt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/salt.js) | SALT | SALT | Not Implemented | `-- Not done`
 [salus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/salus.js) | SaluS | SLS | Not Implemented | `-- Not done`
 [sand-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sand-coin.js) | N/A | N/A | N/A | `-- Not done`
-[santiment](https://github.com/coincheckup/crypto-supplies/blob/master/coins/santiment.js) | Santiment Network Token | SAN | Not Implemented | `-- Not done`
+[santiment](https://github.com/coincheckup/crypto-supplies/blob/master/coins/santiment.js) | Santiment Network Token | SAN | Dynamic | *+ Done*
 [sativacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sativacoin.js) | Sativacoin | STV | Dynamic | *+ Done*
 [satoshimadness](https://github.com/coincheckup/crypto-supplies/blob/master/coins/satoshimadness.js) | SatoshiMadness | MAD | Not Implemented | `-- Not done`
 [save-and-gain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/save-and-gain.js) | Save and Gain | SANDG | Not Implemented | `-- Not done`
