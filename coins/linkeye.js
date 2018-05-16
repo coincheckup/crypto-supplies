@@ -1,3 +1,8 @@
+/**
+ * @title LinkEye
+ * @symbol LET
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

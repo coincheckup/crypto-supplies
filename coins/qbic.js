@@ -1,3 +1,8 @@
+/**
+ * @title Qbic
+ * @symbol QBIC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Molecular Future
+ * @symbol MOF
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

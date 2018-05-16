@@ -1,3 +1,8 @@
+/**
+ * @title Odyssey
+ * @symbol OCN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

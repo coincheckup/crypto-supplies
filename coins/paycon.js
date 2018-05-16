@@ -1,3 +1,8 @@
+/**
+ * @title PayCon
+ * @symbol CON
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Axiom
+ * @symbol AXIOM
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Iconomi
+ * @symbol ICN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

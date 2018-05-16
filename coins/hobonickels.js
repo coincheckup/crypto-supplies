@@ -1,3 +1,8 @@
+/**
+ * @title HoboNickels
+ * @symbol HBN
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title BitSend
+ * @symbol BSD
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

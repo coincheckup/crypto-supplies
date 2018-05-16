@@ -1,3 +1,8 @@
+/**
+ * @title GoldCoin
+ * @symbol GLD
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

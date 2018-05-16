@@ -1,3 +1,8 @@
+/**
+ * @title Swing
+ * @symbol SWING
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

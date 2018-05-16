@@ -1,3 +1,8 @@
+/**
+ * @title Eroscoin
+ * @symbol ERO
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

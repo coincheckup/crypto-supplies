@@ -1,3 +1,8 @@
+/**
+ * @title Madcoin
+ * @symbol MDC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

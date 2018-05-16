@@ -1,3 +1,8 @@
+/**
+ * @title SpankChain
+ * @symbol SPANK
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

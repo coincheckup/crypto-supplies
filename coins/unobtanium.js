@@ -1,3 +1,8 @@
+/**
+ * @title Unobtanium
+ * @symbol UNO
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

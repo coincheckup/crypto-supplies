@@ -1,3 +1,8 @@
+/**
+ * @title STRAKS
+ * @symbol STAK
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

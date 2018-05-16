@@ -1,3 +1,8 @@
+/**
+ * @title Atomic Coin
+ * @symbol ATOM
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

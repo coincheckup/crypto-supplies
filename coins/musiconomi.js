@@ -1,3 +1,8 @@
+/**
+ * @title Musiconomi
+ * @symbol MCI
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Bytecent
+ * @symbol BYC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

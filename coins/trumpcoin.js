@@ -1,3 +1,8 @@
+/**
+ * @title TrumpCoin
+ * @symbol TRUMP
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

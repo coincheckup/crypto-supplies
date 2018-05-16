@@ -1,3 +1,8 @@
+/**
+ * @title Republic Protocol
+ * @symbol REN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

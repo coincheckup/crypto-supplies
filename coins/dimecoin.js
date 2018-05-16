@@ -1,3 +1,8 @@
+/**
+ * @title Dimecoin
+ * @symbol DIME
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

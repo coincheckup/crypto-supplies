@@ -1,3 +1,8 @@
+/**
+ * @title Impact
+ * @symbol IMX
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

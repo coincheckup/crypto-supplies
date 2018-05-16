@@ -1,3 +1,8 @@
+/**
+ * @title Block Array
+ * @symbol ARY
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

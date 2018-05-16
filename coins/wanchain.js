@@ -1,3 +1,8 @@
+/**
+ * @title Wanchain
+ * @symbol WAN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

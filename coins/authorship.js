@@ -1,3 +1,8 @@
+/**
+ * @title Authorship
+ * @symbol ATS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

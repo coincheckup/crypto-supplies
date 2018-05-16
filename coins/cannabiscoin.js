@@ -1,3 +1,8 @@
+/**
+ * @title CannabisCoin
+ * @symbol CANN
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

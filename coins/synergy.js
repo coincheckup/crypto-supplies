@@ -1,3 +1,8 @@
+/**
+ * @title Synergy
+ * @symbol SNRG
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

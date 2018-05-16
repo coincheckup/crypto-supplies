@@ -1,3 +1,8 @@
+/**
+ * @title Blitzcash
+ * @symbol BLITZ
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

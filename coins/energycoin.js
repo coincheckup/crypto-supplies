@@ -1,3 +1,8 @@
+/**
+ * @title Energycoin
+ * @symbol ENRG
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

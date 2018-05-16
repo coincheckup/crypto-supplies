@@ -1,3 +1,8 @@
+/**
+ * @title Bitcoin Scrypt
+ * @symbol BTCS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

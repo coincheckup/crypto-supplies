@@ -1,3 +1,8 @@
+/**
+ * @title Prime-XI
+ * @symbol PXI
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title CargoX
+ * @symbol CXO
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

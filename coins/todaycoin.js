@@ -1,3 +1,8 @@
+/**
+ * @title TodayCoin
+ * @symbol TODAY
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Bela
+ * @symbol BELA
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

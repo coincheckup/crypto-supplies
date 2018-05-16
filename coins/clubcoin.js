@@ -1,3 +1,8 @@
+/**
+ * @title ClubCoin
+ * @symbol CLUB
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

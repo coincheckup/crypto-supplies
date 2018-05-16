@@ -1,3 +1,8 @@
+/**
+ * @title HOdlcoin
+ * @symbol HODL
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

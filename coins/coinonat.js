@@ -1,3 +1,8 @@
+/**
+ * @title Coinonat
+ * @symbol CXT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Ripple
+ * @symbol XRP
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

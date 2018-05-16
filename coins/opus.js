@@ -1,3 +1,8 @@
+/**
+ * @title Opus
+ * @symbol OPT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title VectorAI
+ * @symbol VEC2
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

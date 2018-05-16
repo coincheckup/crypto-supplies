@@ -1,3 +1,8 @@
+/**
+ * @title HealthyWormCoin
+ * @symbol WORM
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

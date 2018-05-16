@@ -1,3 +1,8 @@
+/**
+ * @title Flaxscript
+ * @symbol FLAX
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

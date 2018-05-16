@@ -1,3 +1,8 @@
+/**
+ * @title Super Bitcoin
+ * @symbol SBTC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Sprouts
+ * @symbol SPRTS
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

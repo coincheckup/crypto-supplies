@@ -1,3 +1,8 @@
+/**
+ * @title CHIPS
+ * @symbol CHIPS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

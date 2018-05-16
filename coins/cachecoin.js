@@ -1,3 +1,8 @@
+/**
+ * @title CacheCoin
+ * @symbol CACH
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title RealChain
+ * @symbol RCT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

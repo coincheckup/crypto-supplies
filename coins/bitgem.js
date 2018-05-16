@@ -1,3 +1,8 @@
+/**
+ * @title Bitgem
+ * @symbol BTG
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

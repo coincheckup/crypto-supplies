@@ -1,3 +1,8 @@
+/**
+ * @title BitBay
+ * @symbol BAY
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

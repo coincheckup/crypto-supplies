@@ -1,3 +1,8 @@
+/**
+ * @title Myriad
+ * @symbol XMY
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Universe
+ * @symbol UNI
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

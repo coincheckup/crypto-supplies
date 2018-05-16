@@ -1,3 +1,8 @@
+/**
+ * @title Obsidian
+ * @symbol ODN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

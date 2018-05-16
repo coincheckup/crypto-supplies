@@ -1,3 +1,8 @@
+/**
+ * @title Auroracoin
+ * @symbol AUR
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

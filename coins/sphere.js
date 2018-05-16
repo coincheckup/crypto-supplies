@@ -1,3 +1,8 @@
+/**
+ * @title Sphere
+ * @symbol SPHR
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

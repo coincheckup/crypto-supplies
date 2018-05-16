@@ -1,3 +1,8 @@
+/**
+ * @title Atmos
+ * @symbol ATMOS
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

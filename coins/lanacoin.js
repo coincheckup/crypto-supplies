@@ -1,3 +1,8 @@
+/**
+ * @title LanaCoin
+ * @symbol LANA
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

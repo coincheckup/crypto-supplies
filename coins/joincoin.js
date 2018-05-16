@@ -1,3 +1,8 @@
+/**
+ * @title Joincoin
+ * @symbol J
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

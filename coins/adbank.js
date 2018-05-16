@@ -1,3 +1,8 @@
+/**
+ * @title adbank
+ * @symbol ADB
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

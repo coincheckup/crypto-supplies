@@ -1,3 +1,8 @@
+/**
+ * @title Skeincoin
+ * @symbol SKC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

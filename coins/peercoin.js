@@ -1,3 +1,8 @@
+/**
+ * @title Peercoin
+ * @symbol PPC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

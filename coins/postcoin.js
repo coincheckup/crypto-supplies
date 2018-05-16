@@ -1,3 +1,8 @@
+/**
+ * @title PostCoin
+ * @symbol POST
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

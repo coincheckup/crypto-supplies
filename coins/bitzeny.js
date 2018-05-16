@@ -1,3 +1,8 @@
+/**
+ * @title Bitzeny
+ * @symbol ZNY
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Bezop
+ * @symbol BEZ
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

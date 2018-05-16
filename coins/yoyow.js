@@ -1,3 +1,8 @@
+/**
+ * @title YOYOW
+ * @symbol YOYOW
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

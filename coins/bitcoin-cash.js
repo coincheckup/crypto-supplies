@@ -1,3 +1,8 @@
+/**
+ * @title Bitcoin Cash
+ * @symbol BCH
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

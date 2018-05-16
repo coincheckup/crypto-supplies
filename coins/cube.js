@@ -1,3 +1,8 @@
+/**
+ * @title Cube
+ * @symbol AUTO
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

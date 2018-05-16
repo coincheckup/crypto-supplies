@@ -1,3 +1,8 @@
+/**
+ * @title Donationcoin
+ * @symbol DON
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

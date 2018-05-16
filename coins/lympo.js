@@ -1,3 +1,8 @@
+/**
+ * @title Lympo
+ * @symbol LYM
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

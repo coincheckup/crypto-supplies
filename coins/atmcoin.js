@@ -1,3 +1,8 @@
+/**
+ * @title ATMCoin
+ * @symbol ATMC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

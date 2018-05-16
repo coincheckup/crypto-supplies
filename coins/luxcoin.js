@@ -1,3 +1,8 @@
+/**
+ * @title LUXCoin
+ * @symbol LUX
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title BTCtalkcoin
+ * @symbol TALK
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

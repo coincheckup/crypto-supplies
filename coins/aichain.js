@@ -1,3 +1,8 @@
+/**
+ * @title AICHAIN
+ * @symbol AIT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Sumokoin
+ * @symbol SUMO
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title SolarCoin
+ * @symbol SLR
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

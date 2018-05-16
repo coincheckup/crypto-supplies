@@ -1,3 +1,8 @@
+/**
+ * @title Tellurion
+ * @symbol TELL
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

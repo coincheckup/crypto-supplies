@@ -1,3 +1,8 @@
+/**
+ * @title TajCoin
+ * @symbol TAJ
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

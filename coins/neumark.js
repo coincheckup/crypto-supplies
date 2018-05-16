@@ -1,3 +1,8 @@
+/**
+ * @title Neumark
+ * @symbol NEU
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

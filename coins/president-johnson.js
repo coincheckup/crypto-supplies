@@ -1,3 +1,8 @@
+/**
+ * @title President Johnson
+ * @symbol GARY
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

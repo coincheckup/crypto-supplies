@@ -1,3 +1,8 @@
+/**
+ * @title Blocknet
+ * @symbol BLOCK
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

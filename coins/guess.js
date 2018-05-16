@@ -1,3 +1,8 @@
+/**
+ * @title Peerguess
+ * @symbol GUESS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Bitcrystals
+ * @symbol BCY
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

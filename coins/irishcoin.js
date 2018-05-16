@@ -1,3 +1,8 @@
+/**
+ * @title IrishCoin
+ * @symbol IRL
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

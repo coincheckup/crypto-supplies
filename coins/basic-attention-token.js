@@ -1,3 +1,8 @@
+/**
+ * @title Basic Attention Token
+ * @symbol BAT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

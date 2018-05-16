@@ -1,3 +1,8 @@
+/**
+ * @title Viacoin
+ * @symbol VIA
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

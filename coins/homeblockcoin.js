@@ -1,3 +1,8 @@
+/**
+ * @title HomeBlockCoin
+ * @symbol HBC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

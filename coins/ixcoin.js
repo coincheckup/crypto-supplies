@@ -1,3 +1,8 @@
+/**
+ * @title Ixcoin
+ * @symbol IXC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title NEO GOLD
+ * @symbol NEOG
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

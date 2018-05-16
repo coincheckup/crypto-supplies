@@ -1,3 +1,8 @@
+/**
+ * @title ZrCoin
+ * @symbol ZRC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

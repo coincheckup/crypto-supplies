@@ -1,3 +1,8 @@
+/**
+ * @title Superior Coin
+ * @symbol SUP
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

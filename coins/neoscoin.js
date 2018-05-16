@@ -1,3 +1,8 @@
+/**
+ * @title NeosCoin
+ * @symbol NEOS
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

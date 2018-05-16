@@ -1,3 +1,8 @@
+/**
+ * @title AirSwap
+ * @symbol AST
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

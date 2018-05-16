@@ -1,3 +1,8 @@
+/**
+ * @title iCoin
+ * @symbol ICN
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

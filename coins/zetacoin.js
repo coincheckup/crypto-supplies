@@ -1,3 +1,8 @@
+/**
+ * @title Zetacoin
+ * @symbol ZET
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

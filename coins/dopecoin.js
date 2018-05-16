@@ -1,3 +1,8 @@
+/**
+ * @title DopeCoin
+ * @symbol DOPE
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

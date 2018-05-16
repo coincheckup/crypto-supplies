@@ -1,3 +1,8 @@
+/**
+ * @title Karmacoin
+ * @symbol KARMA
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title ExchangeN
+ * @symbol EXN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

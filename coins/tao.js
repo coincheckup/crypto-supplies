@@ -1,3 +1,8 @@
+/**
+ * @title Tao
+ * @symbol XTO
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

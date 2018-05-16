@@ -1,3 +1,8 @@
+/**
+ * @title PutinCoin
+ * @symbol PUT
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title SuperCoin
+ * @symbol SUPER
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

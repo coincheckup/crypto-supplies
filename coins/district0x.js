@@ -1,3 +1,8 @@
+/**
+ * @title district0x
+ * @symbol DNT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

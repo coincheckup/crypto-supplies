@@ -1,3 +1,8 @@
+/**
+ * @title Bitcloud
+ * @symbol BTDX
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

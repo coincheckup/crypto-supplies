@@ -1,3 +1,8 @@
+/**
+ * @title Visio
+ * @symbol VISIO
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

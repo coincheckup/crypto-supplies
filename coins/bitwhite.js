@@ -1,3 +1,8 @@
+/**
+ * @title BitWhite
+ * @symbol BTW
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

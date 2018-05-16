@@ -1,3 +1,8 @@
+/**
+ * @title AI Doctor
+ * @symbol AIDOC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

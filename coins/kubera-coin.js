@@ -1,3 +1,8 @@
+/**
+ * @title Kubera Coin
+ * @symbol KBR
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

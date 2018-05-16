@@ -1,3 +1,8 @@
+/**
+ * @title Dynamic Trading Rights
+ * @symbol DTR
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

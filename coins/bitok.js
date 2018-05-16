@@ -1,3 +1,8 @@
+/**
+ * @title Bitok
+ * @symbol BITOK
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title VeriCoin
+ * @symbol VRC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

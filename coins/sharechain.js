@@ -1,3 +1,8 @@
+/**
+ * @title Sharechain
+ * @symbol SSS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

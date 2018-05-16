@@ -1,3 +1,8 @@
+/**
+ * @title Zilbercoin
+ * @symbol ZBC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

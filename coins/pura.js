@@ -1,3 +1,8 @@
+/**
+ * @title Pura
+ * @symbol PURA
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

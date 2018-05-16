@@ -1,3 +1,8 @@
+/**
+ * @title SHACoin
+ * @symbol SHA
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

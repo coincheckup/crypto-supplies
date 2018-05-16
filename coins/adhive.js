@@ -1,3 +1,8 @@
+/**
+ * @title AdHive
+ * @symbol ADH
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

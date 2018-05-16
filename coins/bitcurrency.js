@@ -1,3 +1,8 @@
+/**
+ * @title Bitcurrency
+ * @symbol BTCR
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

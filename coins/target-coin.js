@@ -1,3 +1,8 @@
+/**
+ * @title Target Coin
+ * @symbol TGT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

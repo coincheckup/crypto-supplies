@@ -1,3 +1,8 @@
+/**
+ * @title Terracoin
+ * @symbol TRC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Content and AD Network
+ * @symbol CAN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

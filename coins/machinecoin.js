@@ -1,3 +1,8 @@
+/**
+ * @title Machinecoin
+ * @symbol MAC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title HEROcoin
+ * @symbol PLAY
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

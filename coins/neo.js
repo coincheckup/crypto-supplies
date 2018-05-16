@@ -1,3 +1,8 @@
+/**
+ * @title NEO
+ * @symbol NEO
+ * @implementation Static
+ */
 module.exports = (callback) => {
     // Source: https://coinmarketcap.com/currencies/neo/
     callback({

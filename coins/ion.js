@@ -1,3 +1,8 @@
+/**
+ * @title ION
+ * @symbol ION
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Ignis
+ * @symbol IGNIS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title EquiTrader
+ * @symbol EQT
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

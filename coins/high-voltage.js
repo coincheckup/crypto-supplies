@@ -1,3 +1,8 @@
+/**
+ * @title High Voltage
+ * @symbol HVCO
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

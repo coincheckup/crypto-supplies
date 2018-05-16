@@ -1,3 +1,8 @@
+/**
+ * @title LALA World
+ * @symbol LALA
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

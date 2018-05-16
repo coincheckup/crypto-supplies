@@ -1,3 +1,8 @@
+/**
+ * @title PIVX
+ * @symbol PIVX
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

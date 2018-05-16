@@ -1,3 +1,8 @@
+/**
+ * @title GoldMint
+ * @symbol MNTP
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

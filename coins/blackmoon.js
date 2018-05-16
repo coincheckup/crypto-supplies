@@ -1,3 +1,8 @@
+/**
+ * @title Blackmoon
+ * @symbol BMC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

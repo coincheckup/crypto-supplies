@@ -1,3 +1,8 @@
+/**
+ * @title Photon
+ * @symbol PHO
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Lightning Bitcoin
+ * @symbol LBTC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

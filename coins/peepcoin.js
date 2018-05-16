@@ -1,3 +1,8 @@
+/**
+ * @title PeepCoin
+ * @symbol PCN
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

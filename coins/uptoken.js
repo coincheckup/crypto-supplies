@@ -1,3 +1,8 @@
+/**
+ * @title UpToken
+ * @symbol UP
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

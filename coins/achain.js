@@ -1,3 +1,8 @@
+/**
+ * @title Achain
+ * @symbol ACT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

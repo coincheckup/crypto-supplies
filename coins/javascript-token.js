@@ -1,3 +1,8 @@
+/**
+ * @title JavaScript Token
+ * @symbol JS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

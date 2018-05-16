@@ -1,3 +1,8 @@
+/**
+ * @title BlockCDN
+ * @symbol BCDN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

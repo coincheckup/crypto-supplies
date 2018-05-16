@@ -1,3 +1,8 @@
+/**
+ * @title Creativecoin
+ * @symbol CREA
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

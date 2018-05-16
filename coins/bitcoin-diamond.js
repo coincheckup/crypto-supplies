@@ -1,3 +1,8 @@
+/**
+ * @title Bitcoin Diamond
+ * @symbol BCD
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

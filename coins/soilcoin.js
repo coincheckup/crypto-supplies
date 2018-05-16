@@ -1,3 +1,8 @@
+/**
+ * @title SOILcoin
+ * @symbol SOIL
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

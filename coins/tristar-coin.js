@@ -1,3 +1,8 @@
+/**
+ * @title Tristar Coin
+ * @symbol TSTR
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

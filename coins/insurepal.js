@@ -1,3 +1,8 @@
+/**
+ * @title InsurePal
+ * @symbol IPL
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

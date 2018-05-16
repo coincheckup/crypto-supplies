@@ -1,3 +1,8 @@
+/**
+ * @title Emerald Crypto
+ * @symbol EMD
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

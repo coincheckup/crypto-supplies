@@ -1,3 +1,8 @@
+/**
+ * @title Raiden Network Token
+ * @symbol RDN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

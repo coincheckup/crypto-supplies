@@ -1,3 +1,8 @@
+/**
+ * @title Cindicator
+ * @symbol CND
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

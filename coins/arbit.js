@@ -1,3 +1,8 @@
+/**
+ * @title ARbit
+ * @symbol ARB
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

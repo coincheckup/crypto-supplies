@@ -1,3 +1,8 @@
+/**
+ * @title Pakcoin
+ * @symbol PAK
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Aeon
+ * @symbol AEON
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

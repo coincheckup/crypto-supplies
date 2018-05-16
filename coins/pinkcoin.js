@@ -1,3 +1,8 @@
+/**
+ * @title PinkCoin
+ * @symbol PINK
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

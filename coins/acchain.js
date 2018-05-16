@@ -1,3 +1,8 @@
+/**
+ * @title ACChain
+ * @symbol ACC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

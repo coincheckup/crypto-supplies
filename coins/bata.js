@@ -1,3 +1,8 @@
+/**
+ * @title Bata
+ * @symbol BTA
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

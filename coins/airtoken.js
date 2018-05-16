@@ -1,3 +1,8 @@
+/**
+ * @title AirToken
+ * @symbol AIR
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

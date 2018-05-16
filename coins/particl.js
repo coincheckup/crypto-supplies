@@ -1,3 +1,8 @@
+/**
+ * @title Particl
+ * @symbol PART
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

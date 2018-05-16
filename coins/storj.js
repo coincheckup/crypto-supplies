@@ -1,3 +1,8 @@
+/**
+ * @title Storj
+ * @symbol STORJ
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

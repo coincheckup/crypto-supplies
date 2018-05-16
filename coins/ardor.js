@@ -1,3 +1,8 @@
+/**
+ * @title Ardor
+ * @symbol ARDR
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

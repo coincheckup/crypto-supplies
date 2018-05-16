@@ -1,3 +1,8 @@
+/**
+ * @title OctoCoin
+ * @symbol 888
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

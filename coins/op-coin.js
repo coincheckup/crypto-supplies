@@ -1,3 +1,8 @@
+/**
+ * @title OP Coin
+ * @symbol OPC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

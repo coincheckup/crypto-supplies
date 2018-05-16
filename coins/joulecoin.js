@@ -1,3 +1,8 @@
+/**
+ * @title Joulecoin
+ * @symbol XJO
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

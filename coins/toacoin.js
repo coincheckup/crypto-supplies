@@ -1,3 +1,8 @@
+/**
+ * @title ToaCoin
+ * @symbol TOA
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

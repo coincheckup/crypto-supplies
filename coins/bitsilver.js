@@ -1,3 +1,8 @@
+/**
+ * @title bitSilver
+ * @symbol BITSILVER
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

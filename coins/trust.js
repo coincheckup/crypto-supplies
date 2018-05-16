@@ -1,3 +1,8 @@
+/**
+ * @title WeTrust
+ * @symbol TRST
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

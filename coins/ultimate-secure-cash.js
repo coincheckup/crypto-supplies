@@ -1,3 +1,8 @@
+/**
+ * @title Ultimate Secure Cash
+ * @symbol USC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

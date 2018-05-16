@@ -1,3 +1,8 @@
+/**
+ * @title Einsteinium
+ * @symbol EMC2
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

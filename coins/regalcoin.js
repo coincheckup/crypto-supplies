@@ -1,3 +1,8 @@
+/**
+ * @title Regalcoin
+ * @symbol REC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

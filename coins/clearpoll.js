@@ -1,3 +1,8 @@
+/**
+ * @title ClearPoll
+ * @symbol POLL
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Unikoin Gold
+ * @symbol UKG
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

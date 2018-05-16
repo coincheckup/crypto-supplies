@@ -1,3 +1,8 @@
+/**
+ * @title DATx
+ * @symbol DATX
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

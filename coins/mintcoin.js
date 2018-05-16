@@ -1,3 +1,8 @@
+/**
+ * @title Mintcoin
+ * @symbol MINT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

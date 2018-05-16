@@ -1,3 +1,8 @@
+/**
+ * @title CryptCoin
+ * @symbol CRYPT
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title WeAreSatoshi
+ * @symbol WSX
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

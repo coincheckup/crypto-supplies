@@ -1,3 +1,8 @@
+/**
+ * @title PoSW Coin
+ * @symbol POSW
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

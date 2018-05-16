@@ -1,3 +1,8 @@
+/**
+ * @title CompuCoin
+ * @symbol CPN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

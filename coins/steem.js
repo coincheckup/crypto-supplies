@@ -1,3 +1,8 @@
+/**
+ * @title Steem
+ * @symbol STEEM
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

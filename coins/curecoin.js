@@ -1,3 +1,8 @@
+/**
+ * @title Curecoin
+ * @symbol CURE
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

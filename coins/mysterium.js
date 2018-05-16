@@ -1,3 +1,8 @@
+/**
+ * @title Mysterium
+ * @symbol MYST
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

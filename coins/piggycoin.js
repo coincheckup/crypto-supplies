@@ -1,3 +1,8 @@
+/**
+ * @title Piggycoin
+ * @symbol PIGGY
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

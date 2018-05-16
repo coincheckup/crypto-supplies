@@ -1,3 +1,8 @@
+/**
+ * @title Copico
+ * @symbol XCPO
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

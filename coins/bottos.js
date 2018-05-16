@@ -1,3 +1,8 @@
+/**
+ * @title Bottos
+ * @symbol BTO
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

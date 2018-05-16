@@ -1,3 +1,8 @@
+/**
+ * @title Mithril
+ * @symbol MITH
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

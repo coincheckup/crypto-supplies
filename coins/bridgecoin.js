@@ -1,3 +1,8 @@
+/**
+ * @title BridgeCoin
+ * @symbol BCO
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

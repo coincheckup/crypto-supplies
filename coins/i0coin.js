@@ -1,3 +1,8 @@
+/**
+ * @title I0Coin
+ * @symbol I0C
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

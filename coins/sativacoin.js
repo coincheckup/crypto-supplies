@@ -1,3 +1,8 @@
+/**
+ * @title Sativacoin
+ * @symbol STV
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

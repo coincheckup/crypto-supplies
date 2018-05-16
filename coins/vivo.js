@@ -1,3 +1,8 @@
+/**
+ * @title VIVO
+ * @symbol VIVO
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

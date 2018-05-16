@@ -1,3 +1,8 @@
+/**
+ * @title Bowhead
+ * @symbol AHT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

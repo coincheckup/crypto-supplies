@@ -1,3 +1,8 @@
+/**
+ * @title DomRaider
+ * @symbol DRT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

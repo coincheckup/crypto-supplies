@@ -1,3 +1,8 @@
+/**
+ * @title KlondikeCoin
+ * @symbol KDC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

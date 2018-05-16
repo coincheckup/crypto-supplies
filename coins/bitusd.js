@@ -1,3 +1,8 @@
+/**
+ * @title bitUSD
+ * @symbol BITUSD
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Triaconta
+ * @symbol TRIA
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

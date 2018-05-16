@@ -1,3 +1,8 @@
+/**
+ * @title Ergo
+ * @symbol EFYT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

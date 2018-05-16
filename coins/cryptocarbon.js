@@ -1,3 +1,8 @@
+/**
+ * @title CryptoCarbon
+ * @symbol CCRB
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

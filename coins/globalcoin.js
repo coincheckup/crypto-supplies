@@ -1,3 +1,8 @@
+/**
+ * @title GlobalCoin
+ * @symbol GLC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

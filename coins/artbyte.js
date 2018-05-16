@@ -1,3 +1,8 @@
+/**
+ * @title ArtByte
+ * @symbol ABY
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

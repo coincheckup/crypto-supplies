@@ -1,3 +1,8 @@
+/**
+ * @title Cofound.it
+ * @symbol CFI
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

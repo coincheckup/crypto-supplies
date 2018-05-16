@@ -1,3 +1,8 @@
+/**
+ * @title Bodhi
+ * @symbol BOT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

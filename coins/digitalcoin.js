@@ -1,3 +1,8 @@
+/**
+ * @title Digitalcoin
+ * @symbol DGC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

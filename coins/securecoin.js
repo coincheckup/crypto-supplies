@@ -1,3 +1,8 @@
+/**
+ * @title SecureCoin
+ * @symbol SRC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

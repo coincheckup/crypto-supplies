@@ -1,3 +1,8 @@
+/**
+ * @title Bolivarcoin
+ * @symbol BOLI
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

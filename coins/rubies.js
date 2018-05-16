@@ -1,3 +1,8 @@
+/**
+ * @title Rubies
+ * @symbol RBIES
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

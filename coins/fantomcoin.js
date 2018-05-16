@@ -1,3 +1,8 @@
+/**
+ * @title Fantomcoin
+ * @symbol FCN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

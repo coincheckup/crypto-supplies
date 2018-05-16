@@ -1,3 +1,8 @@
+/**
+ * @title Tigercoin
+ * @symbol TGC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

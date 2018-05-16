@@ -1,3 +1,8 @@
+/**
+ * @title U.CASH
+ * @symbol UCASH
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Internet of Things
+ * @symbol XOT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

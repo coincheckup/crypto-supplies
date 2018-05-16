@@ -1,3 +1,8 @@
+/**
+ * @title LIFE
+ * @symbol LIFE
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

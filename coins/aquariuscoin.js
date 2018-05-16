@@ -1,3 +1,8 @@
+/**
+ * @title AquariusCoin
+ * @symbol ARCO
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

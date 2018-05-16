@@ -1,3 +1,8 @@
+/**
+ * @title FinCoin
+ * @symbol FNC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

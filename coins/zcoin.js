@@ -1,3 +1,8 @@
+/**
+ * @title ZCoin
+ * @symbol XZC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

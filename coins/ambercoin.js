@@ -1,3 +1,8 @@
+/**
+ * @title AmberCoin
+ * @symbol AMBER
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

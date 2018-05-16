@@ -1,3 +1,8 @@
+/**
+ * @title SmartCash
+ * @symbol SMART
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

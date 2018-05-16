@@ -1,3 +1,8 @@
+/**
+ * @title BipCoin
+ * @symbol BIP
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

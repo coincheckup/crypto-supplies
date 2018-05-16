@@ -1,3 +1,8 @@
+/**
+ * @title Eternity
+ * @symbol ENT
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

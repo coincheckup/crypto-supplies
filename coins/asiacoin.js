@@ -1,3 +1,8 @@
+/**
+ * @title AsiaCoin
+ * @symbol AC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

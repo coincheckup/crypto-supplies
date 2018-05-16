@@ -1,3 +1,8 @@
+/**
+ * @title Vertcoin
+ * @symbol VTC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

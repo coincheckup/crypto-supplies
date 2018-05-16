@@ -1,3 +1,8 @@
+/**
+ * @title Golem
+ * @symbol GNT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title EverGreenCoin
+ * @symbol EGC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

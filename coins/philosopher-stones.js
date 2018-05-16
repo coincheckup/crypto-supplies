@@ -1,3 +1,8 @@
+/**
+ * @title Philosopher Stones
+ * @symbol PHS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

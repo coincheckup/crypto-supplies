@@ -1,3 +1,8 @@
+/**
+ * @title Magi
+ * @symbol XMG
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

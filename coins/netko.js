@@ -1,3 +1,8 @@
+/**
+ * @title Netko
+ * @symbol NETKO
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

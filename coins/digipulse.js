@@ -1,3 +1,8 @@
+/**
+ * @title DigiPulse
+ * @symbol DGPT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

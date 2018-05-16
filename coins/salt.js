@@ -1,3 +1,8 @@
+/**
+ * @title SALT
+ * @symbol SALT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

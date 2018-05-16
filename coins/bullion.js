@@ -1,3 +1,8 @@
+/**
+ * @title Bullion
+ * @symbol CBX
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

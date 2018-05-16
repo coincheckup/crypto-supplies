@@ -1,3 +1,8 @@
+/**
+ * @title Ignition
+ * @symbol IC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

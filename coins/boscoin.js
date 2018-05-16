@@ -1,3 +1,8 @@
+/**
+ * @title BOScoin
+ * @symbol BOS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

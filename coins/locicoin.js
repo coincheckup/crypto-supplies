@@ -1,3 +1,8 @@
+/**
+ * @title LOCIcoin
+ * @symbol LOCI
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

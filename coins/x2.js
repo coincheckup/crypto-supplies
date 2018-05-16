@@ -1,3 +1,8 @@
+/**
+ * @title X2
+ * @symbol X2
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

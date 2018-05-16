@@ -1,3 +1,8 @@
+/**
+ * @title CryptoWorldX Token
+ * @symbol CWXT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

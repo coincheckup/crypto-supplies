@@ -1,3 +1,8 @@
+/**
+ * @title Jingtum Tech
+ * @symbol SWTC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Riecoin
+ * @symbol RIC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

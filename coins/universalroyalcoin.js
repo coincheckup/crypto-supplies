@@ -1,3 +1,8 @@
+/**
+ * @title UniversalRoyalCoin
+ * @symbol UNRC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

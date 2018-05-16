@@ -1,3 +1,8 @@
+/**
+ * @title Manna
+ * @symbol MANNA
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

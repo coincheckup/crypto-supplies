@@ -1,3 +1,8 @@
+/**
+ * @title Streamr DATAcoin
+ * @symbol DATA
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title MonetaryUnit
+ * @symbol MUE
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

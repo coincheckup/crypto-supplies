@@ -1,3 +1,8 @@
+/**
+ * @title SocialCoin
+ * @symbol SOCC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

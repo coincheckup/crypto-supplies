@@ -1,3 +1,8 @@
+/**
+ * @title Spectiv
+ * @symbol SIG
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

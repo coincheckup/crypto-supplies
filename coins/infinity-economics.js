@@ -1,3 +1,8 @@
+/**
+ * @title Infinity Economics
+ * @symbol XIN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

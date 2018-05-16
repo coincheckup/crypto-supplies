@@ -1,3 +1,8 @@
+/**
+ * @title Anoncoin
+ * @symbol ANC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

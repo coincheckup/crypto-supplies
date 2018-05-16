@@ -1,3 +1,8 @@
+/**
+ * @title Megacoin
+ * @symbol MEC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Sexcoin
+ * @symbol SXC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

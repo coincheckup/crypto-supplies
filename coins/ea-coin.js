@@ -1,3 +1,8 @@
+/**
+ * @title EA Coin
+ * @symbol EAG
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

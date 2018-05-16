@@ -1,3 +1,8 @@
+/**
+ * @title EuropeCoin
+ * @symbol ERC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title LetItRide
+ * @symbol LIR
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Cubits
+ * @symbol QBT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

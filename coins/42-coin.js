@@ -1,3 +1,8 @@
+/**
+ * @title 42-coin
+ * @symbol 42
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

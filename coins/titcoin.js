@@ -1,3 +1,8 @@
+/**
+ * @title Titcoin
+ * @symbol TIT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

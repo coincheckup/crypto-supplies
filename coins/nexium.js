@@ -1,3 +1,8 @@
+/**
+ * @title Nexium
+ * @symbol NXC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

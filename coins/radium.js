@@ -1,3 +1,8 @@
+/**
+ * @title Radium
+ * @symbol RADS
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

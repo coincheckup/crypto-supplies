@@ -1,3 +1,8 @@
+/**
+ * @title BitShares
+ * @symbol BTS
+ * @implementation Static
+ */
 var request = require('request');
 
 module.exports = (callback) => {

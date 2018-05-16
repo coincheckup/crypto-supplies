@@ -1,3 +1,8 @@
+/**
+ * @title EncrypGen
+ * @symbol DNA
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

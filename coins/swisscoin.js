@@ -1,3 +1,8 @@
+/**
+ * @title Swisscoin
+ * @symbol SIC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

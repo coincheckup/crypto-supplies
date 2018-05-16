@@ -1,3 +1,8 @@
+/**
+ * @title Halcyon
+ * @symbol HAL
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

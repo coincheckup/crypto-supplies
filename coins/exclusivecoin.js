@@ -1,3 +1,8 @@
+/**
+ * @title ExclusiveCoin
+ * @symbol EXCL
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

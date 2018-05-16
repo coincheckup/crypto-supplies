@@ -1,3 +1,8 @@
+/**
+ * @title Ink
+ * @symbol INK
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

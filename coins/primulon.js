@@ -1,3 +1,8 @@
+/**
+ * @title Primulon
+ * @symbol PRIMU
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

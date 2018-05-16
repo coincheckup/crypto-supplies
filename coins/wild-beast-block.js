@@ -1,3 +1,8 @@
+/**
+ * @title Wild Beast Block
+ * @symbol WBB
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title EncryptoTel [WAVES]
+ * @symbol ETT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

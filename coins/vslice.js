@@ -1,3 +1,8 @@
+/**
+ * @title vSlice
+ * @symbol VSL
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

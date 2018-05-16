@@ -1,3 +1,8 @@
+/**
+ * @title TrezarCoin
+ * @symbol TZC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

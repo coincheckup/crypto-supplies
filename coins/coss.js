@@ -1,3 +1,8 @@
+/**
+ * @title COSS
+ * @symbol COSS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

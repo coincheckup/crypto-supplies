@@ -1,3 +1,8 @@
+/**
+ * @title Clams
+ * @symbol CLAM
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

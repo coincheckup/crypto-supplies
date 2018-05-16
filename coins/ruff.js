@@ -1,3 +1,8 @@
+/**
+ * @title Ruff
+ * @symbol RUFF
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

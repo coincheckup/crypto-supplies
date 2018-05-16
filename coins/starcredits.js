@@ -1,3 +1,8 @@
+/**
+ * @title StarCredits
+ * @symbol STRC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

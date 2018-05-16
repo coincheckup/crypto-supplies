@@ -1,3 +1,8 @@
+/**
+ * @title BowsCoin
+ * @symbol BSC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

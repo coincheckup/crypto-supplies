@@ -1,3 +1,8 @@
+/**
+ * @title Etherecash
+ * @symbol ECH
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

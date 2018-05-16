@@ -1,3 +1,8 @@
+/**
+ * @title Astro
+ * @symbol ASTRO
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

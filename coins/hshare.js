@@ -1,3 +1,8 @@
+/**
+ * @title Hshare
+ * @symbol HSR
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

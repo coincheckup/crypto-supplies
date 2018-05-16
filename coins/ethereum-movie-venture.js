@@ -1,3 +1,8 @@
+/**
+ * @title Ethereum Movie Venture
+ * @symbol EMV
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

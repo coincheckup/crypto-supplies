@@ -1,3 +1,8 @@
+/**
+ * @title 8Bit
+ * @symbol 8BIT
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

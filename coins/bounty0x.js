@@ -1,3 +1,8 @@
+/**
+ * @title Bounty0x
+ * @symbol BNTY
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

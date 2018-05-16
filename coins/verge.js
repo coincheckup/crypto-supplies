@@ -1,3 +1,8 @@
+/**
+ * @title Verge
+ * @symbol XVG
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

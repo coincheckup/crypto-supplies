@@ -1,3 +1,8 @@
+/**
+ * @title TeslaCoin
+ * @symbol TES
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Bitradio
+ * @symbol BRO
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

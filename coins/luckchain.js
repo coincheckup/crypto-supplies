@@ -1,3 +1,8 @@
+/**
+ * @title LuckChain
+ * @symbol BASH
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

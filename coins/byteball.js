@@ -1,3 +1,8 @@
+/**
+ * @title Byteball Bytes
+ * @symbol GBYTE
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

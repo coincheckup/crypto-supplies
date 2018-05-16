@@ -1,3 +1,8 @@
+/**
+ * @title TerraNova
+ * @symbol TER
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

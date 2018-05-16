@@ -1,3 +1,8 @@
+/**
+ * @title Wagerr
+ * @symbol WGR
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

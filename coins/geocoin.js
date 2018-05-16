@@ -1,3 +1,8 @@
+/**
+ * @title GeoCoin
+ * @symbol GEO
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

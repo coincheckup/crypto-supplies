@@ -1,3 +1,8 @@
+/**
+ * @title VeChain
+ * @symbol VEN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

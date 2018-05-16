@@ -1,3 +1,8 @@
+/**
+ * @title PayPie
+ * @symbol PPP
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

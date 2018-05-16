@@ -1,3 +1,8 @@
+/**
+ * @title Shekel
+ * @symbol JEW
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

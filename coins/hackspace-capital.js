@@ -1,3 +1,8 @@
+/**
+ * @title Hackspace Capital
+ * @symbol HAC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

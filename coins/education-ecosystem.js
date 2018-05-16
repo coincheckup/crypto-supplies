@@ -1,3 +1,8 @@
+/**
+ * @title Education Ecosystem
+ * @symbol LEDU
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

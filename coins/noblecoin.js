@@ -1,3 +1,8 @@
+/**
+ * @title NobleCoin
+ * @symbol NOBL
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

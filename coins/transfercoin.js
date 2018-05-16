@@ -1,3 +1,8 @@
+/**
+ * @title TransferCoin
+ * @symbol TX
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

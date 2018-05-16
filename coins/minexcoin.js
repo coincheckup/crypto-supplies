@@ -1,3 +1,8 @@
+/**
+ * @title MinexCoin
+ * @symbol MNX
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

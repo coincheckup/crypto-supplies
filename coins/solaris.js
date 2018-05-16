@@ -1,3 +1,8 @@
+/**
+ * @title Solaris
+ * @symbol XLR
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

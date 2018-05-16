@@ -1,3 +1,8 @@
+/**
+ * @title SpeedCash
+ * @symbol SCS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

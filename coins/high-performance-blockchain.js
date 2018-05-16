@@ -1,3 +1,8 @@
+/**
+ * @title High Performance Blockchain
+ * @symbol HPB
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

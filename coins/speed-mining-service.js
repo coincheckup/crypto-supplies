@@ -1,3 +1,8 @@
+/**
+ * @title Speed Mining Service
+ * @symbol SMS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

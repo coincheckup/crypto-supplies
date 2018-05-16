@@ -1,3 +1,8 @@
+/**
+ * @title DRP Utility
+ * @symbol DRPU
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Pascal Lite
+ * @symbol PASL
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title WomenCoin
+ * @symbol WOMEN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

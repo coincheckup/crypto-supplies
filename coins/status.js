@@ -1,3 +1,8 @@
+/**
+ * @title Status
+ * @symbol SNT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

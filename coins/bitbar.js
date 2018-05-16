@@ -1,3 +1,8 @@
+/**
+ * @title BitBar
+ * @symbol BTB
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

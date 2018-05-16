@@ -1,3 +1,8 @@
+/**
+ * @title ColossusXT
+ * @symbol COLX
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

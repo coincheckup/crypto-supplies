@@ -1,3 +1,8 @@
+/**
+ * @title Bitmark
+ * @symbol BTM
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

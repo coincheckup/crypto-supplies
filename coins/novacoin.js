@@ -1,3 +1,8 @@
+/**
+ * @title Novacoin
+ * @symbol NVC
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

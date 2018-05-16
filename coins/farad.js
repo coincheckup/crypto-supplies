@@ -1,3 +1,8 @@
+/**
+ * @title Farad
+ * @symbol FRD
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title First Bitcoin
+ * @symbol BIT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

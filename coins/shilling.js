@@ -1,3 +1,8 @@
+/**
+ * @title Shilling
+ * @symbol SH
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

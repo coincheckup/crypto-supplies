@@ -1,3 +1,8 @@
+/**
+ * @title Datacoin
+ * @symbol DTC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

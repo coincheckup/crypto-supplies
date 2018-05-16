@@ -1,3 +1,8 @@
+/**
+ * @title NevaCoin
+ * @symbol NEVA
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title C-Bit
+ * @symbol XCT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

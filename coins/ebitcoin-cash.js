@@ -1,3 +1,8 @@
+/**
+ * @title eBitcoinCash
+ * @symbol EBCH
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

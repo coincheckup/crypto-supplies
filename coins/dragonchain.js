@@ -1,3 +1,8 @@
+/**
+ * @title Dragonchain
+ * @symbol DRGN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

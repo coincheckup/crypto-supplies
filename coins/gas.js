@@ -1,3 +1,8 @@
+/**
+ * @title Gas
+ * @symbol GAS
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

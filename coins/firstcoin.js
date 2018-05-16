@@ -1,3 +1,8 @@
+/**
+ * @title FirstCoin
+ * @symbol FRST
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

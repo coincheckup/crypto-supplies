@@ -1,3 +1,8 @@
+/**
+ * @title Bitswift
+ * @symbol SWIFT
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

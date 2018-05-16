@@ -1,3 +1,8 @@
+/**
+ * @title SpaceCoin
+ * @symbol SPACE
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

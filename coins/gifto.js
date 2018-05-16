@@ -1,3 +1,8 @@
+/**
+ * @title Gifto
+ * @symbol GTO
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Groestlcoin
+ * @symbol GRS
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title Pesetacoin
+ * @symbol PTC
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

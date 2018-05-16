@@ -1,3 +1,8 @@
+/**
+ * @title Iungo
+ * @symbol ING
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

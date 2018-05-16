@@ -1,3 +1,8 @@
+/**
+ * @title Jin Coin
+ * @symbol JIN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

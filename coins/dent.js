@@ -1,3 +1,8 @@
+/**
+ * @title Dent
+ * @symbol DENT
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

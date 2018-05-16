@@ -1,3 +1,8 @@
+/**
+ * @title Bolenum
+ * @symbol BLN
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

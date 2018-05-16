@@ -1,3 +1,8 @@
+/**
+ * @title PotCoin
+ * @symbol POT
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

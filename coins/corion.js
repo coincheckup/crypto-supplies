@@ -1,3 +1,8 @@
+/**
+ * @title CORION
+ * @symbol COR
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

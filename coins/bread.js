@@ -1,3 +1,8 @@
+/**
+ * @title Bread
+ * @symbol BRD
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

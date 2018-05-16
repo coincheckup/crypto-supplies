@@ -1,3 +1,8 @@
+/**
+ * @title Linx
+ * @symbol LINX
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

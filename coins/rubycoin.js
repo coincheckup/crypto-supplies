@@ -1,3 +1,8 @@
+/**
+ * @title Rubycoin
+ * @symbol RBY
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

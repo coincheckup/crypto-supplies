@@ -1,3 +1,8 @@
+/**
+ * @title 2GIVE
+ * @symbol 2GIVE
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

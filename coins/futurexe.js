@@ -1,3 +1,8 @@
+/**
+ * @title FuturXe
+ * @symbol FXE
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title AnarchistsPrime
+ * @symbol ACP
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

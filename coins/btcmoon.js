@@ -1,3 +1,8 @@
+/**
+ * @title BTCMoon
+ * @symbol BTCM
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,3 +1,8 @@
+/**
+ * @title vTorrent
+ * @symbol VTR
+ * @implementation Not Implemented
+ */
 var request = require('request');
 
 module.exports = (callback) => {
