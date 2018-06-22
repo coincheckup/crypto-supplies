@@ -1,3 +1,8 @@
+/**
+ * @title Stealth
+ * @symbol XST
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Paymon
+ * @symbol PMNT
  * @implementation Not Implemented
  */
 var request = require('request');

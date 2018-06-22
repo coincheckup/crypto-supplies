@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title FantasyGold
+ * @symbol FGC
  * @implementation Not Implemented
  */
 var request = require('request');

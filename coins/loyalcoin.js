@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title LoyalCoin
+ * @symbol LYL
  * @implementation Not Implemented
  */
 var request = require('request');

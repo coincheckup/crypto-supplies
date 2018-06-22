@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Fabric Token
+ * @symbol FT
  * @implementation Not Implemented
  */
 var request = require('request');

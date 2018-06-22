@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Morpheus Network
+ * @symbol MORPH
  * @implementation Not Implemented
  */
 var request = require('request');

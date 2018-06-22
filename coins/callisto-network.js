@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Callisto Network
+ * @symbol CLO
  * @implementation Not Implemented
  */
 var request = require('request');

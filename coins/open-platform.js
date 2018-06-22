@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Open Platform
+ * @symbol OPEN
  * @implementation Not Implemented
  */
 var request = require('request');

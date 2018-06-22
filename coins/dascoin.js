@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Dascoin
+ * @symbol DASC
  * @implementation Not Implemented
  */
 var request = require('request');

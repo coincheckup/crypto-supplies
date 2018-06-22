@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Nectar
+ * @symbol NEC
  * @implementation Not Implemented
  */
 var request = require('request');

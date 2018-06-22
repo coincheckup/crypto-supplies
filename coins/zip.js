@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title ZIP
+ * @symbol ZIP
  * @implementation Not Implemented
  */
 var request = require('request');

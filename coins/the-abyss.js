@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title The Abyss
+ * @symbol ABYSS
  * @implementation Not Implemented
  */
 var request = require('request');

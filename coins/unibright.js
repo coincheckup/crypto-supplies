@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Unibright
+ * @symbol UBT
  * @implementation Not Implemented
  */
 var request = require('request');

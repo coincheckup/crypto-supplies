@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title BitTube
+ * @symbol TUBE
  * @implementation Not Implemented
  */
 var request = require('request');

@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title GoChain
+ * @symbol GO
  * @implementation Not Implemented
  */
 var request = require('request');

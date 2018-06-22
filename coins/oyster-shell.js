@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Oyster Shell
+ * @symbol SHL
  * @implementation Not Implemented
  */
 var request = require('request');

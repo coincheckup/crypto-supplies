@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Rhenium
+ * @symbol XRH
  * @implementation Not Implemented
  */
 var request = require('request');

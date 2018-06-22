@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title FundRequest
+ * @symbol FND
  * @implementation Not Implemented
  */
 var request = require('request');

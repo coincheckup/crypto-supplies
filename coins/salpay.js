@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title SalPay
+ * @symbol SAL
  * @implementation Not Implemented
  */
 var request = require('request');

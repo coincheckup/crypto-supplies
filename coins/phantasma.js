@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Phantasma
+ * @symbol SOUL
  * @implementation Not Implemented
  */
 var request = require('request');

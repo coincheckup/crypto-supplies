@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Local World Forwarders
+ * @symbol LWF
  * @implementation Not Implemented
  */
 var request = require('request');

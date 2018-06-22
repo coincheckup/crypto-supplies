@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Powercoin
+ * @symbol PWR
  * @implementation Not Implemented
  */
 var request = require('request');

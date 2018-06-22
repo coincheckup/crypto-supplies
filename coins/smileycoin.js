@@ -1,3 +1,8 @@
+/**
+ * @title SmileyCoin
+ * @symbol SMLY
+ * @implementation Dynamic
+ */
 var request = require('request');
 
 module.exports = (callback) => {

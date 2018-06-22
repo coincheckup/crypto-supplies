@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title GINcoin
+ * @symbol GIN
  * @implementation Not Implemented
  */
 var request = require('request');

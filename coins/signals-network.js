@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Signals Network
+ * @symbol SGN
  * @implementation Not Implemented
  */
 var request = require('request');

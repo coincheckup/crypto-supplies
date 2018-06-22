@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title CEEK VR
+ * @symbol CEEK
  * @implementation Not Implemented
  */
 var request = require('request');

@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title QuarkChain
+ * @symbol QKC
  * @implementation Not Implemented
  */
 var request = require('request');

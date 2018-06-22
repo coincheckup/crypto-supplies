@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title ContractNet
+ * @symbol CNET
  * @implementation Not Implemented
  */
 var request = require('request');

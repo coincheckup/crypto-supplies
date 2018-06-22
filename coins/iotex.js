@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title IoTeX
+ * @symbol IOTX
  * @implementation Not Implemented
  */
 var request = require('request');

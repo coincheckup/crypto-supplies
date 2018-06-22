@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Invacio
+ * @symbol INV
  * @implementation Not Implemented
  */
 var request = require('request');

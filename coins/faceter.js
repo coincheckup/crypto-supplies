@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Faceter
+ * @symbol FACE
  * @implementation Not Implemented
  */
 var request = require('request');

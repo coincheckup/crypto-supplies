@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Tokia
+ * @symbol TKA
  * @implementation Not Implemented
  */
 var request = require('request');

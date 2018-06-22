@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Shivom
+ * @symbol OMX
  * @implementation Not Implemented
  */
 var request = require('request');

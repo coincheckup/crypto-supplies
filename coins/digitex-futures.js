@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Digitex Futures
+ * @symbol DGTX
  * @implementation Not Implemented
  */
 var request = require('request');

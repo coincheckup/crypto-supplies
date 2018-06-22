@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Eximchain
+ * @symbol EXC
  * @implementation Not Implemented
  */
 var request = require('request');

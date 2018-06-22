@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Level Up Coin
+ * @symbol LUC
  * @implementation Not Implemented
  */
 var request = require('request');

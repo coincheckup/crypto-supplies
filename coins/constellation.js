@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Constellation
+ * @symbol DAG
  * @implementation Not Implemented
  */
 var request = require('request');

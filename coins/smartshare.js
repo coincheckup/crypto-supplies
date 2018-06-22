@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Smartshare
+ * @symbol SSP
  * @implementation Not Implemented
  */
 var request = require('request');

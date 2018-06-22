@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Shopin
+ * @symbol SHOP
  * @implementation Not Implemented
  */
 var request = require('request');

@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title SPINDLE
+ * @symbol SPD
  * @implementation Not Implemented
  */
 var request = require('request');

@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title FuturoCoin
+ * @symbol FTO
  * @implementation Not Implemented
  */
 var request = require('request');

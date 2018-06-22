@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Engine
+ * @symbol EGCC
  * @implementation Not Implemented
  */
 var request = require('request');

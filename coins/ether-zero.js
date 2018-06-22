@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Ether Zero
+ * @symbol ETZ
  * @implementation Not Implemented
  */
 var request = require('request');

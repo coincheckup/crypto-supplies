@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Hurify
+ * @symbol HUR
  * @implementation Not Implemented
  */
 var request = require('request');

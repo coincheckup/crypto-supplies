@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title CashBet Coin
+ * @symbol CBC
  * @implementation Not Implemented
  */
 var request = require('request');

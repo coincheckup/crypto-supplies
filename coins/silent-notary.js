@@ -1,6 +1,6 @@
 /**
- * @title BitSoar
- * @symbol BSR
+ * @title Silent Notary
+ * @symbol SNTR
  * @implementation Not Implemented
  */
 var request = require('request');
