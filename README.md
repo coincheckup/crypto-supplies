@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 767 -- *To do*: 1044
+*Total*: 1811 -- *Implemented*: 768 -- *To do*: 1043
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1208,7 +1208,7 @@ ID | Name | Symbol | Implementation | Status
 [nebulas-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nebulas-token.js) | Nebulas | NAS | Dynamic | *+ Done*
 [nectar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nectar.js) | Nectar | NEC | Dynamic | *+ Done*
 [nekonium](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nekonium.js) | Nekonium | NUKO | Not Implemented | `-- Not done`
-[nem](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nem.js) | NEM | XEM | Not Implemented | `-- Not done`
+[nem](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nem.js) | NEM | XEM | Dynamic | *+ Done*
 [neo-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/neo-gold.js) | NEO GOLD | NEOG | Dynamic | *+ Done*
 [neo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/neo.js) | NEO | NEO | Static | *+ Done*
 [neoscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/neoscoin.js) | NeosCoin | NEOS | Dynamic | *+ Done*
