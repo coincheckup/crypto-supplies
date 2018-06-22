@@ -1,10 +1,12 @@
 /**
  * @title IOTA
  * @symbol MIOTA
- * @implementation Not Implemented
+ * @implementation Static
  */
-var request = require('request');
-
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+    // Source: https://coinmarketcap.com/currencies/iota/
+    callback({
+        c: 2779530283,
+        m: 2779530283
+    });
 };
