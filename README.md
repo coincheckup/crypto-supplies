@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 770 -- *To do*: 1041
+*Total*: 1811 -- *Implemented*: 771 -- *To do*: 1040
 
 
 ID | Name | Symbol | Implementation | Status
@@ -561,7 +561,7 @@ ID | Name | Symbol | Implementation | Status
 [decentraland](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decentraland.js) | Decentraland | MANA | Dynamic | *+ Done*
 [decentralized-machine-learning](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decentralized-machine-learning.js) | Decentralized Machine Learning | DML | Dynamic | *+ Done*
 [decision-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decision-token.js) | Decision Token | HST | Dynamic | *+ Done*
-[decred](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decred.js) | Decred | DCR | Not Implemented | `-- Not done`
+[decred](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decred.js) | Decred | DCR | Dynamic | *+ Done*
 [deepbrain-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/deepbrain-chain.js) | DeepBrain Chain | DBC | Not Implemented | `-- Not done`
 [deeponion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/deeponion.js) | DeepOnion | ONION | Not Implemented | `-- Not done`
 [delphy](https://github.com/coincheckup/crypto-supplies/blob/master/coins/delphy.js) | Delphy | DPY | Dynamic | *+ Done*
