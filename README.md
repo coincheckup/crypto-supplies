@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 766 -- *To do*: 1045
+*Total*: 1811 -- *Implemented*: 767 -- *To do*: 1044
 
 
 ID | Name | Symbol | Implementation | Status
@@ -704,7 +704,7 @@ ID | Name | Symbol | Implementation | Status
 [etherdelta-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/etherdelta-token.js) | EtherDelta Token | EDT | Dynamic | *+ Done*
 [etherecash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/etherecash.js) | Etherecash | ECH | Not Implemented | `-- Not done`
 [ethereum-blue](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ethereum-blue.js) | Blue Protocol | BLUE | Dynamic | *+ Done*
-[ethereum-classic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ethereum-classic.js) | Ethereum Classic | ETC | Not Implemented | `-- Not done`
+[ethereum-classic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ethereum-classic.js) | Ethereum Classic | ETC | Dynamic | *+ Done*
 [ethereum-dark](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ethereum-dark.js) | Ethereum Dark | ETHD | Dynamic | *+ Done*
 [ethereum-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ethereum-gold.js) | Ethereum Gold | ETG | Dynamic | *+ Done*
 [ethereum-lite](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ethereum-lite.js) | Ethereum Lite | ELITE | Dynamic | *+ Done*
