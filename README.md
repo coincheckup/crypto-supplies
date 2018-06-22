@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 764 -- *To do*: 1047
+*Total*: 1811 -- *Implemented*: 766 -- *To do*: 1045
 
 
 ID | Name | Symbol | Implementation | Status
@@ -985,7 +985,7 @@ ID | Name | Symbol | Implementation | Status
 [ion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ion.js) | ION | ION | Dynamic | *+ Done*
 [iostoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/iostoken.js) | IOStoken | IOST | Dynamic | *+ Done*
 [iot-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/iot-chain.js) | IoT Chain | ITC | Dynamic | *+ Done*
-[iota](https://github.com/coincheckup/crypto-supplies/blob/master/coins/iota.js) | IOTA | MIOTA | Not Implemented | `-- Not done`
+[iota](https://github.com/coincheckup/crypto-supplies/blob/master/coins/iota.js) | IOTA | MIOTA | Static | *+ Done*
 [iotex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/iotex.js) | IoTeX | IOTX | Dynamic | *+ Done*
 [ip-exchange](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ip-exchange.js) | IP Exchange | IPSX | Dynamic | *+ Done*
 [ipchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ipchain.js) | IPChain | IPC | Dynamic | *+ Done*
@@ -1685,7 +1685,7 @@ ID | Name | Symbol | Implementation | Status
 [terranova](https://github.com/coincheckup/crypto-supplies/blob/master/coins/terranova.js) | TerraNova | TER | Not Implemented | `-- Not done`
 [teslacoilcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/teslacoilcoin.js) | TeslaCoilCoin | TESLA | Not Implemented | `-- Not done`
 [teslacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/teslacoin.js) | TeslaCoin | TES | Dynamic | *+ Done*
-[tether](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tether.js) | Tether | USDT | Not Implemented | `-- Not done`
+[tether](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tether.js) | Tether | USDT | CoinMarketCap | *+ Done*
 [tezos](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tezos.js) | Tezos (Pre-Launch) | XTZ | Not Implemented | `-- Not done`
 [the-abyss](https://github.com/coincheckup/crypto-supplies/blob/master/coins/the-abyss.js) | The Abyss | ABYSS | Dynamic | *+ Done*
 [the-champcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/the-champcoin.js) | The ChampCoin | TCC | Not Implemented | `-- Not done`
