@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 769 -- *To do*: 1042
+*Total*: 1811 -- *Implemented*: 770 -- *To do*: 1041
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1884,7 +1884,7 @@ ID | Name | Symbol | Implementation | Status
 [zap](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zap.js) | Zap | ZAP | Dynamic | *+ Done*
 [zayedcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zayedcoin.js) | Zayedcoin | ZYD | Not Implemented | `-- Not done`
 [zcash-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zcash-gold.js) | Zlancer | ZCG | Dynamic | *+ Done*
-[zcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zcash.js) | Zcash | ZEC | Not Implemented | `-- Not done`
+[zcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zcash.js) | Zcash | ZEC | Dynamic | *+ Done*
 [zclassic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zclassic.js) | ZClassic | ZCL | Not Implemented | `-- Not done`
 [zcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zcoin.js) | ZCoin | XZC | Dynamic | *+ Done*
 [zebi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zebi.js) | Zebi | ZCO | Dynamic | *+ Done*
