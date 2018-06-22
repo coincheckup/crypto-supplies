@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 768 -- *To do*: 1043
+*Total*: 1811 -- *Implemented*: 769 -- *To do*: 1042
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1410,7 +1410,7 @@ ID | Name | Symbol | Implementation | Status
 [qbic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/qbic.js) | Qbic | QBIC | Not Implemented | `-- Not done`
 [qlink](https://github.com/coincheckup/crypto-supplies/blob/master/coins/qlink.js) | QLINK | QLC | Not Implemented | `-- Not done`
 [qora](https://github.com/coincheckup/crypto-supplies/blob/master/coins/qora.js) | Qora | QORA | Not Implemented | `-- Not done`
-[qtum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/qtum.js) | Qtum | QTUM | Not Implemented | `-- Not done`
+[qtum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/qtum.js) | Qtum | QTUM | Dynamic | *+ Done*
 [quantstamp](https://github.com/coincheckup/crypto-supplies/blob/master/coins/quantstamp.js) | Quantstamp | QSP | Dynamic | *+ Done*
 [quantum-resistant-ledger](https://github.com/coincheckup/crypto-supplies/blob/master/coins/quantum-resistant-ledger.js) | Quantum Resistant Ledger | QRL | Dynamic | *+ Done*
 [quantum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/quantum.js) | Quantum | QAU | Dynamic | *+ Done*
