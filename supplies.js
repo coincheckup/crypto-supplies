@@ -1,16 +1,5 @@
 #!/usr/bin/env node
 
-const {NodeVM} = require('vm2');
-const vm = new NodeVM({
-    console: 'inherit',
-    require: {
-        external: ['request'],
-        import: ['request'],
-        root: './'
-    },
-    timeout: 1000
-});
-
 const yargs = require('yargs');
 const fs = require('fs');
 const chalk = require('chalk');
@@ -59,25 +48,23 @@ const getSupplies = (id, opts) => {
         if (err === null && value !== null) {
             printSupplies(id, value, opts);
         } else {
-            fs.readFile(file, 'utf8', (err, script) => {
-                try {
-                    let res = vm.run(script, 'supplies.js');
+            try {
+                let res = require(file);
 
-                    res((response) => {
-                        if (!(response instanceof Error)) {
-                            cache.set(id, response, opts.cacheTTL);
-                        }
+                res((response) => {
+                    if (!(response instanceof Error)) {
+                        cache.set(id, response, opts.cacheTTL);
+                    }
 
-                        if (opts.onlyImplemented && response instanceof Error && response.message === 'Not Implemented') {
-                            return;
-                        }
+                    if (opts.onlyImplemented && response instanceof Error && response.message === 'Not Implemented') {
+                        return;
+                    }
 
-                        printSupplies(id, response, opts);
-                    });
-                } catch (e) {
-                    printSupplies(id, new Error(e.message), opts);
-                }
-            });
+                    printSupplies(id, response, opts);
+                });
+            } catch (e) {
+                printSupplies(id, new Error(e.message), opts);
+            }
         }
     });
 };

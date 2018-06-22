@@ -35,9 +35,8 @@
   "dependencies": {
     "cacheman": "^2.2.1",
     "cacheman-file": "^0.2.1",
-    "chalk": "^2.3.2",
-    "request": "^2.85.0",
-    "vm2": "^3.5.2",
+    "chalk": "^2.4.1",
+    "request": "^2.87.0",
     "yargs": "^11.0.0"
   },
   "devDependencies": {
