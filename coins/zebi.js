@@ -1,10 +1,22 @@
 /**
- * @title Zebi
- * @symbol ZCO
- * @implementation Not Implemented
- */
+* @title Zebi
+* @symbol ZCO
+* @ethContractAddr 0x2008e3057bd734e10ad13c9eae45ff132abc1722
+* @implementation Dynamic
+*/
 var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+request('http://api.ethplorer.io/getTokenInfo/0x2008e3057bd734e10ad13c9eae45ff132abc1722?apiKey=freekey', (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+        body = JSON.parse(body);
+
+        callback({
+            c: Number(body.price.availableSupply),
+            t: Number(body.totalSupply) * Math.pow(10, -8)
+        });
+    } else {
+        callback(new Error('Request error ' + response.statusCode));
+    }
+});
 };

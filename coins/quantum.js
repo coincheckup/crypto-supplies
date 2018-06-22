@@ -1,10 +1,22 @@
 /**
- * @title Quantum
- * @symbol QAU
- * @implementation Not Implemented
- */
+* @title Quantum
+* @symbol QAU
+* @ethContractAddr 0x671abbe5ce652491985342e85428eb1b07bc6c64
+* @implementation Dynamic
+*/
 var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+request('http://api.ethplorer.io/getTokenInfo/0x671abbe5ce652491985342e85428eb1b07bc6c64?apiKey=freekey', (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+        body = JSON.parse(body);
+
+        callback({
+            c: Number(body.price.availableSupply),
+            t: Number(body.totalSupply) * Math.pow(10, -8)
+        });
+    } else {
+        callback(new Error('Request error ' + response.statusCode));
+    }
+});
 };

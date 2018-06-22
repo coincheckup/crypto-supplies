@@ -1,10 +1,22 @@
 /**
- * @title CEEK VR
- * @symbol CEEK
- * @implementation Not Implemented
- */
+* @title CEEK VR
+* @symbol CEEK
+* @ethContractAddr 0xb056c38f6b7dc4064367403e26424cd2c60655e1
+* @implementation Dynamic
+*/
 var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+request('http://api.ethplorer.io/getTokenInfo/0xb056c38f6b7dc4064367403e26424cd2c60655e1?apiKey=freekey', (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+        body = JSON.parse(body);
+
+        callback({
+            c: Number(body.price.availableSupply),
+            t: Number(body.totalSupply) * Math.pow(10, -18)
+        });
+    } else {
+        callback(new Error('Request error ' + response.statusCode));
+    }
+});
 };

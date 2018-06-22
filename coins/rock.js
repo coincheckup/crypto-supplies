@@ -1,10 +1,22 @@
 /**
- * @title Rock
- * @symbol RKT
- * @implementation Not Implemented
- */
+* @title Rock
+* @symbol RKT
+* @ethContractAddr 0x106aa49295b525fcf959aa75ec3f7dcbf5352f1c
+* @implementation Dynamic
+*/
 var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+request('http://api.ethplorer.io/getTokenInfo/0x106aa49295b525fcf959aa75ec3f7dcbf5352f1c?apiKey=freekey', (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+        body = JSON.parse(body);
+
+        callback({
+            c: Number(body.price.availableSupply),
+            t: Number(body.totalSupply) * Math.pow(10, -18)
+        });
+    } else {
+        callback(new Error('Request error ' + response.statusCode));
+    }
+});
 };

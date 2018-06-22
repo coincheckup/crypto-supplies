@@ -1,10 +1,22 @@
 /**
- * @title Ruff
- * @symbol RUFF
- * @implementation Not Implemented
- */
+* @title Ruff
+* @symbol RUFF
+* @ethContractAddr 0xf278c1ca969095ffddded020290cf8b5c424ace2
+* @implementation Dynamic
+*/
 var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+request('http://api.ethplorer.io/getTokenInfo/0xf278c1ca969095ffddded020290cf8b5c424ace2?apiKey=freekey', (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+        body = JSON.parse(body);
+
+        callback({
+            c: Number(body.price.availableSupply),
+            t: Number(body.totalSupply) * Math.pow(10, -18)
+        });
+    } else {
+        callback(new Error('Request error ' + response.statusCode));
+    }
+});
 };

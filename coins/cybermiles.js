@@ -1,10 +1,22 @@
 /**
- * @title CyberMiles
- * @symbol CMT
- * @implementation Not Implemented
- */
+* @title CyberMiles
+* @symbol CMT
+* @ethContractAddr 0xf85feea2fdd81d51177f6b8f35f0e6734ce45f5f
+* @implementation Dynamic
+*/
 var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+request('http://api.ethplorer.io/getTokenInfo/0xf85feea2fdd81d51177f6b8f35f0e6734ce45f5f?apiKey=freekey', (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+        body = JSON.parse(body);
+
+        callback({
+            c: Number(body.price.availableSupply),
+            t: Number(body.totalSupply) * Math.pow(10, -18)
+        });
+    } else {
+        callback(new Error('Request error ' + response.statusCode));
+    }
+});
 };

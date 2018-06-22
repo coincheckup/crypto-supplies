@@ -1,10 +1,22 @@
 /**
- * @title eREAL
- * @symbol EREAL
- * @implementation Not Implemented
- */
+* @title eREAL
+* @symbol EREAL
+* @ethContractAddr 0x15f173b7aca7cd4a01d6f8360e65fb4491d270c1
+* @implementation Dynamic
+*/
 var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+request('http://api.ethplorer.io/getTokenInfo/0x15f173b7aca7cd4a01d6f8360e65fb4491d270c1?apiKey=freekey', (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+        body = JSON.parse(body);
+
+        callback({
+            c: Number(body.price.availableSupply),
+            t: Number(body.totalSupply) * Math.pow(10, -18)
+        });
+    } else {
+        callback(new Error('Request error ' + response.statusCode));
+    }
+});
 };

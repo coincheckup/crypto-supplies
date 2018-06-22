@@ -1,10 +1,22 @@
 /**
- * @title Time New Bank
- * @symbol TNB
- * @implementation Not Implemented
- */
+* @title Time New Bank
+* @symbol TNB
+* @ethContractAddr 0xf7920b0768ecb20a123fac32311d07d193381d6f
+* @implementation Dynamic
+*/
 var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+request('http://api.ethplorer.io/getTokenInfo/0xf7920b0768ecb20a123fac32311d07d193381d6f?apiKey=freekey', (error, response, body) => {
+    if (!error && response.statusCode == 200) {
+        body = JSON.parse(body);
+
+        callback({
+            c: Number(body.price.availableSupply),
+            t: Number(body.totalSupply) * Math.pow(10, -18)
+        });
+    } else {
+        callback(new Error('Request error ' + response.statusCode));
+    }
+});
 };
