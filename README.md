@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 779 -- *To do*: 1032
+*Total*: 1811 -- *Implemented*: 780 -- *To do*: 1031
 
 
 ID | Name | Symbol | Implementation | Status
@@ -273,7 +273,7 @@ ID | Name | Symbol | Implementation | Status
 [bitcoin-21](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-21.js) | Bitcoin 21 | XBTC21 | Not Implemented | `-- Not done`
 [bitcoin-atom](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-atom.js) | Bitcoin Atom | BCA | Not Implemented | `-- Not done`
 [bitcoin-cash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-cash.js) | Bitcoin Cash | BCH | Not Implemented | `-- Not done`
-[bitcoin-diamond](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-diamond.js) | Bitcoin Diamond | BCD | Not Implemented | `-- Not done`
+[bitcoin-diamond](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-diamond.js) | Bitcoin Diamond | BCD | Dynamic | *+ Done*
 [bitcoin-god](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-god.js) | Bitcoin God | GOD | Not Implemented | `-- Not done`
 [bitcoin-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-gold.js) | Bitcoin Gold | BTG | Dynamic | *+ Done*
 [bitcoin-green](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-green.js) | Bitcoin Green | BITG | Not Implemented | `-- Not done`
