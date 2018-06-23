@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 781 -- *To do*: 1030
+*Total*: 1811 -- *Implemented*: 782 -- *To do*: 1029
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1835,7 +1835,7 @@ ID | Name | Symbol | Implementation | Status
 [wabi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wabi.js) | WaBi | WABI | Dynamic | *+ Done*
 [wagerr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wagerr.js) | Wagerr | WGR | Dynamic | *+ Done*
 [waltonchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waltonchain.js) | Waltonchain | WTC | Not Implemented | `-- Not done`
-[wanchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wanchain.js) | Wanchain | WAN | Not Implemented | `-- Not done`
+[wanchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wanchain.js) | Wanchain | WAN | Static | *+ Done*
 [wandx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wandx.js) | WandX | WAND | Dynamic | *+ Done*
 [warp](https://github.com/coincheckup/crypto-supplies/blob/master/coins/warp.js) | N/A | N/A | N/A | `-- Not done`
 [waves-community-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waves-community-token.js) | Waves Community Token | WCT | Not Implemented | `-- Not done`

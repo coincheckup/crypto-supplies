@@ -1,10 +1,11 @@
 /**
  * @title Wanchain
  * @symbol WAN
- * @implementation Not Implemented
+  * @implementation Static
  */
-var request = require('request');
-
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+    callback({
+        c: 106152493,
+        m: 210000000
+    });
 };
