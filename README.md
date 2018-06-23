@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 783 -- *To do*: 1028
+*Total*: 1811 -- *Implemented*: 784 -- *To do*: 1027
 
 
 ID | Name | Symbol | Implementation | Status
@@ -224,7 +224,7 @@ ID | Name | Symbol | Implementation | Status
 [bankera](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bankera.js) | Bankera | BNK | Dynamic | *+ Done*
 [bankex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bankex.js) | Bankex | BKX | Dynamic | *+ Done*
 [banyan-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/banyan-network.js) | Banyan Network | BBN | Dynamic | *+ Done*
-[basic-attention-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/basic-attention-token.js) | Basic Attention Token | BAT | Not Implemented | `-- Not done`
+[basic-attention-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/basic-attention-token.js) | Basic Attention Token | BAT | Dynamic | *+ Done*
 [bastonet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bastonet.js) | Bastonet | BSN | Not Implemented | `-- Not done`
 [bata](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bata.js) | Bata | BTA | Dynamic | *+ Done*
 [batcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/batcoin.js) | N/A | N/A | N/A | `-- Not done`
