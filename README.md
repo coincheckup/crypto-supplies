@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 775 -- *To do*: 1036
+*Total*: 1811 -- *Implemented*: 776 -- *To do*: 1035
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1618,7 +1618,7 @@ ID | Name | Symbol | Implementation | Status
 [stealth](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stealth.js) | Stealth | XST | Dynamic | *+ Done*
 [stealthcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stealthcoin.js) | N/A | N/A | N/A | `-- Not done`
 [steem-dollars](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steem-dollars.js) | Steem Dollars | SBD | Not Implemented | `-- Not done`
-[steem](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steem.js) | Steem | STEEM | Not Implemented | `-- Not done`
+[steem](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steem.js) | Steem | STEEM | Dynamic | *+ Done*
 [stellar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stellar.js) | Stellar | XLM | Dynamic | *+ Done*
 [stellite](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stellite.js) | Stellite | XTL | Not Implemented | `-- Not done`
 [steneum-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steneum-coin.js) | Steneum Coin | STN | Not Implemented | `-- Not done`
