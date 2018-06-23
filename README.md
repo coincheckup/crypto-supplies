@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 787 -- *To do*: 1024
+*Total*: 1811 -- *Implemented*: 788 -- *To do*: 1023
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1024,7 +1024,7 @@ ID | Name | Symbol | Implementation | Status
 [klondikecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/klondikecoin.js) | KlondikeCoin | KDC | Not Implemented | `-- Not done`
 [kobocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/kobocoin.js) | Kobocoin | KOBO | Dynamic | *+ Done*
 [kolion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/kolion.js) | Kolion | KLN | Not Implemented | `-- Not done`
-[komodo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/komodo.js) | Komodo | KMD | Not Implemented | `-- Not done`
+[komodo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/komodo.js) | Komodo | KMD | Dynamic | *+ Done*
 [korecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/korecoin.js) | Kore | KORE | Not Implemented | `-- Not done`
 [kronecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/kronecoin.js) | Kronecoin | KRONE | Not Implemented | `-- Not done`
 [kubera-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/kubera-coin.js) | Kubera Coin | KBR | Dynamic | *+ Done*
