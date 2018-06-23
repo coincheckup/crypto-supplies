@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 785 -- *To do*: 1026
+*Total*: 1811 -- *Implemented*: 786 -- *To do*: 1025
 
 
 ID | Name | Symbol | Implementation | Status
@@ -911,7 +911,7 @@ ID | Name | Symbol | Implementation | Status
 [homeblockcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/homeblockcoin.js) | HomeBlockCoin | HBC | Not Implemented | `-- Not done`
 [honey](https://github.com/coincheckup/crypto-supplies/blob/master/coins/honey.js) | Honey | HONEY | Not Implemented | `-- Not done`
 [hoqu](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hoqu.js) | HOQU | HQX | Dynamic | *+ Done*
-[hshare](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hshare.js) | Hshare | HSR | Not Implemented | `-- Not done`
+[hshare](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hshare.js) | Hshare | HSR | Dynamic | *+ Done*
 [html-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/html-coin.js) | HTMLCOIN | HTML | Not Implemented | `-- Not done`
 [hubii-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hubii-network.js) | Hubii Network | HBT | Dynamic | *+ Done*
 [humaniq](https://github.com/coincheckup/crypto-supplies/blob/master/coins/humaniq.js) | Humaniq | HMQ | Dynamic | *+ Done*
