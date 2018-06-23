@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 773 -- *To do*: 1038
+*Total*: 1811 -- *Implemented*: 774 -- *To do*: 1037
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1540,7 +1540,7 @@ ID | Name | Symbol | Implementation | Status
 [shopin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/shopin.js) | Shopin | SHOP | Not Implemented | `-- Not done`
 [shorty](https://github.com/coincheckup/crypto-supplies/blob/master/coins/shorty.js) | Shorty | SHORTY | Not Implemented | `-- Not done`
 [show](https://github.com/coincheckup/crypto-supplies/blob/master/coins/show.js) | Show | SHOW | Not Implemented | `-- Not done`
-[siacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/siacoin.js) | Siacoin | SC | Not Implemented | `-- Not done`
+[siacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/siacoin.js) | Siacoin | SC | Dynamic | *+ Done*
 [sibcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sibcoin.js) | SIBCoin | SIB | Not Implemented | `-- Not done`
 [sigmacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sigmacoin.js) | SIGMAcoin | SIGMA | Not Implemented | `-- Not done`
 [signal-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/signal-token.js) | Spectiv | SIG | Not Implemented | `-- Not done`
