@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 772 -- *To do*: 1039
+*Total*: 1811 -- *Implemented*: 773 -- *To do*: 1038
 
 
 ID | Name | Symbol | Implementation | Status
@@ -275,7 +275,7 @@ ID | Name | Symbol | Implementation | Status
 [bitcoin-cash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-cash.js) | Bitcoin Cash | BCH | Not Implemented | `-- Not done`
 [bitcoin-diamond](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-diamond.js) | Bitcoin Diamond | BCD | Not Implemented | `-- Not done`
 [bitcoin-god](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-god.js) | Bitcoin God | GOD | Not Implemented | `-- Not done`
-[bitcoin-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-gold.js) | Bitcoin Gold | BTG | Not Implemented | `-- Not done`
+[bitcoin-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-gold.js) | Bitcoin Gold | BTG | Dynamic | *+ Done*
 [bitcoin-green](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-green.js) | Bitcoin Green | BITG | Not Implemented | `-- Not done`
 [bitcoin-interest](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-interest.js) | Bitcoin Interest | BCI | Not Implemented | `-- Not done`
 [bitcoin-planet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-planet.js) | Bitcoin Planet | BTPL | Not Implemented | `-- Not done`
