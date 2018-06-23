@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 786 -- *To do*: 1025
+*Total*: 1811 -- *Implemented*: 787 -- *To do*: 1024
 
 
 ID | Name | Symbol | Implementation | Status
@@ -594,7 +594,7 @@ ID | Name | Symbol | Implementation | Status
 [digitalprice](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digitalprice.js) | DigitalPrice | DP | Not Implemented | `-- Not done`
 [digitex-futures](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digitex-futures.js) | Digitex Futures | DGTX | Not Implemented | `-- Not done`
 [digix-gold-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digix-gold-token.js) | Digix Gold Token | DGX | Dynamic | *+ Done*
-[digixdao](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digixdao.js) | DigixDAO | DGD | Not Implemented | `-- Not done`
+[digixdao](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digixdao.js) | DigixDAO | DGD | Dynamic | *+ Done*
 [dignity](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dignity.js) | Dignity | DIG | Dynamic | *+ Done*
 [dimcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dimcoin.js) | DIMCOIN | DIM | Not Implemented | `-- Not done`
 [dimecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dimecoin.js) | Dimecoin | DIME | Dynamic | *+ Done*
