@@ -1,10 +1,15 @@
 /**
  * @title Nano
  * @symbol NANO
- * @implementation Not Implemented
+ * @implementation Static
+ * @reference https://nano.org/en/explore/summary
  */
-var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+    callback({
+        c: 133248290.903651,
+        m: 133248290.903651,
+        t: 340282366.920939
+    })
+    133248289
 };

@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 776 -- *To do*: 1035
+*Total*: 1811 -- *Implemented*: 777 -- *To do*: 1034
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1198,7 +1198,7 @@ ID | Name | Symbol | Implementation | Status
 [namecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/namecoin.js) | Namecoin | NMC | Not Implemented | `-- Not done`
 [namocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/namocoin.js) | NamoCoin | NAMO | Not Implemented | `-- Not done`
 [nanjcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nanjcoin.js) | NANJCOIN | NANJ | Dynamic | *+ Done*
-[nano](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nano.js) | Nano | NANO | Not Implemented | `-- Not done`
+[nano](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nano.js) | Nano | NANO | Static | *+ Done*
 [napoleonx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/napoleonx.js) | NaPoleonX | NPX | Not Implemented | `-- Not done`
 [natcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/natcoin.js) | N/A | N/A | N/A | `-- Not done`
 [nav-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nav-coin.js) | NavCoin | NAV | Not Implemented | `-- Not done`
