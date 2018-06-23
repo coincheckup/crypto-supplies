@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 778 -- *To do*: 1033
+*Total*: 1811 -- *Implemented*: 779 -- *To do*: 1032
 
 
 ID | Name | Symbol | Implementation | Status
@@ -606,7 +606,7 @@ ID | Name | Symbol | Implementation | Status
 [dnotes](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dnotes.js) | N/A | N/A | N/A | *+ Done*
 [docademic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/docademic.js) | Docademic | MTC | Dynamic | *+ Done*
 [dock](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dock.js) | Dock | DOCK | Dynamic | *+ Done*
-[dogecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dogecoin.js) | Dogecoin | DOGE | Not Implemented | `-- Not done`
+[dogecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dogecoin.js) | Dogecoin | DOGE | Dynamic | *+ Done*
 [dollar-online](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dollar-online.js) | Dollar Online | DOLLAR | Not Implemented | `-- Not done`
 [dollarcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dollarcoin.js) | Dollarcoin | DLC | Not Implemented | `-- Not done`
 [domraider](https://github.com/coincheckup/crypto-supplies/blob/master/coins/domraider.js) | DomRaider | DRT | Dynamic | *+ Done*
