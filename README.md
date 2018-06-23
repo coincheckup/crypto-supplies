@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 774 -- *To do*: 1037
+*Total*: 1811 -- *Implemented*: 775 -- *To do*: 1036
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1799,7 +1799,7 @@ ID | Name | Symbol | Implementation | Status
 [vechain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vechain.js) | VeChain | VEN | Dynamic | *+ Done*
 [vector](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vector.js) | VectorAI | VEC2 | Not Implemented | `-- Not done`
 [veltor](https://github.com/coincheckup/crypto-supplies/blob/master/coins/veltor.js) | Veltor | VLT | Not Implemented | `-- Not done`
-[verge](https://github.com/coincheckup/crypto-supplies/blob/master/coins/verge.js) | Verge | XVG | Not Implemented | `-- Not done`
+[verge](https://github.com/coincheckup/crypto-supplies/blob/master/coins/verge.js) | Verge | XVG | Dynamic | *+ Done*
 [vericoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vericoin.js) | VeriCoin | VRC | Dynamic | *+ Done*
 [verify](https://github.com/coincheckup/crypto-supplies/blob/master/coins/verify.js) | Verify | CRED | Dynamic | *+ Done*
 [verime](https://github.com/coincheckup/crypto-supplies/blob/master/coins/verime.js) | VeriME | VME | Dynamic | *+ Done*
