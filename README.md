@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 771 -- *To do*: 1040
+*Total*: 1811 -- *Implemented*: 772 -- *To do*: 1039
 
 
 ID | Name | Symbol | Implementation | Status
@@ -384,7 +384,7 @@ ID | Name | Symbol | Implementation | Status
 [buzzcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/buzzcoin.js) | BuzzCoin | BUZZ | Not Implemented | `-- Not done`
 [byteball](https://github.com/coincheckup/crypto-supplies/blob/master/coins/byteball.js) | Byteball Bytes | GBYTE | Not Implemented | `-- Not done`
 [bytecent](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bytecent.js) | Bytecent | BYC | Dynamic | *+ Done*
-[bytecoin-bcn](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bytecoin-bcn.js) | Bytecoin | BCN | Not Implemented | `-- Not done`
+[bytecoin-bcn](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bytecoin-bcn.js) | Bytecoin | BCN | Dynamic | *+ Done*
 [bytom](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bytom.js) | Bytom | BTM | Dynamic | *+ Done*
 [c-bit](https://github.com/coincheckup/crypto-supplies/blob/master/coins/c-bit.js) | C-Bit | XCT | Not Implemented | `-- Not done`
 [c20](https://github.com/coincheckup/crypto-supplies/blob/master/coins/c20.js) | CRYPTO20 | C20 | Dynamic | *+ Done*
