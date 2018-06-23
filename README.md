@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 780 -- *To do*: 1031
+*Total*: 1811 -- *Implemented*: 781 -- *To do*: 1030
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1839,7 +1839,7 @@ ID | Name | Symbol | Implementation | Status
 [wandx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wandx.js) | WandX | WAND | Dynamic | *+ Done*
 [warp](https://github.com/coincheckup/crypto-supplies/blob/master/coins/warp.js) | N/A | N/A | N/A | `-- Not done`
 [waves-community-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waves-community-token.js) | Waves Community Token | WCT | Not Implemented | `-- Not done`
-[waves](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waves.js) | Waves | WAVES | Not Implemented | `-- Not done`
+[waves](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waves.js) | Waves | WAVES | Static | *+ Done*
 [wavesgo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wavesgo.js) | WavesGo | WGO | Not Implemented | `-- Not done`
 [wawllet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wawllet.js) | WCOIN | WIN | Dynamic | *+ Done*
 [wax](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wax.js) | WAX | WAX | Dynamic | *+ Done*

@@ -1,10 +1,11 @@
 /**
  * @title Waves
  * @symbol WAVES
- * @implementation Not Implemented
+ * @implementation Static
  */
-var request = require('request');
-
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+    callback({
+        c: 100000000,
+        m: 100000000
+    });
 };
