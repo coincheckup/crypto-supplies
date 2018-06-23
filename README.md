@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 784 -- *To do*: 1027
+*Total*: 1811 -- *Implemented*: 785 -- *To do*: 1026
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1834,7 +1834,7 @@ ID | Name | Symbol | Implementation | Status
 [wa-space](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wa-space.js) | WA Space | WA | Not Implemented | `-- Not done`
 [wabi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wabi.js) | WaBi | WABI | Dynamic | *+ Done*
 [wagerr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wagerr.js) | Wagerr | WGR | Dynamic | *+ Done*
-[waltonchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waltonchain.js) | Waltonchain | WTC | Not Implemented | `-- Not done`
+[waltonchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waltonchain.js) | Waltonchain | WTC | Dynamic | *+ Done*
 [wanchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wanchain.js) | Wanchain | WAN | Static | *+ Done*
 [wandx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wandx.js) | WandX | WAND | Dynamic | *+ Done*
 [warp](https://github.com/coincheckup/crypto-supplies/blob/master/coins/warp.js) | N/A | N/A | N/A | `-- Not done`
