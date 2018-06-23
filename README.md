@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 782 -- *To do*: 1029
+*Total*: 1811 -- *Implemented*: 783 -- *To do*: 1028
 
 
 ID | Name | Symbol | Implementation | Status
@@ -280,7 +280,7 @@ ID | Name | Symbol | Implementation | Status
 [bitcoin-interest](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-interest.js) | Bitcoin Interest | BCI | Not Implemented | `-- Not done`
 [bitcoin-planet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-planet.js) | Bitcoin Planet | BTPL | Not Implemented | `-- Not done`
 [bitcoin-plus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-plus.js) | Bitcoin Plus | XBC | Not Implemented | `-- Not done`
-[bitcoin-private](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-private.js) | Bitcoin Private | BTCP | Not Implemented | `-- Not done`
+[bitcoin-private](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-private.js) | Bitcoin Private | BTCP | Dynamic | *+ Done*
 [bitcoin-red](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-red.js) | Bitcoin Red | BTCRED | Dynamic | *+ Done*
 [bitcoin-scrypt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-scrypt.js) | Bitcoin Scrypt | BTCS | Not Implemented | `-- Not done`
 [bitcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin.js) | Bitcoin | BTC | Dynamic | *+ Done*
