@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 777 -- *To do*: 1034
+*Total*: 1811 -- *Implemented*: 778 -- *To do*: 1033
 
 
 ID | Name | Symbol | Implementation | Status
@@ -201,7 +201,7 @@ ID | Name | Symbol | Implementation | Status
 [attention-token-of-media](https://github.com/coincheckup/crypto-supplies/blob/master/coins/attention-token-of-media.js) | ATMChain | ATM | Not Implemented | `-- Not done`
 [auctus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/auctus.js) | Auctus | AUC | Dynamic | *+ Done*
 [audiocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/audiocoin.js) | AudioCoin | ADC | Dynamic | *+ Done*
-[augur](https://github.com/coincheckup/crypto-supplies/blob/master/coins/augur.js) | Augur | REP | Not Implemented | `-- Not done`
+[augur](https://github.com/coincheckup/crypto-supplies/blob/master/coins/augur.js) | Augur | REP | Dynamic | *+ Done*
 [aurora-dao](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aurora-dao.js) | Aurora DAO | AURA | Dynamic | *+ Done*
 [auroracoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/auroracoin.js) | Auroracoin | AUR | Not Implemented | `-- Not done`
 [aurumcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aurumcoin.js) | AurumCoin | AU | Not Implemented | `-- Not done`
