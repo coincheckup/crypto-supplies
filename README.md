@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 788 -- *To do*: 1023
+*Total*: 1811 -- *Implemented*: 789 -- *To do*: 1022
 
 
 ID | Name | Symbol | Implementation | Status
@@ -868,7 +868,7 @@ ID | Name | Symbol | Implementation | Status
 [gulden](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gulden.js) | Gulden | NLG | Not Implemented | `-- Not done`
 [guncoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/guncoin.js) | Guncoin | GUN | Dynamic | *+ Done*
 [guppy](https://github.com/coincheckup/crypto-supplies/blob/master/coins/guppy.js) | Matchpool | GUP | Not Implemented | `-- Not done`
-[gxchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gxchain.js) | GXChain | GXS | Not Implemented | `-- Not done`
+[gxchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gxchain.js) | GXChain | GXS | Dynamic | *+ Done*
 [hacken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hacken.js) | Hacken | HKN | Dynamic | *+ Done*
 [hackspace-capital](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hackspace-capital.js) | Hackspace Capital | HAC | Dynamic | *+ Done*
 [hade-platform](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hade-platform.js) | Hade Platform | HADE | Not Implemented | `-- Not done`
