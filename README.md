@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 797 -- *To do*: 1014
+*Total*: 1811 -- *Implemented*: 798 -- *To do*: 1013
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1664,7 +1664,7 @@ ID | Name | Symbol | Implementation | Status
 [syndicate](https://github.com/coincheckup/crypto-supplies/blob/master/coins/syndicate.js) | Syndicate | SYNX | Not Implemented | `-- Not done`
 [synereo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/synereo.js) | Synereo | AMP | Not Implemented | `-- Not done`
 [synergy](https://github.com/coincheckup/crypto-supplies/blob/master/coins/synergy.js) | Synergy | SNRG | Dynamic | *+ Done*
-[syscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/syscoin.js) | Syscoin | SYS | Not Implemented | `-- Not done`
+[syscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/syscoin.js) | Syscoin | SYS | Dynamic | *+ Done*
 [t-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/t-coin.js) | T-coin | TCOIN | Not Implemented | `-- Not done`
 [taas](https://github.com/coincheckup/crypto-supplies/blob/master/coins/taas.js) | TaaS | TAAS | Not Implemented | `-- Not done`
 [tagcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tagcoin.js) | TagCoin | TAG | Not Implemented | `-- Not done`
