@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 793 -- *To do*: 1018
+*Total*: 1811 -- *Implemented*: 794 -- *To do*: 1017
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1168,7 +1168,7 @@ ID | Name | Symbol | Implementation | Status
 [molecular-future](https://github.com/coincheckup/crypto-supplies/blob/master/coins/molecular-future.js) | Molecular Future | MOF | Dynamic | *+ Done*
 [monaco](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monaco.js) | Monaco | MCO | Dynamic | *+ Done*
 [monacocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monacocoin.js) | Monoeci | XMCC | Not Implemented | `-- Not done`
-[monacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monacoin.js) | MonaCoin | MONA | Not Implemented | `-- Not done`
+[monacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monacoin.js) | MonaCoin | MONA | Dynamic | *+ Done*
 [monero-classic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monero-classic.js) | Monero Classic | XMC | Not Implemented | `-- Not done`
 [monero-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monero-gold.js) | N/A | N/A | N/A | `-- Not done`
 [monero-original](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monero-original.js) | Monero Original | XMO | Not Implemented | `-- Not done`
