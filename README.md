@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 806 -- *To do*: 1003
+*Total*: 1809 -- *Implemented*: 807 -- *To do*: 1002
 
 
 ID | Name | Symbol | Implementation | Status
@@ -225,7 +225,7 @@ ID | Name | Symbol | Implementation | Status
 [sonm](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sonm.js) | [SONM](https://coincheckup.com/coins/sonm) | SNM | Dynamic | :white_check_mark: Done
 [matrix-ai-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/matrix-ai-network.js) | [Matrix AI Network](https://coincheckup.com/coins/matrix-ai-network) | MAN | Dynamic | :white_check_mark: Done
 [salt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/salt.js) | [SALT](https://coincheckup.com/coins/salt) | SALT | Dynamic | :white_check_mark: Done
-[civic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/civic.js) | [Civic](https://coincheckup.com/coins/civic) | CVC | Not Implemented | :x: Not done
+[civic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/civic.js) | [Civic](https://coincheckup.com/coins/civic) | CVC | Dynamic | :white_check_mark: Done
 [high-performance-blockchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/high-performance-blockchain.js) | [High Performance Blockchain](https://coincheckup.com/coins/high-performance-blockchain) | HPB | Dynamic | :white_check_mark: Done
 [singularitynet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/singularitynet.js) | [SingularityNET](https://coincheckup.com/coins/singularitynet) | AGI | Dynamic | :white_check_mark: Done
 [tenx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tenx.js) | [TenX](https://coincheckup.com/coins/tenx) | PAY | Dynamic | :white_check_mark: Done
