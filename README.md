@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 801 -- *To do*: 1010
+*Total*: 1811 -- *Implemented*: 802 -- *To do*: 1009
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1357,7 +1357,7 @@ ID | Name | Symbol | Implementation | Status
 [polis](https://github.com/coincheckup/crypto-supplies/blob/master/coins/polis.js) | Polis | POLIS | Not Implemented | `-- Not done`
 [poly-ai](https://github.com/coincheckup/crypto-supplies/blob/master/coins/poly-ai.js) | POLY AI | AI | Dynamic | *+ Done*
 [polybius](https://github.com/coincheckup/crypto-supplies/blob/master/coins/polybius.js) | Polybius | PLBT | Dynamic | *+ Done*
-[polymath-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/polymath-network.js) | Polymath | POLY | Not Implemented | `-- Not done`
+[polymath-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/polymath-network.js) | Polymath | POLY | Dynamic | *+ Done*
 [polyswarm](https://github.com/coincheckup/crypto-supplies/blob/master/coins/polyswarm.js) | PolySwarm | NCT | Dynamic | *+ Done*
 [ponzicoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ponzicoin.js) | PonziCoin | PONZI | Not Implemented | `-- Not done`
 [popularcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/popularcoin.js) | PopularCoin | POP | Not Implemented | `-- Not done`
