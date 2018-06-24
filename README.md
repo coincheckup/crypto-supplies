@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 802 -- *To do*: 1009
+*Total*: 1810 -- *Implemented*: 802 -- *To do*: 1008
 
 
 ID | Name | Symbol | Implementation | Status
@@ -141,7 +141,6 @@ ID | Name | Symbol | Implementation | Status
 [rchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rchain.js) | RChain | RHOC | Dynamic | *+ Done*
 [bitcoin-diamond](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-diamond.js) | Bitcoin Diamond | BCD | Dynamic | *+ Done*
 [waves](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waves.js) | Waves | WAVES | Static | *+ Done*
-[batcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/batcoin.js) | N/A | N/A | N/A | `-- Not done`
 [bitcoin-private](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-private.js) | Bitcoin Private | BTCP | Dynamic | *+ Done*
 [wanchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wanchain.js) | Wanchain | WAN | Static | *+ Done*
 [golem-network-tokens](https://github.com/coincheckup/crypto-supplies/blob/master/coins/golem-network-tokens.js) | Golem | GNT | Dynamic | *+ Done*
