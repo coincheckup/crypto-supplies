@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 804 -- *To do*: 1005
+*Total*: 1809 -- *Implemented*: 805 -- *To do*: 1004
 
 
 ID | Name | Symbol | Implementation | Status
@@ -210,7 +210,7 @@ ID | Name | Symbol | Implementation | Status
 [power-ledger](https://github.com/coincheckup/crypto-supplies/blob/master/coins/power-ledger.js) | [Power Ledger](https://coincheckup.com/coins/power-ledger) | POWR | Dynamic | :white_check_mark: Done
 [wax](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wax.js) | [WAX](https://coincheckup.com/coins/wax) | WAX | Dynamic | :white_check_mark: Done
 [electroneum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/electroneum.js) | [Electroneum](https://coincheckup.com/coins/electroneum) | ETN | Dynamic | :white_check_mark: Done
-[nexus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nexus.js) | [Nexus](https://coincheckup.com/coins/nexus) | NXS | Not Implemented | :x: Not done
+[nexus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nexus.js) | [Nexus](https://coincheckup.com/coins/nexus) | NXS | Dynamic | :white_check_mark: Done
 [zencash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zencash.js) | [ZenCash](https://coincheckup.com/coins/zencash) | ZEN | Not Implemented | :x: Not done
 [eosdac](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eosdac.js) | [eosDAC](https://coincheckup.com/coins/eosdac) | EOSDAC | Dynamic | :white_check_mark: Done
 [revain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/revain.js) | [Revain](https://coincheckup.com/coins/revain) | R | Dynamic | :white_check_mark: Done
