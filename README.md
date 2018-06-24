@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 792 -- *To do*: 1019
+*Total*: 1811 -- *Implemented*: 793 -- *To do*: 1018
 
 
 ID | Name | Symbol | Implementation | Status
@@ -183,7 +183,7 @@ ID | Name | Symbol | Implementation | Status
 [argentum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/argentum.js) | Argentum | ARG | Dynamic | *+ Done*
 [argus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/argus.js) | Argus | ARGUS | Not Implemented | `-- Not done`
 [aricoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aricoin.js) | Aricoin | ARI | Not Implemented | `-- Not done`
-[ark](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ark.js) | Ark | ARK | Not Implemented | `-- Not done`
+[ark](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ark.js) | Ark | ARK | Dynamic | *+ Done*
 [artbyte](https://github.com/coincheckup/crypto-supplies/blob/master/coins/artbyte.js) | ArtByte | ABY | Not Implemented | `-- Not done`
 [artex-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/artex-coin.js) | Artex Coin | ATX | Not Implemented | `-- Not done`
 [asch](https://github.com/coincheckup/crypto-supplies/blob/master/coins/asch.js) | Asch | XAS | Not Implemented | `-- Not done`
