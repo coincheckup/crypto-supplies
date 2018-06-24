@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 796 -- *To do*: 1015
+*Total*: 1811 -- *Implemented*: 797 -- *To do*: 1014
 
 
 ID | Name | Symbol | Implementation | Status
@@ -671,7 +671,7 @@ ID | Name | Symbol | Implementation | Status
 [embercoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/embercoin.js) | EmberCoin | EMB | Not Implemented | `-- Not done`
 [embers](https://github.com/coincheckup/crypto-supplies/blob/master/coins/embers.js) | Embers | MBRS | Dynamic | *+ Done*
 [emerald](https://github.com/coincheckup/crypto-supplies/blob/master/coins/emerald.js) | Emerald Crypto | EMD | Dynamic | *+ Done*
-[emercoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/emercoin.js) | Emercoin | EMC | Not Implemented | `-- Not done`
+[emercoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/emercoin.js) | Emercoin | EMC | Dynamic | *+ Done*
 [emphy](https://github.com/coincheckup/crypto-supplies/blob/master/coins/emphy.js) | Emphy | EPY | Dynamic | *+ Done*
 [encrypgen](https://github.com/coincheckup/crypto-supplies/blob/master/coins/encrypgen.js) | EncrypGen | DNA | Dynamic | *+ Done*
 [encryptotel-eth](https://github.com/coincheckup/crypto-supplies/blob/master/coins/encryptotel-eth.js) | EncryptoTel [ETH] | ETT | Dynamic | *+ Done*
