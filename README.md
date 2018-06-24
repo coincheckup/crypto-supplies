@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 803 -- *To do*: 1006
+*Total*: 1809 -- *Implemented*: 804 -- *To do*: 1005
 
 
 ID | Name | Symbol | Implementation | Status
@@ -200,7 +200,7 @@ ID | Name | Symbol | Implementation | Status
 [nuls](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nuls.js) | Nuls | NULS | Dynamic | *+ Done*
 [paypex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/paypex.js) | Paypex | PAYX | Dynamic | *+ Done*
 [substratum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/substratum.js) | Substratum | SUB | Dynamic | *+ Done*
-[true-usd](https://github.com/coincheckup/crypto-supplies/blob/master/coins/true-usd.js) | N/A | N/A | N/A | `-- Not done`
+[true-usd](https://github.com/coincheckup/crypto-supplies/blob/master/coins/true-usd.js) | TrueUSD | TUSD | Dynamic | *+ Done*
 [blocknet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blocknet.js) | Blocknet | BLOCK | Dynamic | *+ Done*
 [cortex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cortex.js) | Cortex | CTXC | Dynamic | *+ Done*
 [theta-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/theta-token.js) | Theta Token | THETA | Dynamic | *+ Done*
