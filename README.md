@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 791 -- *To do*: 1020
+*Total*: 1811 -- *Implemented*: 792 -- *To do*: 1019
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1441,7 +1441,7 @@ ID | Name | Symbol | Implementation | Status
 [red-pulse](https://github.com/coincheckup/crypto-supplies/blob/master/coins/red-pulse.js) | Red Pulse | RPX | Not Implemented | `-- Not done`
 [red](https://github.com/coincheckup/crypto-supplies/blob/master/coins/red.js) | RED | RED | Dynamic | *+ Done*
 [redcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/redcoin.js) | RedCoin | RED | Not Implemented | `-- Not done`
-[reddcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/reddcoin.js) | ReddCoin | RDD | Not Implemented | `-- Not done`
+[reddcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/reddcoin.js) | ReddCoin | RDD | Dynamic | *+ Done*
 [reecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/reecoin.js) | ReeCoin | REE | Not Implemented | `-- Not done`
 [refereum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/refereum.js) | Refereum | RFR | Dynamic | *+ Done*
 [reftoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/reftoken.js) | RefToken | REF | Not Implemented | `-- Not done`
