@@ -1,10 +1,13 @@
 /**
  * @title Achain
  * @symbol ACT
- * @implementation Not Implemented
+ * @implementation Static
+ * @reference https://medium.com/@AchainOfficial/circulating-supply-of-achain-act-a193c0308708
  */
-var request = require('request');
-
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+    callback({
+        c: 466215248.7,
+        t: 1000000000,
+        m: 1000000000
+    });
 };

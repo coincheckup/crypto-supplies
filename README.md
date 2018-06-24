@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 807 -- *To do*: 1002
+*Total*: 1809 -- *Implemented*: 808 -- *To do*: 1001
 
 
 ID | Name | Symbol | Implementation | Status
@@ -231,7 +231,7 @@ ID | Name | Symbol | Implementation | Status
 [tenx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tenx.js) | [TenX](https://coincheckup.com/coins/tenx) | PAY | Dynamic | :white_check_mark: Done
 [request-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/request-network.js) | [Request Network](https://coincheckup.com/coins/request-network) | REQ | Dynamic | :white_check_mark: Done
 [nucleus-vision](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nucleus-vision.js) | [Nucleus Vision](https://coincheckup.com/coins/nucleus-vision) | NCASH | Dynamic | :white_check_mark: Done
-[achain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/achain.js) | [Achain](https://coincheckup.com/coins/achain) | ACT | Not Implemented | :x: Not done
+[achain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/achain.js) | [Achain](https://coincheckup.com/coins/achain) | ACT | Static | :white_check_mark: Done
 [asch](https://github.com/coincheckup/crypto-supplies/blob/master/coins/asch.js) | [Asch](https://coincheckup.com/coins/asch) | XAS | Not Implemented | :x: Not done
 [holo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/holo.js) | [Holo](https://coincheckup.com/coins/holo) | HOT | Dynamic | :white_check_mark: Done
 [aragon](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aragon.js) | [Aragon](https://coincheckup.com/coins/aragon) | ANT | Dynamic | :white_check_mark: Done
