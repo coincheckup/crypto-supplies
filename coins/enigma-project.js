@@ -1,10 +1,27 @@
 /**
  * @title Enigma
  * @symbol ENG
- * @implementation Not Implemented
+ * @ethContractAddr 0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4
+ * @implementation Dynamic
  */
 var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+    request('http://api.ethplorer.io/getTokenInfo/0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4?apiKey=freekey', (error, response, body) => {
+        if (!error && response.statusCode == 200) {
+            body = JSON.parse(body);
+
+            var resp = {
+                t: Number(body.totalSupply) * Math.pow(10, -8)
+            };
+
+            if (typeof body.price !== 'undefined' && typeof body.price.availableSupply !== 'undefined') {
+                resp.c = Number(body.price.availableSupply);
+            }
+
+            callback(resp);
+        } else {
+            callback(new Error('Request error ' + response.statusCode));
+        }
+    });
 };

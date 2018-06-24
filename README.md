@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 798 -- *To do*: 1013
+*Total*: 1811 -- *Implemented*: 799 -- *To do*: 1012
 
 
 ID | Name | Symbol | Implementation | Status
@@ -680,7 +680,7 @@ ID | Name | Symbol | Implementation | Status
 [energo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/energo.js) | Energo | TSL | Not Implemented | `-- Not done`
 [energycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/energycoin.js) | Energycoin | ENRG | Dynamic | *+ Done*
 [engine](https://github.com/coincheckup/crypto-supplies/blob/master/coins/engine.js) | Engine | EGCC | Not Implemented | `-- Not done`
-[enigma-project](https://github.com/coincheckup/crypto-supplies/blob/master/coins/enigma-project.js) | Enigma | ENG | Not Implemented | `-- Not done`
+[enigma-project](https://github.com/coincheckup/crypto-supplies/blob/master/coins/enigma-project.js) | Enigma | ENG | Dynamic | *+ Done*
 [enigma](https://github.com/coincheckup/crypto-supplies/blob/master/coins/enigma.js) | N/A | N/A | N/A | `-- Not done`
 [enjin-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/enjin-coin.js) | Enjin Coin | ENJ | Dynamic | *+ Done*
 [entcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/entcash.js) | ENTCash | ENT | Not Implemented | `-- Not done`
