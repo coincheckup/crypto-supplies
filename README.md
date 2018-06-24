@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 794 -- *To do*: 1017
+*Total*: 1811 -- *Implemented*: 795 -- *To do*: 1016
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1107,7 +1107,7 @@ ID | Name | Symbol | Implementation | Status
 [magnet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/magnet.js) | Magnet | MAG | Not Implemented | `-- Not done`
 [magnetcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/magnetcoin.js) | Magnetcoin | MAGN | Not Implemented | `-- Not done`
 [magnum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/magnum.js) | Magnum | MGM | Not Implemented | `-- Not done`
-[maidsafecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/maidsafecoin.js) | MaidSafeCoin | MAID | Not Implemented | `-- Not done`
+[maidsafecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/maidsafecoin.js) | MaidSafeCoin | MAID | Dynamic | *+ Done*
 [maker](https://github.com/coincheckup/crypto-supplies/blob/master/coins/maker.js) | Maker | MKR | Dynamic | *+ Done*
 [manna](https://github.com/coincheckup/crypto-supplies/blob/master/coins/manna.js) | Manna | MANNA | Dynamic | *+ Done*
 [mao-zedong](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mao-zedong.js) | Mao Zedong | MAO | Not Implemented | `-- Not done`
