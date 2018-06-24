@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1810 -- *Implemented*: 802 -- *To do*: 1008
+*Total*: 1809 -- *Implemented*: 802 -- *To do*: 1007
 
 
 ID | Name | Symbol | Implementation | Status
@@ -178,7 +178,6 @@ ID | Name | Symbol | Implementation | Status
 [dropil](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dropil.js) | Dropil | DROP | Dynamic | *+ Done*
 [mithril](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mithril.js) | Mithril | MITH | Dynamic | *+ Done*
 [pivx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pivx.js) | PIVX | PIVX | Dynamic | *+ Done*
-[enigma](https://github.com/coincheckup/crypto-supplies/blob/master/coins/enigma.js) | N/A | N/A | N/A | `-- Not done`
 [bibox-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bibox-token.js) | Bibox Token | BIX | Dynamic | *+ Done*
 [decentraland](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decentraland.js) | Decentraland | MANA | Dynamic | *+ Done*
 [syscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/syscoin.js) | Syscoin | SYS | Dynamic | *+ Done*
