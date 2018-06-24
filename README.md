@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 799 -- *To do*: 1012
+*Total*: 1811 -- *Implemented*: 800 -- *To do*: 1011
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1506,7 +1506,7 @@ ID | Name | Symbol | Implementation | Status
 [satoshimadness](https://github.com/coincheckup/crypto-supplies/blob/master/coins/satoshimadness.js) | SatoshiMadness | MAD | Not Implemented | `-- Not done`
 [save-and-gain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/save-and-gain.js) | Save and Gain | SANDG | Not Implemented | `-- Not done`
 [scorecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/scorecoin.js) | Scorecoin | SCORE | Not Implemented | `-- Not done`
-[scryinfo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/scryinfo.js) | Scry.info | DDD | Not Implemented | `-- Not done`
+[scryinfo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/scryinfo.js) | Scry.info | DDD | Dynamic | *+ Done*
 [secretcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/secretcoin.js) | SecretCoin | SCRT | Not Implemented | `-- Not done`
 [securecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/securecoin.js) | SecureCoin | SRC | Dynamic | *+ Done*
 [seele](https://github.com/coincheckup/crypto-supplies/blob/master/coins/seele.js) | Seele | SEELE | Dynamic | *+ Done*
