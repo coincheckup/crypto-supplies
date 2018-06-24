@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 809 -- *To do*: 1000
+*Total*: 1809 -- *Implemented*: 810 -- *To do*: 999
 
 
 ID | Name | Symbol | Implementation | Status
@@ -266,7 +266,7 @@ ID | Name | Symbol | Implementation | Status
 [pillar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pillar.js) | [Pillar](https://coincheckup.com/coins/pillar) | PLR | Dynamic | :white_check_mark: Done
 [quantstamp](https://github.com/coincheckup/crypto-supplies/blob/master/coins/quantstamp.js) | [Quantstamp](https://coincheckup.com/coins/quantstamp) | QSP | Dynamic | :white_check_mark: Done
 [groestlcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/groestlcoin.js) | [Groestlcoin](https://coincheckup.com/coins/groestlcoin) | GRS | Dynamic | :white_check_mark: Done
-[stakenet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stakenet.js) | [StakeNet](https://coincheckup.com/coins/stakenet) | XSN | Not Implemented | :x: Not done
+[stakenet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stakenet.js) | [StakeNet](https://coincheckup.com/coins/stakenet) | XSN | Dynamic | :white_check_mark: Done
 [ignis](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ignis.js) | [Ignis](https://coincheckup.com/coins/ignis) | IGNIS | Not Implemented | :x: Not done
 [storiqa](https://github.com/coincheckup/crypto-supplies/blob/master/coins/storiqa.js) | [Storiqa](https://coincheckup.com/coins/storiqa) | STQ | Dynamic | :white_check_mark: Done
 [boscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/boscoin.js) | [BOScoin](https://coincheckup.com/coins/boscoin) | BOS | Not Implemented | :x: Not done
