@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 789 -- *To do*: 1022
+*Total*: 1811 -- *Implemented*: 791 -- *To do*: 1020
 
 
 ID | Name | Symbol | Implementation | Status
@@ -179,7 +179,7 @@ ID | Name | Symbol | Implementation | Status
 [arbitragect](https://github.com/coincheckup/crypto-supplies/blob/master/coins/arbitragect.js) | ArbitrageCT | ARCT | Dynamic | *+ Done*
 [arcblock](https://github.com/coincheckup/crypto-supplies/blob/master/coins/arcblock.js) | Arcblock | ABT | Dynamic | *+ Done*
 [arcticcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/arcticcoin.js) | Advanced Technology Coin | ARC | Not Implemented | `-- Not done`
-[ardor](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ardor.js) | Ardor | ARDR | Not Implemented | `-- Not done`
+[ardor](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ardor.js) | Ardor | ARDR | Static | *+ Done*
 [argentum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/argentum.js) | Argentum | ARG | Dynamic | *+ Done*
 [argus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/argus.js) | Argus | ARGUS | Not Implemented | `-- Not done`
 [aricoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aricoin.js) | Aricoin | ARI | Not Implemented | `-- Not done`
@@ -509,7 +509,7 @@ ID | Name | Symbol | Implementation | Status
 [cryptoescudo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptoescudo.js) | N/A | N/A | N/A | `-- Not done`
 [cryptoforecast](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptoforecast.js) | N/A | N/A | N/A | `-- Not done`
 [cryptojacks](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptojacks.js) | Cryptojacks | CJ | Not Implemented | `-- Not done`
-[cryptonex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptonex.js) | Cryptonex | CNX | Not Implemented | `-- Not done`
+[cryptonex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptonex.js) | Cryptonex | CNX | Dynamic | *+ Done*
 [cryptonite](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptonite.js) | Cryptonite | XCN | Not Implemented | `-- Not done`
 [cryptopay](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptopay.js) | Cryptopay | CPAY | Dynamic | *+ Done*
 [cryptopiafeeshares](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptopiafeeshares.js) | CryptopiaFeeShares | CEFS | Not Implemented | `-- Not done`

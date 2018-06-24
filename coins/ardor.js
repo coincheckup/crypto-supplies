@@ -1,10 +1,13 @@
 /**
  * @title Ardor
  * @symbol ARDR
- * @implementation Not Implemented
+ * @implementation Static
  */
 var request = require('request');
 
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+    callback({
+        c: 998999495,
+        m: 998999495
+    });
 };
