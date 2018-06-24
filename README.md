@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 811 -- *To do*: 998
+*Total*: 1809 -- *Implemented*: 812 -- *To do*: 997
 
 
 ID | Name | Symbol | Implementation | Status
@@ -312,7 +312,7 @@ ID | Name | Symbol | Implementation | Status
 [spankchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spankchain.js) | [SpankChain](https://coincheckup.com/coins/spankchain) | SPANK | Dynamic | :white_check_mark: Done
 [republic-protocol](https://github.com/coincheckup/crypto-supplies/blob/master/coins/republic-protocol.js) | [Republic Protocol](https://coincheckup.com/coins/republic-protocol) | REN | Dynamic | :white_check_mark: Done
 [wagerr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wagerr.js) | [Wagerr](https://coincheckup.com/coins/wagerr) | WGR | Dynamic | :white_check_mark: Done
-[daex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/daex.js) | [DAEX](https://coincheckup.com/coins/daex) | DAX | Not Implemented | :x: Not done
+[daex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/daex.js) | [DAEX](https://coincheckup.com/coins/daex) | DAX | Dynamic | :white_check_mark: Done
 [gulden](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gulden.js) | [Gulden](https://coincheckup.com/coins/gulden) | NLG | Not Implemented | :x: Not done
 [lympo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lympo.js) | [Lympo](https://coincheckup.com/coins/lympo) | LYM | Dynamic | :white_check_mark: Done
 [tokenomy](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tokenomy.js) | [Tokenomy](https://coincheckup.com/coins/tokenomy) | TEN | Dynamic | :white_check_mark: Done
