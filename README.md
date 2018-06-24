@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 810 -- *To do*: 999
+*Total*: 1809 -- *Implemented*: 811 -- *To do*: 998
 
 
 ID | Name | Symbol | Implementation | Status
@@ -304,7 +304,7 @@ ID | Name | Symbol | Implementation | Status
 [poet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/poet.js) | [Po.et](https://coincheckup.com/coins/poet) | POE | Dynamic | :white_check_mark: Done
 [ink](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ink.js) | [Ink](https://coincheckup.com/coins/ink) | INK | Not Implemented | :x: Not done
 [iotex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/iotex.js) | [IoTeX](https://coincheckup.com/coins/iotex) | IOTX | Dynamic | :white_check_mark: Done
-[burst](https://github.com/coincheckup/crypto-supplies/blob/master/coins/burst.js) | [Burst](https://coincheckup.com/coins/burst) | BURST | Not Implemented | :x: Not done
+[burst](https://github.com/coincheckup/crypto-supplies/blob/master/coins/burst.js) | [Burst](https://coincheckup.com/coins/burst) | BURST | Dynamic | :white_check_mark: Done
 [rock](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rock.js) | [Rock](https://coincheckup.com/coins/rock) | RKT | Dynamic | :white_check_mark: Done
 [edgeless](https://github.com/coincheckup/crypto-supplies/blob/master/coins/edgeless.js) | [Edgeless](https://coincheckup.com/coins/edgeless) | EDG | Dynamic | :white_check_mark: Done
 [trade-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trade-token.js) | [Trade Token](https://coincheckup.com/coins/trade-token) | TIO | Dynamic | :white_check_mark: Done
