@@ -1,10 +1,11 @@
 /**
  * @title Nxt
  * @symbol NXT
- * @implementation Not Implemented
+ * @implementation Static
  */
-var request = require('request');
-
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+    callback({
+        c: 998999942,
+        m: 1000000000
+    });
 };

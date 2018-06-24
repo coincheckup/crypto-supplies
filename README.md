@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 800 -- *To do*: 1011
+*Total*: 1811 -- *Implemented*: 801 -- *To do*: 1010
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1248,7 +1248,7 @@ ID | Name | Symbol | Implementation | Status
 [numuscash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/numuscash.js) | NumusCash | NUMUS | Not Implemented | `-- Not done`
 [nushares](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nushares.js) | NuShares | NSR | Not Implemented | `-- Not done`
 [nvo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nvo.js) | N/A | N/A | N/A | `-- Not done`
-[nxt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nxt.js) | Nxt | NXT | Not Implemented | `-- Not done`
+[nxt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nxt.js) | Nxt | NXT | Static | *+ Done*
 [nyancoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nyancoin.js) | Nyancoin | NYAN | Not Implemented | `-- Not done`
 [oax](https://github.com/coincheckup/crypto-supplies/blob/master/coins/oax.js) | OAX | OAX | Dynamic | *+ Done*
 [obits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/obits.js) | OBITS | OBITS | Not Implemented | `-- Not done`
