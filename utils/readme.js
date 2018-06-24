@@ -3,6 +3,9 @@ const doctrine = require("doctrine");
 const request = require('request-promise');
 const _ = require('lodash');
 
+const Cacheman = require('cacheman-file');
+const cache = new Cacheman({ ttl: 3600 });
+
 fs.readdir(__dirname + '/../coins', async(err, files) => {
     var readme = fs.readFileSync(__dirname + '/../README.src.md').toString(),
         states = `
@@ -15,11 +18,21 @@ fs.readdir(__dirname + '/../coins', async(err, files) => {
 ID | Name | Symbol | Implementation | Status
 --- | --- | --- | --- | ---
 `,
-        ranks = await request({
-            uri: 'https://coincheckup.com/data/prod/201806241054/coins.json',
-            json: true
-        }),
+        ranks,
         tableData = [];
+
+    await cache.get('ranks', async(err, value) => {
+        if (err === null && value !== null) {
+            ranks = value;
+        } else {
+            ranks = await request({
+               uri: 'https://coincheckup.com/data/prod/201806241054/coins.json',
+               json: true
+            });
+
+            cache.set('ranks', ranks);
+        }
+    });
 
     files.forEach(file => {
         var path = __dirname + '/../coins/' + file;
