@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 802 -- *To do*: 1007
+*Total*: 1809 -- *Implemented*: 803 -- *To do*: 1006
 
 
 ID | Name | Symbol | Implementation | Status
@@ -196,7 +196,7 @@ ID | Name | Symbol | Implementation | Status
 [docademic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/docademic.js) | Docademic | MTC | Dynamic | *+ Done*
 [waykichain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waykichain.js) | WaykiChain | WICC | Dynamic | *+ Done*
 [bnktothefuture](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bnktothefuture.js) | BnkToTheFuture | BFT | Dynamic | *+ Done*
-[infinity-economics](https://github.com/coincheckup/crypto-supplies/blob/master/coins/infinity-economics.js) | Infinity Economics | XIN | Not Implemented | `-- Not done`
+[infinity-economics](https://github.com/coincheckup/crypto-supplies/blob/master/coins/infinity-economics.js) | Infinity Economics | XIN | Static | *+ Done*
 [nuls](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nuls.js) | Nuls | NULS | Dynamic | *+ Done*
 [paypex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/paypex.js) | Paypex | PAYX | Dynamic | *+ Done*
 [substratum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/substratum.js) | Substratum | SUB | Dynamic | *+ Done*

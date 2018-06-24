@@ -1,10 +1,11 @@
 /**
  * @title Infinity Economics
  * @symbol XIN
- * @implementation Not Implemented
+ * @implementation Static
  */
-var request = require('request');
-
 module.exports = (callback) => {
-    callback(new Error('Not Implemented'));
+    callback({
+        c: 8999999990,
+        t: 9000000000
+    });
 };
