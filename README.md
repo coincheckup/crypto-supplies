@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 808 -- *To do*: 1001
+*Total*: 1809 -- *Implemented*: 809 -- *To do*: 1000
 
 
 ID | Name | Symbol | Implementation | Status
@@ -236,7 +236,7 @@ ID | Name | Symbol | Implementation | Status
 [holo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/holo.js) | [Holo](https://coincheckup.com/coins/holo) | HOT | Dynamic | :white_check_mark: Done
 [aragon](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aragon.js) | [Aragon](https://coincheckup.com/coins/aragon) | ANT | Dynamic | :white_check_mark: Done
 [medishares](https://github.com/coincheckup/crypto-supplies/blob/master/coins/medishares.js) | [MediShares](https://coincheckup.com/coins/medishares) | MDS | Dynamic | :white_check_mark: Done
-[neblio](https://github.com/coincheckup/crypto-supplies/blob/master/coins/neblio.js) | [Neblio](https://coincheckup.com/coins/neblio) | NEBL | Not Implemented | :x: Not done
+[neblio](https://github.com/coincheckup/crypto-supplies/blob/master/coins/neblio.js) | [Neblio](https://coincheckup.com/coins/neblio) | NEBL | Dynamic | :white_check_mark: Done
 [nexo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nexo.js) | [Nexo](https://coincheckup.com/coins/nexo) | NEXO | Dynamic | :white_check_mark: Done
 [gnosis-gno](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gnosis-gno.js) | [Gnosis](https://coincheckup.com/coins/gnosis-gno) | GNO | Not Implemented | :x: Not done
 [time-new-bank](https://github.com/coincheckup/crypto-supplies/blob/master/coins/time-new-bank.js) | [Time New Bank](https://coincheckup.com/coins/time-new-bank) | TNB | Dynamic | :white_check_mark: Done
