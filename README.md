@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 805 -- *To do*: 1004
+*Total*: 1809 -- *Implemented*: 806 -- *To do*: 1003
 
 
 ID | Name | Symbol | Implementation | Status
@@ -217,7 +217,7 @@ ID | Name | Symbol | Implementation | Status
 [deepbrain-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/deepbrain-chain.js) | [DeepBrain Chain](https://coincheckup.com/coins/deepbrain-chain) | DBC | Not Implemented | :x: Not done
 [rlc](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rlc.js) | [iExec RLC](https://coincheckup.com/coins/rlc) | RLC | Dynamic | :white_check_mark: Done
 [chainlink](https://github.com/coincheckup/crypto-supplies/blob/master/coins/chainlink.js) | [ChainLink](https://coincheckup.com/coins/chainlink) | LINK | Dynamic | :white_check_mark: Done
-[iconomi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/iconomi.js) | [Iconomi](https://coincheckup.com/coins/iconomi) | ICN | Not Implemented | :x: Not done
+[iconomi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/iconomi.js) | [Iconomi](https://coincheckup.com/coins/iconomi) | ICN | Dynamic | :white_check_mark: Done
 [gifto](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gifto.js) | [Gifto](https://coincheckup.com/coins/gifto) | GTO | Dynamic | :white_check_mark: Done
 [bitcoindark](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoindark.js) | [BitcoinDark](https://coincheckup.com/coins/bitcoindark) | BTCD | Not Implemented | :x: Not done
 [storj](https://github.com/coincheckup/crypto-supplies/blob/master/coins/storj.js) | [Storj](https://coincheckup.com/coins/storj) | STORJ | Dynamic | :white_check_mark: Done
