@@ -67,13 +67,16 @@ ID | Name | Symbol | Implementation | Status
         tableData.push({
             markup: '[' + file.replace('.js', '') + '](' + 'https://github.com/coincheckup/crypto-supplies/blob/master/coins/' + file + ')'
                 + ' | '
-                + (metaObj !== null && typeof metaObj.title !== 'undefined' ? metaObj.title : 'N/A')
+                + (metaObj !== null && typeof metaObj.title !== 'undefined'
+                    ? ('[' + metaObj.title + '](' + 'https://coincheckup.com/coins/' + file.replace('.js', '') + ')')
+                    : 'N/A'
+                )
                 + ' | '
                 + (metaObj !== null && typeof metaObj.symbol !== 'undefined' ? metaObj.symbol : 'N/A')
                 + ' | '
                 + (metaObj !== null && typeof metaObj.implementation !== 'undefined' ? metaObj.implementation : 'N/A')
                 + ' | '
-                + (implemented ? '*+ Done*' : '`-- Not done`'),
+                + (implemented ? ':white_check_mark: Done' : ':x: Not done'),
             rank: coinRank
         });
     });
