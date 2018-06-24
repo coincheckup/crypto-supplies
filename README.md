@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1811 -- *Implemented*: 795 -- *To do*: 1016
+*Total*: 1811 -- *Implemented*: 796 -- *To do*: 1015
 
 
 ID | Name | Symbol | Implementation | Status
@@ -801,7 +801,7 @@ ID | Name | Symbol | Implementation | Status
 [gaia](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gaia.js) | N/A | N/A | N/A | `-- Not done`
 [galactrum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/galactrum.js) | Galactrum | ORE | Not Implemented | `-- Not done`
 [gambit](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gambit.js) | Gambit | GAM | Dynamic | *+ Done*
-[game](https://github.com/coincheckup/crypto-supplies/blob/master/coins/game.js) | Game.com | GTC | Not Implemented | `-- Not done`
+[game](https://github.com/coincheckup/crypto-supplies/blob/master/coins/game.js) | Game.com | GTC | Dynamic | *+ Done*
 [gamechain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gamechain.js) | GameChain System | GCS | Not Implemented | `-- Not done`
 [gamecredits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gamecredits.js) | GameCredits | GAME | Not Implemented | `-- Not done`
 [gameleaguecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gameleaguecoin.js) | N/A | N/A | N/A | `-- Not done`
