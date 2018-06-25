@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 814 -- *To do*: 995
+*Total*: 1809 -- *Implemented*: 815 -- *To do*: 994
 
 
 ID | Name | Symbol | Implementation | Status
@@ -345,7 +345,7 @@ ID | Name | Symbol | Implementation | Status
 [legolas-exchange](https://github.com/coincheckup/crypto-supplies/blob/master/coins/legolas-exchange.js) | [Legolas Exchange](https://coincheckup.com/coins/legolas-exchange) | LGO | Dynamic | :white_check_mark: Done
 [paypie](https://github.com/coincheckup/crypto-supplies/blob/master/coins/paypie.js) | [PayPie](https://coincheckup.com/coins/paypie) | PPP | Dynamic | :white_check_mark: Done
 [datx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/datx.js) | [DATx](https://coincheckup.com/coins/datx) | DATX | Dynamic | :white_check_mark: Done
-[cloakcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cloakcoin.js) | [CloakCoin](https://coincheckup.com/coins/cloakcoin) | CLOAK | Not Implemented | :x: Not done
+[cloakcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cloakcoin.js) | [CloakCoin](https://coincheckup.com/coins/cloakcoin) | CLOAK | Dynamic | :white_check_mark: Done
 [singulardtv](https://github.com/coincheckup/crypto-supplies/blob/master/coins/singulardtv.js) | [SingularDTV](https://coincheckup.com/coins/singulardtv) | SNGLS | Not Implemented | :x: Not done
 [viacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/viacoin.js) | [Viacoin](https://coincheckup.com/coins/viacoin) | VIA | Dynamic | :white_check_mark: Done
 [apis](https://github.com/coincheckup/crypto-supplies/blob/master/coins/apis.js) | [APIS](https://coincheckup.com/coins/apis) | APIS | Dynamic | :white_check_mark: Done
