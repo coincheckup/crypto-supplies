@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 820 -- *To do*: 989
+*Total*: 1809 -- *Implemented*: 821 -- *To do*: 988
 
 
 ID | Name | Symbol | Implementation | Status
@@ -253,7 +253,7 @@ ID | Name | Symbol | Implementation | Status
 [cindicator](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cindicator.js) | [Cindicator](https://coincheckup.com/coins/cindicator) | CND | Dynamic | :white_check_mark: Done
 [bitcoin-interest](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-interest.js) | [Bitcoin Interest](https://coincheckup.com/coins/bitcoin-interest) | BCI | Not Implemented | :x: Not done
 [dai](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dai.js) | [Dai](https://coincheckup.com/coins/dai) | DAI | Dynamic | :white_check_mark: Done
-[gamecredits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gamecredits.js) | [GameCredits](https://coincheckup.com/coins/gamecredits) | GAME | Not Implemented | :x: Not done
+[gamecredits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gamecredits.js) | [GameCredits](https://coincheckup.com/coins/gamecredits) | GAME | Dynamic | :white_check_mark: Done
 [dynamic-trading-rights](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dynamic-trading-rights.js) | [Dynamic Trading Rights](https://coincheckup.com/coins/dynamic-trading-rights) | DTR | Dynamic | :white_check_mark: Done
 [digitalnote](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digitalnote.js) | [DigitalNote](https://coincheckup.com/coins/digitalnote) | XDN | Not Implemented | :x: Not done
 [dent](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dent.js) | [Dent](https://coincheckup.com/coins/dent) | DENT | Dynamic | :white_check_mark: Done
