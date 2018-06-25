@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 819 -- *To do*: 990
+*Total*: 1809 -- *Implemented*: 820 -- *To do*: 989
 
 
 ID | Name | Symbol | Implementation | Status
@@ -238,7 +238,7 @@ ID | Name | Symbol | Implementation | Status
 [medishares](https://github.com/coincheckup/crypto-supplies/blob/master/coins/medishares.js) | [MediShares](https://coincheckup.com/coins/medishares) | MDS | Dynamic | :white_check_mark: Done
 [neblio](https://github.com/coincheckup/crypto-supplies/blob/master/coins/neblio.js) | [Neblio](https://coincheckup.com/coins/neblio) | NEBL | Dynamic | :white_check_mark: Done
 [nexo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nexo.js) | [Nexo](https://coincheckup.com/coins/nexo) | NEXO | Dynamic | :white_check_mark: Done
-[gnosis-gno](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gnosis-gno.js) | [Gnosis](https://coincheckup.com/coins/gnosis-gno) | GNO | Not Implemented | :x: Not done
+[gnosis-gno](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gnosis-gno.js) | [Gnosis](https://coincheckup.com/coins/gnosis-gno) | GNO | Dynamic | :white_check_mark: Done
 [time-new-bank](https://github.com/coincheckup/crypto-supplies/blob/master/coins/time-new-bank.js) | [Time New Bank](https://coincheckup.com/coins/time-new-bank) | TNB | Dynamic | :white_check_mark: Done
 [skycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/skycoin.js) | [Skycoin](https://coincheckup.com/coins/skycoin) | SKY | Not Implemented | :x: Not done
 [cybervein](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cybervein.js) | [CyberVein](https://coincheckup.com/coins/cybervein) | CVT | Dynamic | :white_check_mark: Done
