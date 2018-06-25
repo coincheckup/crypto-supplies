@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 823 -- *To do*: 986
+*Total*: 1809 -- *Implemented*: 824 -- *To do*: 985
 
 
 ID | Name | Symbol | Implementation | Status
@@ -320,7 +320,7 @@ ID | Name | Symbol | Implementation | Status
 [linda](https://github.com/coincheckup/crypto-supplies/blob/master/coins/linda.js) | [Linda](https://coincheckup.com/coins/linda) | LINDA | Not Implemented | :x: Not done
 [iot-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/iot-chain.js) | [IoT Chain](https://coincheckup.com/coins/iot-chain) | ITC | Dynamic | :white_check_mark: Done
 [data](https://github.com/coincheckup/crypto-supplies/blob/master/coins/data.js) | [DATA](https://coincheckup.com/coins/data) | DTA | Dynamic | :white_check_mark: Done
-[nav-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nav-coin.js) | [NavCoin](https://coincheckup.com/coins/nav-coin) | NAV | Not Implemented | :x: Not done
+[nav-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nav-coin.js) | [NavCoin](https://coincheckup.com/coins/nav-coin) | NAV | Dynamic | :white_check_mark: Done
 [litecoin-cash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/litecoin-cash.js) | [Litecoin Cash](https://coincheckup.com/coins/litecoin-cash) | LCC | Not Implemented | :x: Not done
 [unobtanium](https://github.com/coincheckup/crypto-supplies/blob/master/coins/unobtanium.js) | [Unobtanium](https://coincheckup.com/coins/unobtanium) | UNO | Dynamic | :white_check_mark: Done
 [origintrail](https://github.com/coincheckup/crypto-supplies/blob/master/coins/origintrail.js) | [OriginTrail](https://coincheckup.com/coins/origintrail) | TRAC | Dynamic | :white_check_mark: Done
