@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 824 -- *To do*: 985
+*Total*: 1809 -- *Implemented*: 825 -- *To do*: 984
 
 
 ID | Name | Symbol | Implementation | Status
@@ -338,7 +338,7 @@ ID | Name | Symbol | Implementation | Status
 [einsteinium](https://github.com/coincheckup/crypto-supplies/blob/master/coins/einsteinium.js) | [Einsteinium](https://coincheckup.com/coins/einsteinium) | EMC2 | Dynamic | :white_check_mark: Done
 [prizm](https://github.com/coincheckup/crypto-supplies/blob/master/coins/prizm.js) | [PRIZM](https://coincheckup.com/coins/prizm) | PZM | Not Implemented | :x: Not done
 [adx-net](https://github.com/coincheckup/crypto-supplies/blob/master/coins/adx-net.js) | [AdEx](https://coincheckup.com/coins/adx-net) | ADX | Dynamic | :white_check_mark: Done
-[salus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/salus.js) | [SaluS](https://coincheckup.com/coins/salus) | SLS | Not Implemented | :x: Not done
+[salus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/salus.js) | [SaluS](https://coincheckup.com/coins/salus) | SLS | Dynamic | :white_check_mark: Done
 [babb](https://github.com/coincheckup/crypto-supplies/blob/master/coins/babb.js) | [BABB](https://coincheckup.com/coins/babb) | BAX | Dynamic | :white_check_mark: Done
 [presearch](https://github.com/coincheckup/crypto-supplies/blob/master/coins/presearch.js) | [Presearch](https://coincheckup.com/coins/presearch) | PRE | Dynamic | :white_check_mark: Done
 [metaverse](https://github.com/coincheckup/crypto-supplies/blob/master/coins/metaverse.js) | [Metaverse ETP](https://coincheckup.com/coins/metaverse) | ETP | Not Implemented | :x: Not done
