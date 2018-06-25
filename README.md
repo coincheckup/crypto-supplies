@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 813 -- *To do*: 996
+*Total*: 1809 -- *Implemented*: 814 -- *To do*: 995
 
 
 ID | Name | Symbol | Implementation | Status
@@ -326,7 +326,7 @@ ID | Name | Symbol | Implementation | Status
 [origintrail](https://github.com/coincheckup/crypto-supplies/blob/master/coins/origintrail.js) | [OriginTrail](https://coincheckup.com/coins/origintrail) | TRAC | Dynamic | :white_check_mark: Done
 [eidoo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eidoo.js) | [Eidoo](https://coincheckup.com/coins/eidoo) | EDO | Dynamic | :white_check_mark: Done
 [quantum-resistant-ledger](https://github.com/coincheckup/crypto-supplies/blob/master/coins/quantum-resistant-ledger.js) | [Quantum Resistant Ledger](https://coincheckup.com/coins/quantum-resistant-ledger) | QRL | Dynamic | :white_check_mark: Done
-[cryptaur](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptaur.js) | [Cryptaur](https://coincheckup.com/coins/cryptaur) | CPT | Not Implemented | :x: Not done
+[cryptaur](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptaur.js) | [Cryptaur](https://coincheckup.com/coins/cryptaur) | CPT | Dynamic | :white_check_mark: Done
 [eximchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eximchain.js) | [Eximchain](https://coincheckup.com/coins/eximchain) | EXC | Dynamic | :white_check_mark: Done
 [bitbay](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitbay.js) | [BitBay](https://coincheckup.com/coins/bitbay) | BAY | Dynamic | :white_check_mark: Done
 [red-pulse](https://github.com/coincheckup/crypto-supplies/blob/master/coins/red-pulse.js) | [Red Pulse](https://coincheckup.com/coins/red-pulse) | RPX | Not Implemented | :x: Not done
