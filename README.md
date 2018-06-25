@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 817 -- *To do*: 992
+*Total*: 1809 -- *Implemented*: 818 -- *To do*: 991
 
 
 ID | Name | Symbol | Implementation | Status
@@ -380,7 +380,7 @@ ID | Name | Symbol | Implementation | Status
 [tierion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tierion.js) | [Tierion](https://coincheckup.com/coins/tierion) | TNT | Dynamic | :white_check_mark: Done
 [zeepin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zeepin.js) | [Zeepin](https://coincheckup.com/coins/zeepin) | ZPT | Not Implemented | :x: Not done
 [ins-ecosystem](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ins-ecosystem.js) | [INS Ecosystem](https://coincheckup.com/coins/ins-ecosystem) | INS | Dynamic | :white_check_mark: Done
-[aeon](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aeon.js) | [Aeon](https://coincheckup.com/coins/aeon) | AEON | Not Implemented | :x: Not done
+[aeon](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aeon.js) | [Aeon](https://coincheckup.com/coins/aeon) | AEON | Dynamic | :white_check_mark: Done
 [ion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ion.js) | [ION](https://coincheckup.com/coins/ion) | ION | Dynamic | :white_check_mark: Done
 [decision-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decision-token.js) | [Decision Token](https://coincheckup.com/coins/decision-token) | HST | Dynamic | :white_check_mark: Done
 [mothership](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mothership.js) | [Mothership](https://coincheckup.com/coins/mothership) | MSP | Dynamic | :white_check_mark: Done
