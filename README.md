@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 821 -- *To do*: 988
+*Total*: 1809 -- *Implemented*: 822 -- *To do*: 987
 
 
 ID | Name | Symbol | Implementation | Status
@@ -277,7 +277,7 @@ ID | Name | Symbol | Implementation | Status
 [odem](https://github.com/coincheckup/crypto-supplies/blob/master/coins/odem.js) | [ODEM](https://coincheckup.com/coins/odem) | ODE | Dynamic | :white_check_mark: Done
 [particl](https://github.com/coincheckup/crypto-supplies/blob/master/coins/particl.js) | [Particl](https://coincheckup.com/coins/particl) | PART | Dynamic | :white_check_mark: Done
 [genaro-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/genaro-network.js) | [Genaro Network](https://coincheckup.com/coins/genaro-network) | GNX | Dynamic | :white_check_mark: Done
-[tokenpay](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tokenpay.js) | [TokenPay](https://coincheckup.com/coins/tokenpay) | TPAY | Not Implemented | :x: Not done
+[tokenpay](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tokenpay.js) | [TokenPay](https://coincheckup.com/coins/tokenpay) | TPAY | Dynamic | :white_check_mark: Done
 [nkn](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nkn.js) | [NKN](https://coincheckup.com/coins/nkn) | NKN | Not Implemented | :x: Not done
 [odyssey](https://github.com/coincheckup/crypto-supplies/blob/master/coins/odyssey.js) | [Odyssey](https://coincheckup.com/coins/odyssey) | OCN | Dynamic | :white_check_mark: Done
 [quarkchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/quarkchain.js) | [QuarkChain](https://coincheckup.com/coins/quarkchain) | QKC | Dynamic | :white_check_mark: Done
