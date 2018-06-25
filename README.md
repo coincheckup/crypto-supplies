@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 822 -- *To do*: 987
+*Total*: 1809 -- *Implemented*: 823 -- *To do*: 986
 
 
 ID | Name | Symbol | Implementation | Status
@@ -299,7 +299,7 @@ ID | Name | Symbol | Implementation | Status
 [telcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/telcoin.js) | [Telcoin](https://coincheckup.com/coins/telcoin) | TEL | Dynamic | :white_check_mark: Done
 [cube](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cube.js) | [Cube](https://coincheckup.com/coins/cube) | AUTO | Dynamic | :white_check_mark: Done
 [bitcny](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcny.js) | [bitCNY](https://coincheckup.com/coins/bitcny) | BITCNY | Not Implemented | :x: Not done
-[electra](https://github.com/coincheckup/crypto-supplies/blob/master/coins/electra.js) | [Electra](https://coincheckup.com/coins/electra) | ECA | Not Implemented | :x: Not done
+[electra](https://github.com/coincheckup/crypto-supplies/blob/master/coins/electra.js) | [Electra](https://coincheckup.com/coins/electra) | ECA | Dynamic | :white_check_mark: Done
 [genesis-vision](https://github.com/coincheckup/crypto-supplies/blob/master/coins/genesis-vision.js) | [Genesis Vision](https://coincheckup.com/coins/genesis-vision) | GVT | Dynamic | :white_check_mark: Done
 [poet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/poet.js) | [Po.et](https://coincheckup.com/coins/poet) | POE | Dynamic | :white_check_mark: Done
 [ink](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ink.js) | [Ink](https://coincheckup.com/coins/ink) | INK | Not Implemented | :x: Not done
