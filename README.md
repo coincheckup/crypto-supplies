@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 816 -- *To do*: 993
+*Total*: 1809 -- *Implemented*: 817 -- *To do*: 992
 
 
 ID | Name | Symbol | Implementation | Status
@@ -363,7 +363,7 @@ ID | Name | Symbol | Implementation | Status
 [cpchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cpchain.js) | [CPChain](https://coincheckup.com/coins/cpchain) | CPC | Dynamic | :white_check_mark: Done
 [constellation](https://github.com/coincheckup/crypto-supplies/blob/master/coins/constellation.js) | [Constellation](https://coincheckup.com/coins/constellation) | DAG | Not Implemented | :x: Not done
 [feathercoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/feathercoin.js) | [Feathercoin](https://coincheckup.com/coins/feathercoin) | FTC | Dynamic | :white_check_mark: Done
-[whitecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/whitecoin.js) | [WhiteCoin](https://coincheckup.com/coins/whitecoin) | XWC | Not Implemented | :x: Not done
+[whitecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/whitecoin.js) | [WhiteCoin](https://coincheckup.com/coins/whitecoin) | XWC | Dynamic | :white_check_mark: Done
 [utrust](https://github.com/coincheckup/crypto-supplies/blob/master/coins/utrust.js) | [UTRUST](https://coincheckup.com/coins/utrust) | UTK | Dynamic | :white_check_mark: Done
 [hydro-protocol](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hydro-protocol.js) | [Hydro Protocol](https://coincheckup.com/coins/hydro-protocol) | HOT | Dynamic | :white_check_mark: Done
 [atn](https://github.com/coincheckup/crypto-supplies/blob/master/coins/atn.js) | [ATN](https://coincheckup.com/coins/atn) | ATN | Dynamic | :white_check_mark: Done
