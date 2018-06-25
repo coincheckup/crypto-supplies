@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 815 -- *To do*: 994
+*Total*: 1809 -- *Implemented*: 816 -- *To do*: 993
 
 
 ID | Name | Symbol | Implementation | Status
@@ -346,7 +346,7 @@ ID | Name | Symbol | Implementation | Status
 [paypie](https://github.com/coincheckup/crypto-supplies/blob/master/coins/paypie.js) | [PayPie](https://coincheckup.com/coins/paypie) | PPP | Dynamic | :white_check_mark: Done
 [datx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/datx.js) | [DATx](https://coincheckup.com/coins/datx) | DATX | Dynamic | :white_check_mark: Done
 [cloakcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cloakcoin.js) | [CloakCoin](https://coincheckup.com/coins/cloakcoin) | CLOAK | Dynamic | :white_check_mark: Done
-[singulardtv](https://github.com/coincheckup/crypto-supplies/blob/master/coins/singulardtv.js) | [SingularDTV](https://coincheckup.com/coins/singulardtv) | SNGLS | Not Implemented | :x: Not done
+[singulardtv](https://github.com/coincheckup/crypto-supplies/blob/master/coins/singulardtv.js) | [SingularDTV](https://coincheckup.com/coins/singulardtv) | SNGLS | Dynamic | :white_check_mark: Done
 [viacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/viacoin.js) | [Viacoin](https://coincheckup.com/coins/viacoin) | VIA | Dynamic | :white_check_mark: Done
 [apis](https://github.com/coincheckup/crypto-supplies/blob/master/coins/apis.js) | [APIS](https://coincheckup.com/coins/apis) | APIS | Dynamic | :white_check_mark: Done
 [counterparty](https://github.com/coincheckup/crypto-supplies/blob/master/coins/counterparty.js) | [Counterparty](https://coincheckup.com/coins/counterparty) | XCP | Not Implemented | :x: Not done
