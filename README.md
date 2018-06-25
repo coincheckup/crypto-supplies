@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 825 -- *To do*: 984
+*Total*: 1809 -- *Implemented*: 826 -- *To do*: 983
 
 
 ID | Name | Symbol | Implementation | Status
@@ -352,7 +352,7 @@ ID | Name | Symbol | Implementation | Status
 [counterparty](https://github.com/coincheckup/crypto-supplies/blob/master/coins/counterparty.js) | [Counterparty](https://coincheckup.com/coins/counterparty) | XCP | Not Implemented | :x: Not done
 [paccoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/paccoin.js) | [PACcoin](https://coincheckup.com/coins/paccoin) | $PAC | Not Implemented | :x: Not done
 [universa](https://github.com/coincheckup/crypto-supplies/blob/master/coins/universa.js) | [Universa](https://coincheckup.com/coins/universa) | UTNP | Dynamic | :white_check_mark: Done
-[gincoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gincoin.js) | [GINcoin](https://coincheckup.com/coins/gincoin) | GIN | Not Implemented | :x: Not done
+[gincoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gincoin.js) | [GINcoin](https://coincheckup.com/coins/gincoin) | GIN | Dynamic | :white_check_mark: Done
 [tokenclub](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tokenclub.js) | [TokenClub](https://coincheckup.com/coins/tokenclub) | TCT | Dynamic | :white_check_mark: Done
 [tomochain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tomochain.js) | [TomoChain](https://coincheckup.com/coins/tomochain) | TOMO | Dynamic | :white_check_mark: Done
 [kickico](https://github.com/coincheckup/crypto-supplies/blob/master/coins/kickico.js) | [KickCoin](https://coincheckup.com/coins/kickico) | KICK | Dynamic | :white_check_mark: Done
