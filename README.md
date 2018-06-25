@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 812 -- *To do*: 997
+*Total*: 1809 -- *Implemented*: 813 -- *To do*: 996
 
 
 ID | Name | Symbol | Implementation | Status
@@ -101,7 +101,7 @@ ID | Name | Symbol | Implementation | Status
 [bitcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin.js) | [Bitcoin](https://coincheckup.com/coins/bitcoin) | BTC | Dynamic | :white_check_mark: Done
 [ethereum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ethereum.js) | [Ethereum](https://coincheckup.com/coins/ethereum) | ETH | Dynamic | :white_check_mark: Done
 [ripple](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ripple.js) | [Ripple](https://coincheckup.com/coins/ripple) | XRP | Dynamic | :white_check_mark: Done
-[bitcoin-cash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-cash.js) | [Bitcoin Cash](https://coincheckup.com/coins/bitcoin-cash) | BCH | Not Implemented | :x: Not done
+[bitcoin-cash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-cash.js) | [Bitcoin Cash](https://coincheckup.com/coins/bitcoin-cash) | BCH | Dynamic | :white_check_mark: Done
 [eos](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eos.js) | [EOS](https://coincheckup.com/coins/eos) | EOS | Dynamic | :white_check_mark: Done
 [litecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/litecoin.js) | [Litecoin](https://coincheckup.com/coins/litecoin) | LTC | Dynamic | :white_check_mark: Done
 [stellar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stellar.js) | [Stellar](https://coincheckup.com/coins/stellar) | XLM | Dynamic | :white_check_mark: Done
