@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 818 -- *To do*: 991
+*Total*: 1809 -- *Implemented*: 819 -- *To do*: 990
 
 
 ID | Name | Symbol | Implementation | Status
@@ -391,7 +391,7 @@ ID | Name | Symbol | Implementation | Status
 [oneroot-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/oneroot-network.js) | [OneRoot Network](https://coincheckup.com/coins/oneroot-network) | RNT | Dynamic | :white_check_mark: Done
 [loyalcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/loyalcoin.js) | [LoyalCoin](https://coincheckup.com/coins/loyalcoin) | LYL | Not Implemented | :x: Not done
 [phore](https://github.com/coincheckup/crypto-supplies/blob/master/coins/phore.js) | [Phore](https://coincheckup.com/coins/phore) | PHR | Dynamic | :white_check_mark: Done
-[decent](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decent.js) | [DECENT](https://coincheckup.com/coins/decent) | DCT | Not Implemented | :x: Not done
+[decent](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decent.js) | [DECENT](https://coincheckup.com/coins/decent) | DCT | Dynamic | :white_check_mark: Done
 [modum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/modum.js) | [Modum](https://coincheckup.com/coins/modum) | MOD | Dynamic | :white_check_mark: Done
 [yoyow](https://github.com/coincheckup/crypto-supplies/blob/master/coins/yoyow.js) | [YOYOW](https://coincheckup.com/coins/yoyow) | YOYOW | Dynamic | :white_check_mark: Done
 [datum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/datum.js) | [Datum](https://coincheckup.com/coins/datum) | DAT | Dynamic | :white_check_mark: Done
