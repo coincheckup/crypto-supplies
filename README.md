@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 827 -- *To do*: 982
+*Total*: 1809 -- *Implemented*: 828 -- *To do*: 981
 
 
 ID | Name | Symbol | Implementation | Status
@@ -407,7 +407,7 @@ ID | Name | Symbol | Implementation | Status
 [etherparty](https://github.com/coincheckup/crypto-supplies/blob/master/coins/etherparty.js) | [Etherparty](https://coincheckup.com/coins/etherparty) | FUEL | Dynamic | :white_check_mark: Done
 [linkeye](https://github.com/coincheckup/crypto-supplies/blob/master/coins/linkeye.js) | [LinkEye](https://coincheckup.com/coins/linkeye) | LET | Not Implemented | :x: Not done
 [xinfin-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xinfin-network.js) | [XinFin Network](https://coincheckup.com/coins/xinfin-network) | XDCE | Dynamic | :white_check_mark: Done
-[lunyr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lunyr.js) | [Lunyr](https://coincheckup.com/coins/lunyr) | LUN | Not Implemented | :x: Not done
+[lunyr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lunyr.js) | [Lunyr](https://coincheckup.com/coins/lunyr) | LUN | Dynamic | :white_check_mark: Done
 [appcoins](https://github.com/coincheckup/crypto-supplies/blob/master/coins/appcoins.js) | [AppCoins](https://coincheckup.com/coins/appcoins) | APPC | Dynamic | :white_check_mark: Done
 [selfsell](https://github.com/coincheckup/crypto-supplies/blob/master/coins/selfsell.js) | [SelfSell](https://coincheckup.com/coins/selfsell) | SSC | Not Implemented | :x: Not done
 [u-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/u-network.js) | [U Network](https://coincheckup.com/coins/u-network) | UUU | Dynamic | :white_check_mark: Done
