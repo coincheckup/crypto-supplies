@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 826 -- *To do*: 983
+*Total*: 1809 -- *Implemented*: 827 -- *To do*: 982
 
 
 ID | Name | Symbol | Implementation | Status
@@ -397,7 +397,7 @@ ID | Name | Symbol | Implementation | Status
 [datum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/datum.js) | [Datum](https://coincheckup.com/coins/datum) | DAT | Dynamic | :white_check_mark: Done
 [wepower](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wepower.js) | [WePower](https://coincheckup.com/coins/wepower) | WPR | Dynamic | :white_check_mark: Done
 [sentinel](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sentinel.js) | [Sentinel](https://coincheckup.com/coins/sentinel) | SENT | Dynamic | :white_check_mark: Done
-[experience-points](https://github.com/coincheckup/crypto-supplies/blob/master/coins/experience-points.js) | [Experience Points](https://coincheckup.com/coins/experience-points) | XP | Not Implemented | :x: Not done
+[experience-points](https://github.com/coincheckup/crypto-supplies/blob/master/coins/experience-points.js) | [Experience Points](https://coincheckup.com/coins/experience-points) | XP | Dynamic | :white_check_mark: Done
 [steem-dollars](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steem-dollars.js) | [Steem Dollars](https://coincheckup.com/coins/steem-dollars) | SBD | Not Implemented | :x: Not done
 [banca](https://github.com/coincheckup/crypto-supplies/blob/master/coins/banca.js) | [Banca](https://coincheckup.com/coins/banca) | BANCA | Dynamic | :white_check_mark: Done
 [taas](https://github.com/coincheckup/crypto-supplies/blob/master/coins/taas.js) | [TaaS](https://coincheckup.com/coins/taas) | TAAS | Not Implemented | :x: Not done
