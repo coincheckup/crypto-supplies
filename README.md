@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 832 -- *To do*: 977
+*Total*: 1809 -- *Implemented*: 833 -- *To do*: 976
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1868,7 +1868,7 @@ ID | Name | Symbol | Implementation | Status
 [todaycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/todaycoin.js) | [TodayCoin](https://coincheckup.com/coins/todaycoin) | TODAY | Not Implemented | :x: Not done
 [topaz](https://github.com/coincheckup/crypto-supplies/blob/master/coins/topaz.js) | N/A | N/A | N/A | :x: Not done
 [torcoin-tor](https://github.com/coincheckup/crypto-supplies/blob/master/coins/torcoin-tor.js) | N/A | N/A | N/A | :x: Not done
-[trackr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trackr.js) | [CryptoInsight](https://coincheckup.com/coins/trackr) | TKR | Not Implemented | :x: Not done
+[trackr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trackr.js) | [CryptoInsight](https://coincheckup.com/coins/trackr) | TKR | Dynamic | :white_check_mark: Done
 [triaconta](https://github.com/coincheckup/crypto-supplies/blob/master/coins/triaconta.js) | [Triaconta](https://coincheckup.com/coins/triaconta) | TRIA | Dynamic | :white_check_mark: Done
 [trickycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trickycoin.js) | N/A | N/A | N/A | :x: Not done
 [trident](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trident.js) | [Trident Group](https://coincheckup.com/coins/trident) | TRDT | Dynamic | :white_check_mark: Done
