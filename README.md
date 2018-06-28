@@ -255,7 +255,7 @@ ID | Name | Symbol | Implementation | Status
 [dai](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dai.js) | [Dai](https://coincheckup.com/coins/dai) | DAI | Dynamic | :white_check_mark: Done
 [gamecredits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gamecredits.js) | [GameCredits](https://coincheckup.com/coins/gamecredits) | GAME | Dynamic | :white_check_mark: Done
 [dynamic-trading-rights](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dynamic-trading-rights.js) | [Dynamic Trading Rights](https://coincheckup.com/coins/dynamic-trading-rights) | DTR | Dynamic | :white_check_mark: Done
-[digitalnote](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digitalnote.js) | [DigitalNote](https://coincheckup.com/coins/digitalnote) | XDN | Dynamic | :white_check_mark: Done
+[digitalnote](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digitalnote.js) | [DigitalNote](https://coincheckup.com/coins/digitalnote) | XDN | Not Implemented | :x: Not done
 [dent](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dent.js) | [Dent](https://coincheckup.com/coins/dent) | DENT | Dynamic | :white_check_mark: Done
 [true-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/true-chain.js) | [True Chain](https://coincheckup.com/coins/true-chain) | TRUE | Dynamic | :white_check_mark: Done
 [credits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/credits.js) | [Credits](https://coincheckup.com/coins/credits) | CS | Dynamic | :white_check_mark: Done
@@ -1895,7 +1895,7 @@ ID | Name | Symbol | Implementation | Status
 [waltonchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waltonchain.js) | [Waltonchain](https://coincheckup.com/coins/waltonchain) | WTC | Dynamic | :white_check_mark: Done
 [warp](https://github.com/coincheckup/crypto-supplies/blob/master/coins/warp.js) | N/A | N/A | N/A | :x: Not done
 [wayguide](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wayguide.js) | N/A | N/A | N/A | :x: Not done
-[win-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/win-coin.js) | [WINCOIN](https://coincheckup.com/coins/win-coin) | WC | Not Implemented | :x: Not done
+[win-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/win-coin.js) | [WINCOIN](https://coincheckup.com/coins/win-coin) | WC | Dynamic | :white_check_mark: Done
 [women](https://github.com/coincheckup/crypto-supplies/blob/master/coins/women.js) | [WomenCoin](https://coincheckup.com/coins/women) | WOMEN | Not Implemented | :x: Not done
 [wowcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wowcoin.js) | N/A | N/A | N/A | :x: Not done
 [x2](https://github.com/coincheckup/crypto-supplies/blob/master/coins/x2.js) | [X2](https://coincheckup.com/coins/x2) | X2 | Not Implemented | :x: Not done
