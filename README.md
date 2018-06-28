@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 831 -- *To do*: 978
+*Total*: 1809 -- *Implemented*: 832 -- *To do*: 977
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1871,7 +1871,7 @@ ID | Name | Symbol | Implementation | Status
 [trackr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trackr.js) | [CryptoInsight](https://coincheckup.com/coins/trackr) | TKR | Not Implemented | :x: Not done
 [triaconta](https://github.com/coincheckup/crypto-supplies/blob/master/coins/triaconta.js) | [Triaconta](https://coincheckup.com/coins/triaconta) | TRIA | Dynamic | :white_check_mark: Done
 [trickycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trickycoin.js) | N/A | N/A | N/A | :x: Not done
-[trident](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trident.js) | [Trident Group](https://coincheckup.com/coins/trident) | TRDT | Not Implemented | :x: Not done
+[trident](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trident.js) | [Trident Group](https://coincheckup.com/coins/trident) | TRDT | Dynamic | :white_check_mark: Done
 [trueusd](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trueusd.js) | [TrueUSD](https://coincheckup.com/coins/trueusd) | TUSD | Not Implemented | :x: Not done
 [tychocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tychocoin.js) | N/A | N/A | N/A | :x: Not done
 [ucash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ucash.js) | [U.CASH](https://coincheckup.com/coins/ucash) | UCASH | Not Implemented | :x: Not done
