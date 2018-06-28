@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 830 -- *To do*: 979
+*Total*: 1809 -- *Implemented*: 831 -- *To do*: 978
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1888,7 +1888,7 @@ ID | Name | Symbol | Implementation | Status
 [vip-tokens](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vip-tokens.js) | N/A | N/A | N/A | :x: Not done
 [virtacoinplus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/virtacoinplus.js) | N/A | N/A | N/A | :white_check_mark: Done
 [virtualcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/virtualcoin.js) | N/A | N/A | N/A | :x: Not done
-[voisecom](https://github.com/coincheckup/crypto-supplies/blob/master/coins/voisecom.js) | [Voise](https://coincheckup.com/coins/voisecom) | VOISE | Not Implemented | :x: Not done
+[voisecom](https://github.com/coincheckup/crypto-supplies/blob/master/coins/voisecom.js) | [Voise](https://coincheckup.com/coins/voisecom) | VOISE | Dynamic | :white_check_mark: Done
 [voyacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/voyacoin.js) | N/A | N/A | N/A | :x: Not done
 [vpncoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vpncoin.js) | N/A | N/A | N/A | :white_check_mark: Done
 [vsync-vsx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vsync-vsx.js) | [Vsync](https://coincheckup.com/coins/vsync-vsx) | VSX | Not Implemented | :x: Not done
