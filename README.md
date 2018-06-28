@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 828 -- *To do*: 981
+*Total*: 1809 -- *Implemented*: 830 -- *To do*: 979
 
 
 ID | Name | Symbol | Implementation | Status
@@ -255,7 +255,7 @@ ID | Name | Symbol | Implementation | Status
 [dai](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dai.js) | [Dai](https://coincheckup.com/coins/dai) | DAI | Dynamic | :white_check_mark: Done
 [gamecredits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gamecredits.js) | [GameCredits](https://coincheckup.com/coins/gamecredits) | GAME | Dynamic | :white_check_mark: Done
 [dynamic-trading-rights](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dynamic-trading-rights.js) | [Dynamic Trading Rights](https://coincheckup.com/coins/dynamic-trading-rights) | DTR | Dynamic | :white_check_mark: Done
-[digitalnote](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digitalnote.js) | [DigitalNote](https://coincheckup.com/coins/digitalnote) | XDN | Not Implemented | :x: Not done
+[digitalnote](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digitalnote.js) | [DigitalNote](https://coincheckup.com/coins/digitalnote) | XDN | Dynamic | :white_check_mark: Done
 [dent](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dent.js) | [Dent](https://coincheckup.com/coins/dent) | DENT | Dynamic | :white_check_mark: Done
 [true-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/true-chain.js) | [True Chain](https://coincheckup.com/coins/true-chain) | TRUE | Dynamic | :white_check_mark: Done
 [credits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/credits.js) | [Credits](https://coincheckup.com/coins/credits) | CS | Dynamic | :white_check_mark: Done
@@ -1902,7 +1902,7 @@ ID | Name | Symbol | Implementation | Status
 [xaucoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xaucoin.js) | N/A | N/A | N/A | :x: Not done
 [xios](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xios.js) | [Xios](https://coincheckup.com/coins/xios) | XIOS | Not Implemented | :x: Not done
 [xonecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xonecoin.js) | N/A | N/A | N/A | :x: Not done
-[xpa](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xpa.js) | [XPA](https://coincheckup.com/coins/xpa) | XPA | Not Implemented | :x: Not done
+[xpa](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xpa.js) | [XPA](https://coincheckup.com/coins/xpa) | XPA | Dynamic | :white_check_mark: Done
 [yacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/yacoin.js) | N/A | N/A | N/A | :x: Not done
 [yashcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/yashcoin.js) | N/A | N/A | N/A | :x: Not done
 [zcash-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zcash-gold.js) | [Zlancer](https://coincheckup.com/coins/zcash-gold) | ZCG | Dynamic | :white_check_mark: Done
