@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 843 -- *To do*: 966
+*Total*: 1809 -- *Implemented*: 844 -- *To do*: 965
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1774,7 +1774,7 @@ ID | Name | Symbol | Implementation | Status
 [opescoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/opescoin.js) | [Opescoin](https://coincheckup.com/coins/opescoin) | OPES | Not Implemented | :x: Not done
 [orlycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/orlycoin.js) | N/A | N/A | N/A | :x: Not done
 [osmiumcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/osmiumcoin.js) | N/A | N/A | N/A | :x: Not done
-[ost](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ost.js) | [OST](https://coincheckup.com/coins/ost) | OST | Not Implemented | :x: Not done
+[ost](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ost.js) | [OST](https://coincheckup.com/coins/ost) | OST | Dynamic | :white_check_mark: Done
 [ox-fina](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ox-fina.js) | [OX Fina](https://coincheckup.com/coins/ox-fina) | OX | Dynamic | :white_check_mark: Done
 [p7coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/p7coin.js) | N/A | N/A | N/A | :x: Not done
 [pabyosi-coin-special](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pabyosi-coin-special.js) | [Pabyosi Coin (Special)](https://coincheckup.com/coins/pabyosi-coin-special) | PCS | Not Implemented | :x: Not done
