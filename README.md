@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 840 -- *To do*: 969
+*Total*: 1809 -- *Implemented*: 841 -- *To do*: 968
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1813,7 +1813,7 @@ ID | Name | Symbol | Implementation | Status
 [royalcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/royalcoin.js) | [RoyalCoin](https://coincheckup.com/coins/royalcoin) | ROYAL | Not Implemented | :x: Not done
 [rsgpcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rsgpcoin.js) | [RSGPcoin](https://coincheckup.com/coins/rsgpcoin) | RSGP | Not Implemented | :x: Not done
 [rublebit](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rublebit.js) | N/A | N/A | N/A | :x: Not done
-[rupaya](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rupaya.js) | [Rupaya](https://coincheckup.com/coins/rupaya) | RUPX | Not Implemented | :x: Not done
+[rupaya](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rupaya.js) | [Rupaya](https://coincheckup.com/coins/rupaya) | RUPX | Dynamic | :white_check_mark: Done
 [rustbits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rustbits.js) | N/A | N/A | N/A | :x: Not done
 [sacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sacoin.js) | N/A | N/A | N/A | :x: Not done
 [safecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/safecoin.js) | N/A | N/A | N/A | :x: Not done
