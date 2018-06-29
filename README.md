@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 841 -- *To do*: 968
+*Total*: 1809 -- *Implemented*: 842 -- *To do*: 967
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1804,7 +1804,7 @@ ID | Name | Symbol | Implementation | Status
 [reecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/reecoin.js) | [ReeCoin](https://coincheckup.com/coins/reecoin) | REE | Not Implemented | :x: Not done
 [regacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/regacoin.js) | [Regacoin](https://coincheckup.com/coins/regacoin) | REGA | Not Implemented | :x: Not done
 [remicoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/remicoin.js) | N/A | N/A | N/A | :x: Not done
-[restart-energy-mwat](https://github.com/coincheckup/crypto-supplies/blob/master/coins/restart-energy-mwat.js) | [Restart Energy MWAT](https://coincheckup.com/coins/restart-energy-mwat) | MWAT | Not Implemented | :x: Not done
+[restart-energy-mwat](https://github.com/coincheckup/crypto-supplies/blob/master/coins/restart-energy-mwat.js) | [Restart Energy MWAT](https://coincheckup.com/coins/restart-energy-mwat) | MWAT | Dynamic | :white_check_mark: Done
 [rhfcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rhfcoin.js) | N/A | N/A | N/A | :x: Not done
 [ride-my-car](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ride-my-car.js) | N/A | N/A | N/A | :x: Not done
 [ripto-bux](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ripto-bux.js) | N/A | N/A | N/A | :x: Not done
