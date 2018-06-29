@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 842 -- *To do*: 967
+*Total*: 1809 -- *Implemented*: 843 -- *To do*: 966
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1800,7 +1800,7 @@ ID | Name | Symbol | Implementation | Status
 [qora](https://github.com/coincheckup/crypto-supplies/blob/master/coins/qora.js) | [Qora](https://coincheckup.com/coins/qora) | QORA | Not Implemented | :x: Not done
 [rawcoin2](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rawcoin2.js) | [Rawcoin](https://coincheckup.com/coins/rawcoin2) | XRC | Not Implemented | :x: Not done
 [real-estate-tokens](https://github.com/coincheckup/crypto-supplies/blob/master/coins/real-estate-tokens.js) | N/A | N/A | N/A | :x: Not done
-[rebl](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rebl.js) | [REBL](https://coincheckup.com/coins/rebl) | REBL | Not Implemented | :x: Not done
+[rebl](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rebl.js) | [REBL](https://coincheckup.com/coins/rebl) | REBL | Dynamic | :white_check_mark: Done
 [reecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/reecoin.js) | [ReeCoin](https://coincheckup.com/coins/reecoin) | REE | Not Implemented | :x: Not done
 [regacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/regacoin.js) | [Regacoin](https://coincheckup.com/coins/regacoin) | REGA | Not Implemented | :x: Not done
 [remicoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/remicoin.js) | N/A | N/A | N/A | :x: Not done
