@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 835 -- *To do*: 974
+*Total*: 1809 -- *Implemented*: 836 -- *To do*: 973
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1848,7 +1848,7 @@ ID | Name | Symbol | Implementation | Status
 [steps](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steps.js) | [Steps](https://coincheckup.com/coins/steps) | STEPS | Not Implemented | :x: Not done
 [stex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stex.js) | [STEX](https://coincheckup.com/coins/stex) | STEX | Not Implemented | :x: Not done
 [strikebitclub](https://github.com/coincheckup/crypto-supplies/blob/master/coins/strikebitclub.js) | [StrikeBitClub](https://coincheckup.com/coins/strikebitclub) | SBC | Not Implemented | :x: Not done
-[student-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/student-coin.js) | [bitJob](https://coincheckup.com/coins/student-coin) | STU | Not Implemented | :x: Not done
+[student-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/student-coin.js) | [bitJob](https://coincheckup.com/coins/student-coin) | STU | Dynamic | :white_check_mark: Done
 [swagbucks](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swagbucks.js) | N/A | N/A | N/A | :white_check_mark: Done
 [swaptoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swaptoken.js) | N/A | N/A | N/A | :x: Not done
 [swarm-fund](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swarm-fund.js) | [Swarm](https://coincheckup.com/coins/swarm-fund) | SWM | Dynamic | :white_check_mark: Done
