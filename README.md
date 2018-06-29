@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 834 -- *To do*: 975
+*Total*: 1809 -- *Implemented*: 835 -- *To do*: 974
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1851,7 +1851,7 @@ ID | Name | Symbol | Implementation | Status
 [student-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/student-coin.js) | [bitJob](https://coincheckup.com/coins/student-coin) | STU | Not Implemented | :x: Not done
 [swagbucks](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swagbucks.js) | N/A | N/A | N/A | :white_check_mark: Done
 [swaptoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swaptoken.js) | N/A | N/A | N/A | :x: Not done
-[swarm-fund](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swarm-fund.js) | [Swarm](https://coincheckup.com/coins/swarm-fund) | SWM | Not Implemented | :x: Not done
+[swarm-fund](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swarm-fund.js) | [Swarm](https://coincheckup.com/coins/swarm-fund) | SWM | Dynamic | :white_check_mark: Done
 [sydpak](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sydpak.js) | N/A | N/A | N/A | :x: Not done
 [tagrcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tagrcoin.js) | [TAGRcoin](https://coincheckup.com/coins/tagrcoin) | TAGR | Not Implemented | :x: Not done
 [tattoocoin-limited](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tattoocoin-limited.js) | [Tattoocoin (Limited Edition)](https://coincheckup.com/coins/tattoocoin-limited) | TLE | Not Implemented | :x: Not done
