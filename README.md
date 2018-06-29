@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 837 -- *To do*: 972
+*Total*: 1809 -- *Implemented*: 838 -- *To do*: 971
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1838,7 +1838,7 @@ ID | Name | Symbol | Implementation | Status
 [spectre-utility](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spectre-utility.js) | [Spectre.ai Utility Token](https://coincheckup.com/coins/spectre-utility) | SXUT | Not Implemented | :x: Not done
 [spherepay](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spherepay.js) | N/A | N/A | N/A | :x: Not done
 [sportscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sportscoin.js) | [SportsCoin](https://coincheckup.com/coins/sportscoin) | SPORT | Not Implemented | :x: Not done
-[sportyco](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sportyco.js) | [SportyCo](https://coincheckup.com/coins/sportyco) | SPF | Not Implemented | :x: Not done
+[sportyco](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sportyco.js) | [SportyCo](https://coincheckup.com/coins/sportyco) | SPF | Dynamic | :white_check_mark: Done
 [spots](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spots.js) | N/A | N/A | N/A | :x: Not done
 [spreadcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spreadcoin.js) | [SpreadCoin](https://coincheckup.com/coins/spreadcoin) | SPR | Dynamic | :white_check_mark: Done
 [sproutsextreme](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sproutsextreme.js) | N/A | N/A | N/A | :x: Not done
