@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 833 -- *To do*: 976
+*Total*: 1809 -- *Implemented*: 834 -- *To do*: 975
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1861,7 +1861,7 @@ ID | Name | Symbol | Implementation | Status
 [tezos](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tezos.js) | [Tezos (Pre-Launch)](https://coincheckup.com/coins/tezos) | XTZ | Not Implemented | :x: Not done
 [the-vegan-initiative](https://github.com/coincheckup/crypto-supplies/blob/master/coins/the-vegan-initiative.js) | N/A | N/A | N/A | :x: Not done
 [thecreed](https://github.com/coincheckup/crypto-supplies/blob/master/coins/thecreed.js) | N/A | N/A | N/A | :x: Not done
-[tiesdb](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tiesdb.js) | [Ties.DB](https://coincheckup.com/coins/tiesdb) | TIE | Not Implemented | :x: Not done
+[tiesdb](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tiesdb.js) | [Ties.DB](https://coincheckup.com/coins/tiesdb) | TIE | Dynamic | :white_check_mark: Done
 [timescoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/timescoin.js) | N/A | N/A | N/A | :x: Not done
 [titanium-bar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/titanium-bar.js) | [Titanium BAR](https://coincheckup.com/coins/titanium-bar) | TBAR | Dynamic | :white_check_mark: Done
 [titanium-blockchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/titanium-blockchain.js) | [Titanium Blockchain](https://coincheckup.com/coins/titanium-blockchain) | BAR | Dynamic | :white_check_mark: Done
