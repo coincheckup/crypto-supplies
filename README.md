@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 844 -- *To do*: 965
+*Total*: 1809 -- *Implemented*: 845 -- *To do*: 964
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1761,7 +1761,7 @@ ID | Name | Symbol | Implementation | Status
 [monacocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monacocoin.js) | [Monoeci](https://coincheckup.com/coins/monacocoin) | XMCC | Not Implemented | :x: Not done
 [monero-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monero-gold.js) | N/A | N/A | N/A | :x: Not done
 [moneta2](https://github.com/coincheckup/crypto-supplies/blob/master/coins/moneta2.js) | N/A | N/A | N/A | :x: Not done
-[napoleonx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/napoleonx.js) | [NaPoleonX](https://coincheckup.com/coins/napoleonx) | NPX | Not Implemented | :x: Not done
+[napoleonx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/napoleonx.js) | [NaPoleonX](https://coincheckup.com/coins/napoleonx) | NPX | Dynamic | :white_check_mark: Done
 [natcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/natcoin.js) | N/A | N/A | N/A | :x: Not done
 [netbit](https://github.com/coincheckup/crypto-supplies/blob/master/coins/netbit.js) | N/A | N/A | N/A | :x: Not done
 [newbium](https://github.com/coincheckup/crypto-supplies/blob/master/coins/newbium.js) | [Newbium](https://coincheckup.com/coins/newbium) | NEWB | Dynamic | :white_check_mark: Done
