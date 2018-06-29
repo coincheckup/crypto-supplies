@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 839 -- *To do*: 970
+*Total*: 1809 -- *Implemented*: 840 -- *To do*: 969
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1827,7 +1827,7 @@ ID | Name | Symbol | Implementation | Status
 [shield-xsh](https://github.com/coincheckup/crypto-supplies/blob/master/coins/shield-xsh.js) | [SHIELD](https://coincheckup.com/coins/shield-xsh) | XSH | Not Implemented | :x: Not done
 [shilling](https://github.com/coincheckup/crypto-supplies/blob/master/coins/shilling.js) | [Shilling](https://coincheckup.com/coins/shilling) | SH | Dynamic | :white_check_mark: Done
 [shorty](https://github.com/coincheckup/crypto-supplies/blob/master/coins/shorty.js) | [Shorty](https://coincheckup.com/coins/shorty) | SHORTY | Not Implemented | :x: Not done
-[signal-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/signal-token.js) | [Spectiv](https://coincheckup.com/coins/signal-token) | SIG | Not Implemented | :x: Not done
+[signal-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/signal-token.js) | [Spectiv](https://coincheckup.com/coins/signal-token) | SIG | Dynamic | :white_check_mark: Done
 [slimcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/slimcoin.js) | N/A | N/A | N/A | :x: Not done
 [smartcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/smartcash.js) | [SmartCash](https://coincheckup.com/coins/smartcash) | SMART | Not Implemented | :x: Not done
 [snakeeyes](https://github.com/coincheckup/crypto-supplies/blob/master/coins/snakeeyes.js) | N/A | N/A | N/A | :x: Not done
