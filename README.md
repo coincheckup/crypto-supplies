@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 838 -- *To do*: 971
+*Total*: 1809 -- *Implemented*: 839 -- *To do*: 970
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1832,7 +1832,7 @@ ID | Name | Symbol | Implementation | Status
 [smartcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/smartcash.js) | [SmartCash](https://coincheckup.com/coins/smartcash) | SMART | Not Implemented | :x: Not done
 [snakeeyes](https://github.com/coincheckup/crypto-supplies/blob/master/coins/snakeeyes.js) | N/A | N/A | N/A | :x: Not done
 [socialcoin-socc](https://github.com/coincheckup/crypto-supplies/blob/master/coins/socialcoin-socc.js) | [SocialCoin](https://coincheckup.com/coins/socialcoin-socc) | SOCC | Not Implemented | :x: Not done
-[sociall](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sociall.js) | [Sociall](https://coincheckup.com/coins/sociall) | SCL | Not Implemented | :x: Not done
+[sociall](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sociall.js) | [Sociall](https://coincheckup.com/coins/sociall) | SCL | Dynamic | :white_check_mark: Done
 [sojourn](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sojourn.js) | N/A | N/A | N/A | :x: Not done
 [spectre-dividend](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spectre-dividend.js) | [Spectre.ai Dividend Token](https://coincheckup.com/coins/spectre-dividend) | SXDT | Not Implemented | :x: Not done
 [spectre-utility](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spectre-utility.js) | [Spectre.ai Utility Token](https://coincheckup.com/coins/spectre-utility) | SXUT | Not Implemented | :x: Not done
