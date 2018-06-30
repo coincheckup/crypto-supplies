@@ -146,6 +146,7 @@ ID | Name | Symbol | Implementation | Status
 [golem-network-tokens](https://github.com/coincheckup/crypto-supplies/blob/master/coins/golem-network-tokens.js) | [Golem](https://coincheckup.com/coins/golem-network-tokens) | GNT | Dynamic | :white_check_mark: Done
 [stratis](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stratis.js) | [Stratis](https://coincheckup.com/coins/stratis) | STRAT | Dynamic | :white_check_mark: Done
 [digibyte](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digibyte.js) | [DigiByte](https://coincheckup.com/coins/digibyte) | DGB | Dynamic | :white_check_mark: Done
+[walton](https://github.com/coincheckup/crypto-supplies/blob/master/coins/walton.js) | [Waltonchain](https://coincheckup.com/coins/walton) | WTC | Dynamic | :white_check_mark: Done
 [kucoin-shares](https://github.com/coincheckup/crypto-supplies/blob/master/coins/kucoin-shares.js) | [KuCoin Shares](https://coincheckup.com/coins/kucoin-shares) | KCS | Dynamic | :white_check_mark: Done
 [nectar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nectar.js) | [Nectar](https://coincheckup.com/coins/nectar) | NEC | Dynamic | :white_check_mark: Done
 [digixdao](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digixdao.js) | [DigixDAO](https://coincheckup.com/coins/digixdao) | DGD | Dynamic | :white_check_mark: Done
@@ -178,6 +179,7 @@ ID | Name | Symbol | Implementation | Status
 [dropil](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dropil.js) | [Dropil](https://coincheckup.com/coins/dropil) | DROP | Dynamic | :white_check_mark: Done
 [mithril](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mithril.js) | [Mithril](https://coincheckup.com/coins/mithril) | MITH | Dynamic | :white_check_mark: Done
 [pivx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pivx.js) | [PIVX](https://coincheckup.com/coins/pivx) | PIVX | Dynamic | :white_check_mark: Done
+[enigma](https://github.com/coincheckup/crypto-supplies/blob/master/coins/enigma.js) | [Enigma](https://coincheckup.com/coins/enigma) | ENG | Dynamic | :white_check_mark: Done
 [bibox-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bibox-token.js) | [Bibox Token](https://coincheckup.com/coins/bibox-token) | BIX | Dynamic | :white_check_mark: Done
 [decentraland](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decentraland.js) | [Decentraland](https://coincheckup.com/coins/decentraland) | MANA | Dynamic | :white_check_mark: Done
 [syscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/syscoin.js) | [Syscoin](https://coincheckup.com/coins/syscoin) | SYS | Dynamic | :white_check_mark: Done
@@ -196,7 +198,9 @@ ID | Name | Symbol | Implementation | Status
 [docademic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/docademic.js) | [Docademic](https://coincheckup.com/coins/docademic) | MTC | Dynamic | :white_check_mark: Done
 [waykichain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waykichain.js) | [WaykiChain](https://coincheckup.com/coins/waykichain) | WICC | Dynamic | :white_check_mark: Done
 [bnktothefuture](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bnktothefuture.js) | [BnkToTheFuture](https://coincheckup.com/coins/bnktothefuture) | BFT | Dynamic | :white_check_mark: Done
+[polymath](https://github.com/coincheckup/crypto-supplies/blob/master/coins/polymath.js) | [Polymath](https://coincheckup.com/coins/polymath) | POLY | Dynamic | :white_check_mark: Done
 [infinity-economics](https://github.com/coincheckup/crypto-supplies/blob/master/coins/infinity-economics.js) | [Infinity Economics](https://coincheckup.com/coins/infinity-economics) | XIN | Static | :white_check_mark: Done
+[scry.info](https://github.com/coincheckup/crypto-supplies/blob/master/coins/scry.info.js) | [Scry.info](https://coincheckup.com/coins/scry.info) | DDD | Dynamic | :white_check_mark: Done
 [nuls](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nuls.js) | [Nuls](https://coincheckup.com/coins/nuls) | NULS | Dynamic | :white_check_mark: Done
 [paypex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/paypex.js) | [Paypex](https://coincheckup.com/coins/paypex) | PAYX | Dynamic | :white_check_mark: Done
 [substratum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/substratum.js) | [Substratum](https://coincheckup.com/coins/substratum) | SUB | Dynamic | :white_check_mark: Done
@@ -207,6 +211,7 @@ ID | Name | Symbol | Implementation | Status
 [monaco](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monaco.js) | [Monaco](https://coincheckup.com/coins/monaco) | MCO | Dynamic | :white_check_mark: Done
 [byteball](https://github.com/coincheckup/crypto-supplies/blob/master/coins/byteball.js) | [Byteball Bytes](https://coincheckup.com/coins/byteball) | GBYTE | Not Implemented | :x: Not done
 [storm](https://github.com/coincheckup/crypto-supplies/blob/master/coins/storm.js) | [Storm](https://coincheckup.com/coins/storm) | STORM | Dynamic | :white_check_mark: Done
+[game.com](https://github.com/coincheckup/crypto-supplies/blob/master/coins/game.com.js) | [Game.com](https://coincheckup.com/coins/game.com) | GTC | Dynamic | :white_check_mark: Done
 [power-ledger](https://github.com/coincheckup/crypto-supplies/blob/master/coins/power-ledger.js) | [Power Ledger](https://coincheckup.com/coins/power-ledger) | POWR | Dynamic | :white_check_mark: Done
 [wax](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wax.js) | [WAX](https://coincheckup.com/coins/wax) | WAX | Dynamic | :white_check_mark: Done
 [electroneum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/electroneum.js) | [Electroneum](https://coincheckup.com/coins/electroneum) | ETN | Dynamic | :white_check_mark: Done
@@ -279,6 +284,7 @@ ID | Name | Symbol | Implementation | Status
 [genaro-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/genaro-network.js) | [Genaro Network](https://coincheckup.com/coins/genaro-network) | GNX | Dynamic | :white_check_mark: Done
 [tokenpay](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tokenpay.js) | [TokenPay](https://coincheckup.com/coins/tokenpay) | TPAY | Dynamic | :white_check_mark: Done
 [nkn](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nkn.js) | [NKN](https://coincheckup.com/coins/nkn) | NKN | Not Implemented | :x: Not done
+[ambrosus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ambrosus.js) | [Ambrosus](https://coincheckup.com/coins/ambrosus) | AMB | Not Implemented | :x: Not done
 [odyssey](https://github.com/coincheckup/crypto-supplies/blob/master/coins/odyssey.js) | [Odyssey](https://coincheckup.com/coins/odyssey) | OCN | Dynamic | :white_check_mark: Done
 [quarkchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/quarkchain.js) | [QuarkChain](https://coincheckup.com/coins/quarkchain) | QKC | Dynamic | :white_check_mark: Done
 [zclassic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zclassic.js) | [ZClassic](https://coincheckup.com/coins/zclassic) | ZCL | Not Implemented | :x: Not done
@@ -349,6 +355,7 @@ ID | Name | Symbol | Implementation | Status
 [singulardtv](https://github.com/coincheckup/crypto-supplies/blob/master/coins/singulardtv.js) | [SingularDTV](https://coincheckup.com/coins/singulardtv) | SNGLS | Dynamic | :white_check_mark: Done
 [viacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/viacoin.js) | [Viacoin](https://coincheckup.com/coins/viacoin) | VIA | Dynamic | :white_check_mark: Done
 [apis](https://github.com/coincheckup/crypto-supplies/blob/master/coins/apis.js) | [APIS](https://coincheckup.com/coins/apis) | APIS | Dynamic | :white_check_mark: Done
+[swarm](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swarm.js) | [Swarm](https://coincheckup.com/coins/swarm) | SWM | Dynamic | :white_check_mark: Done
 [counterparty](https://github.com/coincheckup/crypto-supplies/blob/master/coins/counterparty.js) | [Counterparty](https://coincheckup.com/coins/counterparty) | XCP | Not Implemented | :x: Not done
 [paccoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/paccoin.js) | [PACcoin](https://coincheckup.com/coins/paccoin) | $PAC | Not Implemented | :x: Not done
 [universa](https://github.com/coincheckup/crypto-supplies/blob/master/coins/universa.js) | [Universa](https://coincheckup.com/coins/universa) | UTNP | Dynamic | :white_check_mark: Done
@@ -364,13 +371,16 @@ ID | Name | Symbol | Implementation | Status
 [constellation](https://github.com/coincheckup/crypto-supplies/blob/master/coins/constellation.js) | [Constellation](https://coincheckup.com/coins/constellation) | DAG | Not Implemented | :x: Not done
 [feathercoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/feathercoin.js) | [Feathercoin](https://coincheckup.com/coins/feathercoin) | FTC | Dynamic | :white_check_mark: Done
 [whitecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/whitecoin.js) | [WhiteCoin](https://coincheckup.com/coins/whitecoin) | XWC | Dynamic | :white_check_mark: Done
+[spectre.ai-dividend-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spectre.ai-dividend-token.js) | [Spectre.ai Dividend Token](https://coincheckup.com/coins/spectre.ai-dividend-token) | SXDT | Not Implemented | :x: Not done
 [utrust](https://github.com/coincheckup/crypto-supplies/blob/master/coins/utrust.js) | [UTRUST](https://coincheckup.com/coins/utrust) | UTK | Dynamic | :white_check_mark: Done
 [hydro-protocol](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hydro-protocol.js) | [Hydro Protocol](https://coincheckup.com/coins/hydro-protocol) | HOT | Dynamic | :white_check_mark: Done
 [atn](https://github.com/coincheckup/crypto-supplies/blob/master/coins/atn.js) | [ATN](https://coincheckup.com/coins/atn) | ATN | Dynamic | :white_check_mark: Done
 [havven](https://github.com/coincheckup/crypto-supplies/blob/master/coins/havven.js) | [Havven](https://coincheckup.com/coins/havven) | HAV | Dynamic | :white_check_mark: Done
 [naga](https://github.com/coincheckup/crypto-supplies/blob/master/coins/naga.js) | [NAGA](https://coincheckup.com/coins/naga) | NGC | Dynamic | :white_check_mark: Done
+[simple-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/simple-token.js) | [OST](https://coincheckup.com/coins/simple-token) | OST | Dynamic | :white_check_mark: Done
 [lykke](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lykke.js) | [Lykke](https://coincheckup.com/coins/lykke) | LKK | Not Implemented | :x: Not done
 [airswap](https://github.com/coincheckup/crypto-supplies/blob/master/coins/airswap.js) | [AirSwap](https://coincheckup.com/coins/airswap) | AST | Dynamic | :white_check_mark: Done
+[htmlcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/htmlcoin.js) | [HTMLCOIN](https://coincheckup.com/coins/htmlcoin) | HTML | Not Implemented | :x: Not done
 [bridgecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bridgecoin.js) | [BridgeCoin](https://coincheckup.com/coins/bridgecoin) | BCO | Not Implemented | :x: Not done
 [mobilego](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mobilego.js) | [MobileGo](https://coincheckup.com/coins/mobilego) | MGO | Dynamic | :white_check_mark: Done
 [district0x](https://github.com/coincheckup/crypto-supplies/blob/master/coins/district0x.js) | [district0x](https://coincheckup.com/coins/district0x) | DNT | Dynamic | :white_check_mark: Done
@@ -394,6 +404,7 @@ ID | Name | Symbol | Implementation | Status
 [decent](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decent.js) | [DECENT](https://coincheckup.com/coins/decent) | DCT | Dynamic | :white_check_mark: Done
 [modum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/modum.js) | [Modum](https://coincheckup.com/coins/modum) | MOD | Dynamic | :white_check_mark: Done
 [yoyow](https://github.com/coincheckup/crypto-supplies/blob/master/coins/yoyow.js) | [YOYOW](https://coincheckup.com/coins/yoyow) | YOYOW | Dynamic | :white_check_mark: Done
+[hive](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hive.js) | [Hive Project](https://coincheckup.com/coins/hive) | HVN | Not Implemented | :x: Not done
 [datum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/datum.js) | [Datum](https://coincheckup.com/coins/datum) | DAT | Dynamic | :white_check_mark: Done
 [wepower](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wepower.js) | [WePower](https://coincheckup.com/coins/wepower) | WPR | Dynamic | :white_check_mark: Done
 [sentinel](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sentinel.js) | [Sentinel](https://coincheckup.com/coins/sentinel) | SENT | Dynamic | :white_check_mark: Done
@@ -401,10 +412,12 @@ ID | Name | Symbol | Implementation | Status
 [steem-dollars](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steem-dollars.js) | [Steem Dollars](https://coincheckup.com/coins/steem-dollars) | SBD | Not Implemented | :x: Not done
 [banca](https://github.com/coincheckup/crypto-supplies/blob/master/coins/banca.js) | [Banca](https://coincheckup.com/coins/banca) | BANCA | Dynamic | :white_check_mark: Done
 [taas](https://github.com/coincheckup/crypto-supplies/blob/master/coins/taas.js) | [TaaS](https://coincheckup.com/coins/taas) | TAAS | Not Implemented | :x: Not done
+[decentbet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decentbet.js) | [DecentBet](https://coincheckup.com/coins/decentbet) | DBET | Not Implemented | :x: Not done
 [maecenas](https://github.com/coincheckup/crypto-supplies/blob/master/coins/maecenas.js) | [Maecenas](https://coincheckup.com/coins/maecenas) | ART | Dynamic | :white_check_mark: Done
 [blox](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blox.js) | [Blox](https://coincheckup.com/coins/blox) | CDT | Dynamic | :white_check_mark: Done
 [crowd-machine](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crowd-machine.js) | [Crowd Machine](https://coincheckup.com/coins/crowd-machine) | CMCT | Dynamic | :white_check_mark: Done
 [etherparty](https://github.com/coincheckup/crypto-supplies/blob/master/coins/etherparty.js) | [Etherparty](https://coincheckup.com/coins/etherparty) | FUEL | Dynamic | :white_check_mark: Done
+[pura-pura](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pura-pura.js) | [Pura](https://coincheckup.com/coins/pura-pura) | PURA | Dynamic | :white_check_mark: Done
 [linkeye](https://github.com/coincheckup/crypto-supplies/blob/master/coins/linkeye.js) | [LinkEye](https://coincheckup.com/coins/linkeye) | LET | Not Implemented | :x: Not done
 [xinfin-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xinfin-network.js) | [XinFin Network](https://coincheckup.com/coins/xinfin-network) | XDCE | Dynamic | :white_check_mark: Done
 [lunyr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lunyr.js) | [Lunyr](https://coincheckup.com/coins/lunyr) | LUN | Dynamic | :white_check_mark: Done
@@ -429,6 +442,7 @@ ID | Name | Symbol | Implementation | Status
 [qunqun](https://github.com/coincheckup/crypto-supplies/blob/master/coins/qunqun.js) | [QunQun](https://coincheckup.com/coins/qunqun) | QUN | Dynamic | :white_check_mark: Done
 [selfkey](https://github.com/coincheckup/crypto-supplies/blob/master/coins/selfkey.js) | [Selfkey](https://coincheckup.com/coins/selfkey) | KEY | Dynamic | :white_check_mark: Done
 [vibe](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vibe.js) | [VIBE](https://coincheckup.com/coins/vibe) | VIBE | Dynamic | :white_check_mark: Done
+[electrify.asia](https://github.com/coincheckup/crypto-supplies/blob/master/coins/electrify.asia.js) | [Electrify.Asia](https://coincheckup.com/coins/electrify.asia) | ELEC | Not Implemented | :x: Not done
 [mobius](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mobius.js) | [Mobius](https://coincheckup.com/coins/mobius) | MOBI | Not Implemented | :x: Not done
 [ac3](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ac3.js) | [AC3](https://coincheckup.com/coins/ac3) | AC3 | Not Implemented | :x: Not done
 [aurora-dao](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aurora-dao.js) | [Aurora DAO](https://coincheckup.com/coins/aurora-dao) | AURA | Dynamic | :white_check_mark: Done
@@ -444,6 +458,7 @@ ID | Name | Symbol | Implementation | Status
 [dock](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dock.js) | [Dock](https://coincheckup.com/coins/dock) | DOCK | Dynamic | :white_check_mark: Done
 [peerplays-ppy](https://github.com/coincheckup/crypto-supplies/blob/master/coins/peerplays-ppy.js) | [Peerplays](https://coincheckup.com/coins/peerplays-ppy) | PPY | Not Implemented | :x: Not done
 [firstblood](https://github.com/coincheckup/crypto-supplies/blob/master/coins/firstblood.js) | [FirstBlood](https://coincheckup.com/coins/firstblood) | 1ST | Not Implemented | :x: Not done
+[blackmoon-crypto](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blackmoon-crypto.js) | [Blackmoon](https://coincheckup.com/coins/blackmoon-crypto) | BMC | Not Implemented | :x: Not done
 [qbao](https://github.com/coincheckup/crypto-supplies/blob/master/coins/qbao.js) | [Qbao](https://coincheckup.com/coins/qbao) | QBT | Not Implemented | :x: Not done
 [humaniq](https://github.com/coincheckup/crypto-supplies/blob/master/coins/humaniq.js) | [Humaniq](https://coincheckup.com/coins/humaniq) | HMQ | Dynamic | :white_check_mark: Done
 [fortuna](https://github.com/coincheckup/crypto-supplies/blob/master/coins/fortuna.js) | [Fortuna](https://coincheckup.com/coins/fortuna) | FOTA | Dynamic | :white_check_mark: Done
@@ -455,9 +470,11 @@ ID | Name | Symbol | Implementation | Status
 [hempcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hempcoin.js) | [HempCoin](https://coincheckup.com/coins/hempcoin) | THC | Not Implemented | :x: Not done
 [prochain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/prochain.js) | [ProChain](https://coincheckup.com/coins/prochain) | PRA | Dynamic | :white_check_mark: Done
 [quantum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/quantum.js) | [Quantum](https://coincheckup.com/coins/quantum) | QAU | Dynamic | :white_check_mark: Done
+[medicalchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/medicalchain.js) | [Medicalchain](https://coincheckup.com/coins/medicalchain) | MTN | Not Implemented | :x: Not done
 [viberate](https://github.com/coincheckup/crypto-supplies/blob/master/coins/viberate.js) | [Viberate](https://coincheckup.com/coins/viberate) | VIB | Dynamic | :white_check_mark: Done
 [cofound-it](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cofound-it.js) | [Cofound.it](https://coincheckup.com/coins/cofound-it) | CFI | Dynamic | :white_check_mark: Done
 [brahmaos](https://github.com/coincheckup/crypto-supplies/blob/master/coins/brahmaos.js) | [BrahmaOS](https://coincheckup.com/coins/brahmaos) | BRM | Dynamic | :white_check_mark: Done
+[colossuscoinxt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/colossuscoinxt.js) | [ColossusXT](https://coincheckup.com/coins/colossuscoinxt) | COLX | Dynamic | :white_check_mark: Done
 [elastic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/elastic.js) | [Elastic](https://coincheckup.com/coins/elastic) | XEL | Not Implemented | :x: Not done
 [covesting](https://github.com/coincheckup/crypto-supplies/blob/master/coins/covesting.js) | [Covesting](https://coincheckup.com/coins/covesting) | COV | Dynamic | :white_check_mark: Done
 [bismuth](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bismuth.js) | [Bismuth](https://coincheckup.com/coins/bismuth) | BIS | Not Implemented | :x: Not done
@@ -468,6 +485,7 @@ ID | Name | Symbol | Implementation | Status
 [deeponion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/deeponion.js) | [DeepOnion](https://coincheckup.com/coins/deeponion) | ONION | Not Implemented | :x: Not done
 [synereo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/synereo.js) | [Synereo](https://coincheckup.com/coins/synereo) | AMP | Not Implemented | :x: Not done
 [pascal-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pascal-coin.js) | [Pascal Coin](https://coincheckup.com/coins/pascal-coin) | PASC | Not Implemented | :x: Not done
+[shield](https://github.com/coincheckup/crypto-supplies/blob/master/coins/shield.js) | [SHIELD](https://coincheckup.com/coins/shield) | XSH | Not Implemented | :x: Not done
 [dimecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dimecoin.js) | [Dimecoin](https://coincheckup.com/coins/dimecoin) | DIME | Dynamic | :white_check_mark: Done
 [mercury](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mercury.js) | [Mercury](https://coincheckup.com/coins/mercury) | MER | Not Implemented | :x: Not done
 [divi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/divi.js) | [Divi](https://coincheckup.com/coins/divi) | DIVX | Dynamic | :white_check_mark: Done
@@ -486,22 +504,27 @@ ID | Name | Symbol | Implementation | Status
 [bodhi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bodhi.js) | [Bodhi](https://coincheckup.com/coins/bodhi) | BOT | Not Implemented | :x: Not done
 [crown](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crown.js) | [Crown](https://coincheckup.com/coins/crown) | CRW | Dynamic | :white_check_mark: Done
 [oxycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/oxycoin.js) | [Oxycoin](https://coincheckup.com/coins/oxycoin) | OXY | Not Implemented | :x: Not done
+[unikoin-gold-ukg](https://github.com/coincheckup/crypto-supplies/blob/master/coins/unikoin-gold-ukg.js) | [Unikoin Gold](https://coincheckup.com/coins/unikoin-gold-ukg) | UKG | Dynamic | :white_check_mark: Done
 [diamond](https://github.com/coincheckup/crypto-supplies/blob/master/coins/diamond.js) | [Diamond](https://coincheckup.com/coins/diamond) | DMD | Dynamic | :white_check_mark: Done
 [everex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/everex.js) | [Everex](https://coincheckup.com/coins/everex) | EVX | Dynamic | :white_check_mark: Done
 [suncontract](https://github.com/coincheckup/crypto-supplies/blob/master/coins/suncontract.js) | [SunContract](https://coincheckup.com/coins/suncontract) | SNC | Dynamic | :white_check_mark: Done
 [lamden](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lamden.js) | [Lamden](https://coincheckup.com/coins/lamden) | TAU | Dynamic | :white_check_mark: Done
 [betterbetting](https://github.com/coincheckup/crypto-supplies/blob/master/coins/betterbetting.js) | [BetterBetting](https://coincheckup.com/coins/betterbetting) | BETR | Not Implemented | :x: Not done
+[muse](https://github.com/coincheckup/crypto-supplies/blob/master/coins/muse.js) | [MUSE](https://coincheckup.com/coins/muse) | MUSE | Not Implemented | :x: Not done
 [ceek-vr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ceek-vr.js) | [CEEK VR](https://coincheckup.com/coins/ceek-vr) | CEEK | Dynamic | :white_check_mark: Done
 [energo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/energo.js) | [Energo](https://coincheckup.com/coins/energo) | TSL | Not Implemented | :x: Not done
 [uquid-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/uquid-coin.js) | [Uquid Coin](https://coincheckup.com/coins/uquid-coin) | UQC | Dynamic | :white_check_mark: Done
 [dadi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dadi.js) | [DADI](https://coincheckup.com/coins/dadi) | DADI | Dynamic | :white_check_mark: Done
 [life](https://github.com/coincheckup/crypto-supplies/blob/master/coins/life.js) | [LIFE](https://coincheckup.com/coins/life) | LIFE | Dynamic | :white_check_mark: Done
 [sakura-bloom](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sakura-bloom.js) | [Sakura Bloom](https://coincheckup.com/coins/sakura-bloom) | SKB | Dynamic | :white_check_mark: Done
+[bitbean](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitbean.js) | [Bean Cash](https://coincheckup.com/coins/bitbean) | BITB | Not Implemented | :x: Not done
 [triggers](https://github.com/coincheckup/crypto-supplies/blob/master/coins/triggers.js) | [Triggers](https://coincheckup.com/coins/triggers) | TRIG | Not Implemented | :x: Not done
+[red-mwat](https://github.com/coincheckup/crypto-supplies/blob/master/coins/red-mwat.js) | [Restart Energy MWAT](https://coincheckup.com/coins/red-mwat) | MWAT | Dynamic | :white_check_mark: Done
 [dmarket](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dmarket.js) | [DMarket](https://coincheckup.com/coins/dmarket) | DMT | Dynamic | :white_check_mark: Done
 [te-food](https://github.com/coincheckup/crypto-supplies/blob/master/coins/te-food.js) | [TE-FOOD](https://coincheckup.com/coins/te-food) | TFD | Dynamic | :white_check_mark: Done
 [dubaicoin-dbix](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dubaicoin-dbix.js) | [DubaiCoin](https://coincheckup.com/coins/dubaicoin-dbix) | DBIX | Not Implemented | :x: Not done
 [blackcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blackcoin.js) | [BlackCoin](https://coincheckup.com/coins/blackcoin) | BLK | Dynamic | :white_check_mark: Done
+[gems](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gems.js) | [Gems](https://coincheckup.com/coins/gems) | GEM | Not Implemented | :x: Not done
 [neumark](https://github.com/coincheckup/crypto-supplies/blob/master/coins/neumark.js) | [Neumark](https://coincheckup.com/coins/neumark) | NEU | Dynamic | :white_check_mark: Done
 [phantasma](https://github.com/coincheckup/crypto-supplies/blob/master/coins/phantasma.js) | [Phantasma](https://coincheckup.com/coins/phantasma) | SOUL | Not Implemented | :x: Not done
 [nework](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nework.js) | [Nework](https://coincheckup.com/coins/nework) | NKC | Not Implemented | :x: Not done
@@ -518,6 +541,7 @@ ID | Name | Symbol | Implementation | Status
 [stk](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stk.js) | [STK](https://coincheckup.com/coins/stk) | STK | Dynamic | :white_check_mark: Done
 [ormeus-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ormeus-coin.js) | [Ormeus Coin](https://coincheckup.com/coins/ormeus-coin) | ORME | Dynamic | :white_check_mark: Done
 [switcheo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/switcheo.js) | [Switcheo](https://coincheckup.com/coins/switcheo) | SWTH | Not Implemented | :x: Not done
+[bitcoin-lightning](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-lightning.js) | [Bloom](https://coincheckup.com/coins/bitcoin-lightning) | BLT | Not Implemented | :x: Not done
 [stronghands](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stronghands.js) | [StrongHands](https://coincheckup.com/coins/stronghands) | SHND | Not Implemented | :x: Not done
 [omni](https://github.com/coincheckup/crypto-supplies/blob/master/coins/omni.js) | [Omni](https://coincheckup.com/coins/omni) | OMNI | Not Implemented | :x: Not done
 [everus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/everus.js) | [Everus](https://coincheckup.com/coins/everus) | EVR | Dynamic | :white_check_mark: Done
@@ -544,6 +568,7 @@ ID | Name | Symbol | Implementation | Status
 [coinpoker](https://github.com/coincheckup/crypto-supplies/blob/master/coins/coinpoker.js) | [CoinPoker](https://coincheckup.com/coins/coinpoker) | CHP | Dynamic | :white_check_mark: Done
 [bitqy](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitqy.js) | [bitqy](https://coincheckup.com/coins/bitqy) | BQ | Dynamic | :white_check_mark: Done
 [blocktix](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blocktix.js) | [Blocktix](https://coincheckup.com/coins/blocktix) | TIX | Dynamic | :white_check_mark: Done
+[friendz](https://github.com/coincheckup/crypto-supplies/blob/master/coins/friendz.js) | [Friendz](https://coincheckup.com/coins/friendz) | FDZ | Not Implemented | :x: Not done
 [aeron](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aeron.js) | [Aeron](https://coincheckup.com/coins/aeron) | ARN | Dynamic | :white_check_mark: Done
 [policypal-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/policypal-network.js) | [PolicyPal Network](https://coincheckup.com/coins/policypal-network) | PAL | Dynamic | :white_check_mark: Done
 [daostack](https://github.com/coincheckup/crypto-supplies/blob/master/coins/daostack.js) | [DAOstack](https://coincheckup.com/coins/daostack) | GEN | Dynamic | :white_check_mark: Done
@@ -580,7 +605,9 @@ ID | Name | Symbol | Implementation | Status
 [incent](https://github.com/coincheckup/crypto-supplies/blob/master/coins/incent.js) | [Incent](https://coincheckup.com/coins/incent) | INCNT | Not Implemented | :x: Not done
 [rise](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rise.js) | [Rise](https://coincheckup.com/coins/rise) | RISE | Not Implemented | :x: Not done
 [heronode](https://github.com/coincheckup/crypto-supplies/blob/master/coins/heronode.js) | [HeroNode](https://coincheckup.com/coins/heronode) | HER | Dynamic | :white_check_mark: Done
+[rebellious](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rebellious.js) | [REBL](https://coincheckup.com/coins/rebellious) | REBL | Dynamic | :white_check_mark: Done
 [peculium](https://github.com/coincheckup/crypto-supplies/blob/master/coins/peculium.js) | [Peculium](https://coincheckup.com/coins/peculium) | PCL | Dynamic | :white_check_mark: Done
+[mark.space](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mark.space.js) | [MARK.SPACE](https://coincheckup.com/coins/mark.space) | MRK | Not Implemented | :x: Not done
 [axpire](https://github.com/coincheckup/crypto-supplies/blob/master/coins/axpire.js) | [aXpire](https://coincheckup.com/coins/axpire) | AXP | Dynamic | :white_check_mark: Done
 [bezop](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bezop.js) | [Bezop](https://coincheckup.com/coins/bezop) | BEZ | Dynamic | :white_check_mark: Done
 [get-protocol](https://github.com/coincheckup/crypto-supplies/blob/master/coins/get-protocol.js) | [GET Protocol](https://coincheckup.com/coins/get-protocol) | GET | Dynamic | :white_check_mark: Done
@@ -616,6 +643,7 @@ ID | Name | Symbol | Implementation | Status
 [flixxo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/flixxo.js) | [Flixxo](https://coincheckup.com/coins/flixxo) | FLIXX | Dynamic | :white_check_mark: Done
 [aurumcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aurumcoin.js) | [AurumCoin](https://coincheckup.com/coins/aurumcoin) | AU | Not Implemented | :x: Not done
 [xaurum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xaurum.js) | [Xaurum](https://coincheckup.com/coins/xaurum) | XAUR | Dynamic | :white_check_mark: Done
+[effect.ai](https://github.com/coincheckup/crypto-supplies/blob/master/coins/effect.ai.js) | [Effect.AI](https://coincheckup.com/coins/effect.ai) | EFX | Not Implemented | :x: Not done
 [leverj](https://github.com/coincheckup/crypto-supplies/blob/master/coins/leverj.js) | [Leverj](https://coincheckup.com/coins/leverj) | LEV | Dynamic | :white_check_mark: Done
 [debitum-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/debitum-network.js) | [Debitum](https://coincheckup.com/coins/debitum-network) | DEB | Dynamic | :white_check_mark: Done
 [loki](https://github.com/coincheckup/crypto-supplies/blob/master/coins/loki.js) | [Loki](https://coincheckup.com/coins/loki) | LOKI | Not Implemented | :x: Not done
@@ -623,6 +651,7 @@ ID | Name | Symbol | Implementation | Status
 [gobyte](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gobyte.js) | [GoByte](https://coincheckup.com/coins/gobyte) | GBX | Not Implemented | :x: Not done
 [matryx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/matryx.js) | [Matryx](https://coincheckup.com/coins/matryx) | MTX | Dynamic | :white_check_mark: Done
 [digitex-futures](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digitex-futures.js) | [Digitex Futures](https://coincheckup.com/coins/digitex-futures) | DGTX | Not Implemented | :x: Not done
+[xplay](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xplay.js) | [XPA](https://coincheckup.com/coins/xplay) | XPA | Dynamic | :white_check_mark: Done
 [stipend](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stipend.js) | [Stipend](https://coincheckup.com/coins/stipend) | SPD | Not Implemented | :x: Not done
 [bitclave](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitclave.js) | [BitClave](https://coincheckup.com/coins/bitclave) | CAT | Dynamic | :white_check_mark: Done
 [pareto-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pareto-network.js) | [Pareto Network](https://coincheckup.com/coins/pareto-network) | PARETO | Dynamic | :white_check_mark: Done
@@ -657,6 +686,7 @@ ID | Name | Symbol | Implementation | Status
 [rentberry](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rentberry.js) | [Rentberry](https://coincheckup.com/coins/rentberry) | BERRY | Dynamic | :white_check_mark: Done
 [mktcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mktcoin.js) | [MktCoin](https://coincheckup.com/coins/mktcoin) | MLM | Not Implemented | :x: Not done
 [eroscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eroscoin.js) | [Eroscoin](https://coincheckup.com/coins/eroscoin) | ERO | Dynamic | :white_check_mark: Done
+[spectiv](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spectiv.js) | [Spectiv](https://coincheckup.com/coins/spectiv) | SIG | Dynamic | :white_check_mark: Done
 [encrypgen](https://github.com/coincheckup/crypto-supplies/blob/master/coins/encrypgen.js) | [EncrypGen](https://coincheckup.com/coins/encrypgen) | DNA | Dynamic | :white_check_mark: Done
 [asiacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/asiacoin.js) | [AsiaCoin](https://coincheckup.com/coins/asiacoin) | AC | Dynamic | :white_check_mark: Done
 [dero](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dero.js) | [Dero](https://coincheckup.com/coins/dero) | DERO | Not Implemented | :x: Not done
@@ -694,6 +724,7 @@ ID | Name | Symbol | Implementation | Status
 [1world](https://github.com/coincheckup/crypto-supplies/blob/master/coins/1world.js) | [1World](https://coincheckup.com/coins/1world) | 1WO | Dynamic | :white_check_mark: Done
 [morpheus-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/morpheus-network.js) | [Morpheus Network](https://coincheckup.com/coins/morpheus-network) | MORPH | Dynamic | :white_check_mark: Done
 [dovu](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dovu.js) | [Dovu](https://coincheckup.com/coins/dovu) | DOVU | Dynamic | :white_check_mark: Done
+[u.cash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/u.cash.js) | [U.CASH](https://coincheckup.com/coins/u.cash) | UCASH | Not Implemented | :x: Not done
 [leadcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/leadcoin.js) | [Leadcoin](https://coincheckup.com/coins/leadcoin) | LDC | Dynamic | :white_check_mark: Done
 [spectrecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spectrecoin.js) | [Spectrecoin](https://coincheckup.com/coins/spectrecoin) | XSPEC | Dynamic | :white_check_mark: Done
 [adshares](https://github.com/coincheckup/crypto-supplies/blob/master/coins/adshares.js) | [AdShares](https://coincheckup.com/coins/adshares) | ADST | Dynamic | :white_check_mark: Done
@@ -714,6 +745,7 @@ ID | Name | Symbol | Implementation | Status
 [goldcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/goldcoin.js) | [GoldCoin](https://coincheckup.com/coins/goldcoin) | GLD | Dynamic | :white_check_mark: Done
 [circuits-of-value](https://github.com/coincheckup/crypto-supplies/blob/master/coins/circuits-of-value.js) | [Circuits of Value](https://coincheckup.com/coins/circuits-of-value) | COVAL | Not Implemented | :x: Not done
 [hurify](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hurify.js) | [Hurify](https://coincheckup.com/coins/hurify) | HUR | Dynamic | :white_check_mark: Done
+[lending-block](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lending-block.js) | [Lendingblock](https://coincheckup.com/coins/lending-block) | LND | Not Implemented | :x: Not done
 [eztoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eztoken.js) | [EZToken](https://coincheckup.com/coins/eztoken) | EZT | Dynamic | :white_check_mark: Done
 [maxcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/maxcoin.js) | [MaxCoin](https://coincheckup.com/coins/maxcoin) | MAX | Dynamic | :white_check_mark: Done
 [atmos](https://github.com/coincheckup/crypto-supplies/blob/master/coins/atmos.js) | [Atmos](https://coincheckup.com/coins/atmos) | ATMOS | Dynamic | :white_check_mark: Done
@@ -783,9 +815,12 @@ ID | Name | Symbol | Implementation | Status
 [neutron](https://github.com/coincheckup/crypto-supplies/blob/master/coins/neutron.js) | [Neutron](https://coincheckup.com/coins/neutron) | NTRN | Not Implemented | :x: Not done
 [bigbom](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bigbom.js) | [Bigbom](https://coincheckup.com/coins/bigbom) | BBO | Dynamic | :white_check_mark: Done
 [europecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/europecoin.js) | [EuropeCoin](https://coincheckup.com/coins/europecoin) | ERC | Dynamic | :white_check_mark: Done
+[spectre.ai-utility-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spectre.ai-utility-token.js) | [Spectre.ai Utility Token](https://coincheckup.com/coins/spectre.ai-utility-token) | SXUT | Not Implemented | :x: Not done
 [buzzcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/buzzcoin.js) | [BuzzCoin](https://coincheckup.com/coins/buzzcoin) | BUZZ | Not Implemented | :x: Not done
+[monoeci](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monoeci.js) | [Monoeci](https://coincheckup.com/coins/monoeci) | XMCC | Not Implemented | :x: Not done
 [social-send](https://github.com/coincheckup/crypto-supplies/blob/master/coins/social-send.js) | [Social Send](https://coincheckup.com/coins/social-send) | SEND | Not Implemented | :x: Not done
 [upfiring](https://github.com/coincheckup/crypto-supplies/blob/master/coins/upfiring.js) | [Upfiring](https://coincheckup.com/coins/upfiring) | UFR | Dynamic | :white_check_mark: Done
+[social](https://github.com/coincheckup/crypto-supplies/blob/master/coins/social.js) | [Sociall](https://coincheckup.com/coins/social) | SCL | Dynamic | :white_check_mark: Done
 [bitstation](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitstation.js) | [BitStation](https://coincheckup.com/coins/bitstation) | BSTN | Dynamic | :white_check_mark: Done
 [mercury-protocol](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mercury-protocol.js) | [Mercury Protocol](https://coincheckup.com/coins/mercury-protocol) | GMT | Dynamic | :white_check_mark: Done
 [veriumreserve](https://github.com/coincheckup/crypto-supplies/blob/master/coins/veriumreserve.js) | [VeriumReserve](https://coincheckup.com/coins/veriumreserve) | VRM | Not Implemented | :x: Not done
@@ -794,17 +829,20 @@ ID | Name | Symbol | Implementation | Status
 [qwark](https://github.com/coincheckup/crypto-supplies/blob/master/coins/qwark.js) | [Qwark](https://coincheckup.com/coins/qwark) | QWARK | Not Implemented | :x: Not done
 [zeitcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zeitcoin.js) | [Zeitcoin](https://coincheckup.com/coins/zeitcoin) | ZEIT | Dynamic | :white_check_mark: Done
 [starta](https://github.com/coincheckup/crypto-supplies/blob/master/coins/starta.js) | [Starta](https://coincheckup.com/coins/starta) | STA | Not Implemented | :x: Not done
+[rupaya-old](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rupaya-old.js) | [Rupaya](https://coincheckup.com/coins/rupaya-old) | RUPX | Dynamic | :white_check_mark: Done
 [riecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/riecoin.js) | [Riecoin](https://coincheckup.com/coins/riecoin) | RIC | Dynamic | :white_check_mark: Done
 [invacio](https://github.com/coincheckup/crypto-supplies/blob/master/coins/invacio.js) | [Invacio](https://coincheckup.com/coins/invacio) | INV | Dynamic | :white_check_mark: Done
 [vslice](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vslice.js) | [vSlice](https://coincheckup.com/coins/vslice) | VSL | Dynamic | :white_check_mark: Done
 [fintrux-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/fintrux-network.js) | [FintruX Network](https://coincheckup.com/coins/fintrux-network) | FTX | Dynamic | :white_check_mark: Done
 [tokia](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tokia.js) | [Tokia](https://coincheckup.com/coins/tokia) | TKA | Dynamic | :white_check_mark: Done
+[rex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rex.js) | [imbrex](https://coincheckup.com/coins/rex) | REX | Dynamic | :white_check_mark: Done
 [publica](https://github.com/coincheckup/crypto-supplies/blob/master/coins/publica.js) | [Publica](https://coincheckup.com/coins/publica) | PBL | Dynamic | :white_check_mark: Done
 [hicoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hicoin.js) | [HiCoin](https://coincheckup.com/coins/hicoin) | XHI | Not Implemented | :x: Not done
 [dopecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dopecoin.js) | [DopeCoin](https://coincheckup.com/coins/dopecoin) | DOPE | Dynamic | :white_check_mark: Done
 [tokes](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tokes.js) | [Tokes](https://coincheckup.com/coins/tokes) | TKS | Not Implemented | :x: Not done
 [indorse-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/indorse-token.js) | [Indorse Token](https://coincheckup.com/coins/indorse-token) | IND | Dynamic | :white_check_mark: Done
 [e-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/e-coin.js) | [E-coin](https://coincheckup.com/coins/e-coin) | ECN | Not Implemented | :x: Not done
+[voise](https://github.com/coincheckup/crypto-supplies/blob/master/coins/voise.js) | [Voise](https://coincheckup.com/coins/voise) | VOISE | Dynamic | :white_check_mark: Done
 [capricoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/capricoin.js) | [Capricoin](https://coincheckup.com/coins/capricoin) | CPC | Dynamic | :white_check_mark: Done
 [exclusivecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/exclusivecoin.js) | [ExclusiveCoin](https://coincheckup.com/coins/exclusivecoin) | EXCL | Not Implemented | :x: Not done
 [reftoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/reftoken.js) | [RefToken](https://coincheckup.com/coins/reftoken) | REF | Not Implemented | :x: Not done
@@ -821,11 +859,13 @@ ID | Name | Symbol | Implementation | Status
 [terracoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/terracoin.js) | [Terracoin](https://coincheckup.com/coins/terracoin) | TRC | Not Implemented | :x: Not done
 [bitmark](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitmark.js) | [Bitmark](https://coincheckup.com/coins/bitmark) | BTM | Dynamic | :white_check_mark: Done
 [quark](https://github.com/coincheckup/crypto-supplies/blob/master/coins/quark.js) | [Quark](https://coincheckup.com/coins/quark) | QRK | Dynamic | :white_check_mark: Done
+[hash-rush](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hash-rush.js) | [Hush](https://coincheckup.com/coins/hash-rush) | HUSH | Not Implemented | :x: Not done
 [bluecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bluecoin.js) | [BlueCoin](https://coincheckup.com/coins/bluecoin) | BLU | Not Implemented | :x: Not done
 [blockpool](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blockpool.js) | [Blockpool](https://coincheckup.com/coins/blockpool) | BPL | Not Implemented | :x: Not done
 [crave](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crave.js) | [Crave](https://coincheckup.com/coins/crave) | CRAVE | Not Implemented | :x: Not done
 [i0coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/i0coin.js) | [I0Coin](https://coincheckup.com/coins/i0coin) | I0C | Dynamic | :white_check_mark: Done
 [iungo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/iungo.js) | [Iungo](https://coincheckup.com/coins/iungo) | ING | Dynamic | :white_check_mark: Done
+[eboost](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eboost.js) | [eBoost](https://coincheckup.com/coins/eboost) | EBST | Not Implemented | :x: Not done
 [bunnycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bunnycoin.js) | [BunnyCoin](https://coincheckup.com/coins/bunnycoin) | BUN | Not Implemented | :x: Not done
 [blockcat](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blockcat.js) | [BlockCAT](https://coincheckup.com/coins/blockcat) | CAT | Dynamic | :white_check_mark: Done
 [bullion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bullion.js) | [Bullion](https://coincheckup.com/coins/bullion) | CBX | Dynamic | :white_check_mark: Done
@@ -834,8 +874,10 @@ ID | Name | Symbol | Implementation | Status
 [viuly](https://github.com/coincheckup/crypto-supplies/blob/master/coins/viuly.js) | [Viuly](https://coincheckup.com/coins/viuly) | VIU | Dynamic | :white_check_mark: Done
 [breakout](https://github.com/coincheckup/crypto-supplies/blob/master/coins/breakout.js) | [Breakout](https://coincheckup.com/coins/breakout) | BRK | Not Implemented | :x: Not done
 [campuscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/campuscoin.js) | [CampusCoin](https://coincheckup.com/coins/campuscoin) | CMPCO | Not Implemented | :x: Not done
+[ufo-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ufo-coin.js) | [Uniform Fiscal Object](https://coincheckup.com/coins/ufo-coin) | UFO | Not Implemented | :x: Not done
 [maverick-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/maverick-chain.js) | [Maverick Chain](https://coincheckup.com/coins/maverick-chain) | MVC | Dynamic | :white_check_mark: Done
 [ethbits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ethbits.js) | [Ethbits](https://coincheckup.com/coins/ethbits) | ETBS | Dynamic | :white_check_mark: Done
+[denarius](https://github.com/coincheckup/crypto-supplies/blob/master/coins/denarius.js) | [Denarius](https://coincheckup.com/coins/denarius) | DNR | Not Implemented | :x: Not done
 [vtorrent](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vtorrent.js) | [vTorrent](https://coincheckup.com/coins/vtorrent) | VTR | Not Implemented | :x: Not done
 [parkgene](https://github.com/coincheckup/crypto-supplies/blob/master/coins/parkgene.js) | [Parkgene](https://coincheckup.com/coins/parkgene) | GENE | Dynamic | :white_check_mark: Done
 [galactrum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/galactrum.js) | [Galactrum](https://coincheckup.com/coins/galactrum) | ORE | Not Implemented | :x: Not done
@@ -846,6 +888,7 @@ ID | Name | Symbol | Implementation | Status
 [copytrack](https://github.com/coincheckup/crypto-supplies/blob/master/coins/copytrack.js) | [COPYTRACK](https://coincheckup.com/coins/copytrack) | CPY | Dynamic | :white_check_mark: Done
 [sharechain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sharechain.js) | [Sharechain](https://coincheckup.com/coins/sharechain) | SSS | Dynamic | :white_check_mark: Done
 [anoncoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/anoncoin.js) | [Anoncoin](https://coincheckup.com/coins/anoncoin) | ANC | Dynamic | :white_check_mark: Done
+[ties-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ties-network.js) | [Ties.DB](https://coincheckup.com/coins/ties-network) | TIE | Dynamic | :white_check_mark: Done
 [vezt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vezt.js) | [Vezt](https://coincheckup.com/coins/vezt) | VZT | Dynamic | :white_check_mark: Done
 [flik](https://github.com/coincheckup/crypto-supplies/blob/master/coins/flik.js) | [FLiK](https://coincheckup.com/coins/flik) | FLIK | Dynamic | :white_check_mark: Done
 [xgox](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xgox.js) | [XGOX](https://coincheckup.com/coins/xgox) | XGOX | Not Implemented | :x: Not done
@@ -866,6 +909,7 @@ ID | Name | Symbol | Implementation | Status
 [zephyr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zephyr.js) | [Zephyr](https://coincheckup.com/coins/zephyr) | ZEPH | Not Implemented | :x: Not done
 [audiocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/audiocoin.js) | [AudioCoin](https://coincheckup.com/coins/audiocoin) | ADC | Dynamic | :white_check_mark: Done
 [teslacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/teslacoin.js) | [TeslaCoin](https://coincheckup.com/coins/teslacoin) | TES | Dynamic | :white_check_mark: Done
+[vsync](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vsync.js) | [Vsync](https://coincheckup.com/coins/vsync) | VSX | Not Implemented | :x: Not done
 [trakinvest](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trakinvest.js) | [TrakInvest](https://coincheckup.com/coins/trakinvest) | TRAK | Not Implemented | :x: Not done
 [monster-byte](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monster-byte.js) | [Monster Byte](https://coincheckup.com/coins/monster-byte) | MBI | Not Implemented | :x: Not done
 [xenon](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xenon.js) | [Xenon](https://coincheckup.com/coins/xenon) | XNN | Dynamic | :white_check_mark: Done
@@ -874,6 +918,8 @@ ID | Name | Symbol | Implementation | Status
 [aigang](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aigang.js) | [Aigang](https://coincheckup.com/coins/aigang) | AIX | Dynamic | :white_check_mark: Done
 [syncfab](https://github.com/coincheckup/crypto-supplies/blob/master/coins/syncfab.js) | [SyncFab](https://coincheckup.com/coins/syncfab) | MFG | Dynamic | :white_check_mark: Done
 [sugar-exchange](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sugar-exchange.js) | [Sugar Exchange](https://coincheckup.com/coins/sugar-exchange) | SGR | Dynamic | :white_check_mark: Done
+[ong.social](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ong.social.js) | [onG.social](https://coincheckup.com/coins/ong.social) | ONG | Not Implemented | :x: Not done
+[loci-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/loci-coin.js) | [LOCIcoin](https://coincheckup.com/coins/loci-coin) | LOCI | Not Implemented | :x: Not done
 [pylon-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pylon-network.js) | [Pylon Network](https://coincheckup.com/coins/pylon-network) | PYLNT | Dynamic | :white_check_mark: Done
 [chaincoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/chaincoin.js) | [ChainCoin](https://coincheckup.com/coins/chaincoin) | CHC | Not Implemented | :x: Not done
 [tracto](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tracto.js) | [Tracto](https://coincheckup.com/coins/tracto) | TRCT | Dynamic | :white_check_mark: Done
@@ -894,6 +940,7 @@ ID | Name | Symbol | Implementation | Status
 [op-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/op-coin.js) | [OP Coin](https://coincheckup.com/coins/op-coin) | OPC | Not Implemented | :x: Not done
 [noblecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/noblecoin.js) | [NobleCoin](https://coincheckup.com/coins/noblecoin) | NOBL | Dynamic | :white_check_mark: Done
 [bitwhite](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitwhite.js) | [BitWhite](https://coincheckup.com/coins/bitwhite) | BTW | Not Implemented | :x: Not done
+[hat.exchange](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hat.exchange.js) | [Hat.Exchange](https://coincheckup.com/coins/hat.exchange) | HAT | Not Implemented | :x: Not done
 [trustplus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trustplus.js) | [TrustPlus](https://coincheckup.com/coins/trustplus) | TRUST | Dynamic | :white_check_mark: Done
 [magi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/magi.js) | [Magi](https://coincheckup.com/coins/magi) | XMG | Dynamic | :white_check_mark: Done
 [stellite](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stellite.js) | [Stellite](https://coincheckup.com/coins/stellite) | XTL | Not Implemented | :x: Not done
@@ -907,6 +954,7 @@ ID | Name | Symbol | Implementation | Status
 [creditbit](https://github.com/coincheckup/crypto-supplies/blob/master/coins/creditbit.js) | [Creditbit](https://coincheckup.com/coins/creditbit) | CRB | Dynamic | :white_check_mark: Done
 [zero](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zero.js) | [Zero](https://coincheckup.com/coins/zero) | ZER | Not Implemented | :x: Not done
 [obsidian](https://github.com/coincheckup/crypto-supplies/blob/master/coins/obsidian.js) | [Obsidian](https://coincheckup.com/coins/obsidian) | ODN | Not Implemented | :x: Not done
+[gcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gcoin.js) | [GCN Coin](https://coincheckup.com/coins/gcoin) | GCN | Not Implemented | :x: Not done
 [goldmint](https://github.com/coincheckup/crypto-supplies/blob/master/coins/goldmint.js) | [GoldMint](https://coincheckup.com/coins/goldmint) | MNTP | Dynamic | :white_check_mark: Done
 [trezarcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trezarcoin.js) | [TrezarCoin](https://coincheckup.com/coins/trezarcoin) | TZC | Dynamic | :white_check_mark: Done
 [micromoney](https://github.com/coincheckup/crypto-supplies/blob/master/coins/micromoney.js) | [MicroMoney](https://coincheckup.com/coins/micromoney) | AMM | Dynamic | :white_check_mark: Done
@@ -943,6 +991,8 @@ ID | Name | Symbol | Implementation | Status
 [platinumbar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/platinumbar.js) | [PlatinumBAR](https://coincheckup.com/coins/platinumbar) | XPTX | Not Implemented | :x: Not done
 [canada-ecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/canada-ecoin.js) | [Canada eCoin](https://coincheckup.com/coins/canada-ecoin) | CDN | Not Implemented | :x: Not done
 [808coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/808coin.js) | [808Coin](https://coincheckup.com/coins/808coin) | 808 | Not Implemented | :x: Not done
+[united-crypto-community](https://github.com/coincheckup/crypto-supplies/blob/master/coins/united-crypto-community.js) | [United Crypto Community](https://coincheckup.com/coins/united-crypto-community) | UCOM | Not Implemented | :x: Not done
+[ebitcoincash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ebitcoincash.js) | [eBitcoinCash](https://coincheckup.com/coins/ebitcoincash) | EBCH | Not Implemented | :x: Not done
 [vulcano](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vulcano.js) | [Vulcano](https://coincheckup.com/coins/vulcano) | VULC | Not Implemented | :x: Not done
 [wandx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wandx.js) | [WandX](https://coincheckup.com/coins/wandx) | WAND | Dynamic | :white_check_mark: Done
 [soma](https://github.com/coincheckup/crypto-supplies/blob/master/coins/soma.js) | [Soma](https://coincheckup.com/coins/soma) | SCT | Dynamic | :white_check_mark: Done
@@ -962,6 +1012,7 @@ ID | Name | Symbol | Implementation | Status
 [amon](https://github.com/coincheckup/crypto-supplies/blob/master/coins/amon.js) | [Amon](https://coincheckup.com/coins/amon) | AMN | Dynamic | :white_check_mark: Done
 [chronologic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/chronologic.js) | [Chronologic](https://coincheckup.com/coins/chronologic) | DAY | Dynamic | :white_check_mark: Done
 [tokendesk](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tokendesk.js) | [TokenDesk](https://coincheckup.com/coins/tokendesk) | TDS | Dynamic | :white_check_mark: Done
+[bitjob](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitjob.js) | [bitJob](https://coincheckup.com/coins/bitjob) | STU | Dynamic | :white_check_mark: Done
 [unbreakablecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/unbreakablecoin.js) | [UnbreakableCoin](https://coincheckup.com/coins/unbreakablecoin) | UNB | Not Implemented | :x: Not done
 [farad](https://github.com/coincheckup/crypto-supplies/blob/master/coins/farad.js) | [Farad](https://coincheckup.com/coins/farad) | FRD | Dynamic | :white_check_mark: Done
 [authorship](https://github.com/coincheckup/crypto-supplies/blob/master/coins/authorship.js) | [Authorship](https://coincheckup.com/coins/authorship) | ATS | Dynamic | :white_check_mark: Done
@@ -1015,6 +1066,7 @@ ID | Name | Symbol | Implementation | Status
 [bitradio](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitradio.js) | [Bitradio](https://coincheckup.com/coins/bitradio) | BRO | Dynamic | :white_check_mark: Done
 [woodcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/woodcoin.js) | [Woodcoin](https://coincheckup.com/coins/woodcoin) | LOG | Not Implemented | :x: Not done
 [petrodollar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/petrodollar.js) | [PetroDollar](https://coincheckup.com/coins/petrodollar) | XPD | Not Implemented | :x: Not done
+[realt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/realt.js) | [RouletteToken](https://coincheckup.com/coins/realt) | RLT | Dynamic | :white_check_mark: Done
 [netcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/netcoin.js) | [NetCoin](https://coincheckup.com/coins/netcoin) | NET | Not Implemented | :x: Not done
 [fluttercoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/fluttercoin.js) | [FlutterCoin](https://coincheckup.com/coins/fluttercoin) | FLT | Not Implemented | :x: Not done
 [fujicoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/fujicoin.js) | [FujiCoin](https://coincheckup.com/coins/fujicoin) | FJC | Not Implemented | :x: Not done
@@ -1041,6 +1093,7 @@ ID | Name | Symbol | Implementation | Status
 [eltcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eltcoin.js) | [ELTCOIN](https://coincheckup.com/coins/eltcoin) | ELTCOIN | Dynamic | :white_check_mark: Done
 [greenmed](https://github.com/coincheckup/crypto-supplies/blob/master/coins/greenmed.js) | [GreenMed](https://coincheckup.com/coins/greenmed) | GRMD | Dynamic | :white_check_mark: Done
 [growers-international](https://github.com/coincheckup/crypto-supplies/blob/master/coins/growers-international.js) | [Growers International](https://coincheckup.com/coins/growers-international) | GRWI | Not Implemented | :x: Not done
+[tattoocoin-(standard-edition)](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tattoocoin-(standard-edition).js) | [Tattoocoin (Standard Edition)](https://coincheckup.com/coins/tattoocoin-(standard-edition)) | TSE | Not Implemented | :x: Not done
 [piggycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/piggycoin.js) | [Piggycoin](https://coincheckup.com/coins/piggycoin) | PIGGY | Dynamic | :white_check_mark: Done
 [lanacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lanacoin.js) | [LanaCoin](https://coincheckup.com/coins/lanacoin) | LANA | Dynamic | :white_check_mark: Done
 [veros](https://github.com/coincheckup/crypto-supplies/blob/master/coins/veros.js) | [Veros](https://coincheckup.com/coins/veros) | VRS | Dynamic | :white_check_mark: Done
@@ -1060,9 +1113,11 @@ ID | Name | Symbol | Implementation | Status
 [skeincoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/skeincoin.js) | [Skeincoin](https://coincheckup.com/coins/skeincoin) | SKC | Dynamic | :white_check_mark: Done
 [guncoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/guncoin.js) | [Guncoin](https://coincheckup.com/coins/guncoin) | GUN | Dynamic | :white_check_mark: Done
 [centurion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/centurion.js) | [Centurion](https://coincheckup.com/coins/centurion) | CNT | Not Implemented | :x: Not done
+[bitcoin-silver](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-silver.js) | [Bitcoin Scrypt](https://coincheckup.com/coins/bitcoin-silver) | BTCS | Not Implemented | :x: Not done
 [halcyon](https://github.com/coincheckup/crypto-supplies/blob/master/coins/halcyon.js) | [Halcyon](https://coincheckup.com/coins/halcyon) | HAL | Not Implemented | :x: Not done
 [mao-zedong](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mao-zedong.js) | [Mao Zedong](https://coincheckup.com/coins/mao-zedong) | MAO | Not Implemented | :x: Not done
 [bitair](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitair.js) | [Bitair](https://coincheckup.com/coins/bitair) | BTCA | Dynamic | :white_check_mark: Done
+[cash-poker-pro](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cash-poker-pro.js) | [Cashcoin](https://coincheckup.com/coins/cash-poker-pro) | CASH | Not Implemented | :x: Not done
 [aquariuscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aquariuscoin.js) | [AquariusCoin](https://coincheckup.com/coins/aquariuscoin) | ARCO | Dynamic | :white_check_mark: Done
 [trumpcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trumpcoin.js) | [TrumpCoin](https://coincheckup.com/coins/trumpcoin) | TRUMP | Dynamic | :white_check_mark: Done
 [bitstar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitstar.js) | [Bitstar](https://coincheckup.com/coins/bitstar) | BITS | Not Implemented | :x: Not done
@@ -1094,6 +1149,7 @@ ID | Name | Symbol | Implementation | Status
 [cryptocarbon](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptocarbon.js) | [CryptoCarbon](https://coincheckup.com/coins/cryptocarbon) | CCRB | Not Implemented | :x: Not done
 [cryptojacks](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptojacks.js) | [Cryptojacks](https://coincheckup.com/coins/cryptojacks) | CJ | Not Implemented | :x: Not done
 [adcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/adcoin.js) | [AdCoin](https://coincheckup.com/coins/adcoin) | ACC | Not Implemented | :x: Not done
+[paycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/paycoin.js) | [PayCoin](https://coincheckup.com/coins/paycoin) | XPY | Not Implemented | :x: Not done
 [ico-openledger](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ico-openledger.js) | [ICO OpenLedger](https://coincheckup.com/coins/ico-openledger) | ICOO | Not Implemented | :x: Not done
 [blazecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blazecoin.js) | [BlazeCoin](https://coincheckup.com/coins/blazecoin) | BLZ | Not Implemented | :x: Not done
 [kubera-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/kubera-coin.js) | [Kubera Coin](https://coincheckup.com/coins/kubera-coin) | KBR | Dynamic | :white_check_mark: Done
@@ -1118,6 +1174,7 @@ ID | Name | Symbol | Implementation | Status
 [supercoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/supercoin.js) | [SuperCoin](https://coincheckup.com/coins/supercoin) | SUPER | Dynamic | :white_check_mark: Done
 [prototanium](https://github.com/coincheckup/crypto-supplies/blob/master/coins/prototanium.js) | [Prototanium](https://coincheckup.com/coins/prototanium) | PR | Dynamic | :white_check_mark: Done
 [manna](https://github.com/coincheckup/crypto-supplies/blob/master/coins/manna.js) | [Manna](https://coincheckup.com/coins/manna) | MANNA | Dynamic | :white_check_mark: Done
+[cartaxi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cartaxi.js) | [CarTaxi Token](https://coincheckup.com/coins/cartaxi) | CTX | Not Implemented | :x: Not done
 [postcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/postcoin.js) | [PostCoin](https://coincheckup.com/coins/postcoin) | POST | Dynamic | :white_check_mark: Done
 [gapcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gapcoin.js) | [Gapcoin](https://coincheckup.com/coins/gapcoin) | GAP | Dynamic | :white_check_mark: Done
 [daxxcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/daxxcoin.js) | [DaxxCoin](https://coincheckup.com/coins/daxxcoin) | DAXX | Not Implemented | :x: Not done
@@ -1168,8 +1225,10 @@ ID | Name | Symbol | Implementation | Status
 [datacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/datacoin.js) | [Datacoin](https://coincheckup.com/coins/datacoin) | DTC | Dynamic | :white_check_mark: Done
 [leacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/leacoin.js) | [LeaCoin](https://coincheckup.com/coins/leacoin) | LEA | Not Implemented | :x: Not done
 [darsek](https://github.com/coincheckup/crypto-supplies/blob/master/coins/darsek.js) | [Darsek](https://coincheckup.com/coins/darsek) | KED | Not Implemented | :x: Not done
+[emerald-crypto](https://github.com/coincheckup/crypto-supplies/blob/master/coins/emerald-crypto.js) | [Emerald Crypto](https://coincheckup.com/coins/emerald-crypto) | EMD | Dynamic | :white_check_mark: Done
 [bit20](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bit20.js) | [Bit20](https://coincheckup.com/coins/bit20) | BTWTY | Not Implemented | :x: Not done
 [influxcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/influxcoin.js) | [Influxcoin](https://coincheckup.com/coins/influxcoin) | INFX | Not Implemented | :x: Not done
+[granite](https://github.com/coincheckup/crypto-supplies/blob/master/coins/granite.js) | [Granite](https://coincheckup.com/coins/granite) | GRN | Not Implemented | :x: Not done
 [sativacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sativacoin.js) | [Sativacoin](https://coincheckup.com/coins/sativacoin) | STV | Dynamic | :white_check_mark: Done
 [amsterdamcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/amsterdamcoin.js) | [AmsterdamCoin](https://coincheckup.com/coins/amsterdamcoin) | AMS | Not Implemented | :x: Not done
 [coinonatx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/coinonatx.js) | [CoinonatX](https://coincheckup.com/coins/coinonatx) | XCXT | Not Implemented | :x: Not done
@@ -1187,9 +1246,11 @@ ID | Name | Symbol | Implementation | Status
 [octoin-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/octoin-coin.js) | [Octoin Coin](https://coincheckup.com/coins/octoin-coin) | OCC | Not Implemented | :x: Not done
 [c-bit](https://github.com/coincheckup/crypto-supplies/blob/master/coins/c-bit.js) | [C-Bit](https://coincheckup.com/coins/c-bit) | XCT | Not Implemented | :x: Not done
 [swing](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swing.js) | [Swing](https://coincheckup.com/coins/swing) | SWING | Dynamic | :white_check_mark: Done
+[coin(o)](https://github.com/coincheckup/crypto-supplies/blob/master/coins/coin(o).js) | [Coin(O)](https://coincheckup.com/coins/coin(o)) | CNO | Not Implemented | :x: Not done
 [quazarcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/quazarcoin.js) | [QuazarCoin](https://coincheckup.com/coins/quazarcoin) | QCN | Not Implemented | :x: Not done
 [starcash-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/starcash-network.js) | [StarCash Network](https://coincheckup.com/coins/starcash-network) | STARS | Not Implemented | :x: Not done
 [icoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/icoin.js) | [iCoin](https://coincheckup.com/coins/icoin) | ICN | Dynamic | :white_check_mark: Done
+[escroco](https://github.com/coincheckup/crypto-supplies/blob/master/coins/escroco.js) | [Escroco](https://coincheckup.com/coins/escroco) | ESC | Not Implemented | :x: Not done
 [harvest-masternode-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/harvest-masternode-coin.js) | [Harvest Masternode Coin](https://coincheckup.com/coins/harvest-masternode-coin) | HC | Not Implemented | :x: Not done
 [parkbyte](https://github.com/coincheckup/crypto-supplies/blob/master/coins/parkbyte.js) | [ParkByte](https://coincheckup.com/coins/parkbyte) | PKB | Not Implemented | :x: Not done
 [ronpaulcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ronpaulcoin.js) | [RonPaulCoin](https://coincheckup.com/coins/ronpaulcoin) | RPC | Not Implemented | :x: Not done
@@ -1274,6 +1335,7 @@ ID | Name | Symbol | Implementation | Status
 [bitcoal](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoal.js) | [BitCoal](https://coincheckup.com/coins/bitcoal) | COAL | Not Implemented | :x: Not done
 [icobid](https://github.com/coincheckup/crypto-supplies/blob/master/coins/icobid.js) | [ICOBID](https://coincheckup.com/coins/icobid) | ICOB | Not Implemented | :x: Not done
 [visio](https://github.com/coincheckup/crypto-supplies/blob/master/coins/visio.js) | [Visio](https://coincheckup.com/coins/visio) | VISIO | Dynamic | :white_check_mark: Done
+[trident-group](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trident-group.js) | [Trident Group](https://coincheckup.com/coins/trident-group) | TRDT | Dynamic | :white_check_mark: Done
 [jobscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/jobscoin.js) | [JobsCoin](https://coincheckup.com/coins/jobscoin) | JOBS | Not Implemented | :x: Not done
 [litebitcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/litebitcoin.js) | [LiteBitcoin](https://coincheckup.com/coins/litebitcoin) | LBTC | Not Implemented | :x: Not done
 [guccionecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/guccionecoin.js) | [GuccioneCoin](https://coincheckup.com/coins/guccionecoin) | GCC | Not Implemented | :x: Not done
@@ -1320,12 +1382,17 @@ ID | Name | Symbol | Implementation | Status
 [prcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/prcoin.js) | [PRCoin](https://coincheckup.com/coins/prcoin) | PRC | Not Implemented | :x: Not done
 [save-and-gain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/save-and-gain.js) | [Save and Gain](https://coincheckup.com/coins/save-and-gain) | SANDG | Not Implemented | :x: Not done
 [bitvolt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitvolt.js) | [Bitvolt](https://coincheckup.com/coins/bitvolt) | VOLT | Not Implemented | :x: Not done
+[womencoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/womencoin.js) | [WomenCoin](https://coincheckup.com/coins/womencoin) | WOMEN | Not Implemented | :x: Not done
 [argus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/argus.js) | [Argus](https://coincheckup.com/coins/argus) | ARGUS | Not Implemented | :x: Not done
 [wild-beast-block](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wild-beast-block.js) | [Wild Beast Block](https://coincheckup.com/coins/wild-beast-block) | WBB | Not Implemented | :x: Not done
 [dollar-online](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dollar-online.js) | [Dollar Online](https://coincheckup.com/coins/dollar-online) | DOLLAR | Not Implemented | :x: Not done
 [bowscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bowscoin.js) | [BowsCoin](https://coincheckup.com/coins/bowscoin) | BSC | Not Implemented | :x: Not done
 [ibank](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ibank.js) | [iBank](https://coincheckup.com/coins/ibank) | IBANK | Not Implemented | :x: Not done
+[socialcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/socialcoin.js) | [SocialCoin](https://coincheckup.com/coins/socialcoin) | SOCC | Not Implemented | :x: Not done
+[rawcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rawcoin.js) | [Rawcoin](https://coincheckup.com/coins/rawcoin) | XRC | Not Implemented | :x: Not done
 [biobar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/biobar.js) | [BioBar](https://coincheckup.com/coins/biobar) | BIOB | Not Implemented | :x: Not done
+[coimatic-2.0](https://github.com/coincheckup/crypto-supplies/blob/master/coins/coimatic-2.0.js) | [Coimatic 2.0](https://coincheckup.com/coins/coimatic-2.0) | CTIC2 | Not Implemented | :x: Not done
+[coimatic-3.0](https://github.com/coincheckup/crypto-supplies/blob/master/coins/coimatic-3.0.js) | [Coimatic 3.0](https://coincheckup.com/coins/coimatic-3.0) | CTIC3 | Not Implemented | :x: Not done
 [artex-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/artex-coin.js) | [Artex Coin](https://coincheckup.com/coins/artex-coin) | ATX | Not Implemented | :x: Not done
 [crevacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crevacoin.js) | [CrevaCoin](https://coincheckup.com/coins/crevacoin) | CREVA | Not Implemented | :x: Not done
 [concoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/concoin.js) | [Concoin](https://coincheckup.com/coins/concoin) | CONX | Not Implemented | :x: Not done
@@ -1333,9 +1400,11 @@ ID | Name | Symbol | Implementation | Status
 [project-x](https://github.com/coincheckup/crypto-supplies/blob/master/coins/project-x.js) | [Project-X](https://coincheckup.com/coins/project-x) | NANOX | Not Implemented | :x: Not done
 [magnum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/magnum.js) | [Magnum](https://coincheckup.com/coins/magnum) | MGM | Not Implemented | :x: Not done
 [ulatech](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ulatech.js) | [Ulatech](https://coincheckup.com/coins/ulatech) | ULA | Not Implemented | :x: Not done
+[harmonycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/harmonycoin.js) | [HarmonyCoin](https://coincheckup.com/coins/harmonycoin) | HMC | Not Implemented | :x: Not done
 [levoplus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/levoplus.js) | [LevoPlus](https://coincheckup.com/coins/levoplus) | LVPS | Not Implemented | :x: Not done
 [tristar-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tristar-coin.js) | [Tristar Coin](https://coincheckup.com/coins/tristar-coin) | TSTR | Not Implemented | :x: Not done
 [poly-ai](https://github.com/coincheckup/crypto-supplies/blob/master/coins/poly-ai.js) | [POLY AI](https://coincheckup.com/coins/poly-ai) | AI | Dynamic | :white_check_mark: Done
+[futurxe](https://github.com/coincheckup/crypto-supplies/blob/master/coins/futurxe.js) | [FuturXe](https://coincheckup.com/coins/futurxe) | FXE | Not Implemented | :x: Not done
 [blockmesh](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blockmesh.js) | [BlockMesh](https://coincheckup.com/coins/blockmesh) | BMH | Dynamic | :white_check_mark: Done
 [investdigital](https://github.com/coincheckup/crypto-supplies/blob/master/coins/investdigital.js) | [InvestDigital](https://coincheckup.com/coins/investdigital) | IDT | Not Implemented | :x: Not done
 [superior-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/superior-coin.js) | [Superior Coin](https://coincheckup.com/coins/superior-coin) | SUP | Not Implemented | :x: Not done
@@ -1350,10 +1419,12 @@ ID | Name | Symbol | Implementation | Status
 [ipchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ipchain.js) | [IPChain](https://coincheckup.com/coins/ipchain) | IPC | Dynamic | :white_check_mark: Done
 [traxia](https://github.com/coincheckup/crypto-supplies/blob/master/coins/traxia.js) | [TRAXIA](https://coincheckup.com/coins/traxia) | TMT | Dynamic | :white_check_mark: Done
 [stockchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stockchain.js) | [StockChain](https://coincheckup.com/coins/stockchain) | SCC | Dynamic | :white_check_mark: Done
+[filecoin-futures](https://github.com/coincheckup/crypto-supplies/blob/master/coins/filecoin-futures.js) | [Filecoin [Futures]](https://coincheckup.com/coins/filecoin-futures) | FIL | Not Implemented | :x: Not done
 [pchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pchain.js) | [PCHAIN](https://coincheckup.com/coins/pchain) | PAI | Dynamic | :white_check_mark: Done
 [open-platform](https://github.com/coincheckup/crypto-supplies/blob/master/coins/open-platform.js) | [Open Platform](https://coincheckup.com/coins/open-platform) | OPEN | Dynamic | :white_check_mark: Done
 [levocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/levocoin.js) | [Levocoin](https://coincheckup.com/coins/levocoin) | LEVO | Not Implemented | :x: Not done
 [engine](https://github.com/coincheckup/crypto-supplies/blob/master/coins/engine.js) | [Engine](https://coincheckup.com/coins/engine) | EGCC | Not Implemented | :x: Not done
+[santa-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/santa-coin.js) | [StarChain](https://coincheckup.com/coins/santa-coin) | STC | Not Implemented | :x: Not done
 [intelligent-investment-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/intelligent-investment-chain.js) | [Intelligent Investment Chain](https://coincheckup.com/coins/intelligent-investment-chain) | IIC | Not Implemented | :x: Not done
 [first-bitcoin-capital](https://github.com/coincheckup/crypto-supplies/blob/master/coins/first-bitcoin-capital.js) | [First Bitcoin Capital](https://coincheckup.com/coins/first-bitcoin-capital) | BITCF | Not Implemented | :x: Not done
 [quotient](https://github.com/coincheckup/crypto-supplies/blob/master/coins/quotient.js) | [Quotient](https://coincheckup.com/coins/quotient) | XQN | Dynamic | :white_check_mark: Done
@@ -1364,6 +1435,7 @@ ID | Name | Symbol | Implementation | Status
 [t-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/t-coin.js) | [T-coin](https://coincheckup.com/coins/t-coin) | TCOIN | Not Implemented | :x: Not done
 [universalroyalcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/universalroyalcoin.js) | [UniversalRoyalCoin](https://coincheckup.com/coins/universalroyalcoin) | UNRC | Not Implemented | :x: Not done
 [sjwcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sjwcoin.js) | [SJWCoin](https://coincheckup.com/coins/sjwcoin) | SJW | Not Implemented | :x: Not done
+[pundi-x-new](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pundi-x-new.js) | [Pundi X](https://coincheckup.com/coins/pundi-x-new) | NPXS | Not Implemented | :x: Not done
 [budbo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/budbo.js) | [Budbo](https://coincheckup.com/coins/budbo) | BUBO | Not Implemented | :x: Not done
 [axiom](https://github.com/coincheckup/crypto-supplies/blob/master/coins/axiom.js) | [Axiom](https://coincheckup.com/coins/axiom) | AXIOM | Not Implemented | :x: Not done
 [richcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/richcoin.js) | [RichCoin](https://coincheckup.com/coins/richcoin) | RICHX | Not Implemented | :x: Not done
@@ -1376,6 +1448,7 @@ ID | Name | Symbol | Implementation | Status
 [protean](https://github.com/coincheckup/crypto-supplies/blob/master/coins/protean.js) | [Protean](https://coincheckup.com/coins/protean) | PRN | Not Implemented | :x: Not done
 [akuya-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/akuya-coin.js) | [Akuya Coin](https://coincheckup.com/coins/akuya-coin) | AKY | Not Implemented | :x: Not done
 [consensus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/consensus.js) | [Consensus](https://coincheckup.com/coins/consensus) | SEN | Dynamic | :white_check_mark: Done
+[stex-stex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stex-stex.js) | [STEX](https://coincheckup.com/coins/stex-stex) | STEX | Not Implemented | :x: Not done
 [zsecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zsecoin.js) | [ZSEcoin](https://coincheckup.com/coins/zsecoin) | ZSE | Not Implemented | :x: Not done
 [sakuracoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sakuracoin.js) | [Sakuracoin](https://coincheckup.com/coins/sakuracoin) | SKR | Not Implemented | :x: Not done
 [w3coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/w3coin.js) | [W3Coin](https://coincheckup.com/coins/w3coin) | W3C | Not Implemented | :x: Not done
@@ -1404,6 +1477,7 @@ ID | Name | Symbol | Implementation | Status
 [skrumble-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/skrumble-network.js) | [Skrumble Network](https://coincheckup.com/coins/skrumble-network) | SKM | Dynamic | :white_check_mark: Done
 [couchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/couchain.js) | [Couchain](https://coincheckup.com/coins/couchain) | COU | Dynamic | :white_check_mark: Done
 [bitcoin-god](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-god.js) | [Bitcoin God](https://coincheckup.com/coins/bitcoin-god) | GOD | Not Implemented | :x: Not done
+[segwit2x-futures](https://github.com/coincheckup/crypto-supplies/blob/master/coins/segwit2x-futures.js) | [SegWit2x](https://coincheckup.com/coins/segwit2x-futures) | B2X | Not Implemented | :x: Not done
 [iquant](https://github.com/coincheckup/crypto-supplies/blob/master/coins/iquant.js) | [iQuant](https://coincheckup.com/coins/iquant) | IQT | Dynamic | :white_check_mark: Done
 [super-game-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/super-game-chain.js) | [Super Game Chain](https://coincheckup.com/coins/super-game-chain) | SGCC | Not Implemented | :x: Not done
 [cybereits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cybereits.js) | [Cybereits](https://coincheckup.com/coins/cybereits) | CRE | Dynamic | :white_check_mark: Done
@@ -1414,6 +1488,7 @@ ID | Name | Symbol | Implementation | Status
 [libra-credit](https://github.com/coincheckup/crypto-supplies/blob/master/coins/libra-credit.js) | [Libra Credit](https://coincheckup.com/coins/libra-credit) | LBA | Dynamic | :white_check_mark: Done
 [valuechain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/valuechain.js) | [ValueChain](https://coincheckup.com/coins/valuechain) | VLC | Not Implemented | :x: Not done
 [insurchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/insurchain.js) | [InsurChain](https://coincheckup.com/coins/insurchain) | INSUR | Dynamic | :white_check_mark: Done
+[educoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/educoin.js) | [EduCoin](https://coincheckup.com/coins/educoin) | EDU | Not Implemented | :x: Not done
 [jingtum-tech](https://github.com/coincheckup/crypto-supplies/blob/master/coins/jingtum-tech.js) | [Jingtum Tech](https://coincheckup.com/coins/jingtum-tech) | SWTC | Not Implemented | :x: Not done
 [spindle](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spindle.js) | [SPINDLE](https://coincheckup.com/coins/spindle) | SPD | Dynamic | :white_check_mark: Done
 [vcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vcash.js) | [Vcash](https://coincheckup.com/coins/vcash) | XVC | Not Implemented | :x: Not done
@@ -1454,8 +1529,10 @@ ID | Name | Symbol | Implementation | Status
 [cazcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cazcoin.js) | [Cazcoin](https://coincheckup.com/coins/cazcoin) | CAZ | Not Implemented | :x: Not done
 [fapcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/fapcoin.js) | [FAPcoin](https://coincheckup.com/coins/fapcoin) | FAP | Dynamic | :white_check_mark: Done
 [corion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/corion.js) | [CORION](https://coincheckup.com/coins/corion) | COR | Not Implemented | :x: Not done
+[wincoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wincoin.js) | [WINCOIN](https://coincheckup.com/coins/wincoin) | WC | Dynamic | :white_check_mark: Done
 [exchange-union](https://github.com/coincheckup/crypto-supplies/blob/master/coins/exchange-union.js) | [Exchange Union](https://coincheckup.com/coins/exchange-union) | XUC | Dynamic | :white_check_mark: Done
 [animecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/animecoin.js) | [Animecoin](https://coincheckup.com/coins/animecoin) | ANI | Not Implemented | :x: Not done
+[tezos-(pre-launch)](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tezos-(pre-launch).js) | [Tezos (Pre-Launch)](https://coincheckup.com/coins/tezos-(pre-launch)) | XTZ | Not Implemented | :x: Not done
 [aston](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aston.js) | [Aston](https://coincheckup.com/coins/aston) | ATX | Dynamic | :white_check_mark: Done
 [monero-original](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monero-original.js) | [Monero Original](https://coincheckup.com/coins/monero-original) | XMO | Not Implemented | :x: Not done
 [cubits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cubits.js) | [Cubits](https://coincheckup.com/coins/cubits) | QBT | Not Implemented | :x: Not done
@@ -1473,7 +1550,9 @@ ID | Name | Symbol | Implementation | Status
 [xyo-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xyo-network.js) | [XYO Network](https://coincheckup.com/coins/xyo-network) | XYO | Dynamic | :white_check_mark: Done
 [zip](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zip.js) | [ZIP](https://coincheckup.com/coins/zip) | ZIP | Dynamic | :white_check_mark: Done
 [lendroid-support-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lendroid-support-token.js) | [Lendroid Support Token](https://coincheckup.com/coins/lendroid-support-token) | LST | Dynamic | :white_check_mark: Done
+[level-up-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/level-up-coin.js) | [Level Up Coin](https://coincheckup.com/coins/level-up-coin) | LUC | Not Implemented | :x: Not done
 [first-bitcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/first-bitcoin.js) | [First Bitcoin](https://coincheckup.com/coins/first-bitcoin) | BIT | Not Implemented | :x: Not done
+[era](https://github.com/coincheckup/crypto-supplies/blob/master/coins/era.js) | [ERA](https://coincheckup.com/coins/era) | ERA | Not Implemented | :x: Not done
 [powercoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/powercoin.js) | [Powercoin](https://coincheckup.com/coins/powercoin) | PWR | Not Implemented | :x: Not done
 [msd](https://github.com/coincheckup/crypto-supplies/blob/master/coins/msd.js) | [MSD](https://coincheckup.com/coins/msd) | MSD | Not Implemented | :x: Not done
 [acchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/acchain.js) | [ACChain](https://coincheckup.com/coins/acchain) | ACC | Not Implemented | :x: Not done
@@ -1488,8 +1567,10 @@ ID | Name | Symbol | Implementation | Status
 [trustnote](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trustnote.js) | [TrustNote](https://coincheckup.com/coins/trustnote) | TTT | Not Implemented | :x: Not done
 [cyder](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cyder.js) | [Cyder](https://coincheckup.com/coins/cyder) | CYDER | Not Implemented | :x: Not done
 [sisa](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sisa.js) | [SISA](https://coincheckup.com/coins/sisa) | SISA | Dynamic | :white_check_mark: Done
+[plex-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/plex-coin.js) | [PlexCoin](https://coincheckup.com/coins/plex-coin) | PLX | Not Implemented | :x: Not done
 [supernet-unity](https://github.com/coincheckup/crypto-supplies/blob/master/coins/supernet-unity.js) | [SuperNET](https://coincheckup.com/coins/supernet-unity) | UNITY | Not Implemented | :x: Not done
 [realchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/realchain.js) | [RealChain](https://coincheckup.com/coins/realchain) | RCT | Dynamic | :white_check_mark: Done
+[bitcoinx-futures](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoinx-futures.js) | [BitcoinX](https://coincheckup.com/coins/bitcoinx-futures) | BCX | Not Implemented | :x: Not done
 [belacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/belacoin.js) | [Bela](https://coincheckup.com/coins/belacoin) | BELA | Dynamic | :white_check_mark: Done
 [betacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/betacoin.js) | [BetaCoin](https://coincheckup.com/coins/betacoin) | BET | Not Implemented | :x: Not done
 [wi-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wi-coin.js) | [Wi Coin](https://coincheckup.com/coins/wi-coin) | WIC | Dynamic | :white_check_mark: Done
@@ -1509,18 +1590,22 @@ ID | Name | Symbol | Implementation | Status
 [grandcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/grandcoin.js) | [GrandCoin](https://coincheckup.com/coins/grandcoin) | GDC | Not Implemented | :x: Not done
 [neo-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/neo-gold.js) | [NEO GOLD](https://coincheckup.com/coins/neo-gold) | NEOG | Dynamic | :white_check_mark: Done
 [dutch-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dutch-coin.js) | [Dutch Coin](https://coincheckup.com/coins/dutch-coin) | DUTCH | Not Implemented | :x: Not done
+[gamechain-system](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gamechain-system.js) | [GameChain System](https://coincheckup.com/coins/gamechain-system) | GCS | Not Implemented | :x: Not done
 [wink](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wink.js) | [Wink](https://coincheckup.com/coins/wink) | WINK | Not Implemented | :x: Not done
 [candy](https://github.com/coincheckup/crypto-supplies/blob/master/coins/candy.js) | [Candy](https://coincheckup.com/coins/candy) | CANDY | Not Implemented | :x: Not done
 [bitok](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitok.js) | [Bitok](https://coincheckup.com/coins/bitok) | BITOK | Not Implemented | :x: Not done
 [turbocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/turbocoin.js) | [TurboCoin](https://coincheckup.com/coins/turbocoin) | TURBO | Not Implemented | :x: Not done
+[united-traders-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/united-traders-token.js) | [United Traders Token](https://coincheckup.com/coins/united-traders-token) | UTT | Not Implemented | :x: Not done
 [donationcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/donationcoin.js) | [Donationcoin](https://coincheckup.com/coins/donationcoin) | DON | Not Implemented | :x: Not done
 [halloween-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/halloween-coin.js) | [Halloween Coin](https://coincheckup.com/coins/halloween-coin) | HALLO | Not Implemented | :x: Not done
 [dynamiccoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dynamiccoin.js) | [DynamicCoin](https://coincheckup.com/coins/dynamiccoin) | DMC | Not Implemented | :x: Not done
 [xtd-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xtd-coin.js) | [XTD Coin](https://coincheckup.com/coins/xtd-coin) | XTD | Not Implemented | :x: Not done
+[tattoocoin-(limited-edition)](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tattoocoin-(limited-edition).js) | [Tattoocoin (Limited Edition)](https://coincheckup.com/coins/tattoocoin-(limited-edition)) | TLE | Not Implemented | :x: Not done
 [cheapcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cheapcoin.js) | [Cheapcoin](https://coincheckup.com/coins/cheapcoin) | CHEAP | Not Implemented | :x: Not done
 [utrum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/utrum.js) | [Utrum](https://coincheckup.com/coins/utrum) | OOT | Not Implemented | :x: Not done
 [avatarcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/avatarcoin.js) | [AvatarCoin](https://coincheckup.com/coins/avatarcoin) | AV | Not Implemented | :x: Not done
 [proud-money](https://github.com/coincheckup/crypto-supplies/blob/master/coins/proud-money.js) | [PROUD Money](https://coincheckup.com/coins/proud-money) | PROUD | Not Implemented | :x: Not done
+[pabyosi-coin-(special)](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pabyosi-coin-(special).js) | [Pabyosi Coin (Special)](https://coincheckup.com/coins/pabyosi-coin-(special)) | PCS | Not Implemented | :x: Not done
 [landcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/landcoin.js) | [LandCoin](https://coincheckup.com/coins/landcoin) | LDCN | Not Implemented | :x: Not done
 [blazercoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blazercoin.js) | [BlazerCoin](https://coincheckup.com/coins/blazercoin) | BLAZR | Not Implemented | :x: Not done
 [hodl-bucks](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hodl-bucks.js) | [HODL Bucks](https://coincheckup.com/coins/hodl-bucks) | HDLB | Dynamic | :white_check_mark: Done
@@ -1530,6 +1615,7 @@ ID | Name | Symbol | Implementation | Status
 [cryptcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptcoin.js) | [CryptCoin](https://coincheckup.com/coins/cryptcoin) | CRYPT | Dynamic | :white_check_mark: Done
 [show](https://github.com/coincheckup/crypto-supplies/blob/master/coins/show.js) | [Show](https://coincheckup.com/coins/show) | SHOW | Not Implemented | :x: Not done
 [ivy](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ivy.js) | [Ivy](https://coincheckup.com/coins/ivy) | IVY | Dynamic | :white_check_mark: Done
+[starcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/starcoin.js) | [StarCoin](https://coincheckup.com/coins/starcoin) | KST | Not Implemented | :x: Not done
 [terranova](https://github.com/coincheckup/crypto-supplies/blob/master/coins/terranova.js) | [TerraNova](https://coincheckup.com/coins/terranova) | TER | Not Implemented | :x: Not done
 [atmcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/atmcoin.js) | [ATMCoin](https://coincheckup.com/coins/atmcoin) | ATMC | Not Implemented | :x: Not done
 [cloud](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cloud.js) | [Cloud](https://coincheckup.com/coins/cloud) | CLD | Dynamic | :white_check_mark: Done
@@ -1539,6 +1625,7 @@ ID | Name | Symbol | Implementation | Status
 [seele](https://github.com/coincheckup/crypto-supplies/blob/master/coins/seele.js) | [Seele](https://coincheckup.com/coins/seele) | SEELE | Dynamic | :white_check_mark: Done
 [read](https://github.com/coincheckup/crypto-supplies/blob/master/coins/read.js) | [Read](https://coincheckup.com/coins/read) | READ | Dynamic | :white_check_mark: Done
 [monero-classic](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monero-classic.js) | [Monero Classic](https://coincheckup.com/coins/monero-classic) | XMC | Not Implemented | :x: Not done
+[ck-usd](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ck-usd.js) | [CK USD](https://coincheckup.com/coins/ck-usd) | CKUSD | Not Implemented | :x: Not done
 [loopring-neo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/loopring-neo.js) | [Loopring [NEO]](https://coincheckup.com/coins/loopring-neo) | LRN | Not Implemented | :x: Not done
 [content-and-ad-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/content-and-ad-network.js) | [Content and AD Network](https://coincheckup.com/coins/content-and-ad-network) | CAN | Not Implemented | :x: Not done
 [unlimitedip](https://github.com/coincheckup/crypto-supplies/blob/master/coins/unlimitedip.js) | [UnlimitedIP](https://coincheckup.com/coins/unlimitedip) | UIP | Dynamic | :white_check_mark: Done
@@ -1569,7 +1656,6 @@ ID | Name | Symbol | Implementation | Status
 [alpacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/alpacoin.js) | N/A | N/A | N/A | :x: Not done
 [alphabitcoinfund](https://github.com/coincheckup/crypto-supplies/blob/master/coins/alphabitcoinfund.js) | [Alphabit](https://coincheckup.com/coins/alphabitcoinfund) | ABC | Not Implemented | :x: Not done
 [altcommunity-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/altcommunity-coin.js) | [SONO](https://coincheckup.com/coins/altcommunity-coin) | SONO | Not Implemented | :x: Not done
-[amber](https://github.com/coincheckup/crypto-supplies/blob/master/coins/amber.js) | [Ambrosus](https://coincheckup.com/coins/amber) | AMB | Not Implemented | :x: Not done
 [ambercoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ambercoin.js) | [AmberCoin](https://coincheckup.com/coins/ambercoin) | AMBER | Not Implemented | :x: Not done
 [amlt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/amlt.js) | [AMLT Token](https://coincheckup.com/coins/amlt) | AMLT | Not Implemented | :x: Not done
 [ammo-reloaded](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ammo-reloaded.js) | [Ammo Reloaded](https://coincheckup.com/coins/ammo-reloaded) | AMMO | Not Implemented | :x: Not done
@@ -1581,7 +1667,6 @@ ID | Name | Symbol | Implementation | Status
 [aware](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aware.js) | [AWARE](https://coincheckup.com/coins/aware) | AWR | Not Implemented | :x: Not done
 [b2bx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/b2bx.js) | [B2BX](https://coincheckup.com/coins/b2bx) | B2B | Dynamic | :white_check_mark: Done
 [basic-attention-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/basic-attention-token.js) | [Basic Attention Token](https://coincheckup.com/coins/basic-attention-token) | BAT | Dynamic | :white_check_mark: Done
-[bean-cash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bean-cash.js) | [Bean Cash](https://coincheckup.com/coins/bean-cash) | BITB | Not Implemented | :x: Not done
 [bestchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bestchain.js) | [BestChain](https://coincheckup.com/coins/bestchain) | BEST | Not Implemented | :x: Not done
 [billarycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/billarycoin.js) | N/A | N/A | N/A | :x: Not done
 [bios-crypto](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bios-crypto.js) | [BiosCrypto](https://coincheckup.com/coins/bios-crypto) | BIOS | Not Implemented | :x: Not done
@@ -1590,39 +1675,26 @@ ID | Name | Symbol | Implementation | Status
 [bitboost](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitboost.js) | N/A | N/A | N/A | :x: Not done
 [bitcedi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcedi.js) | N/A | N/A | N/A | :x: Not done
 [bitcoin-atom](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-atom.js) | [Bitcoin Atom](https://coincheckup.com/coins/bitcoin-atom) | BCA | Not Implemented | :x: Not done
-[bitcoin-scrypt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-scrypt.js) | [Bitcoin Scrypt](https://coincheckup.com/coins/bitcoin-scrypt) | BTCS | Not Implemented | :x: Not done
-[bitcoinx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoinx.js) | [BitcoinX](https://coincheckup.com/coins/bitcoinx) | BCX | Not Implemented | :x: Not done
 [bitconnect](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitconnect.js) | [BitConnect](https://coincheckup.com/coins/bitconnect) | BCC | Not Implemented | :x: Not done
 [bitfid](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitfid.js) | N/A | N/A | N/A | :x: Not done
 [bitpark-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitpark-coin.js) | [Bitpark Coin](https://coincheckup.com/coins/bitpark-coin) | BPC | Dynamic | :white_check_mark: Done
-[bitshares-music](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitshares-music.js) | [MUSE](https://coincheckup.com/coins/bitshares-music) | MUSE | Not Implemented | :x: Not done
 [bittokens](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bittokens.js) | [BitTokens](https://coincheckup.com/coins/bittokens) | BXT | Not Implemented | :x: Not done
 [bitz](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitz.js) | [Bitz](https://coincheckup.com/coins/bitz) | BITZ | Not Implemented | :x: Not done
-[blackmoon](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blackmoon.js) | [Blackmoon](https://coincheckup.com/coins/blackmoon) | BMC | Not Implemented | :x: Not done
 [blackstar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blackstar.js) | N/A | N/A | N/A | :x: Not done
-[blakestar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blakestar.js) | [ERA](https://coincheckup.com/coins/blakestar) | ERA | Not Implemented | :x: Not done
 [blitzcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blitzcash.js) | [Blitzcash](https://coincheckup.com/coins/blitzcash) | BLITZ | Dynamic | :white_check_mark: Done
 [blockmason](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blockmason.js) | [BlockMason Credit Protocol](https://coincheckup.com/coins/blockmason) | BCPT | Not Implemented | :x: Not done
 [blockpay](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blockpay.js) | [BlockPay](https://coincheckup.com/coins/blockpay) | BLOCKPAY | Not Implemented | :x: Not done
-[bloomtoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bloomtoken.js) | [Bloom](https://coincheckup.com/coins/bloomtoken) | BLT | Not Implemented | :x: Not done
 [braincoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/braincoin.js) | N/A | N/A | N/A | :x: Not done
 [brat](https://github.com/coincheckup/crypto-supplies/blob/master/coins/brat.js) | [BROTHER](https://coincheckup.com/coins/brat) | BRAT | Not Implemented | :x: Not done
 [caliphcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/caliphcoin.js) | [CaliphCoin](https://coincheckup.com/coins/caliphcoin) | CALC | Not Implemented | :x: Not done
-[cartaxi-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cartaxi-token.js) | [CarTaxi Token](https://coincheckup.com/coins/cartaxi-token) | CTX | Not Implemented | :x: Not done
-[cashcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cashcoin.js) | [Cashcoin](https://coincheckup.com/coins/cashcoin) | CASH | Not Implemented | :x: Not done
 [cashme](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cashme.js) | N/A | N/A | N/A | :x: Not done
 [ccminer](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ccminer.js) | N/A | N/A | N/A | :x: Not done
 [centra](https://github.com/coincheckup/crypto-supplies/blob/master/coins/centra.js) | [Centra](https://coincheckup.com/coins/centra) | CTR | Dynamic | :white_check_mark: Done
 [chronos](https://github.com/coincheckup/crypto-supplies/blob/master/coins/chronos.js) | [Chronos](https://coincheckup.com/coins/chronos) | CRX | Not Implemented | :x: Not done
-[ckusd](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ckusd.js) | [CK USD](https://coincheckup.com/coins/ckusd) | CKUSD | Not Implemented | :x: Not done
 [clearcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/clearcoin.js) | [ClearCoin](https://coincheckup.com/coins/clearcoin) | CLR | Dynamic | :white_check_mark: Done
 [coexistcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/coexistcoin.js) | N/A | N/A | N/A | :x: Not done
-[coimatic-2](https://github.com/coincheckup/crypto-supplies/blob/master/coins/coimatic-2.js) | [Coimatic 2.0](https://coincheckup.com/coins/coimatic-2) | CTIC2 | Not Implemented | :x: Not done
-[coimatic-3](https://github.com/coincheckup/crypto-supplies/blob/master/coins/coimatic-3.js) | [Coimatic 3.0](https://coincheckup.com/coins/coimatic-3) | CTIC3 | Not Implemented | :x: Not done
-[coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/coin.js) | [Coin(O)](https://coincheckup.com/coins/coin) | CNO | Not Implemented | :x: Not done
 [coin2-1](https://github.com/coincheckup/crypto-supplies/blob/master/coins/coin2-1.js) | [Coin2.1](https://coincheckup.com/coins/coin2-1) | C2 | Not Implemented | :x: Not done
 [colossuscoin-v2](https://github.com/coincheckup/crypto-supplies/blob/master/coins/colossuscoin-v2.js) | N/A | N/A | N/A | :x: Not done
-[colossusxt](https://github.com/coincheckup/crypto-supplies/blob/master/coins/colossusxt.js) | [ColossusXT](https://coincheckup.com/coins/colossusxt) | COLX | Dynamic | :white_check_mark: Done
 [compcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/compcoin.js) | N/A | N/A | N/A | :x: Not done
 [confido](https://github.com/coincheckup/crypto-supplies/blob/master/coins/confido.js) | N/A | N/A | N/A | :x: Not done
 [copico](https://github.com/coincheckup/crypto-supplies/blob/master/coins/copico.js) | [Copico](https://coincheckup.com/coins/copico) | XCPO | Not Implemented | :x: Not done
@@ -1639,9 +1711,7 @@ ID | Name | Symbol | Implementation | Status
 [dashs](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dashs.js) | [Dashs](https://coincheckup.com/coins/dashs) | DASHS | Not Implemented | :x: Not done
 [davorcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/davorcoin.js) | [DavorCoin](https://coincheckup.com/coins/davorcoin) | DAV | Not Implemented | :x: Not done
 [dcorp](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dcorp.js) | [DCORP](https://coincheckup.com/coins/dcorp) | DRP | Dynamic | :white_check_mark: Done
-[decent-bet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/decent-bet.js) | [DecentBet](https://coincheckup.com/coins/decent-bet) | DBET | Not Implemented | :x: Not done
 [deltacredits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/deltacredits.js) | [DeltaCredits](https://coincheckup.com/coins/deltacredits) | DCRE | Not Implemented | :x: Not done
-[denarius-dnr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/denarius-dnr.js) | [Denarius](https://coincheckup.com/coins/denarius-dnr) | DNR | Not Implemented | :x: Not done
 [destiny](https://github.com/coincheckup/crypto-supplies/blob/master/coins/destiny.js) | [Destiny](https://coincheckup.com/coins/destiny) | DES | Not Implemented | :x: Not done
 [dfscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dfscoin.js) | N/A | N/A | N/A | :x: Not done
 [dibcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dibcoin.js) | N/A | N/A | N/A | :x: Not done
@@ -1652,29 +1722,20 @@ ID | Name | Symbol | Implementation | Status
 [dubstep](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dubstep.js) | N/A | N/A | N/A | :x: Not done
 [e-dinar-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/e-dinar-coin.js) | [E-Dinar Coin](https://coincheckup.com/coins/e-dinar-coin) | EDR | Not Implemented | :x: Not done
 [earthcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/earthcoin.js) | N/A | N/A | N/A | :white_check_mark: Done
-[ebitcoin-cash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ebitcoin-cash.js) | [eBitcoinCash](https://coincheckup.com/coins/ebitcoin-cash) | EBCH | Not Implemented | :x: Not done
 [ebittree-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ebittree-coin.js) | [Ebittree Coin](https://coincheckup.com/coins/ebittree-coin) | EBT | Not Implemented | :x: Not done
-[eboostcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eboostcoin.js) | [eBoost](https://coincheckup.com/coins/eboostcoin) | EBST | Not Implemented | :x: Not done
 [ebtcnew](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ebtcnew.js) | [eBitcoin](https://coincheckup.com/coins/ebtcnew) | EBTC | Not Implemented | :x: Not done
 [eccoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eccoin.js) | [ECC](https://coincheckup.com/coins/eccoin) | ECC | Not Implemented | :x: Not done
-[edu-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/edu-coin.js) | [EduCoin](https://coincheckup.com/coins/edu-coin) | EDU | Not Implemented | :x: Not done
-[effect-ai](https://github.com/coincheckup/crypto-supplies/blob/master/coins/effect-ai.js) | [Effect.AI](https://coincheckup.com/coins/effect-ai) | EFX | Not Implemented | :x: Not done
 [ego](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ego.js) | N/A | N/A | N/A | :x: Not done
 [egold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/egold.js) | N/A | N/A | N/A | :x: Not done
 [elacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/elacoin.js) | N/A | N/A | N/A | :x: Not done
 [elcoin-el](https://github.com/coincheckup/crypto-supplies/blob/master/coins/elcoin-el.js) | [Elcoin](https://coincheckup.com/coins/elcoin-el) | EL | Not Implemented | :x: Not done
-[electrifyasia](https://github.com/coincheckup/crypto-supplies/blob/master/coins/electrifyasia.js) | [Electrify.Asia](https://coincheckup.com/coins/electrifyasia) | ELEC | Not Implemented | :x: Not done
-[emerald](https://github.com/coincheckup/crypto-supplies/blob/master/coins/emerald.js) | [Emerald Crypto](https://coincheckup.com/coins/emerald) | EMD | Dynamic | :white_check_mark: Done
-[enigma-project](https://github.com/coincheckup/crypto-supplies/blob/master/coins/enigma-project.js) | [Enigma](https://coincheckup.com/coins/enigma-project) | ENG | Dynamic | :white_check_mark: Done
 [eot-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/eot-token.js) | N/A | N/A | N/A | :x: Not done
 [ereal](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ereal.js) | [eREAL](https://coincheckup.com/coins/ereal) | EREAL | Dynamic | :white_check_mark: Done
-[escoro](https://github.com/coincheckup/crypto-supplies/blob/master/coins/escoro.js) | [Escroco](https://coincheckup.com/coins/escoro) | ESC | Not Implemented | :x: Not done
 [ethereumcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ethereumcash.js) | [Ethereum Cash](https://coincheckup.com/coins/ethereumcash) | ECASH | Not Implemented | :x: Not done
 [evotion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/evotion.js) | N/A | N/A | N/A | :x: Not done
 [exchangen](https://github.com/coincheckup/crypto-supplies/blob/master/coins/exchangen.js) | [ExchangeN](https://coincheckup.com/coins/exchangen) | EXN | Not Implemented | :x: Not done
 [farstcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/farstcoin.js) | [Farstcoin](https://coincheckup.com/coins/farstcoin) | FRCT | Not Implemented | :x: Not done
 [fazzcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/fazzcoin.js) | [Fazzcoin](https://coincheckup.com/coins/fazzcoin) | FAZZ | Not Implemented | :x: Not done
-[filecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/filecoin.js) | [Filecoin [Futures]](https://coincheckup.com/coins/filecoin) | FIL | Not Implemented | :x: Not done
 [fimkrypto](https://github.com/coincheckup/crypto-supplies/blob/master/coins/fimkrypto.js) | N/A | N/A | N/A | :x: Not done
 [fincoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/fincoin.js) | [FinCoin](https://coincheckup.com/coins/fincoin) | FNC | Not Implemented | :x: Not done
 [firecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/firecoin.js) | [Firecoin](https://coincheckup.com/coins/firecoin) | FIRE | Not Implemented | :x: Not done
@@ -1684,42 +1745,29 @@ ID | Name | Symbol | Implementation | Status
 [footy-cash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/footy-cash.js) | N/A | N/A | N/A | :x: Not done
 [franko](https://github.com/coincheckup/crypto-supplies/blob/master/coins/franko.js) | N/A | N/A | N/A | :x: Not done
 [frankywillcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/frankywillcoin.js) | N/A | N/A | N/A | :x: Not done
-[friends](https://github.com/coincheckup/crypto-supplies/blob/master/coins/friends.js) | [Friendz](https://coincheckup.com/coins/friends) | FDZ | Not Implemented | :x: Not done
 [fucktoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/fucktoken.js) | N/A | N/A | N/A | :x: Not done
 [fuelcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/fuelcoin.js) | N/A | N/A | N/A | :white_check_mark: Done
 [futcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/futcoin.js) | N/A | N/A | N/A | :x: Not done
-[futurexe](https://github.com/coincheckup/crypto-supplies/blob/master/coins/futurexe.js) | [FuturXe](https://coincheckup.com/coins/futurexe) | FXE | Not Implemented | :x: Not done
 [gaia](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gaia.js) | N/A | N/A | N/A | :x: Not done
-[game](https://github.com/coincheckup/crypto-supplies/blob/master/coins/game.js) | [Game.com](https://coincheckup.com/coins/game) | GTC | Dynamic | :white_check_mark: Done
-[gamechain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gamechain.js) | [GameChain System](https://coincheckup.com/coins/gamechain) | GCS | Not Implemented | :x: Not done
 [gameleaguecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gameleaguecoin.js) | N/A | N/A | N/A | :x: Not done
 [gameunits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gameunits.js) | [GameUnits](https://coincheckup.com/coins/gameunits) | UNITS | Not Implemented | :x: Not done
 [ganjacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ganjacoin.js) | N/A | N/A | N/A | :x: Not done
 [gaycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gaycoin.js) | N/A | N/A | N/A | :x: Not done
 [gbcgoldcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gbcgoldcoin.js) | [GBCGoldCoin](https://coincheckup.com/coins/gbcgoldcoin) | GBC | Not Implemented | :x: Not done
-[gcn-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gcn-coin.js) | [GCN Coin](https://coincheckup.com/coins/gcn-coin) | GCN | Not Implemented | :x: Not done
-[gems-protocol](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gems-protocol.js) | [Gems](https://coincheckup.com/coins/gems-protocol) | GEM | Not Implemented | :x: Not done
 [genstake](https://github.com/coincheckup/crypto-supplies/blob/master/coins/genstake.js) | N/A | N/A | N/A | :x: Not done
 [giga-watt-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/giga-watt-token.js) | N/A | N/A | N/A | :x: Not done
 [global-currency-reserve](https://github.com/coincheckup/crypto-supplies/blob/master/coins/global-currency-reserve.js) | [Global Currency Reserve](https://coincheckup.com/coins/global-currency-reserve) | GCR | Not Implemented | :x: Not done
 [global-jobcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/global-jobcoin.js) | [Global Jobcoin](https://coincheckup.com/coins/global-jobcoin) | GJC | Dynamic | :white_check_mark: Done
 [goldreserve](https://github.com/coincheckup/crypto-supplies/blob/master/coins/goldreserve.js) | N/A | N/A | N/A | :x: Not done
 [gpu-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gpu-coin.js) | N/A | N/A | N/A | :x: Not done
-[granitecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/granitecoin.js) | [Granite](https://coincheckup.com/coins/granitecoin) | GRN | Not Implemented | :x: Not done
 [greencoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/greencoin.js) | N/A | N/A | N/A | :white_check_mark: Done
 [grid](https://github.com/coincheckup/crypto-supplies/blob/master/coins/grid.js) | [Grid+](https://coincheckup.com/coins/grid) | GRID | Not Implemented | :x: Not done
 [hade-platform](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hade-platform.js) | [Hade Platform](https://coincheckup.com/coins/hade-platform) | HADE | Not Implemented | :x: Not done
 [happy-creator-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/happy-creator-coin.js) | N/A | N/A | N/A | :x: Not done
-[harmonycoin-hmc](https://github.com/coincheckup/crypto-supplies/blob/master/coins/harmonycoin-hmc.js) | [HarmonyCoin](https://coincheckup.com/coins/harmonycoin-hmc) | HMC | Not Implemented | :x: Not done
-[hat-exchange](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hat-exchange.js) | [Hat.Exchange](https://coincheckup.com/coins/hat-exchange) | HAT | Not Implemented | :x: Not done
 [hawala-today](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hawala-today.js) | N/A | N/A | N/A | :x: Not done
 [hempcoin-hmp](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hempcoin-hmp.js) | [HempCoin](https://coincheckup.com/coins/hempcoin-hmp) | HMP | Not Implemented | :x: Not done
 [hitcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hitcoin.js) | N/A | N/A | N/A | :x: Not done
-[hive-project](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hive-project.js) | [Hive Project](https://coincheckup.com/coins/hive-project) | HVN | Not Implemented | :x: Not done
-[html-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/html-coin.js) | [HTMLCOIN](https://coincheckup.com/coins/html-coin) | HTML | Not Implemented | :x: Not done
-[hush](https://github.com/coincheckup/crypto-supplies/blob/master/coins/hush.js) | [Hush](https://coincheckup.com/coins/hush) | HUSH | Not Implemented | :x: Not done
 [idice](https://github.com/coincheckup/crypto-supplies/blob/master/coins/idice.js) | N/A | N/A | N/A | :x: Not done
-[imbrex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/imbrex.js) | [imbrex](https://coincheckup.com/coins/imbrex) | REX | Dynamic | :white_check_mark: Done
 [impulsecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/impulsecoin.js) | [ImpulseCoin](https://coincheckup.com/coins/impulsecoin) | IMPS | Not Implemented | :x: Not done
 [india-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/india-coin.js) | [India Coin](https://coincheckup.com/coins/india-coin) | INDIA | Not Implemented | :x: Not done
 [infchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/infchain.js) | N/A | N/A | N/A | :x: Not done
@@ -1738,27 +1786,21 @@ ID | Name | Symbol | Implementation | Status
 [leafcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/leafcoin.js) | N/A | N/A | N/A | :x: Not done
 [legends-room](https://github.com/coincheckup/crypto-supplies/blob/master/coins/legends-room.js) | [Legends Room](https://coincheckup.com/coins/legends-room) | LGD | Not Implemented | :x: Not done
 [lendconnect](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lendconnect.js) | N/A | N/A | N/A | :x: Not done
-[lendingblock](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lendingblock.js) | [Lendingblock](https://coincheckup.com/coins/lendingblock) | LND | Not Implemented | :x: Not done
 [lepen](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lepen.js) | [LePen](https://coincheckup.com/coins/lepen) | LEPEN | Not Implemented | :x: Not done
-[level-up](https://github.com/coincheckup/crypto-supplies/blob/master/coins/level-up.js) | [Level Up Coin](https://coincheckup.com/coins/level-up) | LUC | Not Implemented | :x: Not done
 [leviar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/leviar.js) | [Leviar](https://coincheckup.com/coins/leviar) | XLC | Not Implemented | :x: Not done
 [link-platform](https://github.com/coincheckup/crypto-supplies/blob/master/coins/link-platform.js) | N/A | N/A | N/A | :x: Not done
 [linkedcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/linkedcoin.js) | [LinkedCoin](https://coincheckup.com/coins/linkedcoin) | LKC | Not Implemented | :x: Not done
 [lltoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lltoken.js) | N/A | N/A | N/A | :x: Not done
-[locicoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/locicoin.js) | [LOCIcoin](https://coincheckup.com/coins/locicoin) | LOCI | Not Implemented | :x: Not done
 [lockchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lockchain.js) | [LockTrip](https://coincheckup.com/coins/lockchain) | LOC | Not Implemented | :x: Not done
 [luckchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/luckchain.js) | [LuckChain](https://coincheckup.com/coins/luckchain) | BASH | Dynamic | :white_check_mark: Done
 [macro1](https://github.com/coincheckup/crypto-supplies/blob/master/coins/macro1.js) | [Macro](https://coincheckup.com/coins/macro1) | MCR | Not Implemented | :x: Not done
 [madcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/madcoin.js) | [Madcoin](https://coincheckup.com/coins/madcoin) | MDC | Not Implemented | :x: Not done
-[mark-space](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mark-space.js) | [MARK.SPACE](https://coincheckup.com/coins/mark-space) | MRK | Not Implemented | :x: Not done
-[medical-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/medical-chain.js) | [Medicalchain](https://coincheckup.com/coins/medical-chain) | MTN | Not Implemented | :x: Not done
 [mergecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mergecoin.js) | N/A | N/A | N/A | :x: Not done
 [metal-music-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/metal-music-coin.js) | [Metal Music Coin](https://coincheckup.com/coins/metal-music-coin) | MTLMC3 | Not Implemented | :x: Not done
 [mindcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mindcoin.js) | [MindCoin](https://coincheckup.com/coins/mindcoin) | MND | Dynamic | :white_check_mark: Done
 [miners-reward-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/miners-reward-token.js) | [Miners' Reward Token](https://coincheckup.com/coins/miners-reward-token) | MRT | Not Implemented | :x: Not done
 [mmxvi](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mmxvi.js) | N/A | N/A | N/A | :x: Not done
 [mobilecash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/mobilecash.js) | N/A | N/A | N/A | :x: Not done
-[monacocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monacocoin.js) | [Monoeci](https://coincheckup.com/coins/monacocoin) | XMCC | Not Implemented | :x: Not done
 [monero-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monero-gold.js) | N/A | N/A | N/A | :x: Not done
 [moneta2](https://github.com/coincheckup/crypto-supplies/blob/master/coins/moneta2.js) | N/A | N/A | N/A | :x: Not done
 [napoleonx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/napoleonx.js) | [NaPoleonX](https://coincheckup.com/coins/napoleonx) | NPX | Dynamic | :white_check_mark: Done
@@ -1769,24 +1811,18 @@ ID | Name | Symbol | Implementation | Status
 [nodecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nodecoin.js) | [NodeCoin](https://coincheckup.com/coins/nodecoin) | NODC | Not Implemented | :x: Not done
 [nvo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nvo.js) | N/A | N/A | N/A | :x: Not done
 [ocow](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ocow.js) | N/A | N/A | N/A | :x: Not done
-[ongsocial](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ongsocial.js) | [onG.social](https://coincheckup.com/coins/ongsocial) | ONG | Not Implemented | :x: Not done
 [operand](https://github.com/coincheckup/crypto-supplies/blob/master/coins/operand.js) | [Operand](https://coincheckup.com/coins/operand) | OP | Not Implemented | :x: Not done
 [opescoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/opescoin.js) | [Opescoin](https://coincheckup.com/coins/opescoin) | OPES | Not Implemented | :x: Not done
 [orlycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/orlycoin.js) | N/A | N/A | N/A | :x: Not done
 [osmiumcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/osmiumcoin.js) | N/A | N/A | N/A | :x: Not done
-[ost](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ost.js) | [OST](https://coincheckup.com/coins/ost) | OST | Dynamic | :white_check_mark: Done
 [ox-fina](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ox-fina.js) | [OX Fina](https://coincheckup.com/coins/ox-fina) | OX | Dynamic | :white_check_mark: Done
 [p7coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/p7coin.js) | N/A | N/A | N/A | :x: Not done
-[pabyosi-coin-special](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pabyosi-coin-special.js) | [Pabyosi Coin (Special)](https://coincheckup.com/coins/pabyosi-coin-special) | PCS | Not Implemented | :x: Not done
-[paycoin2](https://github.com/coincheckup/crypto-supplies/blob/master/coins/paycoin2.js) | [PayCoin](https://coincheckup.com/coins/paycoin2) | XPY | Not Implemented | :x: Not done
 [paypeer](https://github.com/coincheckup/crypto-supplies/blob/master/coins/paypeer.js) | N/A | N/A | N/A | :x: Not done
 [pinkdog](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pinkdog.js) | N/A | N/A | N/A | :x: Not done
 [pirate-blocks](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pirate-blocks.js) | [Pirate Blocks](https://coincheckup.com/coins/pirate-blocks) | SKULL | Not Implemented | :x: Not done
 [pizzacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pizzacoin.js) | N/A | N/A | N/A | :x: Not done
-[plexcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/plexcoin.js) | [PlexCoin](https://coincheckup.com/coins/plexcoin) | PLX | Not Implemented | :x: Not done
 [pluscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pluscoin.js) | [PlusCoin](https://coincheckup.com/coins/pluscoin) | PLC | Dynamic | :white_check_mark: Done
 [pokecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pokecoin.js) | [PokeCoin](https://coincheckup.com/coins/pokecoin) | POKE | Not Implemented | :x: Not done
-[polymath-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/polymath-network.js) | [Polymath](https://coincheckup.com/coins/polymath-network) | POLY | Dynamic | :white_check_mark: Done
 [primulon](https://github.com/coincheckup/crypto-supplies/blob/master/coins/primulon.js) | [Primulon](https://coincheckup.com/coins/primulon) | PRIMU | Not Implemented | :x: Not done
 [printerium](https://github.com/coincheckup/crypto-supplies/blob/master/coins/printerium.js) | [Printerium](https://coincheckup.com/coins/printerium) | PRX | Not Implemented | :x: Not done
 [project-decorum](https://github.com/coincheckup/crypto-supplies/blob/master/coins/project-decorum.js) | N/A | N/A | N/A | :x: Not done
@@ -1794,74 +1830,50 @@ ID | Name | Symbol | Implementation | Status
 [psilocybin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/psilocybin.js) | N/A | N/A | N/A | :x: Not done
 [pulse](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pulse.js) | N/A | N/A | N/A | :x: Not done
 [pundi-x-old](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pundi-x-old.js) | N/A | N/A | N/A | :x: Not done
-[pundi-x](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pundi-x.js) | [Pundi X](https://coincheckup.com/coins/pundi-x) | NPXS | Not Implemented | :x: Not done
-[pura](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pura.js) | [Pura](https://coincheckup.com/coins/pura) | PURA | Dynamic | :white_check_mark: Done
 [px](https://github.com/coincheckup/crypto-supplies/blob/master/coins/px.js) | [PX](https://coincheckup.com/coins/px) | PX | Not Implemented | :x: Not done
 [qora](https://github.com/coincheckup/crypto-supplies/blob/master/coins/qora.js) | [Qora](https://coincheckup.com/coins/qora) | QORA | Not Implemented | :x: Not done
-[rawcoin2](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rawcoin2.js) | [Rawcoin](https://coincheckup.com/coins/rawcoin2) | XRC | Not Implemented | :x: Not done
 [real-estate-tokens](https://github.com/coincheckup/crypto-supplies/blob/master/coins/real-estate-tokens.js) | N/A | N/A | N/A | :x: Not done
-[rebl](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rebl.js) | [REBL](https://coincheckup.com/coins/rebl) | REBL | Dynamic | :white_check_mark: Done
 [reecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/reecoin.js) | [ReeCoin](https://coincheckup.com/coins/reecoin) | REE | Not Implemented | :x: Not done
 [regacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/regacoin.js) | [Regacoin](https://coincheckup.com/coins/regacoin) | REGA | Not Implemented | :x: Not done
 [remicoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/remicoin.js) | N/A | N/A | N/A | :x: Not done
-[restart-energy-mwat](https://github.com/coincheckup/crypto-supplies/blob/master/coins/restart-energy-mwat.js) | [Restart Energy MWAT](https://coincheckup.com/coins/restart-energy-mwat) | MWAT | Dynamic | :white_check_mark: Done
 [rhfcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rhfcoin.js) | N/A | N/A | N/A | :x: Not done
 [ride-my-car](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ride-my-car.js) | N/A | N/A | N/A | :x: Not done
 [ripto-bux](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ripto-bux.js) | N/A | N/A | N/A | :x: Not done
-[roulettetoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/roulettetoken.js) | [RouletteToken](https://coincheckup.com/coins/roulettetoken) | RLT | Dynamic | :white_check_mark: Done
 [royal-kingdom-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/royal-kingdom-coin.js) | [Royal Kingdom Coin](https://coincheckup.com/coins/royal-kingdom-coin) | RKC | Dynamic | :white_check_mark: Done
 [royalcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/royalcoin.js) | [RoyalCoin](https://coincheckup.com/coins/royalcoin) | ROYAL | Not Implemented | :x: Not done
 [rsgpcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rsgpcoin.js) | [RSGPcoin](https://coincheckup.com/coins/rsgpcoin) | RSGP | Not Implemented | :x: Not done
 [rublebit](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rublebit.js) | N/A | N/A | N/A | :x: Not done
-[rupaya](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rupaya.js) | [Rupaya](https://coincheckup.com/coins/rupaya) | RUPX | Dynamic | :white_check_mark: Done
 [rustbits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rustbits.js) | N/A | N/A | N/A | :x: Not done
 [sacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sacoin.js) | N/A | N/A | N/A | :x: Not done
 [safecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/safecoin.js) | N/A | N/A | N/A | :x: Not done
 [sand-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sand-coin.js) | N/A | N/A | N/A | :x: Not done
 [satoshimadness](https://github.com/coincheckup/crypto-supplies/blob/master/coins/satoshimadness.js) | [SatoshiMadness](https://coincheckup.com/coins/satoshimadness) | MAD | Not Implemented | :x: Not done
 [scorecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/scorecoin.js) | [Scorecoin](https://coincheckup.com/coins/scorecoin) | SCORE | Not Implemented | :x: Not done
-[scryinfo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/scryinfo.js) | [Scry.info](https://coincheckup.com/coins/scryinfo) | DDD | Dynamic | :white_check_mark: Done
-[segwit2x](https://github.com/coincheckup/crypto-supplies/blob/master/coins/segwit2x.js) | [SegWit2x](https://coincheckup.com/coins/segwit2x) | B2X | Not Implemented | :x: Not done
 [selfiecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/selfiecoin.js) | [Selfiecoin](https://coincheckup.com/coins/selfiecoin) | SLFI | Not Implemented | :x: Not done
 [shadowcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/shadowcash.js) | [ShadowCash](https://coincheckup.com/coins/shadowcash) | SDC | Not Implemented | :x: Not done
-[shield-xsh](https://github.com/coincheckup/crypto-supplies/blob/master/coins/shield-xsh.js) | [SHIELD](https://coincheckup.com/coins/shield-xsh) | XSH | Not Implemented | :x: Not done
 [shilling](https://github.com/coincheckup/crypto-supplies/blob/master/coins/shilling.js) | [Shilling](https://coincheckup.com/coins/shilling) | SH | Dynamic | :white_check_mark: Done
 [shorty](https://github.com/coincheckup/crypto-supplies/blob/master/coins/shorty.js) | [Shorty](https://coincheckup.com/coins/shorty) | SHORTY | Not Implemented | :x: Not done
-[signal-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/signal-token.js) | [Spectiv](https://coincheckup.com/coins/signal-token) | SIG | Dynamic | :white_check_mark: Done
 [slimcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/slimcoin.js) | N/A | N/A | N/A | :x: Not done
 [smartcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/smartcash.js) | [SmartCash](https://coincheckup.com/coins/smartcash) | SMART | Not Implemented | :x: Not done
 [snakeeyes](https://github.com/coincheckup/crypto-supplies/blob/master/coins/snakeeyes.js) | N/A | N/A | N/A | :x: Not done
-[socialcoin-socc](https://github.com/coincheckup/crypto-supplies/blob/master/coins/socialcoin-socc.js) | [SocialCoin](https://coincheckup.com/coins/socialcoin-socc) | SOCC | Not Implemented | :x: Not done
-[sociall](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sociall.js) | [Sociall](https://coincheckup.com/coins/sociall) | SCL | Dynamic | :white_check_mark: Done
 [sojourn](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sojourn.js) | N/A | N/A | N/A | :x: Not done
-[spectre-dividend](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spectre-dividend.js) | [Spectre.ai Dividend Token](https://coincheckup.com/coins/spectre-dividend) | SXDT | Not Implemented | :x: Not done
-[spectre-utility](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spectre-utility.js) | [Spectre.ai Utility Token](https://coincheckup.com/coins/spectre-utility) | SXUT | Not Implemented | :x: Not done
 [spherepay](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spherepay.js) | N/A | N/A | N/A | :x: Not done
 [sportscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sportscoin.js) | [SportsCoin](https://coincheckup.com/coins/sportscoin) | SPORT | Not Implemented | :x: Not done
 [sportyco](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sportyco.js) | [SportyCo](https://coincheckup.com/coins/sportyco) | SPF | Dynamic | :white_check_mark: Done
 [spots](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spots.js) | N/A | N/A | N/A | :x: Not done
 [spreadcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spreadcoin.js) | [SpreadCoin](https://coincheckup.com/coins/spreadcoin) | SPR | Dynamic | :white_check_mark: Done
 [sproutsextreme](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sproutsextreme.js) | N/A | N/A | N/A | :x: Not done
-[starchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/starchain.js) | [StarChain](https://coincheckup.com/coins/starchain) | STC | Not Implemented | :x: Not done
-[starcointv](https://github.com/coincheckup/crypto-supplies/blob/master/coins/starcointv.js) | [StarCoin](https://coincheckup.com/coins/starcointv) | KST | Not Implemented | :x: Not done
 [stealth](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stealth.js) | [Stealth](https://coincheckup.com/coins/stealth) | XST | Dynamic | :white_check_mark: Done
 [steps](https://github.com/coincheckup/crypto-supplies/blob/master/coins/steps.js) | [Steps](https://coincheckup.com/coins/steps) | STEPS | Not Implemented | :x: Not done
-[stex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stex.js) | [STEX](https://coincheckup.com/coins/stex) | STEX | Not Implemented | :x: Not done
 [strikebitclub](https://github.com/coincheckup/crypto-supplies/blob/master/coins/strikebitclub.js) | [StrikeBitClub](https://coincheckup.com/coins/strikebitclub) | SBC | Dynamic | :white_check_mark: Done
-[student-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/student-coin.js) | [bitJob](https://coincheckup.com/coins/student-coin) | STU | Dynamic | :white_check_mark: Done
 [swagbucks](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swagbucks.js) | N/A | N/A | N/A | :white_check_mark: Done
 [swaptoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swaptoken.js) | N/A | N/A | N/A | :x: Not done
-[swarm-fund](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swarm-fund.js) | [Swarm](https://coincheckup.com/coins/swarm-fund) | SWM | Dynamic | :white_check_mark: Done
 [sydpak](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sydpak.js) | N/A | N/A | N/A | :x: Not done
 [tagrcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tagrcoin.js) | [TAGRcoin](https://coincheckup.com/coins/tagrcoin) | TAGR | Not Implemented | :x: Not done
-[tattoocoin-limited](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tattoocoin-limited.js) | [Tattoocoin (Limited Edition)](https://coincheckup.com/coins/tattoocoin-limited) | TLE | Not Implemented | :x: Not done
-[tattoocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tattoocoin.js) | [Tattoocoin (Standard Edition)](https://coincheckup.com/coins/tattoocoin) | TSE | Not Implemented | :x: Not done
 [teamup](https://github.com/coincheckup/crypto-supplies/blob/master/coins/teamup.js) | N/A | N/A | N/A | :x: Not done
 [techshares](https://github.com/coincheckup/crypto-supplies/blob/master/coins/techshares.js) | [TechShares](https://coincheckup.com/coins/techshares) | THS | Not Implemented | :x: Not done
-[tezos](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tezos.js) | [Tezos (Pre-Launch)](https://coincheckup.com/coins/tezos) | XTZ | Not Implemented | :x: Not done
 [the-vegan-initiative](https://github.com/coincheckup/crypto-supplies/blob/master/coins/the-vegan-initiative.js) | N/A | N/A | N/A | :x: Not done
 [thecreed](https://github.com/coincheckup/crypto-supplies/blob/master/coins/thecreed.js) | N/A | N/A | N/A | :x: Not done
-[tiesdb](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tiesdb.js) | [Ties.DB](https://coincheckup.com/coins/tiesdb) | TIE | Dynamic | :white_check_mark: Done
 [timescoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/timescoin.js) | N/A | N/A | N/A | :x: Not done
 [titanium-bar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/titanium-bar.js) | [Titanium BAR](https://coincheckup.com/coins/titanium-bar) | TBAR | Dynamic | :white_check_mark: Done
 [titanium-blockchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/titanium-blockchain.js) | [Titanium Blockchain](https://coincheckup.com/coins/titanium-blockchain) | BAR | Dynamic | :white_check_mark: Done
@@ -1871,38 +1883,26 @@ ID | Name | Symbol | Implementation | Status
 [trackr](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trackr.js) | [CryptoInsight](https://coincheckup.com/coins/trackr) | TKR | Dynamic | :white_check_mark: Done
 [triaconta](https://github.com/coincheckup/crypto-supplies/blob/master/coins/triaconta.js) | [Triaconta](https://coincheckup.com/coins/triaconta) | TRIA | Dynamic | :white_check_mark: Done
 [trickycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trickycoin.js) | N/A | N/A | N/A | :x: Not done
-[trident](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trident.js) | [Trident Group](https://coincheckup.com/coins/trident) | TRDT | Dynamic | :white_check_mark: Done
 [trueusd](https://github.com/coincheckup/crypto-supplies/blob/master/coins/trueusd.js) | [TrueUSD](https://coincheckup.com/coins/trueusd) | TUSD | Not Implemented | :x: Not done
 [tychocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tychocoin.js) | N/A | N/A | N/A | :x: Not done
-[ucash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ucash.js) | [U.CASH](https://coincheckup.com/coins/ucash) | UCASH | Not Implemented | :x: Not done
-[ucom](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ucom.js) | [United Crypto Community](https://coincheckup.com/coins/ucom) | UCOM | Not Implemented | :x: Not done
 [ug-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ug-token.js) | N/A | N/A | N/A | :x: Not done
 [uncoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/uncoin.js) | [UNCoin](https://coincheckup.com/coins/uncoin) | UNC | Not Implemented | :x: Not done
-[uniform-fiscal-object](https://github.com/coincheckup/crypto-supplies/blob/master/coins/uniform-fiscal-object.js) | [Uniform Fiscal Object](https://coincheckup.com/coins/uniform-fiscal-object) | UFO | Not Implemented | :x: Not done
-[unikoin-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/unikoin-gold.js) | [Unikoin Gold](https://coincheckup.com/coins/unikoin-gold) | UKG | Dynamic | :white_check_mark: Done
 [unity-ingot](https://github.com/coincheckup/crypto-supplies/blob/master/coins/unity-ingot.js) | N/A | N/A | N/A | :x: Not done
 [unrealcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/unrealcoin.js) | N/A | N/A | N/A | :x: Not done
 [uro](https://github.com/coincheckup/crypto-supplies/blob/master/coins/uro.js) | [Uro](https://coincheckup.com/coins/uro) | URO | Not Implemented | :x: Not done
-[uttoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/uttoken.js) | [United Traders Token](https://coincheckup.com/coins/uttoken) | UTT | Not Implemented | :x: Not done
 [valorbit](https://github.com/coincheckup/crypto-supplies/blob/master/coins/valorbit.js) | N/A | N/A | N/A | :x: Not done
 [vip-tokens](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vip-tokens.js) | N/A | N/A | N/A | :x: Not done
 [virtacoinplus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/virtacoinplus.js) | N/A | N/A | N/A | :white_check_mark: Done
 [virtualcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/virtualcoin.js) | N/A | N/A | N/A | :x: Not done
-[voisecom](https://github.com/coincheckup/crypto-supplies/blob/master/coins/voisecom.js) | [Voise](https://coincheckup.com/coins/voisecom) | VOISE | Dynamic | :white_check_mark: Done
 [voyacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/voyacoin.js) | N/A | N/A | N/A | :x: Not done
 [vpncoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vpncoin.js) | N/A | N/A | N/A | :white_check_mark: Done
-[vsync-vsx](https://github.com/coincheckup/crypto-supplies/blob/master/coins/vsync-vsx.js) | [Vsync](https://coincheckup.com/coins/vsync-vsx) | VSX | Not Implemented | :x: Not done
-[waltonchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waltonchain.js) | [Waltonchain](https://coincheckup.com/coins/waltonchain) | WTC | Dynamic | :white_check_mark: Done
 [warp](https://github.com/coincheckup/crypto-supplies/blob/master/coins/warp.js) | N/A | N/A | N/A | :x: Not done
 [wayguide](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wayguide.js) | N/A | N/A | N/A | :x: Not done
-[win-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/win-coin.js) | [WINCOIN](https://coincheckup.com/coins/win-coin) | WC | Dynamic | :white_check_mark: Done
-[women](https://github.com/coincheckup/crypto-supplies/blob/master/coins/women.js) | [WomenCoin](https://coincheckup.com/coins/women) | WOMEN | Not Implemented | :x: Not done
 [wowcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wowcoin.js) | N/A | N/A | N/A | :x: Not done
 [x2](https://github.com/coincheckup/crypto-supplies/blob/master/coins/x2.js) | [X2](https://coincheckup.com/coins/x2) | X2 | Not Implemented | :x: Not done
 [xaucoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xaucoin.js) | N/A | N/A | N/A | :x: Not done
 [xios](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xios.js) | [Xios](https://coincheckup.com/coins/xios) | XIOS | Not Implemented | :x: Not done
 [xonecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xonecoin.js) | N/A | N/A | N/A | :x: Not done
-[xpa](https://github.com/coincheckup/crypto-supplies/blob/master/coins/xpa.js) | [XPA](https://coincheckup.com/coins/xpa) | XPA | Dynamic | :white_check_mark: Done
 [yacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/yacoin.js) | N/A | N/A | N/A | :x: Not done
 [yashcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/yashcoin.js) | N/A | N/A | N/A | :x: Not done
 [zcash-gold](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zcash-gold.js) | [Zlancer](https://coincheckup.com/coins/zcash-gold) | ZCG | Dynamic | :white_check_mark: Done
