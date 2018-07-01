@@ -257,13 +257,49 @@ yargs.usage('$0 <cmd> [args]')
             res.send(list)
         })
 
+        app.get('/~all', (req, res) => {
+            res.setHeader('Transfer-Encoding', 'chunked');
+
+            let opts = {},
+                files = getList(),
+                remaining = files.length
+
+            files.forEach(async(file) => {
+                let id = file.id,
+                    result = {}
+
+                try {
+                    result = await getSupplies(id, opts)
+                } catch (e) {
+                    result = e
+                }
+
+                result = formatResult(id, result, opts)
+
+                Object.assign(result, {
+                    meta: file
+                })
+
+                res.write(JSON.stringify(result) + "\n");
+                remaining--
+
+                console.log('rem', remaining)
+            })
+        })
+
+        app.get('/:coinId', async(req, res) => {
+            let supplies = await getSupplies(req.params.coinId, {})
+
+            res.send(supplies)
+        })
+
         app.listen(argv.port, () => console.log(`Now listening on port ${argv.port}
 
 > Available endpoints:
 
     - GET /             (lists all available coins)
     - GET /~all         (retrieves all supplies)
-    - GET /:coin-id:    (retrieves singular supply based on coin id)
+    - GET /coin-id:    (retrieves singular supply based on coin id)
 `))
     })
     .option('pretty', {
