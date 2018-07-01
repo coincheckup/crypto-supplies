@@ -2,6 +2,7 @@
  * @title Bolivarcoin
  * @symbol BOLI
  * @implementation Dynamic
+ * @cmcId bolivarcoin
  */
 
 module.exports = (callback, request) => {

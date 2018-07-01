@@ -1,7 +1,8 @@
 /**
- * @title ArtByte
- * @symbol ABY
+ * @title AI Doctor
+ * @symbol AIDOC
  * @implementation Not Implemented
+ * @cmcId aidoc
  */
 
 module.exports = (callback, request) => {

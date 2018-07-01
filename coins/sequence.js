@@ -2,6 +2,7 @@
  * @title Sequence
  * @symbol SEQ
  * @implementation Not Implemented
+ * @cmcId sequence
  */
 
 module.exports = (callback, request) => {

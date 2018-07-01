@@ -2,6 +2,7 @@
  * @title Obsidian
  * @symbol ODN
  * @implementation Not Implemented
+ * @cmcId obsidian
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Diamond
  * @symbol DMD
  * @implementation Dynamic
+ * @cmcId diamond
  */
 
 module.exports = (callback, request) => {

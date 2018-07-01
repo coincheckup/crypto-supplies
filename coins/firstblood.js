@@ -2,6 +2,7 @@
  * @title FirstBlood
  * @symbol 1ST
  * @implementation Not Implemented
+ * @cmcId firstblood
  */
 
 module.exports = (callback, request) => {

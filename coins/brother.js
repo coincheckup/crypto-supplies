@@ -1,7 +1,8 @@
 /**
- * @title Regacoin
- * @symbol REGA
+ * @title BROTHER
+ * @symbol BRAT
  * @implementation Not Implemented
+ * @cmcId brat
  */
 
 module.exports = (callback, request) => {

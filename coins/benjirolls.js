@@ -2,6 +2,7 @@
  * @title BenjiRolls
  * @symbol BENJI
  * @implementation Not Implemented
+ * @cmcId benjirolls
  */
 
 module.exports = (callback, request) => {

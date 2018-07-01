@@ -1,9 +1,10 @@
 /**
-* @title Bitcoin Red
-* @symbol BTCRED
-* @ethContractAddr 0x6aac8cb9861e42bf8259f5abdc6ae3ae89909e11
-* @implementation Dynamic
-*/
+ * @title Bitcoin Red
+ * @symbol BTCRED
+ * @ethContractAddr 0x6aac8cb9861e42bf8259f5abdc6ae3ae89909e11
+ * @implementation Dynamic
+ * @cmcId bitcoin-red
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6aac8cb9861e42bf8259f5abdc6ae3ae89909e11?apiKey=freekey', (error, response, body) => {

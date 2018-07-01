@@ -1,9 +1,10 @@
 /**
-* @title Dent
-* @symbol DENT
-* @ethContractAddr 0x3597bfd533a99c9aa083587b074434e61eb0a258
-* @implementation Dynamic
-*/
+ * @title Dent
+ * @symbol DENT
+ * @ethContractAddr 0x3597bfd533a99c9aa083587b074434e61eb0a258
+ * @implementation Dynamic
+ * @cmcId dent
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x3597bfd533a99c9aa083587b074434e61eb0a258?apiKey=freekey', (error, response, body) => {

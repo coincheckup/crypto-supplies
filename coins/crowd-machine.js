@@ -1,9 +1,10 @@
 /**
-* @title Crowd Machine
-* @symbol CMCT
-* @ethContractAddr 0x47bc01597798dcd7506dcca36ac4302fc93a8cfb
-* @implementation Dynamic
-*/
+ * @title Crowd Machine
+ * @symbol CMCT
+ * @ethContractAddr 0x47bc01597798dcd7506dcca36ac4302fc93a8cfb
+ * @implementation Dynamic
+ * @cmcId crowd-machine
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x47bc01597798dcd7506dcca36ac4302fc93a8cfb?apiKey=freekey', (error, response, body) => {

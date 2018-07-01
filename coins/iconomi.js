@@ -3,7 +3,8 @@
  * @symbol ICN
  * @ethContractAddr 0x888666CA69E0f178DED6D75b5726Cee99A87D698
  * @implementation Dynamic
-*/
+ * @cmcId iconomi
+ */
 
 module.exports = (callback, request) => {
     request('http://api.ethplorer.io/getTokenInfo/0x888666CA69E0f178DED6D75b5726Cee99A87D698?apiKey=freekey', (error, response, body) => {

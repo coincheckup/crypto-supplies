@@ -2,6 +2,7 @@
  * @title Monoeci
  * @symbol XMCC
  * @implementation Not Implemented
+ * @cmcId monacocoin
  */
 
 module.exports = (callback, request) => {

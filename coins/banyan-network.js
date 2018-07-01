@@ -1,9 +1,10 @@
 /**
-* @title Banyan Network
-* @symbol BBN
-* @ethContractAddr 0x35a69642857083ba2f30bfab735dacc7f0bac969
-* @implementation Dynamic
-*/
+ * @title Banyan Network
+ * @symbol BBN
+ * @ethContractAddr 0x35a69642857083ba2f30bfab735dacc7f0bac969
+ * @implementation Dynamic
+ * @cmcId banyan-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x35a69642857083ba2f30bfab735dacc7f0bac969?apiKey=freekey', (error, response, body) => {

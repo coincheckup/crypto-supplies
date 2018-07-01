@@ -2,6 +2,7 @@
  * @title Bitcoin Cash
  * @symbol BCH
  * @implementation Dynamic
+ * @cmcId bitcoin-cash
  */
 
 module.exports = (callback, request) => {

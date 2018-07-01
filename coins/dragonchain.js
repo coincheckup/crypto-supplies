@@ -1,9 +1,10 @@
 /**
-* @title Dragonchain
-* @symbol DRGN
-* @ethContractAddr 0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e
-* @implementation Dynamic
-*/
+ * @title Dragonchain
+ * @symbol DRGN
+ * @ethContractAddr 0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e
+ * @implementation Dynamic
+ * @cmcId dragonchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e?apiKey=freekey', (error, response, body) => {

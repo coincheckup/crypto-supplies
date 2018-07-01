@@ -1,9 +1,10 @@
 /**
-* @title LATOKEN
-* @symbol LA
-* @ethContractAddr 0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf
-* @implementation Dynamic
-*/
+ * @title LATOKEN
+ * @symbol LA
+ * @ethContractAddr 0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf
+ * @implementation Dynamic
+ * @cmcId latoken
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf?apiKey=freekey', (error, response, body) => {

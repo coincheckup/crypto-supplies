@@ -1,9 +1,10 @@
 /**
-* @title ICON
-* @symbol ICX
-* @ethContractAddr 0xb5a5f22694352c15b00323844ad545abb2b11028
-* @implementation Dynamic
-*/
+ * @title ICON
+ * @symbol ICX
+ * @ethContractAddr 0xb5a5f22694352c15b00323844ad545abb2b11028
+ * @implementation Dynamic
+ * @cmcId icon
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb5a5f22694352c15b00323844ad545abb2b11028?apiKey=freekey', (error, response, body) => {

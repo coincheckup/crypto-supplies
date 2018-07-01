@@ -1,9 +1,10 @@
 /**
-* @title Polybius
-* @symbol PLBT
-* @ethContractAddr 0x0affa06e7fbe5bc9a764c979aa66e8256a631f02
-* @implementation Dynamic
-*/
+ * @title Polybius
+ * @symbol PLBT
+ * @ethContractAddr 0x0affa06e7fbe5bc9a764c979aa66e8256a631f02
+ * @implementation Dynamic
+ * @cmcId polybius
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x0affa06e7fbe5bc9a764c979aa66e8256a631f02?apiKey=freekey', (error, response, body) => {

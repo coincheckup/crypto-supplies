@@ -2,6 +2,7 @@
  * @title Flaxscript
  * @symbol FLAX
  * @implementation Dynamic
+ * @cmcId flaxscript
  */
 
 module.exports = (callback, request) => {

@@ -1,9 +1,10 @@
 /**
-* @title StockChain
-* @symbol SCC
-* @ethContractAddr 0x355a458d555151d3b27f94227960ade1504e526a
-* @implementation Dynamic
-*/
+ * @title StockChain
+ * @symbol SCC
+ * @ethContractAddr 0x355a458d555151d3b27f94227960ade1504e526a
+ * @implementation Dynamic
+ * @cmcId stockchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x355a458d555151d3b27f94227960ade1504e526a?apiKey=freekey', (error, response, body) => {

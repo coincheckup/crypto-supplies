@@ -1,9 +1,10 @@
 /**
-* @title Etherparty
-* @symbol FUEL
-* @ethContractAddr 0xea38eaa3c86c8f9b751533ba2e562deb9acded40
-* @implementation Dynamic
-*/
+ * @title Etherparty
+ * @symbol FUEL
+ * @ethContractAddr 0xea38eaa3c86c8f9b751533ba2e562deb9acded40
+ * @implementation Dynamic
+ * @cmcId etherparty
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xea38eaa3c86c8f9b751533ba2e562deb9acded40?apiKey=freekey', (error, response, body) => {

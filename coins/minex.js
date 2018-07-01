@@ -1,9 +1,10 @@
 /**
-* @title Minex
-* @symbol MINEX
-* @ethContractAddr 0x0ed74a3ecc90270d18a3b3a8eb0042a7cdd03b19
-* @implementation Dynamic
-*/
+ * @title Minex
+ * @symbol MINEX
+ * @ethContractAddr 0x0ed74a3ecc90270d18a3b3a8eb0042a7cdd03b19
+ * @implementation Dynamic
+ * @cmcId minex
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x0ed74a3ecc90270d18a3b3a8eb0042a7cdd03b19?apiKey=freekey', (error, response, body) => {

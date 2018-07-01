@@ -2,6 +2,7 @@
  * @title Hshare
  * @symbol HSR
  * @implementation Dynamic
+ * @cmcId hshare
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Project-X
  * @symbol NANOX
  * @implementation Not Implemented
+ * @cmcId project-x
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Mintcoin
  * @symbol MINT
  * @implementation Not Implemented
+ * @cmcId mintcoin
  */
 
 module.exports = (callback, request) => {

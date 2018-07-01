@@ -2,6 +2,7 @@
  * @title PIVX
  * @symbol PIVX
  * @implementation Dynamic
+ * @cmcId pivx
  */
 
 module.exports = (callback, request) => {

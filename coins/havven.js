@@ -1,9 +1,10 @@
 /**
-* @title Havven
-* @symbol HAV
-* @ethContractAddr 0xf244176246168f24e3187f7288edbca29267739b
-* @implementation Dynamic
-*/
+ * @title Havven
+ * @symbol HAV
+ * @ethContractAddr 0xf244176246168f24e3187f7288edbca29267739b
+ * @implementation Dynamic
+ * @cmcId havven
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf244176246168f24e3187f7288edbca29267739b?apiKey=freekey', (error, response, body) => {

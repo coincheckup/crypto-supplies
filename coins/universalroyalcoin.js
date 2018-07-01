@@ -2,6 +2,7 @@
  * @title UniversalRoyalCoin
  * @symbol UNRC
  * @implementation Not Implemented
+ * @cmcId universalroyalcoin
  */
 
 module.exports = (callback, request) => {

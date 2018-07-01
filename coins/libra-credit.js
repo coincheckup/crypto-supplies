@@ -1,9 +1,10 @@
 /**
-* @title Libra Credit
-* @symbol LBA
-* @ethContractAddr 0xfe5f141bf94fe84bc28ded0ab966c16b17490657
-* @implementation Dynamic
-*/
+ * @title Libra Credit
+ * @symbol LBA
+ * @ethContractAddr 0xfe5f141bf94fe84bc28ded0ab966c16b17490657
+ * @implementation Dynamic
+ * @cmcId libra-credit
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xfe5f141bf94fe84bc28ded0ab966c16b17490657?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Telcoin
-* @symbol TEL
-* @ethContractAddr 0x85e076361cc813a908ff672f9bad1541474402b2
-* @implementation Dynamic
-*/
+ * @title Telcoin
+ * @symbol TEL
+ * @ethContractAddr 0x85e076361cc813a908ff672f9bad1541474402b2
+ * @implementation Dynamic
+ * @cmcId telcoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x85e076361cc813a908ff672f9bad1541474402b2?apiKey=freekey', (error, response, body) => {

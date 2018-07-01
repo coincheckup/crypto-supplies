@@ -2,6 +2,7 @@
  * @title BTCtalkcoin
  * @symbol TALK
  * @implementation Dynamic
+ * @cmcId btctalkcoin
  */
 
 module.exports = (callback, request) => {

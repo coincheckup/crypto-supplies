@@ -2,6 +2,7 @@
  * @title PrismChain
  * @symbol PRM
  * @implementation Not Implemented
+ * @cmcId prismchain
  */
 
 module.exports = (callback, request) => {

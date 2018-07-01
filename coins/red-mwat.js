@@ -3,6 +3,7 @@
  * @symbol MWAT
  * @ethContractAddr 0x6425c6be902d692ae2db752b3c268afadb099d3b
  * @implementation Dynamic
+ * @cmcId restart-energy-mwat
  */
  
  module.exports = (callback, request) => {

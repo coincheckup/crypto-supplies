@@ -1,9 +1,10 @@
 /**
-* @title EventChain
-* @symbol EVC
-* @ethContractAddr 0xb62d18dea74045e822352ce4b3ee77319dc5ff2f
-* @implementation Dynamic
-*/
+ * @title EventChain
+ * @symbol EVC
+ * @ethContractAddr 0xb62d18dea74045e822352ce4b3ee77319dc5ff2f
+ * @implementation Dynamic
+ * @cmcId eventchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb62d18dea74045e822352ce4b3ee77319dc5ff2f?apiKey=freekey', (error, response, body) => {

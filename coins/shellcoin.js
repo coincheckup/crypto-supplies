@@ -2,6 +2,7 @@
  * @title ShellCoin
  * @symbol SHELL
  * @implementation Not Implemented
+ * @cmcId shellcoin
  */
 
 module.exports = (callback, request) => {

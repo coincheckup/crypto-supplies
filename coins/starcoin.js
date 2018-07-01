@@ -2,6 +2,7 @@
  * @title StarCoin
  * @symbol KST
  * @implementation Not Implemented
+ * @cmcId starcointv
  */
 
 module.exports = (callback, request) => {

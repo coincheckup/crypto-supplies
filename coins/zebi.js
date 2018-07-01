@@ -1,9 +1,10 @@
 /**
-* @title Zebi
-* @symbol ZCO
-* @ethContractAddr 0x2008e3057bd734e10ad13c9eae45ff132abc1722
-* @implementation Dynamic
-*/
+ * @title Zebi
+ * @symbol ZCO
+ * @ethContractAddr 0x2008e3057bd734e10ad13c9eae45ff132abc1722
+ * @implementation Dynamic
+ * @cmcId zebi
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2008e3057bd734e10ad13c9eae45ff132abc1722?apiKey=freekey', (error, response, body) => {

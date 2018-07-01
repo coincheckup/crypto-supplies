@@ -1,7 +1,8 @@
 /**
- * @title Bitcoin Atom
- * @symbol BCA
+ * @title ECC
+ * @symbol ECC
  * @implementation Not Implemented
+ * @cmcId eccoin
  */
 
 module.exports = (callback, request) => {

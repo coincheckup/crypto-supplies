@@ -2,6 +2,7 @@
  * @title MaidSafeCoin
  * @symbol MAID
  * @implementation Dynamic
+ * @cmcId maidsafecoin
  */
 
 module.exports = (callback, request) => {

@@ -1,9 +1,10 @@
 /**
-* @title ConnectJob
-* @symbol CJT
-* @ethContractAddr 0x3abdff32f76b42e7635bdb7e425f0231a5f3ab17
-* @implementation Dynamic
-*/
+ * @title ConnectJob
+ * @symbol CJT
+ * @ethContractAddr 0x3abdff32f76b42e7635bdb7e425f0231a5f3ab17
+ * @implementation Dynamic
+ * @cmcId connectjob
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x3abdff32f76b42e7635bdb7e425f0231a5f3ab17?apiKey=freekey', (error, response, body) => {

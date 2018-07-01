@@ -1,9 +1,10 @@
 /**
-* @title Centrality
-* @symbol CENNZ
-* @ethContractAddr 0x1122b6a0e00dce0563082b6e2953f3a943855c1f
-* @implementation Dynamic
-*/
+ * @title Centrality
+ * @symbol CENNZ
+ * @ethContractAddr 0x1122b6a0e00dce0563082b6e2953f3a943855c1f
+ * @implementation Dynamic
+ * @cmcId centrality
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1122b6a0e00dce0563082b6e2953f3a943855c1f?apiKey=freekey', (error, response, body) => {

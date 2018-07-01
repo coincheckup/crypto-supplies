@@ -2,6 +2,7 @@
  * @title I/O Coin
  * @symbol IOC
  * @implementation Not Implemented
+ * @cmcId iocoin
  */
 
 module.exports = (callback, request) => {

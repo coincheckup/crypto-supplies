@@ -2,6 +2,7 @@
  * @title BitQuark
  * @symbol BTQ
  * @implementation Not Implemented
+ * @cmcId bitquark
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title EquiTrader
  * @symbol EQT
  * @implementation Dynamic
+ * @cmcId equitrader
  */
 
 module.exports = (callback, request) => {

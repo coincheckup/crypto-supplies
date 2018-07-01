@@ -1,9 +1,10 @@
 /**
-* @title Bytom
-* @symbol BTM
-* @ethContractAddr 0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750
-* @implementation Dynamic
-*/
+ * @title Bytom
+ * @symbol BTM
+ * @ethContractAddr 0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750
+ * @implementation Dynamic
+ * @cmcId bytom
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750?apiKey=freekey', (error, response, body) => {

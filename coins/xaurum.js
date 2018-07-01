@@ -1,9 +1,10 @@
 /**
-* @title Xaurum
-* @symbol XAUR
-* @ethContractAddr 0x4DF812F6064def1e5e029f1ca858777CC98D2D81
-* @implementation Dynamic
-*/
+ * @title Xaurum
+ * @symbol XAUR
+ * @ethContractAddr 0x4DF812F6064def1e5e029f1ca858777CC98D2D81
+ * @implementation Dynamic
+ * @cmcId xaurum
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4DF812F6064def1e5e029f1ca858777CC98D2D81?apiKey=freekey', (error, response, body) => {

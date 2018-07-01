@@ -2,6 +2,7 @@
  * @title Cropcoin
  * @symbol CROP
  * @implementation Not Implemented
+ * @cmcId cropcoin
  */
 
 module.exports = (callback, request) => {

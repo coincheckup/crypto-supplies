@@ -2,6 +2,7 @@
  * @title 2GIVE
  * @symbol 2GIVE
  * @implementation Dynamic
+ * @cmcId 2give
  */
 
 module.exports = (callback, request) => {

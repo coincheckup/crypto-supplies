@@ -2,6 +2,7 @@
  * @title CannabisCoin
  * @symbol CANN
  * @implementation Dynamic
+ * @cmcId cannabiscoin
  */
 
 module.exports = (callback, request) => {

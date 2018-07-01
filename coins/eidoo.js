@@ -1,9 +1,10 @@
 /**
-* @title Eidoo
-* @symbol EDO
-* @ethContractAddr 0xced4e93198734ddaff8492d525bd258d49eb388e
-* @implementation Dynamic
-*/
+ * @title Eidoo
+ * @symbol EDO
+ * @ethContractAddr 0xced4e93198734ddaff8492d525bd258d49eb388e
+ * @implementation Dynamic
+ * @cmcId eidoo
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xced4e93198734ddaff8492d525bd258d49eb388e?apiKey=freekey', (error, response, body) => {

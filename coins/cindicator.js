@@ -1,9 +1,10 @@
 /**
-* @title Cindicator
-* @symbol CND
-* @ethContractAddr 0xd4c435f5b09f855c3317c8524cb1f586e42795fa
-* @implementation Dynamic
-*/
+ * @title Cindicator
+ * @symbol CND
+ * @ethContractAddr 0xd4c435f5b09f855c3317c8524cb1f586e42795fa
+ * @implementation Dynamic
+ * @cmcId cindicator
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd4c435f5b09f855c3317c8524cb1f586e42795fa?apiKey=freekey', (error, response, body) => {

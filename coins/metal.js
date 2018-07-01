@@ -1,9 +1,10 @@
 /**
-* @title Metal
-* @symbol MTL
-* @ethContractAddr 0xF433089366899D83a9f26A773D59ec7eCF30355e
-* @implementation Dynamic
-*/
+ * @title Metal
+ * @symbol MTL
+ * @ethContractAddr 0xF433089366899D83a9f26A773D59ec7eCF30355e
+ * @implementation Dynamic
+ * @cmcId metal
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xF433089366899D83a9f26A773D59ec7eCF30355e?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Helbiz
-* @symbol HBZ
-* @ethContractAddr 0xe34e1944e776f39b9252790a0527ebda647ae668
-* @implementation Dynamic
-*/
+ * @title Helbiz
+ * @symbol HBZ
+ * @ethContractAddr 0xe34e1944e776f39b9252790a0527ebda647ae668
+ * @implementation Dynamic
+ * @cmcId helbiz
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe34e1944e776f39b9252790a0527ebda647ae668?apiKey=freekey', (error, response, body) => {

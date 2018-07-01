@@ -2,6 +2,7 @@
  * @title Polcoin
  * @symbol PLC
  * @implementation Not Implemented
+ * @cmcId polcoin
  */
 
 module.exports = (callback, request) => {

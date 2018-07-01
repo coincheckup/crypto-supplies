@@ -2,6 +2,7 @@
  * @title Qube
  * @symbol QUBE
  * @implementation Not Implemented
+ * @cmcId qube
  */
 
 module.exports = (callback, request) => {

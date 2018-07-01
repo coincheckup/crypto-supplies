@@ -1,9 +1,10 @@
 /**
-* @title BitClave
-* @symbol CAT
-* @ethContractAddr 0x1234567461d3f8db7496581774bd869c83d51c93
-* @implementation Dynamic
-*/
+ * @title BitClave
+ * @symbol CAT
+ * @ethContractAddr 0x1234567461d3f8db7496581774bd869c83d51c93
+ * @implementation Dynamic
+ * @cmcId bitclave
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1234567461d3f8db7496581774bd869c83d51c93?apiKey=freekey', (error, response, body) => {

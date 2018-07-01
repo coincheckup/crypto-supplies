@@ -2,6 +2,7 @@
  * @title CampusCoin
  * @symbol CMPCO
  * @implementation Not Implemented
+ * @cmcId campuscoin
  */
 
 module.exports = (callback, request) => {

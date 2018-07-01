@@ -1,9 +1,10 @@
 /**
-* @title Fitrova
-* @symbol FRV
-* @ethContractAddr 0x48df4e0296f908ceab0428a5182d19b31fc037d6
-* @implementation Dynamic
-*/
+ * @title Fitrova
+ * @symbol FRV
+ * @ethContractAddr 0x48df4e0296f908ceab0428a5182d19b31fc037d6
+ * @implementation Dynamic
+ * @cmcId fitrova
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x48df4e0296f908ceab0428a5182d19b31fc037d6?apiKey=freekey', (error, response, body) => {

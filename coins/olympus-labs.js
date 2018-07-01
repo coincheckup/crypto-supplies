@@ -1,9 +1,10 @@
 /**
-* @title Olympus Labs
-* @symbol MOT
-* @ethContractAddr 0x263c618480dbe35c300d8d5ecda19bbb986acaed
-* @implementation Dynamic
-*/
+ * @title Olympus Labs
+ * @symbol MOT
+ * @ethContractAddr 0x263c618480dbe35c300d8d5ecda19bbb986acaed
+ * @implementation Dynamic
+ * @cmcId olympus-labs
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x263c618480dbe35c300d8d5ecda19bbb986acaed?apiKey=freekey', (error, response, body) => {

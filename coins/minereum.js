@@ -1,9 +1,10 @@
 /**
-* @title Minereum
-* @symbol MNE
-* @ethContractAddr 0x1a95b271b0535d15fa49932daba31ba612b52946
-* @implementation Dynamic
-*/
+ * @title Minereum
+ * @symbol MNE
+ * @ethContractAddr 0x1a95b271b0535d15fa49932daba31ba612b52946
+ * @implementation Dynamic
+ * @cmcId minereum
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1a95b271b0535d15fa49932daba31ba612b52946?apiKey=freekey', (error, response, body) => {

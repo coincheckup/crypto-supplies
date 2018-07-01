@@ -1,9 +1,10 @@
 /**
-* @title Datum
-* @symbol DAT
-* @ethContractAddr 0x81c9151de0c8bafcd325a57e3db5a5df1cebf79c
-* @implementation Dynamic
-*/
+ * @title Datum
+ * @symbol DAT
+ * @ethContractAddr 0x81c9151de0c8bafcd325a57e3db5a5df1cebf79c
+ * @implementation Dynamic
+ * @cmcId datum
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x81c9151de0c8bafcd325a57e3db5a5df1cebf79c?apiKey=freekey', (error, response, body) => {

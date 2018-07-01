@@ -1,9 +1,10 @@
 /**
-* @title Nebulas
-* @symbol NAS
-* @ethContractAddr 0x5d65d971895edc438f465c17db6992698a52318d
-* @implementation Dynamic
-*/
+ * @title Nebulas
+ * @symbol NAS
+ * @ethContractAddr 0x5d65d971895edc438f465c17db6992698a52318d
+ * @implementation Dynamic
+ * @cmcId nebulas-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5d65d971895edc438f465c17db6992698a52318d?apiKey=freekey', (error, response, body) => {

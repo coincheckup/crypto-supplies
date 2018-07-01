@@ -2,6 +2,7 @@
  * @title ToaCoin
  * @symbol TOA
  * @implementation Dynamic
+ * @cmcId toacoin
  */
 
 module.exports = (callback, request) => {

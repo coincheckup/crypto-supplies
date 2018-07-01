@@ -1,9 +1,10 @@
 /**
-* @title Hydro Protocol
-* @symbol HOT
-* @ethContractAddr 0x9af839687f6c94542ac5ece2e317daae355493a1
-* @implementation Dynamic
-*/
+ * @title Hydro Protocol
+ * @symbol HOT
+ * @ethContractAddr 0x9af839687f6c94542ac5ece2e317daae355493a1
+ * @implementation Dynamic
+ * @cmcId hydro-protocol
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x9af839687f6c94542ac5ece2e317daae355493a1?apiKey=freekey', (error, response, body) => {

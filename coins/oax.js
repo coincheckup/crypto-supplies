@@ -1,9 +1,10 @@
 /**
-* @title OAX
-* @symbol OAX
-* @ethContractAddr 0x701c244b988a513c945973defa05de933b23fe1d
-* @implementation Dynamic
-*/
+ * @title OAX
+ * @symbol OAX
+ * @ethContractAddr 0x701c244b988a513c945973defa05de933b23fe1d
+ * @implementation Dynamic
+ * @cmcId oax
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x701c244b988a513c945973defa05de933b23fe1d?apiKey=freekey', (error, response, body) => {

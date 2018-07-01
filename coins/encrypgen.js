@@ -1,9 +1,10 @@
 /**
-* @title EncrypGen
-* @symbol DNA
-* @ethContractAddr 0x82b0e50478eeafde392d45d1259ed1071b6fda81
-* @implementation Dynamic
-*/
+ * @title EncrypGen
+ * @symbol DNA
+ * @ethContractAddr 0x82b0e50478eeafde392d45d1259ed1071b6fda81
+ * @implementation Dynamic
+ * @cmcId encrypgen
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x82b0e50478eeafde392d45d1259ed1071b6fda81?apiKey=freekey', (error, response, body) => {

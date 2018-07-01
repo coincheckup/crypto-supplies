@@ -2,6 +2,7 @@
  * @title United Bitcoin
  * @symbol UBTC
  * @implementation Not Implemented
+ * @cmcId united-bitcoin
  */
 
 module.exports = (callback, request) => {

@@ -1,9 +1,10 @@
 /**
-* @title BnkToTheFuture
-* @symbol BFT
-* @ethContractAddr 0x01ff50f8b7f74e4f00580d9596cd3d0d6d6e326f
-* @implementation Dynamic
-*/
+ * @title BnkToTheFuture
+ * @symbol BFT
+ * @ethContractAddr 0x01ff50f8b7f74e4f00580d9596cd3d0d6d6e326f
+ * @implementation Dynamic
+ * @cmcId bnktothefuture
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x01ff50f8b7f74e4f00580d9596cd3d0d6d6e326f?apiKey=freekey', (error, response, body) => {

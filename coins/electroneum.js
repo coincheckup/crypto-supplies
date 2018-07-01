@@ -1,9 +1,10 @@
 /**
-* @title Electroneum
-* @symbol ETN
-* @ethContractAddr 0x81f89694ac96fefd794cb2c8526d2bd8da74b1fb
-* @implementation Dynamic
-*/
+ * @title Electroneum
+ * @symbol ETN
+ * @ethContractAddr 0x81f89694ac96fefd794cb2c8526d2bd8da74b1fb
+ * @implementation Dynamic
+ * @cmcId electroneum
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x81f89694ac96fefd794cb2c8526d2bd8da74b1fb?apiKey=freekey', (error, response, body) => {

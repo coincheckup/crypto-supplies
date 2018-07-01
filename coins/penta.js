@@ -1,9 +1,10 @@
 /**
-* @title Penta
-* @symbol PNT
-* @ethContractAddr 0x53066cddbc0099eb6c96785d9b3df2aaeede5da3
-* @implementation Dynamic
-*/
+ * @title Penta
+ * @symbol PNT
+ * @ethContractAddr 0x53066cddbc0099eb6c96785d9b3df2aaeede5da3
+ * @implementation Dynamic
+ * @cmcId penta
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x53066cddbc0099eb6c96785d9b3df2aaeede5da3?apiKey=freekey', (error, response, body) => {

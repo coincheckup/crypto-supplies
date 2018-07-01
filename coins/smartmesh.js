@@ -1,9 +1,10 @@
 /**
-* @title SmartMesh
-* @symbol SMT
-* @ethContractAddr 0x55f93985431fc9304077687a35a1ba103dc1e081
-* @implementation Dynamic
-*/
+ * @title SmartMesh
+ * @symbol SMT
+ * @ethContractAddr 0x55f93985431fc9304077687a35a1ba103dc1e081
+ * @implementation Dynamic
+ * @cmcId smartmesh
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x55f93985431fc9304077687a35a1ba103dc1e081?apiKey=freekey', (error, response, body) => {

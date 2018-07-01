@@ -2,6 +2,7 @@
  * @title Virtacoin
  * @symbol VTA
  * @implementation Not Implemented
+ * @cmcId virtacoin
  */
 
 module.exports = (callback, request) => {

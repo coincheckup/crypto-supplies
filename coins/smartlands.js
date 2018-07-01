@@ -2,6 +2,7 @@
  * @title Smartlands
  * @symbol SLT
  * @implementation Not Implemented
+ * @cmcId smartlands
  */
 
 module.exports = (callback, request) => {

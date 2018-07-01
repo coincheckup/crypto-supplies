@@ -1,9 +1,10 @@
 /**
-* @title Jibrel Network
-* @symbol JNT
-* @ethContractAddr 0xa5fd1a791c4dfcaacc963d4f73c6ae5824149ea7
-* @implementation Dynamic
-*/
+ * @title Jibrel Network
+ * @symbol JNT
+ * @ethContractAddr 0xa5fd1a791c4dfcaacc963d4f73c6ae5824149ea7
+ * @implementation Dynamic
+ * @cmcId jibrel-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xa5fd1a791c4dfcaacc963d4f73c6ae5824149ea7?apiKey=freekey', (error, response, body) => {

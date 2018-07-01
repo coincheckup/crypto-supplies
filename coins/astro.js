@@ -1,9 +1,10 @@
 /**
-* @title Astro
-* @symbol ASTRO
-* @ethContractAddr 0x7b22938ca841aa392c93dbb7f4c42178e3d65e88
-* @implementation Dynamic
-*/
+ * @title Astro
+ * @symbol ASTRO
+ * @ethContractAddr 0x7b22938ca841aa392c93dbb7f4c42178e3d65e88
+ * @implementation Dynamic
+ * @cmcId astro
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x7b22938ca841aa392c93dbb7f4c42178e3d65e88?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Billionaire Token
-* @symbol XBL
-* @ethContractAddr 0x49aec0752e68d0282db544c677f6ba407ba17ed7
-* @implementation Dynamic
-*/
+ * @title Billionaire Token
+ * @symbol XBL
+ * @ethContractAddr 0x49aec0752e68d0282db544c677f6ba407ba17ed7
+ * @implementation Dynamic
+ * @cmcId billionaire-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x49aec0752e68d0282db544c677f6ba407ba17ed7?apiKey=freekey', (error, response, body) => {

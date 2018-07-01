@@ -1,7 +1,8 @@
 /**
- * @title Ammo Reloaded
- * @symbol AMMO
+ * @title ATMChain
+ * @symbol ATM
  * @implementation Not Implemented
+ * @cmcId attention-token-of-media
  */
 
 module.exports = (callback, request) => {

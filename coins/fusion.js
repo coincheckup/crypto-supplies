@@ -1,9 +1,10 @@
 /**
-* @title Fusion
-* @symbol FSN
-* @ethContractAddr 0xd0352a019e9ab9d757776f532377aaebd36fd541
-* @implementation Dynamic
-*/
+ * @title Fusion
+ * @symbol FSN
+ * @ethContractAddr 0xd0352a019e9ab9d757776f532377aaebd36fd541
+ * @implementation Dynamic
+ * @cmcId fusion
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd0352a019e9ab9d757776f532377aaebd36fd541?apiKey=freekey', (error, response, body) => {

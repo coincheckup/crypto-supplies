@@ -1,9 +1,10 @@
 /**
-* @title WaBi
-* @symbol WABI
-* @ethContractAddr 0x286bda1413a2df81731d4930ce2f862a35a609fe
-* @implementation Dynamic
-*/
+ * @title WaBi
+ * @symbol WABI
+ * @ethContractAddr 0x286bda1413a2df81731d4930ce2f862a35a609fe
+ * @implementation Dynamic
+ * @cmcId wabi
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x286bda1413a2df81731d4930ce2f862a35a609fe?apiKey=freekey', (error, response, body) => {

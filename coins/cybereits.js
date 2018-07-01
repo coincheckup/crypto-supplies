@@ -1,9 +1,10 @@
 /**
-* @title Cybereits
-* @symbol CRE
-* @ethContractAddr 0x61f33Da40594cEc1E3Dc900FaF99F861D01e2e7D
-* @implementation Dynamic
-*/
+ * @title Cybereits
+ * @symbol CRE
+ * @ethContractAddr 0x61f33Da40594cEc1E3Dc900FaF99F861D01e2e7D
+ * @implementation Dynamic
+ * @cmcId cybereits
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x61f33Da40594cEc1E3Dc900FaF99F861D01e2e7D?apiKey=freekey', (error, response, body) => {

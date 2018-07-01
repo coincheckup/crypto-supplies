@@ -1,9 +1,10 @@
 /**
-* @title Skrumble Network
-* @symbol SKM
-* @ethContractAddr 0xd99b8a7fa48e25cce83b81812220a3e03bf64e5f
-* @implementation Dynamic
-*/
+ * @title Skrumble Network
+ * @symbol SKM
+ * @ethContractAddr 0xd99b8a7fa48e25cce83b81812220a3e03bf64e5f
+ * @implementation Dynamic
+ * @cmcId skrumble-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd99b8a7fa48e25cce83b81812220a3e03bf64e5f?apiKey=freekey', (error, response, body) => {

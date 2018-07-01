@@ -1,9 +1,10 @@
 /**
-* @title InvestFeed
-* @symbol IFT
-* @ethContractAddr 0x7654915a1b82d6d2d0afc37c52af556ea8983c7e
-* @implementation Dynamic
-*/
+ * @title InvestFeed
+ * @symbol IFT
+ * @ethContractAddr 0x7654915a1b82d6d2d0afc37c52af556ea8983c7e
+ * @implementation Dynamic
+ * @cmcId investfeed
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x7654915a1b82d6d2d0afc37c52af556ea8983c7e?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Viberate
-* @symbol VIB
-* @ethContractAddr 0x2c974b2d0ba1716e644c1fc59982a89ddd2ff724
-* @implementation Dynamic
-*/
+ * @title Viberate
+ * @symbol VIB
+ * @ethContractAddr 0x2c974b2d0ba1716e644c1fc59982a89ddd2ff724
+ * @implementation Dynamic
+ * @cmcId viberate
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2c974b2d0ba1716e644c1fc59982a89ddd2ff724?apiKey=freekey', (error, response, body) => {

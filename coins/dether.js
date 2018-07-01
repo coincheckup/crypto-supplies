@@ -1,9 +1,10 @@
 /**
-* @title Dether
-* @symbol DTH
-* @ethContractAddr 0x5adc961d6ac3f7062d2ea45fefb8d8167d44b190
-* @implementation Dynamic
-*/
+ * @title Dether
+ * @symbol DTH
+ * @ethContractAddr 0x5adc961d6ac3f7062d2ea45fefb8d8167d44b190
+ * @implementation Dynamic
+ * @cmcId dether
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5adc961d6ac3f7062d2ea45fefb8d8167d44b190?apiKey=freekey', (error, response, body) => {

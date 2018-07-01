@@ -2,6 +2,7 @@
  * @title Manna
  * @symbol MANNA
  * @implementation Dynamic
+ * @cmcId manna
  */
 
 module.exports = (callback, request) => {

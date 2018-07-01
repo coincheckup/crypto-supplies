@@ -1,9 +1,10 @@
 /**
-* @title Huobi Token
-* @symbol HT
-* @ethContractAddr 0x6f259637dcd74c767781e37bc6133cd6a68aa161
-* @implementation Dynamic
-*/
+ * @title Huobi Token
+ * @symbol HT
+ * @ethContractAddr 0x6f259637dcd74c767781e37bc6133cd6a68aa161
+ * @implementation Dynamic
+ * @cmcId huobi-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6f259637dcd74c767781e37bc6133cd6a68aa161?apiKey=freekey', (error, response, body) => {

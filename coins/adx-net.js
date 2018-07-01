@@ -1,9 +1,10 @@
 /**
-* @title AdEx
-* @symbol ADX
-* @ethContractAddr 0x4470bb87d77b963a013db939be332f927f2b992e
-* @implementation Dynamic
-*/
+ * @title AdEx
+ * @symbol ADX
+ * @ethContractAddr 0x4470bb87d77b963a013db939be332f927f2b992e
+ * @implementation Dynamic
+ * @cmcId adx-net
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4470bb87d77b963a013db939be332f927f2b992e?apiKey=freekey', (error, response, body) => {

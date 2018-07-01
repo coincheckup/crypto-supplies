@@ -2,6 +2,7 @@
  * @title LoMoCoin
  * @symbol LMC
  * @implementation Not Implemented
+ * @cmcId lomocoin
  */
 
 module.exports = (callback, request) => {

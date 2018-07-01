@@ -1,7 +1,8 @@
 /**
- * @title Coin2.1
- * @symbol C2
+ * @title BitTube
+ * @symbol TUBE
  * @implementation Not Implemented
+ * @cmcId bit-tube
  */
 
 module.exports = (callback, request) => {

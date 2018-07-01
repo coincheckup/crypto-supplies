@@ -1,9 +1,10 @@
 /**
-* @title Legolas Exchange
-* @symbol LGO
-* @ethContractAddr 0x123ab195dd38b1b40510d467a6a359b201af056f
-* @implementation Dynamic
-*/
+ * @title Legolas Exchange
+ * @symbol LGO
+ * @ethContractAddr 0x123ab195dd38b1b40510d467a6a359b201af056f
+ * @implementation Dynamic
+ * @cmcId legolas-exchange
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x123ab195dd38b1b40510d467a6a359b201af056f?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title ATN
-* @symbol ATN
-* @ethContractAddr 0x461733c17b0755ca5649b6db08b3e213fcf22546
-* @implementation Dynamic
-*/
+ * @title ATN
+ * @symbol ATN
+ * @ethContractAddr 0x461733c17b0755ca5649b6db08b3e213fcf22546
+ * @implementation Dynamic
+ * @cmcId atn
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x461733c17b0755ca5649b6db08b3e213fcf22546?apiKey=freekey', (error, response, body) => {

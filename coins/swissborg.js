@@ -1,9 +1,10 @@
 /**
-* @title SwissBorg
-* @symbol CHSB
-* @ethContractAddr 0xba9d4199fab4f26efe3551d490e3821486f135ba
-* @implementation Dynamic
-*/
+ * @title SwissBorg
+ * @symbol CHSB
+ * @ethContractAddr 0xba9d4199fab4f26efe3551d490e3821486f135ba
+ * @implementation Dynamic
+ * @cmcId swissborg
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xba9d4199fab4f26efe3551d490e3821486f135ba?apiKey=freekey', (error, response, body) => {

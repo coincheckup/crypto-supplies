@@ -2,6 +2,7 @@
  * @title Ripple
  * @symbol XRP
  * @implementation Dynamic
+ * @cmcId ripple
  */
 
 module.exports = (callback, request) => {

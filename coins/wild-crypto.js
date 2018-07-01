@@ -1,9 +1,10 @@
 /**
-* @title Wild Crypto
-* @symbol WILD
-* @ethContractAddr 0xd3c00772b24d997a812249ca637a921e81357701
-* @implementation Dynamic
-*/
+ * @title Wild Crypto
+ * @symbol WILD
+ * @ethContractAddr 0xd3c00772b24d997a812249ca637a921e81357701
+ * @implementation Dynamic
+ * @cmcId wild-crypto
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd3c00772b24d997a812249ca637a921e81357701?apiKey=freekey', (error, response, body) => {

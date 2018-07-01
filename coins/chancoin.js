@@ -2,6 +2,7 @@
  * @title ChanCoin
  * @symbol CHAN
  * @implementation Not Implemented
+ * @cmcId chancoin
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title PeepCoin
  * @symbol PCN
  * @implementation Dynamic
+ * @cmcId peepcoin
  */
 
 module.exports = (callback, request) => {

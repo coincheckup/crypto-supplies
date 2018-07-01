@@ -1,9 +1,10 @@
 /**
-* @title carVertical
-* @symbol CV
-* @ethContractAddr 0xda6cb58a0d0c01610a29c5a65c303e13e885887c
-* @implementation Dynamic
-*/
+ * @title carVertical
+ * @symbol CV
+ * @ethContractAddr 0xda6cb58a0d0c01610a29c5a65c303e13e885887c
+ * @implementation Dynamic
+ * @cmcId carvertical
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xda6cb58a0d0c01610a29c5a65c303e13e885887c?apiKey=freekey', (error, response, body) => {

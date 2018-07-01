@@ -2,6 +2,7 @@
  * @title Nekonium
  * @symbol NUKO
  * @implementation Not Implemented
+ * @cmcId nekonium
  */
 
 module.exports = (callback, request) => {

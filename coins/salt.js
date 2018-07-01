@@ -1,9 +1,10 @@
 /**
-* @title SALT
-* @symbol SALT
-* @ethContractAddr 0x4156D3342D5c385a87D264F90653733592000581
-* @implementation Dynamic
-*/
+ * @title SALT
+ * @symbol SALT
+ * @ethContractAddr 0x4156D3342D5c385a87D264F90653733592000581
+ * @implementation Dynamic
+ * @cmcId salt
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4156D3342D5c385a87D264F90653733592000581?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Pixie Coin
-* @symbol PXC
-* @ethContractAddr 0xc27c95350ecd634c80df89db0f10cd5c24b7b11f
-* @implementation Dynamic
-*/
+ * @title Pixie Coin
+ * @symbol PXC
+ * @ethContractAddr 0xc27c95350ecd634c80df89db0f10cd5c24b7b11f
+ * @implementation Dynamic
+ * @cmcId pixie-coin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xc27c95350ecd634c80df89db0f10cd5c24b7b11f?apiKey=freekey', (error, response, body) => {

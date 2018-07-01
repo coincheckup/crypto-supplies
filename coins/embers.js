@@ -1,9 +1,10 @@
 /**
-* @title Embers
-* @symbol MBRS
-* @ethContractAddr 0x386467f1f3ddbe832448650418311a479eecfc57
-* @implementation Dynamic
-*/
+ * @title Embers
+ * @symbol MBRS
+ * @ethContractAddr 0x386467f1f3ddbe832448650418311a479eecfc57
+ * @implementation Dynamic
+ * @cmcId embers
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x386467f1f3ddbe832448650418311a479eecfc57?apiKey=freekey', (error, response, body) => {

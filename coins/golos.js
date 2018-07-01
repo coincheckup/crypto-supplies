@@ -2,6 +2,7 @@
  * @title Golos
  * @symbol GOLOS
  * @implementation Not Implemented
+ * @cmcId golos
  */
 
 module.exports = (callback, request) => {

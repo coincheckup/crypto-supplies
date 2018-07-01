@@ -1,9 +1,10 @@
 /**
-* @title Zeusshield
-* @symbol ZSC
-* @ethContractAddr 0x7A41e0517a5ecA4FdbC7FbebA4D4c47B9fF6DC63
-* @implementation Dynamic
-*/
+ * @title Zeusshield
+ * @symbol ZSC
+ * @ethContractAddr 0x7A41e0517a5ecA4FdbC7FbebA4D4c47B9fF6DC63
+ * @implementation Dynamic
+ * @cmcId zeusshield
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x7A41e0517a5ecA4FdbC7FbebA4D4c47B9fF6DC63?apiKey=freekey', (error, response, body) => {

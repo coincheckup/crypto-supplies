@@ -2,6 +2,7 @@
  * @title Komodo
  * @symbol KMD
  * @implementation Dynamic
+ * @cmcId komodo
  */
 
 module.exports = (callback, request) => {

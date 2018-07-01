@@ -1,9 +1,10 @@
 /**
-* @title Unibright
-* @symbol UBT
-* @ethContractAddr 0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e
-* @implementation Dynamic
-*/
+ * @title Unibright
+ * @symbol UBT
+ * @ethContractAddr 0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e
+ * @implementation Dynamic
+ * @cmcId unibright
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e?apiKey=freekey', (error, response, body) => {

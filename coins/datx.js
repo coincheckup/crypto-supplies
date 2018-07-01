@@ -1,9 +1,10 @@
 /**
-* @title DATx
-* @symbol DATX
-* @ethContractAddr 0xabbbb6447b68ffd6141da77c18c7b5876ed6c5ab
-* @implementation Dynamic
-*/
+ * @title DATx
+ * @symbol DATX
+ * @ethContractAddr 0xabbbb6447b68ffd6141da77c18c7b5876ed6c5ab
+ * @implementation Dynamic
+ * @cmcId datx
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xabbbb6447b68ffd6141da77c18c7b5876ed6c5ab?apiKey=freekey', (error, response, body) => {

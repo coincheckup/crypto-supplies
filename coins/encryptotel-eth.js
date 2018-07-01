@@ -1,9 +1,10 @@
 /**
-* @title EncryptoTel [ETH]
-* @symbol ETT
-* @ethContractAddr 0xe0c72452740414d861606a44ccd5ea7f96488278
-* @implementation Dynamic
-*/
+ * @title EncryptoTel [ETH]
+ * @symbol ETT
+ * @ethContractAddr 0xe0c72452740414d861606a44ccd5ea7f96488278
+ * @implementation Dynamic
+ * @cmcId encryptotel-eth
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe0c72452740414d861606a44ccd5ea7f96488278?apiKey=freekey', (error, response, body) => {

@@ -1,7 +1,8 @@
 /**
- * @title BROTHER
- * @symbol BRAT
+ * @title Elcoin
+ * @symbol EL
  * @implementation Not Implemented
+ * @cmcId elcoin-el
  */
 
 module.exports = (callback, request) => {

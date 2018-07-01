@@ -2,6 +2,7 @@
  * @title Altcoin
  * @symbol ALT
  * @implementation Not Implemented
+ * @cmcId altcoin-alt
  */
 
 module.exports = (callback, request) => {

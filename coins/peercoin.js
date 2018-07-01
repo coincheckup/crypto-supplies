@@ -2,6 +2,7 @@
  * @title Peercoin
  * @symbol PPC
  * @implementation Dynamic
+ * @cmcId peercoin
  */
 
 module.exports = (callback, request) => {

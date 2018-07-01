@@ -1,9 +1,10 @@
 /**
-* @title Blockport
-* @symbol BPT
-* @ethContractAddr 0x327682779bab2bf4d1337e8974ab9de8275a7ca8
-* @implementation Dynamic
-*/
+ * @title Blockport
+ * @symbol BPT
+ * @ethContractAddr 0x327682779bab2bf4d1337e8974ab9de8275a7ca8
+ * @implementation Dynamic
+ * @cmcId blockport
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x327682779bab2bf4d1337e8974ab9de8275a7ca8?apiKey=freekey', (error, response, body) => {

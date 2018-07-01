@@ -1,9 +1,10 @@
 /**
-* @title Ethbits
-* @symbol ETBS
-* @ethContractAddr 0x1b9743f556d65e757c4c650b4555baf354cb8bd3
-* @implementation Dynamic
-*/
+ * @title Ethbits
+ * @symbol ETBS
+ * @ethContractAddr 0x1b9743f556d65e757c4c650b4555baf354cb8bd3
+ * @implementation Dynamic
+ * @cmcId ethbits
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1b9743f556d65e757c4c650b4555baf354cb8bd3?apiKey=freekey', (error, response, body) => {

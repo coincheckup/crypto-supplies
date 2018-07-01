@@ -2,6 +2,7 @@
  * @title Signatum
  * @symbol SIGT
  * @implementation Not Implemented
+ * @cmcId signatum
  */
 
 module.exports = (callback, request) => {

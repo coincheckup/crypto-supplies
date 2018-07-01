@@ -1,7 +1,8 @@
 /**
  * @title Wanchain
  * @symbol WAN
-  * @implementation Static
+ * @implementation Static
+ * @cmcId wanchain
  */
 module.exports = (callback, request) => {
     callback({

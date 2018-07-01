@@ -2,6 +2,7 @@
  * @title e-Gulden
  * @symbol EFL
  * @implementation Dynamic
+ * @cmcId e-gulden
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Primalbase Token
  * @symbol PBT
  * @implementation Not Implemented
+ * @cmcId primalbase
  */
 
 module.exports = (callback, request) => {

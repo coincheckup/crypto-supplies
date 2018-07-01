@@ -2,6 +2,7 @@
  * @title Carboncoin
  * @symbol CARBON
  * @implementation Dynamic
+ * @cmcId carboncoin
  */
 
 module.exports = (callback, request) => {

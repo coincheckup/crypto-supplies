@@ -1,9 +1,10 @@
 /**
-* @title Aeternity
-* @symbol AE
-* @ethContractAddr 0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d
-* @implementation Dynamic
-*/
+ * @title Aeternity
+ * @symbol AE
+ * @ethContractAddr 0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d
+ * @implementation Dynamic
+ * @cmcId aeternity
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5ca9a71b1d01849c0a95490cc00559717fcf0d1d?apiKey=freekey', (error, response, body) => {

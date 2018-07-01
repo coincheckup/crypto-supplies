@@ -1,9 +1,10 @@
 /**
-* @title WandX
-* @symbol WAND
-* @ethContractAddr 0x27f610bf36eca0939093343ac28b1534a721dbb4
-* @implementation Dynamic
-*/
+ * @title WandX
+ * @symbol WAND
+ * @ethContractAddr 0x27f610bf36eca0939093343ac28b1534a721dbb4
+ * @implementation Dynamic
+ * @cmcId wandx
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x27f610bf36eca0939093343ac28b1534a721dbb4?apiKey=freekey', (error, response, body) => {

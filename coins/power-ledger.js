@@ -1,9 +1,10 @@
 /**
-* @title Power Ledger
-* @symbol POWR
-* @ethContractAddr 0x595832f8fc6bf59c85c527fec3740a1b7a361269
-* @implementation Dynamic
-*/
+ * @title Power Ledger
+ * @symbol POWR
+ * @ethContractAddr 0x595832f8fc6bf59c85c527fec3740a1b7a361269
+ * @implementation Dynamic
+ * @cmcId power-ledger
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x595832f8fc6bf59c85c527fec3740a1b7a361269?apiKey=freekey', (error, response, body) => {

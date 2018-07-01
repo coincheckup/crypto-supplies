@@ -1,9 +1,10 @@
 /**
-* @title Neurotoken
-* @symbol NTK
-* @ethContractAddr 0x69beab403438253f13b6e92db91f7fb849258263
-* @implementation Dynamic
-*/
+ * @title Neurotoken
+ * @symbol NTK
+ * @ethContractAddr 0x69beab403438253f13b6e92db91f7fb849258263
+ * @implementation Dynamic
+ * @cmcId neurotoken
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x69beab403438253f13b6e92db91f7fb849258263?apiKey=freekey', (error, response, body) => {

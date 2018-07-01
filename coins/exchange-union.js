@@ -1,9 +1,10 @@
 /**
-* @title Exchange Union
-* @symbol XUC
-* @ethContractAddr 0xc324a2f6b05880503444451b8b27e6f9e63287cb
-* @implementation Dynamic
-*/
+ * @title Exchange Union
+ * @symbol XUC
+ * @ethContractAddr 0xc324a2f6b05880503444451b8b27e6f9e63287cb
+ * @implementation Dynamic
+ * @cmcId exchange-union
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xc324a2f6b05880503444451b8b27e6f9e63287cb?apiKey=freekey', (error, response, body) => {

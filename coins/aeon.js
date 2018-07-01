@@ -2,6 +2,7 @@
  * @title Aeon
  * @symbol AEON
  * @implementation Dynamic
+ * @cmcId aeon
  */
 
 module.exports = (callback, request) => {

@@ -1,9 +1,10 @@
 /**
-* @title Pillar
-* @symbol PLR
-* @ethContractAddr 0xe3818504c1b32bf1557b16c238b2e01fd3149c17
-* @implementation Dynamic
-*/
+ * @title Pillar
+ * @symbol PLR
+ * @ethContractAddr 0xe3818504c1b32bf1557b16c238b2e01fd3149c17
+ * @implementation Dynamic
+ * @cmcId pillar
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe3818504c1b32bf1557b16c238b2e01fd3149c17?apiKey=freekey', (error, response, body) => {

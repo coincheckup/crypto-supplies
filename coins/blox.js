@@ -1,9 +1,10 @@
 /**
-* @title Blox
-* @symbol CDT
-* @ethContractAddr 0x2fe6ab85ebbf7776fee46d191ee4cea322cecf51
-* @implementation Dynamic
-*/
+ * @title Blox
+ * @symbol CDT
+ * @ethContractAddr 0x2fe6ab85ebbf7776fee46d191ee4cea322cecf51
+ * @implementation Dynamic
+ * @cmcId blox
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2fe6ab85ebbf7776fee46d191ee4cea322cecf51?apiKey=freekey', (error, response, body) => {

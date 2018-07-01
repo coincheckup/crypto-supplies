@@ -2,6 +2,7 @@
  * @title Rubies
  * @symbol RBIES
  * @implementation Not Implemented
+ * @cmcId rubies
  */
 
 module.exports = (callback, request) => {

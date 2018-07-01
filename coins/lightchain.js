@@ -1,9 +1,10 @@
 /**
-* @title LightChain
-* @symbol LIGHT
-* @ethContractAddr 0xd97579Cea3fE2473682a4C42648134BB982433B9
-* @implementation Dynamic
-*/
+ * @title LightChain
+ * @symbol LIGHT
+ * @ethContractAddr 0xd97579Cea3fE2473682a4C42648134BB982433B9
+ * @implementation Dynamic
+ * @cmcId lightchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd97579Cea3fE2473682a4C42648134BB982433B9?apiKey=freekey', (error, response, body) => {

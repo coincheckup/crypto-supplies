@@ -1,9 +1,10 @@
 /**
-* @title Hedge
-* @symbol HDG
-* @ethContractAddr 0xffe8196bc259e8dedc544d935786aa4709ec3e64
-* @implementation Dynamic
-*/
+ * @title Hedge
+ * @symbol HDG
+ * @ethContractAddr 0xffe8196bc259e8dedc544d935786aa4709ec3e64
+ * @implementation Dynamic
+ * @cmcId hedge
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xffe8196bc259e8dedc544d935786aa4709ec3e64?apiKey=freekey', (error, response, body) => {

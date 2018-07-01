@@ -2,6 +2,7 @@
  * @title Karma
  * @symbol KRM
  * @implementation Dynamic
+ * @cmcId karma
  */
 
 module.exports = (callback, request) => {

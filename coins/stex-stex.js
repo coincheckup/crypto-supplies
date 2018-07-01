@@ -2,6 +2,7 @@
  * @title STEX
  * @symbol STEX
  * @implementation Not Implemented
+ * @cmcId stex
  */
 
 module.exports = (callback, request) => {

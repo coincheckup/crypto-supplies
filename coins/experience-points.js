@@ -2,6 +2,7 @@
  * @title Experience Points
  * @symbol XP
  * @implementation Dynamic
+ * @cmcId experience-points
  */
  
  module.exports = (callback, request) => {

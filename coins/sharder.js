@@ -1,9 +1,10 @@
 /**
-* @title Sharder
-* @symbol SS
-* @ethContractAddr 0xbbff862d906e348e9946bfb2132ecb157da3d4b4
-* @implementation Dynamic
-*/
+ * @title Sharder
+ * @symbol SS
+ * @ethContractAddr 0xbbff862d906e348e9946bfb2132ecb157da3d4b4
+ * @implementation Dynamic
+ * @cmcId sharder
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xbbff862d906e348e9946bfb2132ecb157da3d4b4?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title iTicoin
  * @symbol ITI
  * @implementation Not Implemented
+ * @cmcId iticoin
  */
 
 module.exports = (callback, request) => {

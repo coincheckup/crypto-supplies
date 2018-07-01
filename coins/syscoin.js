@@ -2,6 +2,7 @@
  * @title Syscoin
  * @symbol SYS
  * @implementation Dynamic
+ * @cmcId syscoin
  */
 
 module.exports = (callback, request) => {

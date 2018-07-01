@@ -1,9 +1,10 @@
 /**
-* @title Farad
-* @symbol FRD
-* @ethContractAddr 0x0abefb7611cb3a01ea3fad85f33c3c934f8e2cf4
-* @implementation Dynamic
-*/
+ * @title Farad
+ * @symbol FRD
+ * @ethContractAddr 0x0abefb7611cb3a01ea3fad85f33c3c934f8e2cf4
+ * @implementation Dynamic
+ * @cmcId farad
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x0abefb7611cb3a01ea3fad85f33c3c934f8e2cf4?apiKey=freekey', (error, response, body) => {

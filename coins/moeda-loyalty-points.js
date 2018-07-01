@@ -1,9 +1,10 @@
 /**
-* @title Moeda Loyalty Points
-* @symbol MDA
-* @ethContractAddr 0x51db5ad35c671a87207d88fc11d593ac0c8415bd
-* @implementation Dynamic
-*/
+ * @title Moeda Loyalty Points
+ * @symbol MDA
+ * @ethContractAddr 0x51db5ad35c671a87207d88fc11d593ac0c8415bd
+ * @implementation Dynamic
+ * @cmcId moeda-loyalty-points
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x51db5ad35c671a87207d88fc11d593ac0c8415bd?apiKey=freekey', (error, response, body) => {

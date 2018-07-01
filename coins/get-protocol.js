@@ -1,9 +1,10 @@
 /**
-* @title GET Protocol
-* @symbol GET
-* @ethContractAddr 0x8a854288a5976036a725879164ca3e91d30c6a1b
-* @implementation Dynamic
-*/
+ * @title GET Protocol
+ * @symbol GET
+ * @ethContractAddr 0x8a854288a5976036a725879164ca3e91d30c6a1b
+ * @implementation Dynamic
+ * @cmcId get-protocol
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x8a854288a5976036a725879164ca3e91d30c6a1b?apiKey=freekey', (error, response, body) => {

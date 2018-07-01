@@ -1,9 +1,10 @@
 /**
-* @title Mothership
-* @symbol MSP
-* @ethContractAddr 0x68aa3f232da9bdc2343465545794ef3eea5209bd
-* @implementation Dynamic
-*/
+ * @title Mothership
+ * @symbol MSP
+ * @ethContractAddr 0x68aa3f232da9bdc2343465545794ef3eea5209bd
+ * @implementation Dynamic
+ * @cmcId mothership
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x68aa3f232da9bdc2343465545794ef3eea5209bd?apiKey=freekey', (error, response, body) => {

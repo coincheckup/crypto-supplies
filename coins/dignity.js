@@ -1,9 +1,10 @@
 /**
-* @title Dignity
-* @symbol DIG
-* @ethContractAddr 0x093e5c256ff8b32c7f1377f4c20e331674c77f00
-* @implementation Dynamic
-*/
+ * @title Dignity
+ * @symbol DIG
+ * @ethContractAddr 0x093e5c256ff8b32c7f1377f4c20e331674c77f00
+ * @implementation Dynamic
+ * @cmcId dignity
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x093e5c256ff8b32c7f1377f4c20e331674c77f00?apiKey=freekey', (error, response, body) => {

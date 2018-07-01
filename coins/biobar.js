@@ -2,6 +2,7 @@
  * @title BioBar
  * @symbol BIOB
  * @implementation Not Implemented
+ * @cmcId biobar
  */
 
 module.exports = (callback, request) => {

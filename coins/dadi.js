@@ -1,9 +1,10 @@
 /**
-* @title DADI
-* @symbol DADI
-* @ethContractAddr 0xfb2f26f266fb2805a387230f2aa0a331b4d96fba
-* @implementation Dynamic
-*/
+ * @title DADI
+ * @symbol DADI
+ * @ethContractAddr 0xfb2f26f266fb2805a387230f2aa0a331b4d96fba
+ * @implementation Dynamic
+ * @cmcId dadi
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xfb2f26f266fb2805a387230f2aa0a331b4d96fba?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Ethereum
  * @symbol ETH
  * @implementation Dynamic
+ * @cmcId ethereum
  */
 
 module.exports = (callback, request) => {

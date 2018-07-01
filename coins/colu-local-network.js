@@ -1,9 +1,10 @@
 /**
-* @title Colu Local Network
-* @symbol CLN
-* @ethContractAddr 0x4162178b78d6985480a308b2190ee5517460406d
-* @implementation Dynamic
-*/
+ * @title Colu Local Network
+ * @symbol CLN
+ * @ethContractAddr 0x4162178b78d6985480a308b2190ee5517460406d
+ * @implementation Dynamic
+ * @cmcId colu-local-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4162178b78d6985480a308b2190ee5517460406d?apiKey=freekey', (error, response, body) => {

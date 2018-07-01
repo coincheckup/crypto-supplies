@@ -1,9 +1,10 @@
 /**
-* @title HelloGold
-* @symbol HGT
-* @ethContractAddr 0xba2184520a1cc49a6159c57e61e1844e085615b6
-* @implementation Dynamic
-*/
+ * @title HelloGold
+ * @symbol HGT
+ * @ethContractAddr 0xba2184520a1cc49a6159c57e61e1844e085615b6
+ * @implementation Dynamic
+ * @cmcId hellogold
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xba2184520a1cc49a6159c57e61e1844e085615b6?apiKey=freekey', (error, response, body) => {

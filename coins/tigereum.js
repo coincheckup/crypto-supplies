@@ -1,9 +1,10 @@
 /**
-* @title Tigereum
-* @symbol TIG
-* @ethContractAddr 0xeee2d00eb7deb8dd6924187f5aa3496b7d06e62a
-* @implementation Dynamic
-*/
+ * @title Tigereum
+ * @symbol TIG
+ * @ethContractAddr 0xeee2d00eb7deb8dd6924187f5aa3496b7d06e62a
+ * @implementation Dynamic
+ * @cmcId tigereum
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xeee2d00eb7deb8dd6924187f5aa3496b7d06e62a?apiKey=freekey', (error, response, body) => {

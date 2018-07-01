@@ -1,9 +1,10 @@
 /**
-* @title STK
-* @symbol STK
-* @ethContractAddr 0xaE73B38d1c9A8b274127ec30160a4927C4d71824
-* @implementation Dynamic
-*/
+ * @title STK
+ * @symbol STK
+ * @ethContractAddr 0xaE73B38d1c9A8b274127ec30160a4927C4d71824
+ * @implementation Dynamic
+ * @cmcId stk
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xaE73B38d1c9A8b274127ec30160a4927C4d71824?apiKey=freekey', (error, response, body) => {

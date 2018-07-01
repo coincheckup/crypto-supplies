@@ -1,9 +1,10 @@
 /**
-* @title Bluzelle
-* @symbol BLZ
-* @ethContractAddr 0x5732046a883704404f284ce41ffadd5b007fd668
-* @implementation Dynamic
-*/
+ * @title Bluzelle
+ * @symbol BLZ
+ * @ethContractAddr 0x5732046a883704404f284ce41ffadd5b007fd668
+ * @implementation Dynamic
+ * @cmcId bluzelle
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5732046a883704404f284ce41ffadd5b007fd668?apiKey=freekey', (error, response, body) => {

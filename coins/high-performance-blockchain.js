@@ -1,9 +1,10 @@
 /**
-* @title High Performance Blockchain
-* @symbol HPB
-* @ethContractAddr 0x38c6a68304cdefb9bec48bbfaaba5c5b47818bb2
-* @implementation Dynamic
-*/
+ * @title High Performance Blockchain
+ * @symbol HPB
+ * @ethContractAddr 0x38c6a68304cdefb9bec48bbfaaba5c5b47818bb2
+ * @implementation Dynamic
+ * @cmcId high-performance-blockchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x38c6a68304cdefb9bec48bbfaaba5c5b47818bb2?apiKey=freekey', (error, response, body) => {

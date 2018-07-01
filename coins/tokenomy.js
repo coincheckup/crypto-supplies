@@ -1,9 +1,10 @@
 /**
-* @title Tokenomy
-* @symbol TEN
-* @ethContractAddr 0xdd16ec0f66e54d453e6756713e533355989040e4
-* @implementation Dynamic
-*/
+ * @title Tokenomy
+ * @symbol TEN
+ * @ethContractAddr 0xdd16ec0f66e54d453e6756713e533355989040e4
+ * @implementation Dynamic
+ * @cmcId tokenomy
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xdd16ec0f66e54d453e6756713e533355989040e4?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Lendroid Support Token
-* @symbol LST
-* @ethContractAddr 0x4de2573e27e648607b50e1cfff921a33e4a34405
-* @implementation Dynamic
-*/
+ * @title Lendroid Support Token
+ * @symbol LST
+ * @ethContractAddr 0x4de2573e27e648607b50e1cfff921a33e4a34405
+ * @implementation Dynamic
+ * @cmcId lendroid-support-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4de2573e27e648607b50e1cfff921a33e4a34405?apiKey=freekey', (error, response, body) => {

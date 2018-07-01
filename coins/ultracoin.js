@@ -2,6 +2,7 @@
  * @title UltraCoin
  * @symbol UTC
  * @implementation Not Implemented
+ * @cmcId ultracoin
  */
 
 module.exports = (callback, request) => {

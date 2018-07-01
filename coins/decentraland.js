@@ -1,9 +1,10 @@
 /**
-* @title Decentraland
-* @symbol MANA
-* @ethContractAddr 0x0f5d2fb29fb7d3cfee444a200298f468908cc942
-* @implementation Dynamic
-*/
+ * @title Decentraland
+ * @symbol MANA
+ * @ethContractAddr 0x0f5d2fb29fb7d3cfee444a200298f468908cc942
+ * @implementation Dynamic
+ * @cmcId decentraland
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x0f5d2fb29fb7d3cfee444a200298f468908cc942?apiKey=freekey', (error, response, body) => {

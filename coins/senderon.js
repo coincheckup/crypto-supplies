@@ -1,9 +1,10 @@
 /**
-* @title Senderon
-* @symbol SDRN
-* @ethContractAddr 0x73b534fb6f07381a29a60b01eed5ae57d4ee24d7
-* @implementation Dynamic
-*/
+ * @title Senderon
+ * @symbol SDRN
+ * @ethContractAddr 0x73b534fb6f07381a29a60b01eed5ae57d4ee24d7
+ * @implementation Dynamic
+ * @cmcId senderon
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x73b534fb6f07381a29a60b01eed5ae57d4ee24d7?apiKey=freekey', (error, response, body) => {

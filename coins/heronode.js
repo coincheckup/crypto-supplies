@@ -1,9 +1,10 @@
 /**
-* @title HeroNode
-* @symbol HER
-* @ethContractAddr 0x491c9a23db85623eed455a8efdd6aba9b911c5df
-* @implementation Dynamic
-*/
+ * @title HeroNode
+ * @symbol HER
+ * @ethContractAddr 0x491c9a23db85623eed455a8efdd6aba9b911c5df
+ * @implementation Dynamic
+ * @cmcId heronode
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x491c9a23db85623eed455a8efdd6aba9b911c5df?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Unitus
  * @symbol UIS
  * @implementation Not Implemented
+ * @cmcId unitus
  */
 
 module.exports = (callback, request) => {

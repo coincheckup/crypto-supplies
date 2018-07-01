@@ -2,6 +2,7 @@
  * @title ZenCash
  * @symbol ZEN
  * @implementation Not Implemented
+ * @cmcId zencash
  */
 
 module.exports = (callback, request) => {

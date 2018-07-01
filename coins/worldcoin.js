@@ -2,6 +2,7 @@
  * @title WorldCoin
  * @symbol WDC
  * @implementation Not Implemented
+ * @cmcId worldcoin
  */
 
 module.exports = (callback, request) => {

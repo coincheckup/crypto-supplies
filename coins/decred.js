@@ -2,6 +2,7 @@
  * @title Decred
  * @symbol DCR
  * @implementation Dynamic
+ * @cmcId decred
  */
 
 module.exports = (callback, request) => {

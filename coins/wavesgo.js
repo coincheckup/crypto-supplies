@@ -2,6 +2,7 @@
  * @title WavesGo
  * @symbol WGO
  * @implementation Not Implemented
+ * @cmcId wavesgo
  */
 
 module.exports = (callback, request) => {

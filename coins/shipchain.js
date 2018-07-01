@@ -1,9 +1,10 @@
 /**
-* @title ShipChain
-* @symbol SHIP
-* @ethContractAddr 0xe25b0bba01dc5630312b6a21927e578061a13f55
-* @implementation Dynamic
-*/
+ * @title ShipChain
+ * @symbol SHIP
+ * @ethContractAddr 0xe25b0bba01dc5630312b6a21927e578061a13f55
+ * @implementation Dynamic
+ * @cmcId shipchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe25b0bba01dc5630312b6a21927e578061a13f55?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Rialto
-* @symbol XRL
-* @ethContractAddr 0xb24754be79281553dc1adc160ddf5cd9b74361a4
-* @implementation Dynamic
-*/
+ * @title Rialto
+ * @symbol XRL
+ * @ethContractAddr 0xb24754be79281553dc1adc160ddf5cd9b74361a4
+ * @implementation Dynamic
+ * @cmcId rialto
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb24754be79281553dc1adc160ddf5cd9b74361a4?apiKey=freekey', (error, response, body) => {

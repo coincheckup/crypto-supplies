@@ -1,9 +1,10 @@
 /**
-* @title Fabric Token
-* @symbol FT
-* @ethContractAddr 0x78a73B6CBc5D183CE56e786f6e905CaDEC63547B
-* @implementation Dynamic
-*/
+ * @title Fabric Token
+ * @symbol FT
+ * @ethContractAddr 0x78a73B6CBc5D183CE56e786f6e905CaDEC63547B
+ * @implementation Dynamic
+ * @cmcId fabric-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x78a73B6CBc5D183CE56e786f6e905CaDEC63547B?apiKey=freekey', (error, response, body) => {

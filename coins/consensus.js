@@ -1,9 +1,10 @@
 /**
-* @title Consensus
-* @symbol SEN
-* @ethContractAddr 0xd53370acf66044910bb49cbcfe8f3cd020337f60
-* @implementation Dynamic
-*/
+ * @title Consensus
+ * @symbol SEN
+ * @ethContractAddr 0xd53370acf66044910bb49cbcfe8f3cd020337f60
+ * @implementation Dynamic
+ * @cmcId consensus
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd53370acf66044910bb49cbcfe8f3cd020337f60?apiKey=freekey', (error, response, body) => {

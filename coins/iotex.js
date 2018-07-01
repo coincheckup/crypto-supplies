@@ -1,9 +1,10 @@
 /**
-* @title IoTeX
-* @symbol IOTX
-* @ethContractAddr 0x6fb3e0a217407efff7ca062d46c26e5d60a14d69
-* @implementation Dynamic
-*/
+ * @title IoTeX
+ * @symbol IOTX
+ * @ethContractAddr 0x6fb3e0a217407efff7ca062d46c26e5d60a14d69
+ * @implementation Dynamic
+ * @cmcId iotex
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6fb3e0a217407efff7ca062d46c26e5d60a14d69?apiKey=freekey', (error, response, body) => {

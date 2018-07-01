@@ -1,9 +1,10 @@
 /**
-* @title SISA
-* @symbol SISA
-* @ethContractAddr 0xA0aa85b54F8A7b09C845F13a09172B08925f3d54
-* @implementation Dynamic
-*/
+ * @title SISA
+ * @symbol SISA
+ * @ethContractAddr 0xA0aa85b54F8A7b09C845F13a09172B08925f3d54
+ * @implementation Dynamic
+ * @cmcId sisa
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xA0aa85b54F8A7b09C845F13a09172B08925f3d54?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Helleniccoin
  * @symbol HNC
  * @implementation Not Implemented
+ * @cmcId helleniccoin
  */
 
 module.exports = (callback, request) => {

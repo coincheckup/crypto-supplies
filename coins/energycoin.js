@@ -2,6 +2,7 @@
  * @title Energycoin
  * @symbol ENRG
  * @implementation Dynamic
+ * @cmcId energycoin
  */
 
 module.exports = (callback, request) => {

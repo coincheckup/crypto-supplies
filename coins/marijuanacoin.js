@@ -2,6 +2,7 @@
  * @title Marijuanacoin
  * @symbol MAR
  * @implementation Not Implemented
+ * @cmcId marijuanacoin
  */
 
 module.exports = (callback, request) => {

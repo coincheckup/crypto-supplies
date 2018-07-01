@@ -1,9 +1,10 @@
 /**
-* @title FidentiaX
-* @symbol FDX
-* @ethContractAddr 0x52a7cb918c11a16958be40cba7e31e32a499a465
-* @implementation Dynamic
-*/
+ * @title FidentiaX
+ * @symbol FDX
+ * @ethContractAddr 0x52a7cb918c11a16958be40cba7e31e32a499a465
+ * @implementation Dynamic
+ * @cmcId fidentiax
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x52a7cb918c11a16958be40cba7e31e32a499a465?apiKey=freekey', (error, response, body) => {

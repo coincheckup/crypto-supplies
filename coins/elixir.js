@@ -1,9 +1,10 @@
 /**
-* @title Elixir
-* @symbol ELIX
-* @ethContractAddr 0xc8c6a31a4a806d3710a7b38b7b296d2fabccdba8
-* @implementation Dynamic
-*/
+ * @title Elixir
+ * @symbol ELIX
+ * @ethContractAddr 0xc8c6a31a4a806d3710a7b38b7b296d2fabccdba8
+ * @implementation Dynamic
+ * @cmcId elixir
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xc8c6a31a4a806d3710a7b38b7b296d2fabccdba8?apiKey=freekey', (error, response, body) => {

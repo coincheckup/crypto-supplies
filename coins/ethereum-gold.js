@@ -1,9 +1,10 @@
 /**
-* @title Ethereum Gold
-* @symbol ETG
-* @ethContractAddr 0x28c8d01ff633ea9cd8fc6a451d7457889e698de6
-* @implementation Dynamic
-*/
+ * @title Ethereum Gold
+ * @symbol ETG
+ * @ethContractAddr 0x28c8d01ff633ea9cd8fc6a451d7457889e698de6
+ * @implementation Dynamic
+ * @cmcId ethereum-gold
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x28c8d01ff633ea9cd8fc6a451d7457889e698de6?apiKey=freekey', (error, response, body) => {

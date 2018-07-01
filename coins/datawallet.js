@@ -1,9 +1,10 @@
 /**
-* @title Datawallet
-* @symbol DXT
-* @ethContractAddr 0x8db54ca569d3019a2ba126d03c37c44b5ef81ef6
-* @implementation Dynamic
-*/
+ * @title Datawallet
+ * @symbol DXT
+ * @ethContractAddr 0x8db54ca569d3019a2ba126d03c37c44b5ef81ef6
+ * @implementation Dynamic
+ * @cmcId datawallet
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x8db54ca569d3019a2ba126d03c37c44b5ef81ef6?apiKey=freekey', (error, response, body) => {

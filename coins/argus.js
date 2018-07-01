@@ -2,6 +2,7 @@
  * @title Argus
  * @symbol ARGUS
  * @implementation Not Implemented
+ * @cmcId argus
  */
 
 module.exports = (callback, request) => {

@@ -1,9 +1,10 @@
 /**
-* @title Noah Coin
-* @symbol NOAH
-* @ethContractAddr 0x58a4884182d9e835597f405e5f258290e46ae7c2
-* @implementation Dynamic
-*/
+ * @title Noah Coin
+ * @symbol NOAH
+ * @ethContractAddr 0x58a4884182d9e835597f405e5f258290e46ae7c2
+ * @implementation Dynamic
+ * @cmcId noah-coin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x58a4884182d9e835597f405e5f258290e46ae7c2?apiKey=freekey', (error, response, body) => {

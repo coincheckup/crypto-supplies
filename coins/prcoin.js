@@ -2,6 +2,7 @@
  * @title PRCoin
  * @symbol PRC
  * @implementation Not Implemented
+ * @cmcId prcoin
  */
 
 module.exports = (callback, request) => {

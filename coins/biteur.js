@@ -2,6 +2,7 @@
  * @title bitEUR
  * @symbol BITEUR
  * @implementation Not Implemented
+ * @cmcId biteur
  */
 
 module.exports = (callback, request) => {

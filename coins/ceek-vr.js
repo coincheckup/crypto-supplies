@@ -1,9 +1,10 @@
 /**
-* @title CEEK VR
-* @symbol CEEK
-* @ethContractAddr 0xb056c38f6b7dc4064367403e26424cd2c60655e1
-* @implementation Dynamic
-*/
+ * @title CEEK VR
+ * @symbol CEEK
+ * @ethContractAddr 0xb056c38f6b7dc4064367403e26424cd2c60655e1
+ * @implementation Dynamic
+ * @cmcId ceek-vr
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb056c38f6b7dc4064367403e26424cd2c60655e1?apiKey=freekey', (error, response, body) => {

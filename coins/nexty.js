@@ -2,6 +2,7 @@
  * @title Nexty
  * @symbol NTY
  * @implementation Not Implemented
+ * @cmcId nexty
  */
 
 module.exports = (callback, request) => {

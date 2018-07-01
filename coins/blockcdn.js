@@ -1,9 +1,10 @@
 /**
-* @title BlockCDN
-* @symbol BCDN
-* @ethContractAddr 0x1e797Ce986C3CFF4472F7D38d5C4aba55DfEFE40
-* @implementation Dynamic
-*/
+ * @title BlockCDN
+ * @symbol BCDN
+ * @ethContractAddr 0x1e797Ce986C3CFF4472F7D38d5C4aba55DfEFE40
+ * @implementation Dynamic
+ * @cmcId blockcdn
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1e797Ce986C3CFF4472F7D38d5C4aba55DfEFE40?apiKey=freekey', (error, response, body) => {

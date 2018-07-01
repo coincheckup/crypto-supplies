@@ -2,6 +2,7 @@
  * @title Advanced Technology Coin
  * @symbol ARC
  * @implementation Not Implemented
+ * @cmcId arcticcoin
  */
 
 module.exports = (callback, request) => {

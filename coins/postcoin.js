@@ -2,6 +2,7 @@
  * @title PostCoin
  * @symbol POST
  * @implementation Dynamic
+ * @cmcId postcoin
  */
 
 module.exports = (callback, request) => {

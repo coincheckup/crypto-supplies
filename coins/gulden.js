@@ -2,6 +2,7 @@
  * @title Gulden
  * @symbol NLG
  * @implementation Not Implemented
+ * @cmcId gulden
  */
 
 module.exports = (callback, request) => {

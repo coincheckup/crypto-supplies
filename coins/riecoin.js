@@ -2,6 +2,7 @@
  * @title Riecoin
  * @symbol RIC
  * @implementation Dynamic
+ * @cmcId riecoin
  */
 
 module.exports = (callback, request) => {

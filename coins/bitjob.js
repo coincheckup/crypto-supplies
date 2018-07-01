@@ -3,6 +3,7 @@
  * @symbol STU
  * @ethContractAddr 0x0371a82e4a9d0a4312f3ee2ac9c6958512891372
  * @implementation Dynamic
+ * @cmcId student-coin
  */
  
  module.exports = (callback, request) => {

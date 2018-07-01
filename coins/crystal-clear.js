@@ -1,9 +1,10 @@
 /**
-* @title Crystal Clear
-* @symbol CCT
-* @ethContractAddr 0x336f646f87d9f6bc6ed42dd46e8b3fd9dbd15c22
-* @implementation Dynamic
-*/
+ * @title Crystal Clear
+ * @symbol CCT
+ * @ethContractAddr 0x336f646f87d9f6bc6ed42dd46e8b3fd9dbd15c22
+ * @implementation Dynamic
+ * @cmcId crystal-clear
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x336f646f87d9f6bc6ed42dd46e8b3fd9dbd15c22?apiKey=freekey', (error, response, body) => {

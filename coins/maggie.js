@@ -1,9 +1,10 @@
 /**
-* @title Maggie
-* @symbol MAG
-* @ethContractAddr 0x647f274b3a7248d6cf51b35f08e7e7fd6edfb271
-* @implementation Dynamic
-*/
+ * @title Maggie
+ * @symbol MAG
+ * @ethContractAddr 0x647f274b3a7248d6cf51b35f08e7e7fd6edfb271
+ * @implementation Dynamic
+ * @cmcId maggie
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x647f274b3a7248d6cf51b35f08e7e7fd6edfb271?apiKey=freekey', (error, response, body) => {

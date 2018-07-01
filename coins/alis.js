@@ -1,9 +1,10 @@
 /**
-* @title ALIS
-* @symbol ALIS
-* @ethContractAddr 0xEA610B1153477720748DC13ED378003941d84fAB
-* @implementation Dynamic
-*/
+ * @title ALIS
+ * @symbol ALIS
+ * @ethContractAddr 0xEA610B1153477720748DC13ED378003941d84fAB
+ * @implementation Dynamic
+ * @cmcId alis
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xEA610B1153477720748DC13ED378003941d84fAB?apiKey=freekey', (error, response, body) => {

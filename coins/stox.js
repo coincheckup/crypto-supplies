@@ -1,9 +1,10 @@
 /**
-* @title Stox
-* @symbol STX
-* @ethContractAddr 0x006BeA43Baa3f7A6f765F14f10A1a1b08334EF45
-* @implementation Dynamic
-*/
+ * @title Stox
+ * @symbol STX
+ * @ethContractAddr 0x006BeA43Baa3f7A6f765F14f10A1a1b08334EF45
+ * @implementation Dynamic
+ * @cmcId stox
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x006BeA43Baa3f7A6f765F14f10A1a1b08334EF45?apiKey=freekey', (error, response, body) => {

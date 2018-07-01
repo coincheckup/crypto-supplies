@@ -2,6 +2,7 @@
  * @title GINcoin
  * @symbol GIN
  * @implementation Dynamic
+ * @cmcId gincoin
  */
  
  module.exports = (callback, request) => {

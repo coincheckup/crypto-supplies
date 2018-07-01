@@ -1,9 +1,10 @@
 /**
-* @title NANJCOIN
-* @symbol NANJ
-* @ethContractAddr 0xffe02ee4c69edf1b340fcad64fbd6b37a7b9e265
-* @implementation Dynamic
-*/
+ * @title NANJCOIN
+ * @symbol NANJ
+ * @ethContractAddr 0xffe02ee4c69edf1b340fcad64fbd6b37a7b9e265
+ * @implementation Dynamic
+ * @cmcId nanjcoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xffe02ee4c69edf1b340fcad64fbd6b37a7b9e265?apiKey=freekey', (error, response, body) => {

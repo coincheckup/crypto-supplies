@@ -2,6 +2,7 @@
  * @title Ecobit
  * @symbol ECOB
  * @implementation Not Implemented
+ * @cmcId ecobit
  */
 
 module.exports = (callback, request) => {

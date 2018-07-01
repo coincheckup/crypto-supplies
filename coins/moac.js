@@ -1,9 +1,10 @@
 /**
-* @title MOAC
-* @symbol MOAC
-* @ethContractAddr 0xCBcE61316759D807c474441952cE41985bBC5a40
-* @implementation Dynamic
-*/
+ * @title MOAC
+ * @symbol MOAC
+ * @ethContractAddr 0xCBcE61316759D807c474441952cE41985bBC5a40
+ * @implementation Dynamic
+ * @cmcId moac
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xCBcE61316759D807c474441952cE41985bBC5a40?apiKey=freekey', (error, response, body) => {

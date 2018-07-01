@@ -2,6 +2,7 @@
  * @title WINCOIN
  * @symbol WC
  * @implementation Dynamic
+ * @cmcId win-coin
  */
 
 module.exports = (callback, request) => {

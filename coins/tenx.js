@@ -1,9 +1,10 @@
 /**
-* @title TenX
-* @symbol PAY
-* @ethContractAddr 0xb97048628db6b661d4c2aa833e95dbe1a905b280
-* @implementation Dynamic
-*/
+ * @title TenX
+ * @symbol PAY
+ * @ethContractAddr 0xb97048628db6b661d4c2aa833e95dbe1a905b280
+ * @implementation Dynamic
+ * @cmcId tenx
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb97048628db6b661d4c2aa833e95dbe1a905b280?apiKey=freekey', (error, response, body) => {

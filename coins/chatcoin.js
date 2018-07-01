@@ -2,6 +2,7 @@
  * @title ChatCoin
  * @symbol CHAT
  * @implementation Not Implemented
+ * @cmcId chatcoin
  */
 
 module.exports = (callback, request) => {

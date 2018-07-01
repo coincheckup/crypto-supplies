@@ -2,6 +2,7 @@
  * @title Sterlingcoin
  * @symbol SLG
  * @implementation Dynamic
+ * @cmcId sterlingcoin
  */
 
 module.exports = (callback, request) => {

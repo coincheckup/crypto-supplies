@@ -1,9 +1,10 @@
 /**
-* @title Decision Token
-* @symbol HST
-* @ethContractAddr 0x554c20b7c486beee439277b4540a434566dc4c02
-* @implementation Dynamic
-*/
+ * @title Decision Token
+ * @symbol HST
+ * @ethContractAddr 0x554c20b7c486beee439277b4540a434566dc4c02
+ * @implementation Dynamic
+ * @cmcId decision-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x554c20b7c486beee439277b4540a434566dc4c02?apiKey=freekey', (error, response, body) => {

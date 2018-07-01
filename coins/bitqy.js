@@ -1,9 +1,10 @@
 /**
-* @title bitqy
-* @symbol BQ
-* @ethContractAddr 0xf0f8b0b8dbb1124261fc8d778e2287e3fd2cf4f5
-* @implementation Dynamic
-*/
+ * @title bitqy
+ * @symbol BQ
+ * @ethContractAddr 0xf0f8b0b8dbb1124261fc8d778e2287e3fd2cf4f5
+ * @implementation Dynamic
+ * @cmcId bitqy
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf0f8b0b8dbb1124261fc8d778e2287e3fd2cf4f5?apiKey=freekey', (error, response, body) => {

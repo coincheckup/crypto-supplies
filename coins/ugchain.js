@@ -1,9 +1,10 @@
 /**
-* @title ugChain
-* @symbol UGC
-* @ethContractAddr 0xf485c5e679238f9304d986bb2fc28fe3379200e5
-* @implementation Dynamic
-*/
+ * @title ugChain
+ * @symbol UGC
+ * @ethContractAddr 0xf485c5e679238f9304d986bb2fc28fe3379200e5
+ * @implementation Dynamic
+ * @cmcId ugchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf485c5e679238f9304d986bb2fc28fe3379200e5?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title SagaCoin
  * @symbol SAGA
  * @implementation Not Implemented
+ * @cmcId sagacoin
  */
 
 module.exports = (callback, request) => {

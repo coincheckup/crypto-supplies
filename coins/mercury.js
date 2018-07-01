@@ -2,6 +2,7 @@
  * @title Mercury
  * @symbol MER
  * @implementation Not Implemented
+ * @cmcId mercury
  */
 
 module.exports = (callback, request) => {

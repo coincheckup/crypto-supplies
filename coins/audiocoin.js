@@ -2,6 +2,7 @@
  * @title AudioCoin
  * @symbol ADC
  * @implementation Dynamic
+ * @cmcId audiocoin
  */
 
 module.exports = (callback, request) => {

@@ -1,9 +1,10 @@
 /**
-* @title PoSToken
-* @symbol POS
-* @ethContractAddr 0xee609fe292128cad03b786dbb9bc2634ccdbe7fc
-* @implementation Dynamic
-*/
+ * @title PoSToken
+ * @symbol POS
+ * @ethContractAddr 0xee609fe292128cad03b786dbb9bc2634ccdbe7fc
+ * @implementation Dynamic
+ * @cmcId postoken
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xee609fe292128cad03b786dbb9bc2634ccdbe7fc?apiKey=freekey', (error, response, body) => {

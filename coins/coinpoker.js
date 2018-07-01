@@ -1,9 +1,10 @@
 /**
-* @title CoinPoker
-* @symbol CHP
-* @ethContractAddr 0xf3db7560e820834658b590c96234c333cd3d5e5e
-* @implementation Dynamic
-*/
+ * @title CoinPoker
+ * @symbol CHP
+ * @ethContractAddr 0xf3db7560e820834658b590c96234c333cd3d5e5e
+ * @implementation Dynamic
+ * @cmcId coinpoker
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf3db7560e820834658b590c96234c333cd3d5e5e?apiKey=freekey', (error, response, body) => {

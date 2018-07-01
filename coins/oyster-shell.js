@@ -1,9 +1,10 @@
 /**
-* @title Oyster Shell
-* @symbol SHL
-* @ethContractAddr 0x8542325b72c6d9fc0ad2ca965a78435413a915a0
-* @implementation Dynamic
-*/
+ * @title Oyster Shell
+ * @symbol SHL
+ * @ethContractAddr 0x8542325b72c6d9fc0ad2ca965a78435413a915a0
+ * @implementation Dynamic
+ * @cmcId oyster-shell
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x8542325b72c6d9fc0ad2ca965a78435413a915a0?apiKey=freekey', (error, response, body) => {

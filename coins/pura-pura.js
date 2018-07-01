@@ -2,6 +2,7 @@
  * @title Pura
  * @symbol PURA
  * @implementation Dynamic
+ * @cmcId pura
  */
 
 module.exports = (callback, request) => {

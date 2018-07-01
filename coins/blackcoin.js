@@ -2,6 +2,7 @@
  * @title BlackCoin
  * @symbol BLK
  * @implementation Dynamic
+ * @cmcId blackcoin
  */
 
 module.exports = (callback, request) => {

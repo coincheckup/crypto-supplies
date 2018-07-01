@@ -1,9 +1,10 @@
 /**
-* @title DEW
-* @symbol DEW
-* @ethContractAddr 0x20e94867794dba030ee287f1406e100d03c84cd3
-* @implementation Dynamic
-*/
+ * @title DEW
+ * @symbol DEW
+ * @ethContractAddr 0x20e94867794dba030ee287f1406e100d03c84cd3
+ * @implementation Dynamic
+ * @cmcId dew
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x20e94867794dba030ee287f1406e100d03c84cd3?apiKey=freekey', (error, response, body) => {

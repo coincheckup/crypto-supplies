@@ -2,6 +2,7 @@
  * @title Spectrecoin
  * @symbol XSPEC
  * @implementation Dynamic
+ * @cmcId spectrecoin
  */
 
 module.exports = (callback, request) => {

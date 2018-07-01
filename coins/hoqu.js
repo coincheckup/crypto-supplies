@@ -1,9 +1,10 @@
 /**
-* @title HOQU
-* @symbol HQX
-* @ethContractAddr 0x1b957dc4aefeed3b4a2351a6a6d5cbfbba0cecfa
-* @implementation Dynamic
-*/
+ * @title HOQU
+ * @symbol HQX
+ * @ethContractAddr 0x1b957dc4aefeed3b4a2351a6a6d5cbfbba0cecfa
+ * @implementation Dynamic
+ * @cmcId hoqu
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1b957dc4aefeed3b4a2351a6a6d5cbfbba0cecfa?apiKey=freekey', (error, response, body) => {

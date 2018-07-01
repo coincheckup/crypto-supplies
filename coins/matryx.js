@@ -1,9 +1,10 @@
 /**
-* @title Matryx
-* @symbol MTX
-* @ethContractAddr 0x0af44e2784637218dd1d32a322d44e603a8f0c6a
-* @implementation Dynamic
-*/
+ * @title Matryx
+ * @symbol MTX
+ * @ethContractAddr 0x0af44e2784637218dd1d32a322d44e603a8f0c6a
+ * @implementation Dynamic
+ * @cmcId matryx
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x0af44e2784637218dd1d32a322d44e603a8f0c6a?apiKey=freekey', (error, response, body) => {

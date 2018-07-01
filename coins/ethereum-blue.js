@@ -1,9 +1,10 @@
 /**
-* @title Blue Protocol
-* @symbol BLUE
-* @ethContractAddr 0x539efe69bcdd21a83efd9122571a64cc25e0282b
-* @implementation Dynamic
-*/
+ * @title Blue Protocol
+ * @symbol BLUE
+ * @ethContractAddr 0x539efe69bcdd21a83efd9122571a64cc25e0282b
+ * @implementation Dynamic
+ * @cmcId ethereum-blue
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x539efe69bcdd21a83efd9122571a64cc25e0282b?apiKey=freekey', (error, response, body) => {

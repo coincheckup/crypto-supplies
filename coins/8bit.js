@@ -2,6 +2,7 @@
  * @title 8Bit
  * @symbol 8BIT
  * @implementation Dynamic
+ * @cmcId 8bit
  */
 
 module.exports = (callback, request) => {

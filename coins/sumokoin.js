@@ -2,6 +2,7 @@
  * @title Sumokoin
  * @symbol SUMO
  * @implementation Not Implemented
+ * @cmcId sumokoin
  */
 
 module.exports = (callback, request) => {

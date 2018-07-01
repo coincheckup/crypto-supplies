@@ -2,6 +2,7 @@
  * @title PotCoin
  * @symbol POT
  * @implementation Dynamic
+ * @cmcId potcoin
  */
 
 module.exports = (callback, request) => {

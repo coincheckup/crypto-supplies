@@ -1,9 +1,10 @@
 /**
-* @title Peerguess
-* @symbol GUESS
-* @ethContractAddr 0xbdcfbf5c4d91abc0bc9709c7286d00063c0e6f22
-* @implementation Dynamic
-*/
+ * @title Peerguess
+ * @symbol GUESS
+ * @ethContractAddr 0xbdcfbf5c4d91abc0bc9709c7286d00063c0e6f22
+ * @implementation Dynamic
+ * @cmcId guess
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xbdcfbf5c4d91abc0bc9709c7286d00063c0e6f22?apiKey=freekey', (error, response, body) => {

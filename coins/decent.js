@@ -2,6 +2,7 @@
  * @title DECENT
  * @symbol DCT
  * @implementation Dynamic
+ * @cmcId decent
  */
 
 module.exports = (callback, request) => {

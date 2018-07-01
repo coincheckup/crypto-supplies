@@ -1,9 +1,10 @@
 /**
-* @title MCAP
-* @symbol MCAP
-* @ethContractAddr 0x93e682107d1e9defb0b5ee701c71707a4b2e46bc
-* @implementation Dynamic
-*/
+ * @title MCAP
+ * @symbol MCAP
+ * @ethContractAddr 0x93e682107d1e9defb0b5ee701c71707a4b2e46bc
+ * @implementation Dynamic
+ * @cmcId mcap
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x93e682107d1e9defb0b5ee701c71707a4b2e46bc?apiKey=freekey', (error, response, body) => {

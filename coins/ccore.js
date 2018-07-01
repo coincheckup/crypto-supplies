@@ -1,9 +1,10 @@
 /**
-* @title Ccore
-* @symbol CCO
-* @ethContractAddr 0x679badc551626e01b23ceecefbc9b877ea18fc46
-* @implementation Dynamic
-*/
+ * @title Ccore
+ * @symbol CCO
+ * @ethContractAddr 0x679badc551626e01b23ceecefbc9b877ea18fc46
+ * @implementation Dynamic
+ * @cmcId ccore
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x679badc551626e01b23ceecefbc9b877ea18fc46?apiKey=freekey', (error, response, body) => {

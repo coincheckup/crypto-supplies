@@ -1,9 +1,10 @@
 /**
-* @title Tokenbox
-* @symbol TBX
-* @ethContractAddr 0x3a92bd396aef82af98ebc0aa9030d25a23b11c6b
-* @implementation Dynamic
-*/
+ * @title Tokenbox
+ * @symbol TBX
+ * @ethContractAddr 0x3a92bd396aef82af98ebc0aa9030d25a23b11c6b
+ * @implementation Dynamic
+ * @cmcId tokenbox
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x3a92bd396aef82af98ebc0aa9030d25a23b11c6b?apiKey=freekey', (error, response, body) => {

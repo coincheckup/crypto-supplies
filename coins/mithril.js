@@ -1,9 +1,10 @@
 /**
-* @title Mithril
-* @symbol MITH
-* @ethContractAddr 0x3893b9422cd5d70a81edeffe3d5a1c6a978310bb
-* @implementation Dynamic
-*/
+ * @title Mithril
+ * @symbol MITH
+ * @ethContractAddr 0x3893b9422cd5d70a81edeffe3d5a1c6a978310bb
+ * @implementation Dynamic
+ * @cmcId mithril
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x3893b9422cd5d70a81edeffe3d5a1c6a978310bb?apiKey=freekey', (error, response, body) => {

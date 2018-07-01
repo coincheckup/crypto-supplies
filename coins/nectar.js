@@ -1,9 +1,10 @@
 /**
-* @title Nectar
-* @symbol NEC
-* @ethContractAddr 0xcc80c051057b774cd75067dc48f8987c4eb97a5e
-* @implementation Dynamic
-*/
+ * @title Nectar
+ * @symbol NEC
+ * @ethContractAddr 0xcc80c051057b774cd75067dc48f8987c4eb97a5e
+ * @implementation Dynamic
+ * @cmcId nectar
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xcc80c051057b774cd75067dc48f8987c4eb97a5e?apiKey=freekey', (error, response, body) => {

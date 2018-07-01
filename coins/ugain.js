@@ -2,6 +2,7 @@
  * @title UGAIN
  * @symbol GAIN
  * @implementation Not Implemented
+ * @cmcId ugain
  */
 
 module.exports = (callback, request) => {

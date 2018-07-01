@@ -3,6 +3,7 @@
  * @symbol NANO
  * @implementation Static
  * @reference https://nano.org/en/explore/summary
+ * @cmcId nano
  */
 
 module.exports = (callback, request) => {

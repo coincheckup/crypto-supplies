@@ -2,6 +2,7 @@
  * @title bitBTC
  * @symbol BITBTC
  * @implementation Not Implemented
+ * @cmcId bitbtc
  */
 
 module.exports = (callback, request) => {

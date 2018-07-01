@@ -2,6 +2,7 @@
  * @title JobsCoin
  * @symbol JOBS
  * @implementation Not Implemented
+ * @cmcId jobscoin
  */
 
 module.exports = (callback, request) => {

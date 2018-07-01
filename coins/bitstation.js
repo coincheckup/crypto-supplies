@@ -1,9 +1,10 @@
 /**
-* @title BitStation
-* @symbol BSTN
-* @ethContractAddr 0x2f8472dd7ecf7ca760c8f6b45db20ca7cf52f8d7
-* @implementation Dynamic
-*/
+ * @title BitStation
+ * @symbol BSTN
+ * @ethContractAddr 0x2f8472dd7ecf7ca760c8f6b45db20ca7cf52f8d7
+ * @implementation Dynamic
+ * @cmcId bitstation
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2f8472dd7ecf7ca760c8f6b45db20ca7cf52f8d7?apiKey=freekey', (error, response, body) => {

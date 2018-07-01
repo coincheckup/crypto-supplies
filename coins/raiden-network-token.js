@@ -1,9 +1,10 @@
 /**
-* @title Raiden Network Token
-* @symbol RDN
-* @ethContractAddr 0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6
-* @implementation Dynamic
-*/
+ * @title Raiden Network Token
+ * @symbol RDN
+ * @ethContractAddr 0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6
+ * @implementation Dynamic
+ * @cmcId raiden-network-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Universa
-* @symbol UTNP
-* @ethContractAddr 0x9e3319636e2126e3c0bc9e3134AEC5e1508A46c7
-* @implementation Dynamic
-*/
+ * @title Universa
+ * @symbol UTNP
+ * @ethContractAddr 0x9e3319636e2126e3c0bc9e3134AEC5e1508A46c7
+ * @implementation Dynamic
+ * @cmcId universa
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x9e3319636e2126e3c0bc9e3134AEC5e1508A46c7?apiKey=freekey', (error, response, body) => {

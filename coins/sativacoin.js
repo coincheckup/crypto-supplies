@@ -2,6 +2,7 @@
  * @title Sativacoin
  * @symbol STV
  * @implementation Dynamic
+ * @cmcId sativacoin
  */
 
 module.exports = (callback, request) => {

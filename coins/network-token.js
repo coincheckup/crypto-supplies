@@ -1,9 +1,10 @@
 /**
-* @title Network Token
-* @symbol NTWK
-* @ethContractAddr 0x2233799ee2683d75dfefacbcd2a26c78d34b470d
-* @implementation Dynamic
-*/
+ * @title Network Token
+ * @symbol NTWK
+ * @ethContractAddr 0x2233799ee2683d75dfefacbcd2a26c78d34b470d
+ * @implementation Dynamic
+ * @cmcId network-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2233799ee2683d75dfefacbcd2a26c78d34b470d?apiKey=freekey', (error, response, body) => {

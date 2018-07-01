@@ -1,9 +1,10 @@
 /**
-* @title Commodity Ad Network
-* @symbol CDX
-* @ethContractAddr 0x6fff3806bbac52a20e0d79bc538d527f6a22c96b
-* @implementation Dynamic
-*/
+ * @title Commodity Ad Network
+ * @symbol CDX
+ * @ethContractAddr 0x6fff3806bbac52a20e0d79bc538d527f6a22c96b
+ * @implementation Dynamic
+ * @cmcId commodity-ad-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6fff3806bbac52a20e0d79bc538d527f6a22c96b?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Ark
  * @symbol ARK
  * @implementation Dynamic
+ * @cmcId ark
  */
 module.exports = (callback, request) => {
     Promise.all([

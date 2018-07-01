@@ -2,6 +2,7 @@
  * @title Rubycoin
  * @symbol RBY
  * @implementation Dynamic
+ * @cmcId rubycoin
  */
 
 module.exports = (callback, request) => {

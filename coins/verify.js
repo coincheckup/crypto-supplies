@@ -1,9 +1,10 @@
 /**
-* @title Verify
-* @symbol CRED
-* @ethContractAddr 0x672a1ad4f667fb18a333af13667aa0af1f5b5bdd
-* @implementation Dynamic
-*/
+ * @title Verify
+ * @symbol CRED
+ * @ethContractAddr 0x672a1ad4f667fb18a333af13667aa0af1f5b5bdd
+ * @implementation Dynamic
+ * @cmcId verify
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x672a1ad4f667fb18a333af13667aa0af1f5b5bdd?apiKey=freekey', (error, response, body) => {

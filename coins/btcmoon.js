@@ -1,9 +1,10 @@
 /**
-* @title BTCMoon
-* @symbol BTCM
-* @ethContractAddr 0xa9aad2dc3a8315caeee5f458b1d8edc31d8467bd
-* @implementation Dynamic
-*/
+ * @title BTCMoon
+ * @symbol BTCM
+ * @ethContractAddr 0xa9aad2dc3a8315caeee5f458b1d8edc31d8467bd
+ * @implementation Dynamic
+ * @cmcId btcmoon
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xa9aad2dc3a8315caeee5f458b1d8edc31d8467bd?apiKey=freekey', (error, response, body) => {

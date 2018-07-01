@@ -1,9 +1,10 @@
 /**
-* @title Couchain
-* @symbol COU
-* @ethContractAddr 0xf091cf09c51811819db705710e9634b8bf18f164
-* @implementation Dynamic
-*/
+ * @title Couchain
+ * @symbol COU
+ * @ethContractAddr 0xf091cf09c51811819db705710e9634b8bf18f164
+ * @implementation Dynamic
+ * @cmcId couchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf091cf09c51811819db705710e9634b8bf18f164?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title ARbit
  * @symbol ARB
  * @implementation Not Implemented
+ * @cmcId arbit
  */
 
 module.exports = (callback, request) => {

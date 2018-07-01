@@ -2,6 +2,7 @@
  * @title Magnet
  * @symbol MAG
  * @implementation Not Implemented
+ * @cmcId magnet
  */
 
 module.exports = (callback, request) => {

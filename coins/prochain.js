@@ -1,9 +1,10 @@
 /**
-* @title ProChain
-* @symbol PRA
-* @ethContractAddr 0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01
-* @implementation Dynamic
-*/
+ * @title ProChain
+ * @symbol PRA
+ * @ethContractAddr 0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01
+ * @implementation Dynamic
+ * @cmcId prochain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x9041Fe5B3FDEA0f5e4afDC17e75180738D877A01?apiKey=freekey', (error, response, body) => {

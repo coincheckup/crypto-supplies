@@ -1,9 +1,10 @@
 /**
-* @title Privatix
-* @symbol PRIX
-* @ethContractAddr 0x3adfc4999f77d04c8341bac5f3a76f58dff5b37a
-* @implementation Dynamic
-*/
+ * @title Privatix
+ * @symbol PRIX
+ * @ethContractAddr 0x3adfc4999f77d04c8341bac5f3a76f58dff5b37a
+ * @implementation Dynamic
+ * @cmcId privatix
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x3adfc4999f77d04c8341bac5f3a76f58dff5b37a?apiKey=freekey', (error, response, body) => {

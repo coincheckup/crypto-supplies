@@ -1,9 +1,10 @@
 /**
-* @title SyncFab
-* @symbol MFG
-* @ethContractAddr 0x6710c63432a2de02954fc0f851db07146a6c0312
-* @implementation Dynamic
-*/
+ * @title SyncFab
+ * @symbol MFG
+ * @ethContractAddr 0x6710c63432a2de02954fc0f851db07146a6c0312
+ * @implementation Dynamic
+ * @cmcId syncfab
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6710c63432a2de02954fc0f851db07146a6c0312?apiKey=freekey', (error, response, body) => {

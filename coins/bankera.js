@@ -1,9 +1,10 @@
 /**
-* @title Bankera
-* @symbol BNK
-* @ethContractAddr 0xc80c5e40220172b36adee2c951f26f2a577810c5
-* @implementation Dynamic
-*/
+ * @title Bankera
+ * @symbol BNK
+ * @ethContractAddr 0xc80c5e40220172b36adee2c951f26f2a577810c5
+ * @implementation Dynamic
+ * @cmcId bankera
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xc80c5e40220172b36adee2c951f26f2a577810c5?apiKey=freekey', (error, response, body) => {

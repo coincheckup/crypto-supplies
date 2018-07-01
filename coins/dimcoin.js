@@ -2,6 +2,7 @@
  * @title DIMCOIN
  * @symbol DIM
  * @implementation Not Implemented
+ * @cmcId dimcoin
  */
 
 module.exports = (callback, request) => {

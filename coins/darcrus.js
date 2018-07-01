@@ -2,6 +2,7 @@
  * @title Darcrus
  * @symbol DAR
  * @implementation Not Implemented
+ * @cmcId darcrus
  */
 
 module.exports = (callback, request) => {

@@ -1,9 +1,10 @@
 /**
-* @title EXRNchain
-* @symbol EXRN
-* @ethContractAddr 0xe469c4473af82217b30cf17b10bcdb6c8c796e75
-* @implementation Dynamic
-*/
+ * @title EXRNchain
+ * @symbol EXRN
+ * @ethContractAddr 0xe469c4473af82217b30cf17b10bcdb6c8c796e75
+ * @implementation Dynamic
+ * @cmcId exrnchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe469c4473af82217b30cf17b10bcdb6c8c796e75?apiKey=freekey', (error, response, body) => {

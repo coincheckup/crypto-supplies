@@ -1,9 +1,10 @@
 /**
-* @title Education Ecosystem
-* @symbol LEDU
-* @ethContractAddr 0x5b26c5d0772e5bbac8b3182ae9a13f9bb2d03765
-* @implementation Dynamic
-*/
+ * @title Education Ecosystem
+ * @symbol LEDU
+ * @ethContractAddr 0x5b26c5d0772e5bbac8b3182ae9a13f9bb2d03765
+ * @implementation Dynamic
+ * @cmcId education-ecosystem
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5b26c5d0772e5bbac8b3182ae9a13f9bb2d03765?apiKey=freekey', (error, response, body) => {

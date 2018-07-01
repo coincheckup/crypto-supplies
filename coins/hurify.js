@@ -1,9 +1,10 @@
 /**
-* @title Hurify
-* @symbol HUR
-* @ethContractAddr 0xcdb7ecfd3403eef3882c65b761ef9b5054890a47
-* @implementation Dynamic
-*/
+ * @title Hurify
+ * @symbol HUR
+ * @ethContractAddr 0xcdb7ecfd3403eef3882c65b761ef9b5054890a47
+ * @implementation Dynamic
+ * @cmcId hurify
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xcdb7ecfd3403eef3882c65b761ef9b5054890a47?apiKey=freekey', (error, response, body) => {

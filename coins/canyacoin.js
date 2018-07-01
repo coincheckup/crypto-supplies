@@ -1,9 +1,10 @@
 /**
-* @title CanYaCoin
-* @symbol CAN
-* @ethContractAddr 0x1d462414fe14cf489c7a21cac78509f4bf8cd7c0
-* @implementation Dynamic
-*/
+ * @title CanYaCoin
+ * @symbol CAN
+ * @ethContractAddr 0x1d462414fe14cf489c7a21cac78509f4bf8cd7c0
+ * @implementation Dynamic
+ * @cmcId canyacoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1d462414fe14cf489c7a21cac78509f4bf8cd7c0?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Myriad
  * @symbol XMY
  * @implementation Dynamic
+ * @cmcId myriad
  */
 
 module.exports = (callback, request) => {

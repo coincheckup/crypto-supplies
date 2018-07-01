@@ -2,6 +2,7 @@
  * @title Bit20
  * @symbol BTWTY
  * @implementation Not Implemented
+ * @cmcId bit20
  */
 
 module.exports = (callback, request) => {

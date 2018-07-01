@@ -1,9 +1,10 @@
 /**
-* @title Po.et
-* @symbol POE
-* @ethContractAddr 0x0e0989b1f9b8a38983c2ba8053269ca62ec9b195
-* @implementation Dynamic
-*/
+ * @title Po.et
+ * @symbol POE
+ * @ethContractAddr 0x0e0989b1f9b8a38983c2ba8053269ca62ec9b195
+ * @implementation Dynamic
+ * @cmcId poet
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x0e0989b1f9b8a38983c2ba8053269ca62ec9b195?apiKey=freekey', (error, response, body) => {

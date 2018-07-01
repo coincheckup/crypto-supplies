@@ -1,9 +1,10 @@
 /**
-* @title Viuly
-* @symbol VIU
-* @ethContractAddr 0x519475b31653e46d20cd09f9fdcf3b12bdacb4f5
-* @implementation Dynamic
-*/
+ * @title Viuly
+ * @symbol VIU
+ * @ethContractAddr 0x519475b31653e46d20cd09f9fdcf3b12bdacb4f5
+ * @implementation Dynamic
+ * @cmcId viuly
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x519475b31653e46d20cd09f9fdcf3b12bdacb4f5?apiKey=freekey', (error, response, body) => {

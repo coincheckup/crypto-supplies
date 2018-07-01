@@ -1,9 +1,10 @@
 /**
-* @title Goodomy
-* @symbol GOOD
-* @ethContractAddr 0xaE616e72D3d89e847f74E8ace41Ca68bbF56af79
-* @implementation Dynamic
-*/
+ * @title Goodomy
+ * @symbol GOOD
+ * @ethContractAddr 0xaE616e72D3d89e847f74E8ace41Ca68bbF56af79
+ * @implementation Dynamic
+ * @cmcId goodomy
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xaE616e72D3d89e847f74E8ace41Ca68bbF56af79?apiKey=freekey', (error, response, body) => {

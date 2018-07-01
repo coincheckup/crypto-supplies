@@ -1,9 +1,10 @@
 /**
-* @title Patientory
-* @symbol PTOY
-* @ethContractAddr 0x8ae4bf2c33a8e667de34b54938b0ccd03eb8cc06
-* @implementation Dynamic
-*/
+ * @title Patientory
+ * @symbol PTOY
+ * @ethContractAddr 0x8ae4bf2c33a8e667de34b54938b0ccd03eb8cc06
+ * @implementation Dynamic
+ * @cmcId patientory
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x8ae4bf2c33a8e667de34b54938b0ccd03eb8cc06?apiKey=freekey', (error, response, body) => {

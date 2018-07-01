@@ -1,9 +1,10 @@
 /**
-* @title Selfkey
-* @symbol KEY
-* @ethContractAddr 0x4cc19356f2d37338b9802aa8e8fc58b0373296e7
-* @implementation Dynamic
-*/
+ * @title Selfkey
+ * @symbol KEY
+ * @ethContractAddr 0x4cc19356f2d37338b9802aa8e8fc58b0373296e7
+ * @implementation Dynamic
+ * @cmcId selfkey
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4cc19356f2d37338b9802aa8e8fc58b0373296e7?apiKey=freekey', (error, response, body) => {

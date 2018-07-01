@@ -2,6 +2,7 @@
  * @title StakeNet
  * @symbol XSN
  * @implementation Dynamic
+ * @cmcId stakenet
  */
 
 module.exports = (callback, request) => {

@@ -1,9 +1,10 @@
 /**
-* @title Presearch
-* @symbol PRE
-* @ethContractAddr 0x88a3e4f35d64aad41a6d4030ac9afe4356cb84fa
-* @implementation Dynamic
-*/
+ * @title Presearch
+ * @symbol PRE
+ * @ethContractAddr 0x88a3e4f35d64aad41a6d4030ac9afe4356cb84fa
+ * @implementation Dynamic
+ * @cmcId presearch
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x88a3e4f35d64aad41a6d4030ac9afe4356cb84fa?apiKey=freekey', (error, response, body) => {

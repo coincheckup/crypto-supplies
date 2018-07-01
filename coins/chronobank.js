@@ -2,6 +2,7 @@
  * @title Chronobank
  * @symbol TIME
  * @implementation Not Implemented
+ * @cmcId chronobank
  */
 
 module.exports = (callback, request) => {

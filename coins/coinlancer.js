@@ -1,9 +1,10 @@
 /**
-* @title Coinlancer
-* @symbol CL
-* @ethContractAddr 0xe81d72d14b1516e68ac3190a46c93302cc8ed60f
-* @implementation Dynamic
-*/
+ * @title Coinlancer
+ * @symbol CL
+ * @ethContractAddr 0xe81d72d14b1516e68ac3190a46c93302cc8ed60f
+ * @implementation Dynamic
+ * @cmcId coinlancer
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe81d72d14b1516e68ac3190a46c93302cc8ed60f?apiKey=freekey', (error, response, body) => {

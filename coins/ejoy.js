@@ -1,9 +1,10 @@
 /**
-* @title EJOY
-* @symbol EJOY
-* @ethContractAddr 0xaC0741127CAC11E4455C7943b654bcCeD7FDD5A4
-* @implementation Dynamic
-*/
+ * @title EJOY
+ * @symbol EJOY
+ * @ethContractAddr 0xaC0741127CAC11E4455C7943b654bcCeD7FDD5A4
+ * @implementation Dynamic
+ * @cmcId ejoy
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xaC0741127CAC11E4455C7943b654bcCeD7FDD5A4?apiKey=freekey', (error, response, body) => {

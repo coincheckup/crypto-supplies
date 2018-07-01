@@ -1,9 +1,10 @@
 /**
-* @title Soarcoin
-* @symbol SOAR
-* @ethContractAddr 0xD65960FAcb8E4a2dFcb2C2212cb2e44a02e2a57E
-* @implementation Dynamic
-*/
+ * @title Soarcoin
+ * @symbol SOAR
+ * @ethContractAddr 0xD65960FAcb8E4a2dFcb2C2212cb2e44a02e2a57E
+ * @implementation Dynamic
+ * @cmcId soarcoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xD65960FAcb8E4a2dFcb2C2212cb2e44a02e2a57E?apiKey=freekey', (error, response, body) => {

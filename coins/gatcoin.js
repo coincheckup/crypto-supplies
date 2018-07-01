@@ -1,9 +1,10 @@
 /**
-* @title Gatcoin
-* @symbol GAT
-* @ethContractAddr 0x687174f8c49ceb7729d925c3a961507ea4ac7b28
-* @implementation Dynamic
-*/
+ * @title Gatcoin
+ * @symbol GAT
+ * @ethContractAddr 0x687174f8c49ceb7729d925c3a961507ea4ac7b28
+ * @implementation Dynamic
+ * @cmcId gatcoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x687174f8c49ceb7729d925c3a961507ea4ac7b28?apiKey=freekey', (error, response, body) => {

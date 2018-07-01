@@ -1,9 +1,10 @@
 /**
-* @title EtherDelta Token
-* @symbol EDT
-* @ethContractAddr 0xce53a179047ebed80261689367c093c90a94cc08
-* @implementation Dynamic
-*/
+ * @title EtherDelta Token
+ * @symbol EDT
+ * @ethContractAddr 0xce53a179047ebed80261689367c093c90a94cc08
+ * @implementation Dynamic
+ * @cmcId etherdelta-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xce53a179047ebed80261689367c093c90a94cc08?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title BitAsean
-* @symbol BAS
-* @ethContractAddr 0x2a05d22db079bc40c2f77a1d1ff703a56e631cc1
-* @implementation Dynamic
-*/
+ * @title BitAsean
+ * @symbol BAS
+ * @ethContractAddr 0x2a05d22db079bc40c2f77a1d1ff703a56e631cc1
+ * @implementation Dynamic
+ * @cmcId bitasean
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2a05d22db079bc40c2f77a1d1ff703a56e631cc1?apiKey=freekey', (error, response, body) => {

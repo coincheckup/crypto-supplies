@@ -1,9 +1,10 @@
 /**
-* @title Devery
-* @symbol EVE
-* @ethContractAddr 0x923108a439c4e8c2315c4f6521e5ce95b44e9b4c
-* @implementation Dynamic
-*/
+ * @title Devery
+ * @symbol EVE
+ * @ethContractAddr 0x923108a439c4e8c2315c4f6521e5ce95b44e9b4c
+ * @implementation Dynamic
+ * @cmcId devery
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x923108a439c4e8c2315c4f6521e5ce95b44e9b4c?apiKey=freekey', (error, response, body) => {

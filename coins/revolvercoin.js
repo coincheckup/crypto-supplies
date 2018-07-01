@@ -2,6 +2,7 @@
  * @title RevolverCoin
  * @symbol XRE
  * @implementation Not Implemented
+ * @cmcId revolvercoin
  */
 
 module.exports = (callback, request) => {

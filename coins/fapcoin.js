@@ -1,9 +1,10 @@
 /**
-* @title FAPcoin
-* @symbol FAP
-* @ethContractAddr 0x6467882316dc6e206feef05fba6deaa69277f155
-* @implementation Dynamic
-*/
+ * @title FAPcoin
+ * @symbol FAP
+ * @ethContractAddr 0x6467882316dc6e206feef05fba6deaa69277f155
+ * @implementation Dynamic
+ * @cmcId fapcoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6467882316dc6e206feef05fba6deaa69277f155?apiKey=freekey', (error, response, body) => {

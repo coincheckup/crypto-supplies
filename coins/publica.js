@@ -1,9 +1,10 @@
 /**
-* @title Publica
-* @symbol PBL
-* @ethContractAddr 0x55648de19836338549130b1af587f16bea46f66b
-* @implementation Dynamic
-*/
+ * @title Publica
+ * @symbol PBL
+ * @ethContractAddr 0x55648de19836338549130b1af587f16bea46f66b
+ * @implementation Dynamic
+ * @cmcId publica
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x55648de19836338549130b1af587f16bea46f66b?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title MyBit Token
-* @symbol MYB
-* @ethContractAddr 0x94298f1e0ab2dfad6eeffb1426846a3c29d98090
-* @implementation Dynamic
-*/
+ * @title MyBit Token
+ * @symbol MYB
+ * @ethContractAddr 0x94298f1e0ab2dfad6eeffb1426846a3c29d98090
+ * @implementation Dynamic
+ * @cmcId mybit-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x94298f1e0ab2dfad6eeffb1426846a3c29d98090?apiKey=freekey', (error, response, body) => {

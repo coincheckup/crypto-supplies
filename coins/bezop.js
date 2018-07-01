@@ -1,9 +1,10 @@
 /**
-* @title Bezop
-* @symbol BEZ
-* @ethContractAddr 0x3839d8ba312751aa0248fed6a8bacb84308e20ed
-* @implementation Dynamic
-*/
+ * @title Bezop
+ * @symbol BEZ
+ * @ethContractAddr 0x3839d8ba312751aa0248fed6a8bacb84308e20ed
+ * @implementation Dynamic
+ * @cmcId bezop
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x3839d8ba312751aa0248fed6a8bacb84308e20ed?apiKey=freekey', (error, response, body) => {

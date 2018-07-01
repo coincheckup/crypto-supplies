@@ -1,9 +1,10 @@
 /**
-* @title Blocktix
-* @symbol TIX
-* @ethContractAddr 0xea1f346faf023f974eb5adaf088bbcdf02d761f4
-* @implementation Dynamic
-*/
+ * @title Blocktix
+ * @symbol TIX
+ * @ethContractAddr 0xea1f346faf023f974eb5adaf088bbcdf02d761f4
+ * @implementation Dynamic
+ * @cmcId blocktix
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xea1f346faf023f974eb5adaf088bbcdf02d761f4?apiKey=freekey', (error, response, body) => {

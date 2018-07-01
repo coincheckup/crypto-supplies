@@ -1,9 +1,10 @@
 /**
-* @title Crypterium
-* @symbol CRPT
-* @ethContractAddr 0x80a7e048f37a50500351c204cb407766fa3bae7f
-* @implementation Dynamic
-*/
+ * @title Crypterium
+ * @symbol CRPT
+ * @ethContractAddr 0x80a7e048f37a50500351c204cb407766fa3bae7f
+ * @implementation Dynamic
+ * @cmcId crypterium
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x80a7e048f37a50500351c204cb407766fa3bae7f?apiKey=freekey', (error, response, body) => {

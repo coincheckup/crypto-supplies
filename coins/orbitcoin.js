@@ -2,6 +2,7 @@
  * @title Orbitcoin
  * @symbol ORB
  * @implementation Not Implemented
+ * @cmcId orbitcoin
  */
 
 module.exports = (callback, request) => {

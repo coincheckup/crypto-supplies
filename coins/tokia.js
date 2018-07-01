@@ -1,9 +1,10 @@
 /**
-* @title Tokia
-* @symbol TKA
-* @ethContractAddr 0xdae1baf249964bc4b6ac98c3122f0e3e785fd279
-* @implementation Dynamic
-*/
+ * @title Tokia
+ * @symbol TKA
+ * @ethContractAddr 0xdae1baf249964bc4b6ac98c3122f0e3e785fd279
+ * @implementation Dynamic
+ * @cmcId tokia
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xdae1baf249964bc4b6ac98c3122f0e3e785fd279?apiKey=freekey', (error, response, body) => {

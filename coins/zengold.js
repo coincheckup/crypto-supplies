@@ -2,6 +2,7 @@
  * @title ZenGold
  * @symbol ZENGOLD
  * @implementation Not Implemented
+ * @cmcId zengold
  */
 
 module.exports = (callback, request) => {

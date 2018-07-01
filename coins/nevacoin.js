@@ -2,6 +2,7 @@
  * @title NevaCoin
  * @symbol NEVA
  * @implementation Dynamic
+ * @cmcId nevacoin
  */
 
 module.exports = (callback, request) => {

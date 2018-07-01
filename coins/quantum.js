@@ -1,9 +1,10 @@
 /**
-* @title Quantum
-* @symbol QAU
-* @ethContractAddr 0x671abbe5ce652491985342e85428eb1b07bc6c64
-* @implementation Dynamic
-*/
+ * @title Quantum
+ * @symbol QAU
+ * @ethContractAddr 0x671abbe5ce652491985342e85428eb1b07bc6c64
+ * @implementation Dynamic
+ * @cmcId quantum
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x671abbe5ce652491985342e85428eb1b07bc6c64?apiKey=freekey', (error, response, body) => {

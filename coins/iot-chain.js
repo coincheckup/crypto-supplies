@@ -1,9 +1,10 @@
 /**
-* @title IoT Chain
-* @symbol ITC
-* @ethContractAddr 0x5e6b6d9abad9093fdc861ea1600eba1b355cd940
-* @implementation Dynamic
-*/
+ * @title IoT Chain
+ * @symbol ITC
+ * @ethContractAddr 0x5e6b6d9abad9093fdc861ea1600eba1b355cd940
+ * @implementation Dynamic
+ * @cmcId iot-chain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5e6b6d9abad9093fdc861ea1600eba1b355cd940?apiKey=freekey', (error, response, body) => {

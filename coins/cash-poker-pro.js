@@ -2,6 +2,7 @@
  * @title Cashcoin
  * @symbol CASH
  * @implementation Not Implemented
+ * @cmcId cashcoin
  */
 
 module.exports = (callback, request) => {

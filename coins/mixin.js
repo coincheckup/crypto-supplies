@@ -1,9 +1,10 @@
 /**
-* @title Mixin
-* @symbol XIN
-* @ethContractAddr 0xa974c709cfb4566686553a20790685a47aceaa33
-* @implementation Dynamic
-*/
+ * @title Mixin
+ * @symbol XIN
+ * @ethContractAddr 0xa974c709cfb4566686553a20790685a47aceaa33
+ * @implementation Dynamic
+ * @cmcId mixin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xa974c709cfb4566686553a20790685a47aceaa33?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title RedCoin
  * @symbol RED
  * @implementation Not Implemented
+ * @cmcId redcoin
  */
 
 module.exports = (callback, request) => {

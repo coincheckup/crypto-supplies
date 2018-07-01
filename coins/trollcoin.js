@@ -2,6 +2,7 @@
  * @title Trollcoin
  * @symbol TROLL
  * @implementation Dynamic
+ * @cmcId trollcoin
  */
 
 module.exports = (callback, request) => {

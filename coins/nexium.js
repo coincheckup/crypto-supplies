@@ -1,9 +1,10 @@
 /**
-* @title Nexium
-* @symbol NXC
-* @ethContractAddr 0x45e42D659D9f9466cD5DF622506033145a9b89Bc
-* @implementation Dynamic
-*/
+ * @title Nexium
+ * @symbol NXC
+ * @ethContractAddr 0x45e42D659D9f9466cD5DF622506033145a9b89Bc
+ * @implementation Dynamic
+ * @cmcId nexium
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x45e42D659D9f9466cD5DF622506033145a9b89Bc?apiKey=freekey', (error, response, body) => {

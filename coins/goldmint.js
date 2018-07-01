@@ -1,9 +1,10 @@
 /**
-* @title GoldMint
-* @symbol MNTP
-* @ethContractAddr 0x83cee9e086a77e492ee0bb93c2b0437ad6fdeccc
-* @implementation Dynamic
-*/
+ * @title GoldMint
+ * @symbol MNTP
+ * @ethContractAddr 0x83cee9e086a77e492ee0bb93c2b0437ad6fdeccc
+ * @implementation Dynamic
+ * @cmcId goldmint
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x83cee9e086a77e492ee0bb93c2b0437ad6fdeccc?apiKey=freekey', (error, response, body) => {

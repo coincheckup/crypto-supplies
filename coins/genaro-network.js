@@ -1,9 +1,10 @@
 /**
-* @title Genaro Network
-* @symbol GNX
-* @ethContractAddr 0x6ec8a24cabdc339a06a172f8223ea557055adaa5
-* @implementation Dynamic
-*/
+ * @title Genaro Network
+ * @symbol GNX
+ * @ethContractAddr 0x6ec8a24cabdc339a06a172f8223ea557055adaa5
+ * @implementation Dynamic
+ * @cmcId genaro-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6ec8a24cabdc339a06a172f8223ea557055adaa5?apiKey=freekey', (error, response, body) => {

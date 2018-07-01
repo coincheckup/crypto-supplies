@@ -2,6 +2,7 @@
  * @title Switcheo
  * @symbol SWTH
  * @implementation Not Implemented
+ * @cmcId switcheo
  */
 
 module.exports = (callback, request) => {

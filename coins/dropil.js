@@ -1,9 +1,10 @@
 /**
-* @title Dropil
-* @symbol DROP
-* @ethContractAddr 0x4672bad527107471cb5067a887f4656d585a8a31
-* @implementation Dynamic
-*/
+ * @title Dropil
+ * @symbol DROP
+ * @ethContractAddr 0x4672bad527107471cb5067a887f4656d585a8a31
+ * @implementation Dynamic
+ * @cmcId dropil
+ */
 
 module.exports = (callback, request) => {
     request('http://api.ethplorer.io/getTokenInfo/0x4672bad527107471cb5067a887f4656d585a8a31?apiKey=freekey', (error, response, body) => {

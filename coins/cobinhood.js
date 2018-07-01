@@ -1,9 +1,10 @@
 /**
-* @title Cobinhood
-* @symbol COB
-* @ethContractAddr 0xb2f7eb1f2c37645be61d73953035360e768d81e6
-* @implementation Dynamic
-*/
+ * @title Cobinhood
+ * @symbol COB
+ * @ethContractAddr 0xb2f7eb1f2c37645be61d73953035360e768d81e6
+ * @implementation Dynamic
+ * @cmcId cobinhood
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb2f7eb1f2c37645be61d73953035360e768d81e6?apiKey=freekey', (error, response, body) => {

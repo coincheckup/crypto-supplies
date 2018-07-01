@@ -1,9 +1,10 @@
 /**
-* @title Aventus
-* @symbol AVT
-* @ethContractAddr 0x0d88ed6e74bbfd96b831231638b66c05571e824f
-* @implementation Dynamic
-*/
+ * @title Aventus
+ * @symbol AVT
+ * @ethContractAddr 0x0d88ed6e74bbfd96b831231638b66c05571e824f
+ * @implementation Dynamic
+ * @cmcId aventus
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x0d88ed6e74bbfd96b831231638b66c05571e824f?apiKey=freekey', (error, response, body) => {

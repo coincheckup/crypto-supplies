@@ -1,9 +1,10 @@
 /**
-* @title SpankChain
-* @symbol SPANK
-* @ethContractAddr 0x42d6622dece394b54999fbd73d108123806f6a18
-* @implementation Dynamic
-*/
+ * @title SpankChain
+ * @symbol SPANK
+ * @ethContractAddr 0x42d6622dece394b54999fbd73d108123806f6a18
+ * @implementation Dynamic
+ * @cmcId spankchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x42d6622dece394b54999fbd73d108123806f6a18?apiKey=freekey', (error, response, body) => {

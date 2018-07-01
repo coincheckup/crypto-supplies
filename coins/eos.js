@@ -1,9 +1,10 @@
 /**
-* @title EOS
-* @symbol EOS
-* @ethContractAddr 0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0
-* @implementation Dynamic
-*/
+ * @title EOS
+ * @symbol EOS
+ * @ethContractAddr 0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0
+ * @implementation Dynamic
+ * @cmcId eos
+ */
 
 module.exports = (callback, request) => {
     request('http://api.ethplorer.io/getTokenInfo/0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0?apiKey=freekey', (error, response, body) => {

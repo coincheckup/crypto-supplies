@@ -1,7 +1,8 @@
 /**
- * @title ATMChain
- * @symbol ATM
+ * @title Grid+
+ * @symbol GRID
  * @implementation Not Implemented
+ * @cmcId grid
  */
 
 module.exports = (callback, request) => {

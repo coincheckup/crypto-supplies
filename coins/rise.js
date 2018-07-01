@@ -2,6 +2,7 @@
  * @title Rise
  * @symbol RISE
  * @implementation Not Implemented
+ * @cmcId rise
  */
 
 module.exports = (callback, request) => {

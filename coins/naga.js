@@ -1,9 +1,10 @@
 /**
-* @title NAGA
-* @symbol NGC
-* @ethContractAddr 0x72dd4b6bd852a3aa172be4d6c5a6dbec588cf131
-* @implementation Dynamic
-*/
+ * @title NAGA
+ * @symbol NGC
+ * @ethContractAddr 0x72dd4b6bd852a3aa172be4d6c5a6dbec588cf131
+ * @implementation Dynamic
+ * @cmcId naga
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x72dd4b6bd852a3aa172be4d6c5a6dbec588cf131?apiKey=freekey', (error, response, body) => {

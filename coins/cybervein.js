@@ -1,9 +1,10 @@
 /**
-* @title CyberVein
-* @symbol CVT
-* @ethContractAddr 0xbe428c3867f05dea2a89fc76a102b544eac7f772
-* @implementation Dynamic
-*/
+ * @title CyberVein
+ * @symbol CVT
+ * @ethContractAddr 0xbe428c3867f05dea2a89fc76a102b544eac7f772
+ * @implementation Dynamic
+ * @cmcId cybervein
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xbe428c3867f05dea2a89fc76a102b544eac7f772?apiKey=freekey', (error, response, body) => {

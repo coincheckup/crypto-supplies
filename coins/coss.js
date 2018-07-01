@@ -1,9 +1,10 @@
 /**
-* @title COSS
-* @symbol COSS
-* @ethContractAddr 0x65292eeadf1426cd2df1c4793a3d7519f253913b
-* @implementation Dynamic
-*/
+ * @title COSS
+ * @symbol COSS
+ * @ethContractAddr 0x65292eeadf1426cd2df1c4793a3d7519f253913b
+ * @implementation Dynamic
+ * @cmcId coss
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x65292eeadf1426cd2df1c4793a3d7519f253913b?apiKey=freekey', (error, response, body) => {

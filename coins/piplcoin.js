@@ -1,9 +1,10 @@
 /**
-* @title PiplCoin
-* @symbol PIPL
-* @ethContractAddr 0xe64509f0bf07ce2d29a7ef19a8a9bc065477c1b4
-* @implementation Dynamic
-*/
+ * @title PiplCoin
+ * @symbol PIPL
+ * @ethContractAddr 0xe64509f0bf07ce2d29a7ef19a8a9bc065477c1b4
+ * @implementation Dynamic
+ * @cmcId piplcoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe64509f0bf07ce2d29a7ef19a8a9bc065477c1b4?apiKey=freekey', (error, response, body) => {

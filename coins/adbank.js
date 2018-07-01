@@ -1,9 +1,10 @@
 /**
-* @title adbank
-* @symbol ADB
-* @ethContractAddr 0x2baac9330cf9ac479d819195794d79ad0c7616e3
-* @implementation Dynamic
-*/
+ * @title adbank
+ * @symbol ADB
+ * @ethContractAddr 0x2baac9330cf9ac479d819195794d79ad0c7616e3
+ * @implementation Dynamic
+ * @cmcId adbank
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2baac9330cf9ac479d819195794d79ad0c7616e3?apiKey=freekey', (error, response, body) => {

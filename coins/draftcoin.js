@@ -2,6 +2,7 @@
  * @title DraftCoin
  * @symbol DFT
  * @implementation Not Implemented
+ * @cmcId draftcoin
  */
 
 module.exports = (callback, request) => {

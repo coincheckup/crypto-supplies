@@ -1,9 +1,10 @@
 /**
-* @title Kin
-* @symbol KIN
-* @ethContractAddr 0x818fc6c2ec5986bc6e2cbf00939d90556ab12ce5
-* @implementation Dynamic
-*/
+ * @title Kin
+ * @symbol KIN
+ * @ethContractAddr 0x818fc6c2ec5986bc6e2cbf00939d90556ab12ce5
+ * @implementation Dynamic
+ * @cmcId kin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x818fc6c2ec5986bc6e2cbf00939d90556ab12ce5?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Storj
-* @symbol STORJ
-* @ethContractAddr 0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac
-* @implementation Dynamic
-*/
+ * @title Storj
+ * @symbol STORJ
+ * @ethContractAddr 0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac
+ * @implementation Dynamic
+ * @cmcId storj
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac?apiKey=freekey', (error, response, body) => {

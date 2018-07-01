@@ -2,6 +2,7 @@
  * @title WeAreSatoshi
  * @symbol WSX
  * @implementation Dynamic
+ * @cmcId wearesatoshi
  */
 
 module.exports = (callback, request) => {

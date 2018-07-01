@@ -1,9 +1,10 @@
 /**
-* @title Rock
-* @symbol RKT
-* @ethContractAddr 0x106aa49295b525fcf959aa75ec3f7dcbf5352f1c
-* @implementation Dynamic
-*/
+ * @title Rock
+ * @symbol RKT
+ * @ethContractAddr 0x106aa49295b525fcf959aa75ec3f7dcbf5352f1c
+ * @implementation Dynamic
+ * @cmcId rock
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x106aa49295b525fcf959aa75ec3f7dcbf5352f1c?apiKey=freekey', (error, response, body) => {

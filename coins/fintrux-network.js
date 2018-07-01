@@ -1,9 +1,10 @@
 /**
-* @title FintruX Network
-* @symbol FTX
-* @ethContractAddr 0xd559f20296FF4895da39b5bd9ADd54b442596a61
-* @implementation Dynamic
-*/
+ * @title FintruX Network
+ * @symbol FTX
+ * @ethContractAddr 0xd559f20296FF4895da39b5bd9ADd54b442596a61
+ * @implementation Dynamic
+ * @cmcId fintrux-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd559f20296FF4895da39b5bd9ADd54b442596a61?apiKey=freekey', (error, response, body) => {

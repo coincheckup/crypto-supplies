@@ -1,9 +1,10 @@
 /**
-* @title UpToken
-* @symbol UP
-* @ethContractAddr 0x6ba460ab75cd2c56343b3517ffeba60748654d26
-* @implementation Dynamic
-*/
+ * @title UpToken
+ * @symbol UP
+ * @ethContractAddr 0x6ba460ab75cd2c56343b3517ffeba60748654d26
+ * @implementation Dynamic
+ * @cmcId uptoken
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6ba460ab75cd2c56343b3517ffeba60748654d26?apiKey=freekey', (error, response, body) => {

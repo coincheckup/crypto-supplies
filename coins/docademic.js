@@ -1,9 +1,10 @@
 /**
-* @title Docademic
-* @symbol MTC
-* @ethContractAddr 0x905E337c6c8645263D3521205Aa37bf4d034e745
-* @implementation Dynamic
-*/
+ * @title Docademic
+ * @symbol MTC
+ * @ethContractAddr 0x905E337c6c8645263D3521205Aa37bf4d034e745
+ * @implementation Dynamic
+ * @cmcId docademic
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x905E337c6c8645263D3521205Aa37bf4d034e745?apiKey=freekey', (error, response, body) => {

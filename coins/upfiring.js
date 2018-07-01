@@ -1,9 +1,10 @@
 /**
-* @title Upfiring
-* @symbol UFR
-* @ethContractAddr 0xea097a2b1db00627b2fa17460ad260c016016977
-* @implementation Dynamic
-*/
+ * @title Upfiring
+ * @symbol UFR
+ * @ethContractAddr 0xea097a2b1db00627b2fa17460ad260c016016977
+ * @implementation Dynamic
+ * @cmcId upfiring
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xea097a2b1db00627b2fa17460ad260c016016977?apiKey=freekey', (error, response, body) => {

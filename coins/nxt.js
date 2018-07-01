@@ -2,6 +2,7 @@
  * @title Nxt
  * @symbol NXT
  * @implementation Static
+ * @cmcId nxt
  */
 module.exports = (callback, request) => {
     callback({

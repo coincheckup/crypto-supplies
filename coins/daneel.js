@@ -1,9 +1,10 @@
 /**
-* @title Daneel
-* @symbol DAN
-* @ethContractAddr 0x9b70740e708a083c6ff38df52297020f5dfaa5ee
-* @implementation Dynamic
-*/
+ * @title Daneel
+ * @symbol DAN
+ * @ethContractAddr 0x9b70740e708a083c6ff38df52297020f5dfaa5ee
+ * @implementation Dynamic
+ * @cmcId daneel
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x9b70740e708a083c6ff38df52297020f5dfaa5ee?apiKey=freekey', (error, response, body) => {

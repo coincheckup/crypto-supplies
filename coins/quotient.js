@@ -2,6 +2,7 @@
  * @title Quotient
  * @symbol XQN
  * @implementation Dynamic
+ * @cmcId quotient
  */
 
 module.exports = (callback, request) => {

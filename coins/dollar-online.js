@@ -2,6 +2,7 @@
  * @title Dollar Online
  * @symbol DOLLAR
  * @implementation Not Implemented
+ * @cmcId dollar-online
  */
 
 module.exports = (callback, request) => {

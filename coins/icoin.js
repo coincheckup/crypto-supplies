@@ -2,6 +2,7 @@
  * @title iCoin
  * @symbol ICN
  * @implementation Dynamic
+ * @cmcId icoin
  */
 
 module.exports = (callback, request) => {

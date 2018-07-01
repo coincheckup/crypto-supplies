@@ -1,9 +1,10 @@
 /**
-* @title AICHAIN
-* @symbol AIT
-* @ethContractAddr 0x79650799e7899a802cb96c0bc33a6a8d4ce4936c
-* @implementation Dynamic
-*/
+ * @title AICHAIN
+ * @symbol AIT
+ * @ethContractAddr 0x79650799e7899a802cb96c0bc33a6a8d4ce4936c
+ * @implementation Dynamic
+ * @cmcId aichain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x79650799e7899a802cb96c0bc33a6a8d4ce4936c?apiKey=freekey', (error, response, body) => {

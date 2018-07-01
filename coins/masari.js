@@ -2,6 +2,7 @@
  * @title Masari
  * @symbol MSR
  * @implementation Not Implemented
+ * @cmcId masari
  */
 
 module.exports = (callback, request) => {

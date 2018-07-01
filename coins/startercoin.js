@@ -1,9 +1,10 @@
 /**
-* @title StarterCoin
-* @symbol STAC
-* @ethContractAddr 0x9a005c9a89bd72a4bd27721e7a09a3c11d2b03c4
-* @implementation Dynamic
-*/
+ * @title StarterCoin
+ * @symbol STAC
+ * @ethContractAddr 0x9a005c9a89bd72a4bd27721e7a09a3c11d2b03c4
+ * @implementation Dynamic
+ * @cmcId startercoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x9a005c9a89bd72a4bd27721e7a09a3c11d2b03c4?apiKey=freekey', (error, response, body) => {

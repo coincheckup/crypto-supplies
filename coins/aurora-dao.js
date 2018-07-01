@@ -1,9 +1,10 @@
 /**
-* @title Aurora DAO
-* @symbol AURA
-* @ethContractAddr 0xcdcfc0f66c522fd086a1b725ea3c0eeb9f9e8814
-* @implementation Dynamic
-*/
+ * @title Aurora DAO
+ * @symbol AURA
+ * @ethContractAddr 0xcdcfc0f66c522fd086a1b725ea3c0eeb9f9e8814
+ * @implementation Dynamic
+ * @cmcId aurora-dao
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xcdcfc0f66c522fd086a1b725ea3c0eeb9f9e8814?apiKey=freekey', (error, response, body) => {

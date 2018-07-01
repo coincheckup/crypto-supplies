@@ -1,9 +1,10 @@
 /**
-* @title imbrex
-* @symbol REX
-* @ethContractAddr 0xf05a9382A4C3F29E2784502754293D88b835109C
-* @implementation Dynamic
-*/
+ * @title imbrex
+ * @symbol REX
+ * @ethContractAddr 0xf05a9382A4C3F29E2784502754293D88b835109C
+ * @implementation Dynamic
+ * @cmcId imbrex
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf05a9382A4C3F29E2784502754293D88b835109C?apiKey=freekey', (error, response, body) => {

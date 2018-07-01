@@ -2,6 +2,7 @@
  * @title SaluS
  * @symbol SLS
  * @implementation Dynamic
+ * @cmcId salus
  */
 
 module.exports = (callback, request) => {

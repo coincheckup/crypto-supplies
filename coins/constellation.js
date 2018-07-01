@@ -2,6 +2,7 @@
  * @title Constellation
  * @symbol DAG
  * @implementation Not Implemented
+ * @cmcId constellation
  */
 
 module.exports = (callback, request) => {

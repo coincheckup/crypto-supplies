@@ -2,6 +2,7 @@
  * @title Ethereum Classic
  * @symbol ETC
  * @implementation Dynamic
+ * @cmcId ethereum-classic
  */
 
 module.exports = (callback, request) => {

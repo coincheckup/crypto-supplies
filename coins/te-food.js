@@ -1,9 +1,10 @@
 /**
-* @title TE-FOOD
-* @symbol TFD
-* @ethContractAddr 0xe5f166c0d8872b68790061317bb6cca04582c912
-* @implementation Dynamic
-*/
+ * @title TE-FOOD
+ * @symbol TFD
+ * @ethContractAddr 0xe5f166c0d8872b68790061317bb6cca04582c912
+ * @implementation Dynamic
+ * @cmcId te-food
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe5f166c0d8872b68790061317bb6cca04582c912?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Matrix AI Network
-* @symbol MAN
-* @ethContractAddr 0xe25bcec5d3801ce3a794079bf94adf1b8ccd802d
-* @implementation Dynamic
-*/
+ * @title Matrix AI Network
+ * @symbol MAN
+ * @ethContractAddr 0xe25bcec5d3801ce3a794079bf94adf1b8ccd802d
+ * @implementation Dynamic
+ * @cmcId matrix-ai-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe25bcec5d3801ce3a794079bf94adf1b8ccd802d?apiKey=freekey', (error, response, body) => {

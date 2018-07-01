@@ -2,6 +2,7 @@
  * @title TaaS
  * @symbol TAAS
  * @implementation Not Implemented
+ * @cmcId taas
  */
 
 module.exports = (callback, request) => {

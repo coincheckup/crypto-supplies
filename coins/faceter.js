@@ -1,9 +1,10 @@
 /**
-* @title Faceter
-* @symbol FACE
-* @ethContractAddr 0x1ccaa0f2a7210d76e1fdec740d5f323e2e1b1672
-* @implementation Dynamic
-*/
+ * @title Faceter
+ * @symbol FACE
+ * @ethContractAddr 0x1ccaa0f2a7210d76e1fdec740d5f323e2e1b1672
+ * @implementation Dynamic
+ * @cmcId faceter
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1ccaa0f2a7210d76e1fdec740d5f323e2e1b1672?apiKey=freekey', (error, response, body) => {

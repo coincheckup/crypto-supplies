@@ -1,9 +1,10 @@
 /**
-* @title RealChain
-* @symbol RCT
-* @ethContractAddr 0x13f25cd52b21650caa8225C9942337d914C9B030
-* @implementation Dynamic
-*/
+ * @title RealChain
+ * @symbol RCT
+ * @ethContractAddr 0x13f25cd52b21650caa8225C9942337d914C9B030
+ * @implementation Dynamic
+ * @cmcId realchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x13f25cd52b21650caa8225C9942337d914C9B030?apiKey=freekey', (error, response, body) => {

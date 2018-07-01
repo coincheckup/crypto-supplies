@@ -1,9 +1,10 @@
 /**
-* @title BrahmaOS
-* @symbol BRM
-* @ethContractAddr 0xD7732e3783b0047aa251928960063f863AD022D8
-* @implementation Dynamic
-*/
+ * @title BrahmaOS
+ * @symbol BRM
+ * @ethContractAddr 0xD7732e3783b0047aa251928960063f863AD022D8
+ * @implementation Dynamic
+ * @cmcId brahmaos
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xD7732e3783b0047aa251928960063f863AD022D8?apiKey=freekey', (error, response, body) => {

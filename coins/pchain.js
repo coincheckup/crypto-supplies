@@ -1,9 +1,10 @@
 /**
-* @title PCHAIN
-* @symbol PAI
-* @ethContractAddr 0xb9bb08ab7e9fa0a1356bd4a39ec0ca267e03b0b3
-* @implementation Dynamic
-*/
+ * @title PCHAIN
+ * @symbol PAI
+ * @ethContractAddr 0xb9bb08ab7e9fa0a1356bd4a39ec0ca267e03b0b3
+ * @implementation Dynamic
+ * @cmcId pchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb9bb08ab7e9fa0a1356bd4a39ec0ca267e03b0b3?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Sharechain
-* @symbol SSS
-* @ethContractAddr 0x7d3e7d41da367b4fdce7cbe06502b13294deb758
-* @implementation Dynamic
-*/
+ * @title Sharechain
+ * @symbol SSS
+ * @ethContractAddr 0x7d3e7d41da367b4fdce7cbe06502b13294deb758
+ * @implementation Dynamic
+ * @cmcId sharechain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x7d3e7d41da367b4fdce7cbe06502b13294deb758?apiKey=freekey', (error, response, body) => {

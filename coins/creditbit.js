@@ -1,9 +1,10 @@
 /**
-* @title Creditbit
-* @symbol CRB
-* @ethContractAddr 0xAef38fBFBF932D1AeF3B808Bc8fBd8Cd8E1f8BC5
-* @implementation Dynamic
-*/
+ * @title Creditbit
+ * @symbol CRB
+ * @ethContractAddr 0xAef38fBFBF932D1AeF3B808Bc8fBd8Cd8E1f8BC5
+ * @implementation Dynamic
+ * @cmcId creditbit
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xAef38fBFBF932D1AeF3B808Bc8fBd8Cd8E1f8BC5?apiKey=freekey', (error, response, body) => {

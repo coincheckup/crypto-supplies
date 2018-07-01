@@ -2,6 +2,7 @@
  * @title TrustPlus
  * @symbol TRUST
  * @implementation Dynamic
+ * @cmcId trustplus
  */
 
 module.exports = (callback, request) => {

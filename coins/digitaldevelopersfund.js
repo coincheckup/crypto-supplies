@@ -1,7 +1,8 @@
 /**
- * @title AMLT Token
- * @symbol AMLT
+ * @title DigitalDevelopersFund
+ * @symbol DDF
  * @implementation Not Implemented
+ * @cmcId digital-developers-fund
  */
 
 module.exports = (callback, request) => {

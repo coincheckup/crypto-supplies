@@ -2,6 +2,7 @@
  * @title Quark
  * @symbol QRK
  * @implementation Dynamic
+ * @cmcId quark
  */
 
 module.exports = (callback, request) => {

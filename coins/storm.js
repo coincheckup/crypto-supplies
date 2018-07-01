@@ -1,9 +1,10 @@
 /**
-* @title Storm
-* @symbol STORM
-* @ethContractAddr 0xd0a4b8946cb52f0661273bfbc6fd0e0c75fc6433
-* @implementation Dynamic
-*/
+ * @title Storm
+ * @symbol STORM
+ * @ethContractAddr 0xd0a4b8946cb52f0661273bfbc6fd0e0c75fc6433
+ * @implementation Dynamic
+ * @cmcId storm
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd0a4b8946cb52f0661273bfbc6fd0e0c75fc6433?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Kobocoin
  * @symbol KOBO
  * @implementation Dynamic
+ * @cmcId kobocoin
  */
 
 module.exports = (callback, request) => {

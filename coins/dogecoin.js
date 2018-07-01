@@ -2,6 +2,7 @@
  * @title Dogecoin
  * @symbol DOGE
  * @implementation Dynamic
+ * @cmcId dogecoin
  */
 
 module.exports = (callback, request) => {

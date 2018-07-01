@@ -1,9 +1,10 @@
 /**
-* @title NEVERDIE
-* @symbol NDC
-* @ethContractAddr 0xa54ddc7b3cce7fc8b1e3fa0256d0db80d2c10970
-* @implementation Dynamic
-*/
+ * @title NEVERDIE
+ * @symbol NDC
+ * @ethContractAddr 0xa54ddc7b3cce7fc8b1e3fa0256d0db80d2c10970
+ * @implementation Dynamic
+ * @cmcId neverdie
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xa54ddc7b3cce7fc8b1e3fa0256d0db80d2c10970?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Vertcoin
  * @symbol VTC
  * @implementation Dynamic
+ * @cmcId vertcoin
  */
 
 module.exports = (callback, request) => {

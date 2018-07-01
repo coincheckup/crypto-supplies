@@ -2,6 +2,7 @@
  * @title GoldCoin
  * @symbol GLD
  * @implementation Dynamic
+ * @cmcId goldcoin
  */
 
 module.exports = (callback, request) => {

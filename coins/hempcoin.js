@@ -2,6 +2,7 @@
  * @title HempCoin
  * @symbol THC
  * @implementation Not Implemented
+ * @cmcId hempcoin
  */
 
 module.exports = (callback, request) => {

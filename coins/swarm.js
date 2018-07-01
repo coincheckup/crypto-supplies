@@ -3,6 +3,7 @@
  * @symbol SWM
  * @ethContractAddr 0x9e88613418cf03dca54d6a2cf6ad934a78c7a17a
  * @implementation Dynamic
+ * @cmcId swarm-fund
  */
  
  module.exports = (callback, request) => {

@@ -1,9 +1,10 @@
 /**
-* @title DAOstack
-* @symbol GEN
-* @ethContractAddr 0x543ff227f64aa17ea132bf9886cab5db55dcaddf
-* @implementation Dynamic
-*/
+ * @title DAOstack
+ * @symbol GEN
+ * @ethContractAddr 0x543ff227f64aa17ea132bf9886cab5db55dcaddf
+ * @implementation Dynamic
+ * @cmcId daostack
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x543ff227f64aa17ea132bf9886cab5db55dcaddf?apiKey=freekey', (error, response, body) => {

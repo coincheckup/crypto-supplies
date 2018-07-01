@@ -1,9 +1,10 @@
 /**
-* @title ArbitrageCT
-* @symbol ARCT
-* @ethContractAddr 0x1245ef80f4d9e02ed9425375e8f649b9221b31d8
-* @implementation Dynamic
-*/
+ * @title ArbitrageCT
+ * @symbol ARCT
+ * @ethContractAddr 0x1245ef80f4d9e02ed9425375e8f649b9221b31d8
+ * @implementation Dynamic
+ * @cmcId arbitragect
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1245ef80f4d9e02ed9425375e8f649b9221b31d8?apiKey=freekey', (error, response, body) => {

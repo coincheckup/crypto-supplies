@@ -1,9 +1,10 @@
 /**
-* @title INS Ecosystem
-* @symbol INS
-* @ethContractAddr 0x5b2e4a700dfbc560061e957edec8f6eeeb74a320
-* @implementation Dynamic
-*/
+ * @title INS Ecosystem
+ * @symbol INS
+ * @ethContractAddr 0x5b2e4a700dfbc560061e957edec8f6eeeb74a320
+ * @implementation Dynamic
+ * @cmcId ins-ecosystem
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5b2e4a700dfbc560061e957edec8f6eeeb74a320?apiKey=freekey', (error, response, body) => {

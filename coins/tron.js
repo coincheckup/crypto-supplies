@@ -3,6 +3,7 @@
  * @symbol TRX
  * @ethContractAddr 0xf230b790e05390fc8295f4d3f60332c93bed42e2
  * @implementation Dynamic
+ * @cmcId tron
  */
  
  module.exports = (callback, request) => {

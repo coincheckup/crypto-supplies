@@ -1,9 +1,10 @@
 /**
-* @title Chronologic
-* @symbol DAY
-* @ethContractAddr 0xE814aeE960a85208C3dB542C53E7D4a6C8D5f60F
-* @implementation Dynamic
-*/
+ * @title Chronologic
+ * @symbol DAY
+ * @ethContractAddr 0xE814aeE960a85208C3dB542C53E7D4a6C8D5f60F
+ * @implementation Dynamic
+ * @cmcId chronologic
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xE814aeE960a85208C3dB542C53E7D4a6C8D5f60F?apiKey=freekey', (error, response, body) => {

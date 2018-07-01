@@ -2,6 +2,7 @@
  * @title KlondikeCoin
  * @symbol KDC
  * @implementation Not Implemented
+ * @cmcId klondikecoin
  */
 
 module.exports = (callback, request) => {

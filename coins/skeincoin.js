@@ -2,6 +2,7 @@
  * @title Skeincoin
  * @symbol SKC
  * @implementation Dynamic
+ * @cmcId skeincoin
  */
 
 module.exports = (callback, request) => {

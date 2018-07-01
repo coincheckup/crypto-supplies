@@ -1,9 +1,10 @@
 /**
-* @title U Network
-* @symbol UUU
-* @ethContractAddr 0x3543638ed4a9006e4840b105944271bcea15605d
-* @implementation Dynamic
-*/
+ * @title U Network
+ * @symbol UUU
+ * @ethContractAddr 0x3543638ed4a9006e4840b105944271bcea15605d
+ * @implementation Dynamic
+ * @cmcId u-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x3543638ed4a9006e4840b105944271bcea15605d?apiKey=freekey', (error, response, body) => {

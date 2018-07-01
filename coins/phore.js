@@ -2,6 +2,7 @@
  * @title Phore
  * @symbol PHR
  * @implementation Dynamic
+ * @cmcId phore
  */
 
 module.exports = (callback, request) => {

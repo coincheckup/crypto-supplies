@@ -2,6 +2,7 @@
  * @title SmartCash
  * @symbol SMART
  * @implementation Not Implemented
+ * @cmcId smartcash
  */
 
 module.exports = (callback, request) => {

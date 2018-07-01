@@ -2,6 +2,7 @@
  * @title Condensate
  * @symbol RAIN
  * @implementation Not Implemented
+ * @cmcId condensate
  */
 
 module.exports = (callback, request) => {

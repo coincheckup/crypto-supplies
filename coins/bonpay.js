@@ -1,9 +1,10 @@
 /**
-* @title Bonpay
-* @symbol BON
-* @ethContractAddr 0xcc34366e3842ca1bd36c1f324d15257960fcc801
-* @implementation Dynamic
-*/
+ * @title Bonpay
+ * @symbol BON
+ * @ethContractAddr 0xcc34366e3842ca1bd36c1f324d15257960fcc801
+ * @implementation Dynamic
+ * @cmcId bonpay
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xcc34366e3842ca1bd36c1f324d15257960fcc801?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Santiment Network Token
  * @symbol SAN
  * @implementation Dynamic
+ * @cmcId santiment
  */
 
 module.exports = (callback, request) => {

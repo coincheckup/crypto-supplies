@@ -1,9 +1,10 @@
 /**
-* @title Eroscoin
-* @symbol ERO
-* @ethContractAddr 0x74ceda77281b339142a36817fa5f9e29412bab85
-* @implementation Dynamic
-*/
+ * @title Eroscoin
+ * @symbol ERO
+ * @ethContractAddr 0x74ceda77281b339142a36817fa5f9e29412bab85
+ * @implementation Dynamic
+ * @cmcId eroscoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x74ceda77281b339142a36817fa5f9e29412bab85?apiKey=freekey', (error, response, body) => {

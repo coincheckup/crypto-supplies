@@ -2,6 +2,7 @@
  * @title LOCIcoin
  * @symbol LOCI
  * @implementation Not Implemented
+ * @cmcId locicoin
  */
 
 module.exports = (callback, request) => {

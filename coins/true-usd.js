@@ -3,7 +3,8 @@
  * @symbol TUSD
  * @ethContractAddr 0x8dd5fbce2f6a956c3022ba3663759011dd51e73e
  * @implementation Dynamic
-*/
+ * @cmcId trueusd
+ */
 
 module.exports = (callback, request) => {
     request('http://api.ethplorer.io/getTokenInfo/0x8dd5fbce2f6a956c3022ba3663759011dd51e73e?apiKey=freekey', (error, response, body) => {

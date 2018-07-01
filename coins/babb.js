@@ -1,9 +1,10 @@
 /**
-* @title BABB
-* @symbol BAX
-* @ethContractAddr 0x9a0242b7a33dacbe40edb927834f96eb39f8fbcb
-* @implementation Dynamic
-*/
+ * @title BABB
+ * @symbol BAX
+ * @ethContractAddr 0x9a0242b7a33dacbe40edb927834f96eb39f8fbcb
+ * @implementation Dynamic
+ * @cmcId babb
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x9a0242b7a33dacbe40edb927834f96eb39f8fbcb?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title RouletteToken
-* @symbol RLT
-* @ethContractAddr 0xcced5b8288086be8c38e23567e684c3740be4d48
-* @implementation Dynamic
-*/
+ * @title RouletteToken
+ * @symbol RLT
+ * @ethContractAddr 0xcced5b8288086be8c38e23567e684c3740be4d48
+ * @implementation Dynamic
+ * @cmcId roulettetoken
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xcced5b8288086be8c38e23567e684c3740be4d48?apiKey=freekey', (error, response, body) => {

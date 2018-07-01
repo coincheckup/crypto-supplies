@@ -2,6 +2,7 @@
  * @title Bulwark
  * @symbol BWK
  * @implementation Dynamic
+ * @cmcId bulwark
  */
 
 module.exports = (callback, request) => {

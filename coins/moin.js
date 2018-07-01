@@ -2,6 +2,7 @@
  * @title Moin
  * @symbol MOIN
  * @implementation Not Implemented
+ * @cmcId moin
  */
 
 module.exports = (callback, request) => {

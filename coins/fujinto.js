@@ -1,9 +1,10 @@
 /**
-* @title Fujinto
-* @symbol NTO
-* @ethContractAddr 0x8a99ed8a1b204903ee46e733f2c1286f6d20b177
-* @implementation Dynamic
-*/
+ * @title Fujinto
+ * @symbol NTO
+ * @ethContractAddr 0x8a99ed8a1b204903ee46e733f2c1286f6d20b177
+ * @implementation Dynamic
+ * @cmcId fujinto
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x8a99ed8a1b204903ee46e733f2c1286f6d20b177?apiKey=freekey', (error, response, body) => {

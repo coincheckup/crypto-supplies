@@ -1,9 +1,10 @@
 /**
-* @title Musiconomi
-* @symbol MCI
-* @ethContractAddr 0x138a8752093f4f9a79aaedf48d4b9248fab93c9c
-* @implementation Dynamic
-*/
+ * @title Musiconomi
+ * @symbol MCI
+ * @ethContractAddr 0x138a8752093f4f9a79aaedf48d4b9248fab93c9c
+ * @implementation Dynamic
+ * @cmcId musiconomi
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x138a8752093f4f9a79aaedf48d4b9248fab93c9c?apiKey=freekey', (error, response, body) => {

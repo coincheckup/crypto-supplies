@@ -1,9 +1,10 @@
 /**
-* @title Invacio
-* @symbol INV
-* @ethContractAddr 0xece83617db208ad255ad4f45daf81e25137535bb
-* @implementation Dynamic
-*/
+ * @title Invacio
+ * @symbol INV
+ * @ethContractAddr 0xece83617db208ad255ad4f45daf81e25137535bb
+ * @implementation Dynamic
+ * @cmcId invacio
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xece83617db208ad255ad4f45daf81e25137535bb?apiKey=freekey', (error, response, body) => {

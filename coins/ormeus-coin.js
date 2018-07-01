@@ -1,9 +1,10 @@
 /**
-* @title Ormeus Coin
-* @symbol ORME
-* @ethContractAddr 0x516e5436bafdc11083654de7bb9b95382d08d5de
-* @implementation Dynamic
-*/
+ * @title Ormeus Coin
+ * @symbol ORME
+ * @ethContractAddr 0x516e5436bafdc11083654de7bb9b95382d08d5de
+ * @implementation Dynamic
+ * @cmcId ormeus-coin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x516e5436bafdc11083654de7bb9b95382d08d5de?apiKey=freekey', (error, response, body) => {

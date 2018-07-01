@@ -1,9 +1,10 @@
 /**
-* @title Leverj
-* @symbol LEV
-* @ethContractAddr 0x0f4ca92660efad97a9a70cb0fe969c755439772c
-* @implementation Dynamic
-*/
+ * @title Leverj
+ * @symbol LEV
+ * @ethContractAddr 0x0f4ca92660efad97a9a70cb0fe969c755439772c
+ * @implementation Dynamic
+ * @cmcId leverj
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x0f4ca92660efad97a9a70cb0fe969c755439772c?apiKey=freekey', (error, response, body) => {

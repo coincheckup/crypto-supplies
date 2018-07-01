@@ -1,9 +1,10 @@
 /**
-* @title Credo
-* @symbol CREDO
-* @ethContractAddr 0x4e0603e2a27a30480e5e3a4fe548e29ef12f64be
-* @implementation Dynamic
-*/
+ * @title Credo
+ * @symbol CREDO
+ * @ethContractAddr 0x4e0603e2a27a30480e5e3a4fe548e29ef12f64be
+ * @implementation Dynamic
+ * @cmcId credo
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4e0603e2a27a30480e5e3a4fe548e29ef12f64be?apiKey=freekey', (error, response, body) => {

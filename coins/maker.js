@@ -1,9 +1,10 @@
 /**
-* @title Maker
-* @symbol MKR
-* @ethContractAddr 0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2
-* @implementation Dynamic
-*/
+ * @title Maker
+ * @symbol MKR
+ * @ethContractAddr 0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2
+ * @implementation Dynamic
+ * @cmcId maker
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2?apiKey=freekey', (error, response, body) => {

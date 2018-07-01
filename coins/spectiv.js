@@ -3,6 +3,7 @@
  * @symbol SIG
  * @ethContractAddr 0x6888a16ea9792c15a4dcf2f6c623d055c8ede792
  * @implementation Dynamic
+ * @cmcId signal-token
  */
  
  module.exports = (callback, request) => {

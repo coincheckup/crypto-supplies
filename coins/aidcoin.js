@@ -1,9 +1,10 @@
 /**
-* @title AidCoin
-* @symbol AID
-* @ethContractAddr 0x37e8789bb9996cac9156cd5f5fd32599e6b91289
-* @implementation Dynamic
-*/
+ * @title AidCoin
+ * @symbol AID
+ * @ethContractAddr 0x37e8789bb9996cac9156cd5f5fd32599e6b91289
+ * @implementation Dynamic
+ * @cmcId aidcoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x37e8789bb9996cac9156cd5f5fd32599e6b91289?apiKey=freekey', (error, response, body) => {

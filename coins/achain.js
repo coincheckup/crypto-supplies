@@ -3,6 +3,7 @@
  * @symbol ACT
  * @implementation Static
  * @reference https://medium.com/@AchainOfficial/circulating-supply-of-achain-act-a193c0308708
+ * @cmcId achain
  */
 module.exports = (callback, request) => {
     callback({

@@ -2,6 +2,7 @@
  * @title Cannation
  * @symbol CNNC
  * @implementation Not Implemented
+ * @cmcId cannation
  */
 
 module.exports = (callback, request) => {

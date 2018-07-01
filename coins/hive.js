@@ -2,6 +2,7 @@
  * @title Hive Project
  * @symbol HVN
  * @implementation Not Implemented
+ * @cmcId hive-project
  */
 
 module.exports = (callback, request) => {

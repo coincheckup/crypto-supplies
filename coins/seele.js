@@ -1,9 +1,10 @@
 /**
-* @title Seele
-* @symbol SEELE
-* @ethContractAddr 0xb1eef147028e9f480dbc5ccaa3277d417d1b85f0
-* @implementation Dynamic
-*/
+ * @title Seele
+ * @symbol SEELE
+ * @ethContractAddr 0xb1eef147028e9f480dbc5ccaa3277d417d1b85f0
+ * @implementation Dynamic
+ * @cmcId seele
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb1eef147028e9f480dbc5ccaa3277d417d1b85f0?apiKey=freekey', (error, response, body) => {

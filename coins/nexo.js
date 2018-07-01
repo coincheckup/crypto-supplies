@@ -1,9 +1,10 @@
 /**
-* @title Nexo
-* @symbol NEXO
-* @ethContractAddr 0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206
-* @implementation Dynamic
-*/
+ * @title Nexo
+ * @symbol NEXO
+ * @ethContractAddr 0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206
+ * @implementation Dynamic
+ * @cmcId nexo
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206?apiKey=freekey', (error, response, body) => {

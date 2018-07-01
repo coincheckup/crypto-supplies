@@ -2,6 +2,7 @@
  * @title ERA
  * @symbol ERA
  * @implementation Not Implemented
+ * @cmcId blakestar
  */
 
 module.exports = (callback, request) => {

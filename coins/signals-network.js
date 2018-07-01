@@ -1,9 +1,10 @@
 /**
-* @title Signals Network
-* @symbol SGN
-* @ethContractAddr 0xb2135ab9695a7678dd590b1a996cb0f37bcb0718
-* @implementation Dynamic
-*/
+ * @title Signals Network
+ * @symbol SGN
+ * @ethContractAddr 0xb2135ab9695a7678dd590b1a996cb0f37bcb0718
+ * @implementation Dynamic
+ * @cmcId signals-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb2135ab9695a7678dd590b1a996cb0f37bcb0718?apiKey=freekey', (error, response, body) => {

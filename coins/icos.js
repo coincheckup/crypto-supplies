@@ -1,9 +1,10 @@
 /**
-* @title ICOS
-* @symbol ICOS
-* @ethContractAddr 0x014b50466590340d41307cc54dcee990c8d58aa8
-* @implementation Dynamic
-*/
+ * @title ICOS
+ * @symbol ICOS
+ * @ethContractAddr 0x014b50466590340d41307cc54dcee990c8d58aa8
+ * @implementation Dynamic
+ * @cmcId icos
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x014b50466590340d41307cc54dcee990c8d58aa8?apiKey=freekey', (error, response, body) => {

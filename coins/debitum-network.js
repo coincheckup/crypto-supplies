@@ -1,9 +1,10 @@
 /**
-* @title Debitum
-* @symbol DEB
-* @ethContractAddr 0x151202c9c18e495656f372281f493eb7698961d5
-* @implementation Dynamic
-*/
+ * @title Debitum
+ * @symbol DEB
+ * @ethContractAddr 0x151202c9c18e495656f372281f493eb7698961d5
+ * @implementation Dynamic
+ * @cmcId debitum-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x151202c9c18e495656f372281f493eb7698961d5?apiKey=freekey', (error, response, body) => {

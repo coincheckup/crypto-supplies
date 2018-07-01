@@ -2,6 +2,7 @@
  * @title Elysium
  * @symbol ELS
  * @implementation Not Implemented
+ * @cmcId elysium
  */
 
 module.exports = (callback, request) => {

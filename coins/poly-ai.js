@@ -1,9 +1,10 @@
 /**
-* @title POLY AI
-* @symbol AI
-* @ethContractAddr 0x5121e348e897daef1eef23959ab290e5557cf274
-* @implementation Dynamic
-*/
+ * @title POLY AI
+ * @symbol AI
+ * @ethContractAddr 0x5121e348e897daef1eef23959ab290e5557cf274
+ * @implementation Dynamic
+ * @cmcId poly-ai
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5121e348e897daef1eef23959ab290e5557cf274?apiKey=freekey', (error, response, body) => {

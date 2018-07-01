@@ -2,6 +2,7 @@
  * @title CasinoCoin
  * @symbol CSC
  * @implementation Not Implemented
+ * @cmcId casinocoin
  */
 
 module.exports = (callback, request) => {

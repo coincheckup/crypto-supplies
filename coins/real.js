@@ -1,9 +1,10 @@
 /**
-* @title REAL
-* @symbol REAL
-* @ethContractAddr 0x9214ec02cb71cba0ada6896b8da260736a67ab10
-* @implementation Dynamic
-*/
+ * @title REAL
+ * @symbol REAL
+ * @ethContractAddr 0x9214ec02cb71cba0ada6896b8da260736a67ab10
+ * @implementation Dynamic
+ * @cmcId real
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x9214ec02cb71cba0ada6896b8da260736a67ab10?apiKey=freekey', (error, response, body) => {

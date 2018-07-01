@@ -1,9 +1,10 @@
 /**
-* @title Flixxo
-* @symbol FLIXX
-* @ethContractAddr 0xf04a8ac553fcedb5ba99a64799155826c136b0be
-* @implementation Dynamic
-*/
+ * @title Flixxo
+ * @symbol FLIXX
+ * @ethContractAddr 0xf04a8ac553fcedb5ba99a64799155826c136b0be
+ * @implementation Dynamic
+ * @cmcId flixxo
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf04a8ac553fcedb5ba99a64799155826c136b0be?apiKey=freekey', (error, response, body) => {

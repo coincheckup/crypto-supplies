@@ -1,9 +1,10 @@
 /**
-* @title CryCash
-* @symbol CRC
-* @ethContractAddr 0xf41e5fbc2f6aac200dd8619e121ce1f05d150077
-* @implementation Dynamic
-*/
+ * @title CryCash
+ * @symbol CRC
+ * @ethContractAddr 0xf41e5fbc2f6aac200dd8619e121ce1f05d150077
+ * @implementation Dynamic
+ * @cmcId crycash
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf41e5fbc2f6aac200dd8619e121ce1f05d150077?apiKey=freekey', (error, response, body) => {

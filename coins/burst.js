@@ -2,6 +2,7 @@
  * @title Burst
  * @symbol BURST
  * @implementation Dynamic
+ * @cmcId burst
  */
 
 module.exports = (callback, request) => {

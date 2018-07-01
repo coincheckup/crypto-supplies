@@ -1,9 +1,10 @@
 /**
-* @title BitDegree
-* @symbol BDG
-* @ethContractAddr 0x1961b3331969ed52770751fc718ef530838b6dee
-* @implementation Dynamic
-*/
+ * @title BitDegree
+ * @symbol BDG
+ * @ethContractAddr 0x1961b3331969ed52770751fc718ef530838b6dee
+ * @implementation Dynamic
+ * @cmcId bitdegree
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1961b3331969ed52770751fc718ef530838b6dee?apiKey=freekey', (error, response, body) => {

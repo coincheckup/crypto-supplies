@@ -2,6 +2,7 @@
  * @title BuzzCoin
  * @symbol BUZZ
  * @implementation Not Implemented
+ * @cmcId buzzcoin
  */
 
 module.exports = (callback, request) => {

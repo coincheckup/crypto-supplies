@@ -2,6 +2,7 @@
  * @title Datacoin
  * @symbol DTC
  * @implementation Dynamic
+ * @cmcId datacoin
  */
 
 module.exports = (callback, request) => {

@@ -1,9 +1,10 @@
 /**
-* @title Chainium
-* @symbol CHX
-* @ethContractAddr 0x1460a58096d80a50a2F1f956DDA497611Fa4f165
-* @implementation Dynamic
-*/
+ * @title Chainium
+ * @symbol CHX
+ * @ethContractAddr 0x1460a58096d80a50a2F1f956DDA497611Fa4f165
+ * @implementation Dynamic
+ * @cmcId chainium
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1460a58096d80a50a2F1f956DDA497611Fa4f165?apiKey=freekey', (error, response, body) => {

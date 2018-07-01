@@ -2,6 +2,7 @@
  * @title HealthyWormCoin
  * @symbol WORM
  * @implementation Dynamic
+ * @cmcId healthywormcoin
  */
 
 module.exports = (callback, request) => {

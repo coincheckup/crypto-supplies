@@ -1,9 +1,10 @@
 /**
-* @title Internxt
-* @symbol INXT
-* @ethContractAddr 0xa8006c4ca56f24d6836727d106349320db7fef82
-* @implementation Dynamic
-*/
+ * @title Internxt
+ * @symbol INXT
+ * @ethContractAddr 0xa8006c4ca56f24d6836727d106349320db7fef82
+ * @implementation Dynamic
+ * @cmcId internxt
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xa8006c4ca56f24d6836727d106349320db7fef82?apiKey=freekey', (error, response, body) => {

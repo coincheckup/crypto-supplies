@@ -2,6 +2,7 @@
  * @title Qbic
  * @symbol QBIC
  * @implementation Not Implemented
+ * @cmcId qbic
  */
 
 module.exports = (callback, request) => {

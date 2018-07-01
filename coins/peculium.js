@@ -1,9 +1,10 @@
 /**
-* @title Peculium
-* @symbol PCL
-* @ethContractAddr 0x3618516f45cd3c913f81f9987af41077932bc40d
-* @implementation Dynamic
-*/
+ * @title Peculium
+ * @symbol PCL
+ * @ethContractAddr 0x3618516f45cd3c913f81f9987af41077932bc40d
+ * @implementation Dynamic
+ * @cmcId peculium
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x3618516f45cd3c913f81f9987af41077932bc40d?apiKey=freekey', (error, response, body) => {

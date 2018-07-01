@@ -1,9 +1,10 @@
 /**
-* @title Enjin Coin
-* @symbol ENJ
-* @ethContractAddr 0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c
-* @implementation Dynamic
-*/
+ * @title Enjin Coin
+ * @symbol ENJ
+ * @ethContractAddr 0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c
+ * @implementation Dynamic
+ * @cmcId enjin-coin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c?apiKey=freekey', (error, response, body) => {

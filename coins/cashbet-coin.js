@@ -1,9 +1,10 @@
 /**
-* @title CashBet Coin
-* @symbol CBC
-* @ethContractAddr 0x26DB5439F651CAF491A87d48799dA81F191bDB6b
-* @implementation Dynamic
-*/
+ * @title CashBet Coin
+ * @symbol CBC
+ * @ethContractAddr 0x26DB5439F651CAF491A87d48799dA81F191bDB6b
+ * @implementation Dynamic
+ * @cmcId cashbet-coin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x26DB5439F651CAF491A87d48799dA81F191bDB6b?apiKey=freekey', (error, response, body) => {

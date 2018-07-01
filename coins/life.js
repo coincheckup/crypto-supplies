@@ -1,9 +1,10 @@
 /**
-* @title LIFE
-* @symbol LIFE
-* @ethContractAddr 0xff18dbc487b4c2e3222d115952babfda8ba52f5f
-* @implementation Dynamic
-*/
+ * @title LIFE
+ * @symbol LIFE
+ * @ethContractAddr 0xff18dbc487b4c2e3222d115952babfda8ba52f5f
+ * @implementation Dynamic
+ * @cmcId life
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xff18dbc487b4c2e3222d115952babfda8ba52f5f?apiKey=freekey', (error, response, body) => {

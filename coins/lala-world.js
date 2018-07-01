@@ -1,9 +1,10 @@
 /**
-* @title LALA World
-* @symbol LALA
-* @ethContractAddr 0xfd107b473ab90e8fbd89872144a3dc92c40fa8c9
-* @implementation Dynamic
-*/
+ * @title LALA World
+ * @symbol LALA
+ * @ethContractAddr 0xfd107b473ab90e8fbd89872144a3dc92c40fa8c9
+ * @implementation Dynamic
+ * @cmcId lala-world
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xfd107b473ab90e8fbd89872144a3dc92c40fa8c9?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Monetha
-* @symbol MTH
-* @ethContractAddr 0xaf4dce16da2877f8c9e00544c93b62ac40631f16
-* @implementation Dynamic
-*/
+ * @title Monetha
+ * @symbol MTH
+ * @ethContractAddr 0xaf4dce16da2877f8c9e00544c93b62ac40631f16
+ * @implementation Dynamic
+ * @cmcId monetha
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xaf4dce16da2877f8c9e00544c93b62ac40631f16?apiKey=freekey', (error, response, body) => {

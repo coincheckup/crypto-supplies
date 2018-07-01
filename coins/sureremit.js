@@ -2,6 +2,7 @@
  * @title SureRemit
  * @symbol RMT
  * @implementation Not Implemented
+ * @cmcId sureremit
  */
 
 module.exports = (callback, request) => {

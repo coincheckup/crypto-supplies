@@ -1,9 +1,10 @@
 /**
-* @title Uquid Coin
-* @symbol UQC
-* @ethContractAddr 0xd01db73e047855efb414e6202098c4be4cd2423b
-* @implementation Dynamic
-*/
+ * @title Uquid Coin
+ * @symbol UQC
+ * @ethContractAddr 0xd01db73e047855efb414e6202098c4be4cd2423b
+ * @implementation Dynamic
+ * @cmcId uquid-coin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd01db73e047855efb414e6202098c4be4cd2423b?apiKey=freekey', (error, response, body) => {

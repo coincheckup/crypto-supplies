@@ -2,6 +2,7 @@
  * @title ZrCoin
  * @symbol ZRC
  * @implementation Not Implemented
+ * @cmcId zrcoin
  */
 
 module.exports = (callback, request) => {

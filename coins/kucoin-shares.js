@@ -1,9 +1,10 @@
 /**
-* @title KuCoin Shares
-* @symbol KCS
-* @ethContractAddr 0x039b5649a59967e3e936d7471f9c3700100ee1ab
-* @implementation Dynamic
-*/
+ * @title KuCoin Shares
+ * @symbol KCS
+ * @ethContractAddr 0x039b5649a59967e3e936d7471f9c3700100ee1ab
+ * @implementation Dynamic
+ * @cmcId kucoin-shares
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x039b5649a59967e3e936d7471f9c3700100ee1ab?apiKey=freekey', (error, response, body) => {

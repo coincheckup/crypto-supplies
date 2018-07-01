@@ -1,9 +1,10 @@
 /**
-* @title AirSwap
-* @symbol AST
-* @ethContractAddr 0x27054b13b1b798b345b591a4d22e6562d47ea75a
-* @implementation Dynamic
-*/
+ * @title AirSwap
+ * @symbol AST
+ * @ethContractAddr 0x27054b13b1b798b345b591a4d22e6562d47ea75a
+ * @implementation Dynamic
+ * @cmcId airswap
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x27054b13b1b798b345b591a4d22e6562d47ea75a?apiKey=freekey', (error, response, body) => {

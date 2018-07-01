@@ -1,9 +1,10 @@
 /**
-* @title IDEX Membership
-* @symbol IDXM
-* @ethContractAddr 0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea
-* @implementation Dynamic
-*/
+ * @title IDEX Membership
+ * @symbol IDXM
+ * @ethContractAddr 0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea
+ * @implementation Dynamic
+ * @cmcId idex-membership
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xcc13fc627effd6e35d2d2706ea3c4d7396c610ea?apiKey=freekey', (error, response, body) => {

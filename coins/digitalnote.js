@@ -2,6 +2,7 @@
  * @title DigitalNote
  * @symbol XDN
  * @implementation Not Implemented
+ * @cmcId digitalnote
  */
 
 module.exports = (callback, request) => {

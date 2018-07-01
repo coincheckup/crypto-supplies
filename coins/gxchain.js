@@ -2,6 +2,7 @@
  * @title GXChain
  * @symbol GXS
  * @implementation Dynamic
+ * @cmcId gxchain
  */
 
 module.exports = (callback, request) => {

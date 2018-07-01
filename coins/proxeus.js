@@ -1,9 +1,10 @@
 /**
-* @title Proxeus
-* @symbol XES
-* @ethContractAddr 0xa017ac5fac5941f95010b12570b812c974469c2c
-* @implementation Dynamic
-*/
+ * @title Proxeus
+ * @symbol XES
+ * @ethContractAddr 0xa017ac5fac5941f95010b12570b812c974469c2c
+ * @implementation Dynamic
+ * @cmcId proxeus
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xa017ac5fac5941f95010b12570b812c974469c2c?apiKey=freekey', (error, response, body) => {

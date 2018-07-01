@@ -1,9 +1,10 @@
 /**
-* @title VIBE
-* @symbol VIBE
-* @ethContractAddr 0xe8ff5c9c75deb346acac493c463c8950be03dfba
-* @implementation Dynamic
-*/
+ * @title VIBE
+ * @symbol VIBE
+ * @ethContractAddr 0xe8ff5c9c75deb346acac493c463c8950be03dfba
+ * @implementation Dynamic
+ * @cmcId vibe
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe8ff5c9c75deb346acac493c463c8950be03dfba?apiKey=freekey', (error, response, body) => {

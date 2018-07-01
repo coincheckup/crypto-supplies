@@ -1,9 +1,10 @@
 /**
-* @title ETHLend
-* @symbol LEND
-* @ethContractAddr 0x80fB784B7eD66730e8b1DBd9820aFD29931aab03
-* @implementation Dynamic
-*/
+ * @title ETHLend
+ * @symbol LEND
+ * @ethContractAddr 0x80fB784B7eD66730e8b1DBd9820aFD29931aab03
+ * @implementation Dynamic
+ * @cmcId ethlend
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x80fB784B7eD66730e8b1DBd9820aFD29931aab03?apiKey=freekey', (error, response, body) => {

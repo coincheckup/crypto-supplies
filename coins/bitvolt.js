@@ -2,6 +2,7 @@
  * @title Bitvolt
  * @symbol VOLT
  * @implementation Not Implemented
+ * @cmcId bitvolt
  */
 
 module.exports = (callback, request) => {

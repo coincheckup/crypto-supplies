@@ -1,9 +1,10 @@
 /**
-* @title COMSA [ETH]
-* @symbol CMS
-* @ethContractAddr 0xf83301c5cd1ccbb86f466a6b3c53316ed2f8465a
-* @implementation Dynamic
-*/
+ * @title COMSA [ETH]
+ * @symbol CMS
+ * @ethContractAddr 0xf83301c5cd1ccbb86f466a6b3c53316ed2f8465a
+ * @implementation Dynamic
+ * @cmcId comsa-eth
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf83301c5cd1ccbb86f466a6b3c53316ed2f8465a?apiKey=freekey', (error, response, body) => {

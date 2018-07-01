@@ -1,7 +1,8 @@
 /**
- * @title BitTube
- * @symbol TUBE
+ * @title Regacoin
+ * @symbol REGA
  * @implementation Not Implemented
+ * @cmcId regacoin
  */
 
 module.exports = (callback, request) => {

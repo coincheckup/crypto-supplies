@@ -2,6 +2,7 @@
  * @title Catcoin
  * @symbol CAT
  * @implementation Not Implemented
+ * @cmcId catcoin
  */
 
 module.exports = (callback, request) => {

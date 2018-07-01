@@ -2,6 +2,7 @@
  * @title Bitstar
  * @symbol BITS
  * @implementation Not Implemented
+ * @cmcId bitstar
  */
 
 module.exports = (callback, request) => {

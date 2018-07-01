@@ -1,9 +1,10 @@
 /**
-* @title NEO GOLD
-* @symbol NEOG
-* @ethContractAddr 0x449574c69f3a658794829ed81639a7a9ece041e1
-* @implementation Dynamic
-*/
+ * @title NEO GOLD
+ * @symbol NEOG
+ * @ethContractAddr 0x449574c69f3a658794829ed81639a7a9ece041e1
+ * @implementation Dynamic
+ * @cmcId neo-gold
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x449574c69f3a658794829ed81639a7a9ece041e1?apiKey=freekey', (error, response, body) => {

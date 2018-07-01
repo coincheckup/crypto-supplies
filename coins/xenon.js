@@ -1,9 +1,10 @@
 /**
-* @title Xenon
-* @symbol XNN
-* @ethContractAddr 0xab95e915c123fded5bdfb6325e35ef5515f1ea69
-* @implementation Dynamic
-*/
+ * @title Xenon
+ * @symbol XNN
+ * @ethContractAddr 0xab95e915c123fded5bdfb6325e35ef5515f1ea69
+ * @implementation Dynamic
+ * @cmcId xenon
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xab95e915c123fded5bdfb6325e35ef5515f1ea69?apiKey=freekey', (error, response, body) => {

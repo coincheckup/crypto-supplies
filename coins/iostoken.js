@@ -1,9 +1,10 @@
 /**
-* @title IOStoken
-* @symbol IOST
-* @ethContractAddr 0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab
-* @implementation Dynamic
-*/
+ * @title IOStoken
+ * @symbol IOST
+ * @ethContractAddr 0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab
+ * @implementation Dynamic
+ * @cmcId iostoken
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xfa1a856cfa3409cfa145fa4e20eb270df3eb21ab?apiKey=freekey', (error, response, body) => {

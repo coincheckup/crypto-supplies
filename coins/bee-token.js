@@ -1,9 +1,10 @@
 /**
-* @title Bee Token
-* @symbol BEE
-* @ethContractAddr 0x4d8fc1453a0f359e99c9675954e656d80d996fbf
-* @implementation Dynamic
-*/
+ * @title Bee Token
+ * @symbol BEE
+ * @ethContractAddr 0x4d8fc1453a0f359e99c9675954e656d80d996fbf
+ * @implementation Dynamic
+ * @cmcId bee-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4d8fc1453a0f359e99c9675954e656d80d996fbf?apiKey=freekey', (error, response, body) => {

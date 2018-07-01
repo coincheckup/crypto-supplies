@@ -2,6 +2,7 @@
  * @title Emerald Crypto
  * @symbol EMD
  * @implementation Dynamic
+ * @cmcId emerald
  */
 
 module.exports = (callback, request) => {

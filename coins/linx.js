@@ -2,6 +2,7 @@
  * @title Linx
  * @symbol LINX
  * @implementation Dynamic
+ * @cmcId linx
  */
 
 module.exports = (callback, request) => {

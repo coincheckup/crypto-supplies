@@ -2,6 +2,7 @@
  * @title OctoCoin
  * @symbol 888
  * @implementation Dynamic
+ * @cmcId octocoin
  */
 
 module.exports = (callback, request) => {

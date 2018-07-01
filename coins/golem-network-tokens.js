@@ -1,9 +1,10 @@
 /**
-* @title Golem
-* @symbol GNT
-* @ethContractAddr 0xa74476443119A942dE498590Fe1f2454d7D4aC0d
-* @implementation Dynamic
-*/
+ * @title Golem
+ * @symbol GNT
+ * @ethContractAddr 0xa74476443119A942dE498590Fe1f2454d7D4aC0d
+ * @implementation Dynamic
+ * @cmcId golem-network-tokens
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xa74476443119A942dE498590Fe1f2454d7D4aC0d?apiKey=freekey', (error, response, body) => {

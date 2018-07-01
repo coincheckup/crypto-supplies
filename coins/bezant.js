@@ -1,9 +1,10 @@
 /**
-* @title Bezant
-* @symbol BZNT
-* @ethContractAddr 0xe1aee98495365fc179699c1bb3e761fa716bee62
-* @implementation Dynamic
-*/
+ * @title Bezant
+ * @symbol BZNT
+ * @ethContractAddr 0xe1aee98495365fc179699c1bb3e761fa716bee62
+ * @implementation Dynamic
+ * @cmcId bezant
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe1aee98495365fc179699c1bb3e761fa716bee62?apiKey=freekey', (error, response, body) => {

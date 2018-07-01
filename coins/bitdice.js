@@ -1,9 +1,10 @@
 /**
-* @title BitDice
-* @symbol CSNO
-* @ethContractAddr 0x29d75277ac7f0335b2165d0895e8725cbf658d73
-* @implementation Dynamic
-*/
+ * @title BitDice
+ * @symbol CSNO
+ * @ethContractAddr 0x29d75277ac7f0335b2165d0895e8725cbf658d73
+ * @implementation Dynamic
+ * @cmcId bitdice
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x29d75277ac7f0335b2165d0895e8725cbf658d73?apiKey=freekey', (error, response, body) => {

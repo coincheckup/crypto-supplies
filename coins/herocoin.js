@@ -1,9 +1,10 @@
 /**
-* @title HEROcoin
-* @symbol PLAY
-* @ethContractAddr 0xe477292f1b3268687a29376116b0ed27a9c76170
-* @implementation Dynamic
-*/
+ * @title HEROcoin
+ * @symbol PLAY
+ * @ethContractAddr 0xe477292f1b3268687a29376116b0ed27a9c76170
+ * @implementation Dynamic
+ * @cmcId herocoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe477292f1b3268687a29376116b0ed27a9c76170?apiKey=freekey', (error, response, body) => {

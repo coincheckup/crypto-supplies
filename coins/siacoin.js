@@ -2,6 +2,7 @@
  * @title Siacoin
  * @symbol SC
  * @implementation Dynamic
+ * @cmcId siacoin
  */
 
 module.exports = (callback, request) => {

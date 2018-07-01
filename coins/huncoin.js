@@ -2,6 +2,7 @@
  * @title Huncoin
  * @symbol HNC
  * @implementation Not Implemented
+ * @cmcId huncoin
  */
 
 module.exports = (callback, request) => {

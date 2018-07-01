@@ -1,9 +1,10 @@
 /**
-* @title Banca
-* @symbol BANCA
-* @ethContractAddr 0x998b3b82bc9dba173990be7afb772788b5acb8bd
-* @implementation Dynamic
-*/
+ * @title Banca
+ * @symbol BANCA
+ * @ethContractAddr 0x998b3b82bc9dba173990be7afb772788b5acb8bd
+ * @implementation Dynamic
+ * @cmcId banca
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x998b3b82bc9dba173990be7afb772788b5acb8bd?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Bodhi
  * @symbol BOT
  * @implementation Not Implemented
+ * @cmcId bodhi
  */
 
 module.exports = (callback, request) => {

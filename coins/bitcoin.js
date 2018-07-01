@@ -2,6 +2,7 @@
  * @title Bitcoin
  * @symbol BTC
  * @implementation Dynamic
+ * @cmcId bitcoin
  */
 
 module.exports = (callback, request) => {

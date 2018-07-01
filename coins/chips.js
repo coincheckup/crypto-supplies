@@ -2,6 +2,7 @@
  * @title CHIPS
  * @symbol CHIPS
  * @implementation Not Implemented
+ * @cmcId chips
  */
 
 module.exports = (callback, request) => {

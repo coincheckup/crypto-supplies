@@ -1,9 +1,10 @@
 /**
-* @title Covesting
-* @symbol COV
-* @ethContractAddr 0xe2fb6529ef566a080e6d23de0bd351311087d567
-* @implementation Dynamic
-*/
+ * @title Covesting
+ * @symbol COV
+ * @ethContractAddr 0xe2fb6529ef566a080e6d23de0bd351311087d567
+ * @implementation Dynamic
+ * @cmcId covesting
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe2fb6529ef566a080e6d23de0bd351311087d567?apiKey=freekey', (error, response, body) => {

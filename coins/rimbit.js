@@ -2,6 +2,7 @@
  * @title Rimbit
  * @symbol RBT
  * @implementation Not Implemented
+ * @cmcId rimbit
  */
 
 module.exports = (callback, request) => {

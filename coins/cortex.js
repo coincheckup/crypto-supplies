@@ -1,9 +1,10 @@
 /**
-* @title Cortex
-* @symbol CTXC
-* @ethContractAddr 0xea11755ae41d889ceec39a63e6ff75a02bc1c00d
-* @implementation Dynamic
-*/
+ * @title Cortex
+ * @symbol CTXC
+ * @ethContractAddr 0xea11755ae41d889ceec39a63e6ff75a02bc1c00d
+ * @implementation Dynamic
+ * @cmcId cortex
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xea11755ae41d889ceec39a63e6ff75a02bc1c00d?apiKey=freekey', (error, response, body) => {

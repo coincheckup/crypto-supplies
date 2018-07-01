@@ -1,9 +1,10 @@
 /**
-* @title ChainLink
-* @symbol LINK
-* @ethContractAddr 0x514910771af9ca656af840dff83e8264ecf986ca
-* @implementation Dynamic
-*/
+ * @title ChainLink
+ * @symbol LINK
+ * @ethContractAddr 0x514910771af9ca656af840dff83e8264ecf986ca
+ * @implementation Dynamic
+ * @cmcId chainlink
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x514910771af9ca656af840dff83e8264ecf986ca?apiKey=freekey', (error, response, body) => {

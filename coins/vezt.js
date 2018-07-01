@@ -1,9 +1,10 @@
 /**
-* @title Vezt
-* @symbol VZT
-* @ethContractAddr 0x9720b467a710382A232a32F540bDCed7d662a10B
-* @implementation Dynamic
-*/
+ * @title Vezt
+ * @symbol VZT
+ * @ethContractAddr 0x9720b467a710382A232a32F540bDCed7d662a10B
+ * @implementation Dynamic
+ * @cmcId vezt
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x9720b467a710382A232a32F540bDCed7d662a10B?apiKey=freekey', (error, response, body) => {

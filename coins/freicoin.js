@@ -2,6 +2,7 @@
  * @title Freicoin
  * @symbol FRC
  * @implementation Not Implemented
+ * @cmcId freicoin
  */
 
 module.exports = (callback, request) => {

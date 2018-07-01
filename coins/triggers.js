@@ -2,6 +2,7 @@
  * @title Triggers
  * @symbol TRIG
  * @implementation Not Implemented
+ * @cmcId triggers
  */
 
 module.exports = (callback, request) => {

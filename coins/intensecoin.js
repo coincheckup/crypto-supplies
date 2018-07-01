@@ -2,6 +2,7 @@
  * @title IntenseCoin
  * @symbol ITNS
  * @implementation Not Implemented
+ * @cmcId intensecoin
  */
 
 module.exports = (callback, request) => {

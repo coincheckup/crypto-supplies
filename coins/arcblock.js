@@ -1,9 +1,10 @@
 /**
-* @title Arcblock
-* @symbol ABT
-* @ethContractAddr 0xb98d4c97425d9908e66e53a6fdf673acca0be986
-* @implementation Dynamic
-*/
+ * @title Arcblock
+ * @symbol ABT
+ * @ethContractAddr 0xb98d4c97425d9908e66e53a6fdf673acca0be986
+ * @implementation Dynamic
+ * @cmcId arcblock
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb98d4c97425d9908e66e53a6fdf673acca0be986?apiKey=freekey', (error, response, body) => {

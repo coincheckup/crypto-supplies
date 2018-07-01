@@ -2,6 +2,7 @@
  * @title Nyancoin
  * @symbol NYAN
  * @implementation Not Implemented
+ * @cmcId nyancoin
  */
 
 module.exports = (callback, request) => {

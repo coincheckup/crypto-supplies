@@ -1,9 +1,10 @@
 /**
-* @title SwftCoin
-* @symbol SWFTC
-* @ethContractAddr 0x0bb217E40F8a5Cb79Adf04E1aAb60E5abd0dfC1e
-* @implementation Dynamic
-*/
+ * @title SwftCoin
+ * @symbol SWFTC
+ * @ethContractAddr 0x0bb217E40F8a5Cb79Adf04E1aAb60E5abd0dfC1e
+ * @implementation Dynamic
+ * @cmcId swftcoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x0bb217E40F8a5Cb79Adf04E1aAb60E5abd0dfC1e?apiKey=freekey', (error, response, body) => {

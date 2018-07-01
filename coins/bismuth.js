@@ -2,6 +2,7 @@
  * @title Bismuth
  * @symbol BIS
  * @implementation Not Implemented
+ * @cmcId bismuth
  */
 
 module.exports = (callback, request) => {

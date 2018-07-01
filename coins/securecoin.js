@@ -2,6 +2,7 @@
  * @title SecureCoin
  * @symbol SRC
  * @implementation Dynamic
+ * @cmcId securecoin
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Tripio
  * @symbol TRIO
  * @implementation Not Implemented
+ * @cmcId tripio
  */
 
 module.exports = (callback, request) => {

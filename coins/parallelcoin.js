@@ -2,6 +2,7 @@
  * @title ParallelCoin
  * @symbol DUO
  * @implementation Not Implemented
+ * @cmcId parallelcoin
  */
 
 module.exports = (callback, request) => {

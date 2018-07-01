@@ -1,9 +1,10 @@
 /**
-* @title Parkgene
-* @symbol GENE
-* @ethContractAddr 0x6dd4e4aad29a40edd6a409b9c1625186c9855b4d
-* @implementation Dynamic
-*/
+ * @title Parkgene
+ * @symbol GENE
+ * @ethContractAddr 0x6dd4e4aad29a40edd6a409b9c1625186c9855b4d
+ * @implementation Dynamic
+ * @cmcId parkgene
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6dd4e4aad29a40edd6a409b9c1625186c9855b4d?apiKey=freekey', (error, response, body) => {

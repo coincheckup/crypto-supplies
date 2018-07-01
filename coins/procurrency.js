@@ -2,6 +2,7 @@
  * @title ProCurrency
  * @symbol PROC
  * @implementation Not Implemented
+ * @cmcId procurrency
  */
 
 module.exports = (callback, request) => {

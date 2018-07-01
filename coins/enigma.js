@@ -3,6 +3,7 @@
  * @symbol ENG
  * @ethContractAddr 0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4
  * @implementation Dynamic
+ * @cmcId enigma-project
  */
 
 module.exports = (callback, request) => {

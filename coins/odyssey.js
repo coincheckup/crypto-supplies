@@ -1,9 +1,10 @@
 /**
-* @title Odyssey
-* @symbol OCN
-* @ethContractAddr 0x4092678e4E78230F46A1534C0fbc8fA39780892B
-* @implementation Dynamic
-*/
+ * @title Odyssey
+ * @symbol OCN
+ * @ethContractAddr 0x4092678e4E78230F46A1534C0fbc8fA39780892B
+ * @implementation Dynamic
+ * @cmcId odyssey
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4092678e4E78230F46A1534C0fbc8fA39780892B?apiKey=freekey', (error, response, body) => {

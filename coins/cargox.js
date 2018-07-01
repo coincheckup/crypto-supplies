@@ -1,9 +1,10 @@
 /**
-* @title CargoX
-* @symbol CXO
-* @ethContractAddr 0xb6ee9668771a79be7967ee29a63d4184f8097143
-* @implementation Dynamic
-*/
+ * @title CargoX
+ * @symbol CXO
+ * @ethContractAddr 0xb6ee9668771a79be7967ee29a63d4184f8097143
+ * @implementation Dynamic
+ * @cmcId cargox
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb6ee9668771a79be7967ee29a63d4184f8097143?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title JavaScript Token
-* @symbol JS
-* @ethContractAddr 0x5046e860ff274fb8c66106b0ffb8155849fb0787
-* @implementation Dynamic
-*/
+ * @title JavaScript Token
+ * @symbol JS
+ * @ethContractAddr 0x5046e860ff274fb8c66106b0ffb8155849fb0787
+ * @implementation Dynamic
+ * @cmcId javascript-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5046e860ff274fb8c66106b0ffb8155849fb0787?apiKey=freekey', (error, response, body) => {

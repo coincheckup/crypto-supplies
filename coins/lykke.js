@@ -2,6 +2,7 @@
  * @title Lykke
  * @symbol LKK
  * @implementation Not Implemented
+ * @cmcId lykke
  */
 
 module.exports = (callback, request) => {

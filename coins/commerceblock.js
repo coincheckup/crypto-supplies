@@ -1,9 +1,10 @@
 /**
-* @title CommerceBlock
-* @symbol CBT
-* @ethContractAddr 0x076C97e1c869072eE22f8c91978C99B4bcB02591
-* @implementation Dynamic
-*/
+ * @title CommerceBlock
+ * @symbol CBT
+ * @ethContractAddr 0x076C97e1c869072eE22f8c91978C99B4bcB02591
+ * @implementation Dynamic
+ * @cmcId commerceblock
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x076C97e1c869072eE22f8c91978C99B4bcB02591?apiKey=freekey', (error, response, body) => {

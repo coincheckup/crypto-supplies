@@ -1,9 +1,10 @@
 /**
-* @title GreenMed
-* @symbol GRMD
-* @ethContractAddr 0xb444208cb0516c150178fcf9a52604bc04a1acea
-* @implementation Dynamic
-*/
+ * @title GreenMed
+ * @symbol GRMD
+ * @ethContractAddr 0xb444208cb0516c150178fcf9a52604bc04a1acea
+ * @implementation Dynamic
+ * @cmcId greenmed
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb444208cb0516c150178fcf9a52604bc04a1acea?apiKey=freekey', (error, response, body) => {

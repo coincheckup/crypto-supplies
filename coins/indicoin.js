@@ -1,9 +1,10 @@
 /**
-* @title Indicoin
-* @symbol INDI
-* @ethContractAddr 0xe8c09672cfb9cfce6e2edbb01057d9fa569f97c1
-* @implementation Dynamic
-*/
+ * @title Indicoin
+ * @symbol INDI
+ * @ethContractAddr 0xe8c09672cfb9cfce6e2edbb01057d9fa569f97c1
+ * @implementation Dynamic
+ * @cmcId indicoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe8c09672cfb9cfce6e2edbb01057d9fa569f97c1?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title CoinMeet
-* @symbol MEET
-* @ethContractAddr 0x7f121d4EC6c2C07eB6BC7989d91d2d4fF654c068
-* @implementation Dynamic
-*/
+ * @title CoinMeet
+ * @symbol MEET
+ * @ethContractAddr 0x7f121d4EC6c2C07eB6BC7989d91d2d4fF654c068
+ * @implementation Dynamic
+ * @cmcId coinmeet
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x7f121d4EC6c2C07eB6BC7989d91d2d4fF654c068?apiKey=freekey', (error, response, body) => {

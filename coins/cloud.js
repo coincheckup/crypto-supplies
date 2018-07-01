@@ -1,9 +1,10 @@
 /**
-* @title Cloud
-* @symbol CLD
-* @ethContractAddr 0xc3951d77737733174152532e8b0f27e2c4e9f0dc
-* @implementation Dynamic
-*/
+ * @title Cloud
+ * @symbol CLD
+ * @ethContractAddr 0xc3951d77737733174152532e8b0f27e2c4e9f0dc
+ * @implementation Dynamic
+ * @cmcId cloud
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xc3951d77737733174152532e8b0f27e2c4e9f0dc?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Animecoin
  * @symbol ANI
  * @implementation Not Implemented
+ * @cmcId animecoin
  */
 
 module.exports = (callback, request) => {

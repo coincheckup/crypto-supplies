@@ -2,6 +2,7 @@
  * @title Hyper
  * @symbol HYPER
  * @implementation Not Implemented
+ * @cmcId hyper
  */
 
 module.exports = (callback, request) => {

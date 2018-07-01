@@ -1,9 +1,10 @@
 /**
-* @title HODL Bucks
-* @symbol HDLB
-* @ethContractAddr 0xad6714bd97cbbd29788f8838bc865ee71b843eb8
-* @implementation Dynamic
-*/
+ * @title HODL Bucks
+ * @symbol HDLB
+ * @ethContractAddr 0xad6714bd97cbbd29788f8838bc865ee71b843eb8
+ * @implementation Dynamic
+ * @cmcId hodl-bucks
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xad6714bd97cbbd29788f8838bc865ee71b843eb8?apiKey=freekey', (error, response, body) => {

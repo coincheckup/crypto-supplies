@@ -1,9 +1,10 @@
 /**
-* @title Ethos
-* @symbol ETHOS
-* @ethContractAddr 0x5af2be193a6abca9c8817001f45744777db30756
-* @implementation Dynamic
-*/
+ * @title Ethos
+ * @symbol ETHOS
+ * @ethContractAddr 0x5af2be193a6abca9c8817001f45744777db30756
+ * @implementation Dynamic
+ * @cmcId ethos
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5af2be193a6abca9c8817001f45744777db30756?apiKey=freekey', (error, response, body) => {

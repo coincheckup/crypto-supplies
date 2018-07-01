@@ -1,9 +1,10 @@
 /**
-* @title Lympo
-* @symbol LYM
-* @ethContractAddr 0x57ad67acf9bf015e4820fbd66ea1a21bed8852ec
-* @implementation Dynamic
-*/
+ * @title Lympo
+ * @symbol LYM
+ * @ethContractAddr 0x57ad67acf9bf015e4820fbd66ea1a21bed8852ec
+ * @implementation Dynamic
+ * @cmcId lympo
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x57ad67acf9bf015e4820fbd66ea1a21bed8852ec?apiKey=freekey', (error, response, body) => {

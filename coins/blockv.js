@@ -1,9 +1,10 @@
 /**
-* @title BLOCKv
-* @symbol VEE
-* @ethContractAddr 0x340d2bde5eb28c1eed91b2f790723e3b160613b7
-* @implementation Dynamic
-*/
+ * @title BLOCKv
+ * @symbol VEE
+ * @ethContractAddr 0x340d2bde5eb28c1eed91b2f790723e3b160613b7
+ * @implementation Dynamic
+ * @cmcId blockv
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x340d2bde5eb28c1eed91b2f790723e3b160613b7?apiKey=freekey', (error, response, body) => {

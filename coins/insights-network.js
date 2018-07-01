@@ -1,9 +1,10 @@
 /**
-* @title Insights Network
-* @symbol INSTAR
-* @ethContractAddr 0xc72fe8e3dd5bef0f9f31f259399f301272ef2a2d
-* @implementation Dynamic
-*/
+ * @title Insights Network
+ * @symbol INSTAR
+ * @ethContractAddr 0xc72fe8e3dd5bef0f9f31f259399f301272ef2a2d
+ * @implementation Dynamic
+ * @cmcId insights-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xc72fe8e3dd5bef0f9f31f259399f301272ef2a2d?apiKey=freekey', (error, response, body) => {

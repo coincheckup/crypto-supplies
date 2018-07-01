@@ -1,9 +1,10 @@
 /**
-* @title UnlimitedIP
-* @symbol UIP
-* @ethContractAddr 0x4290563c2d7c255b5eec87f2d3bd10389f991d68
-* @implementation Dynamic
-*/
+ * @title UnlimitedIP
+ * @symbol UIP
+ * @ethContractAddr 0x4290563c2d7c255b5eec87f2d3bd10389f991d68
+ * @implementation Dynamic
+ * @cmcId unlimitedip
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4290563c2d7c255b5eec87f2d3bd10389f991d68?apiKey=freekey', (error, response, body) => {

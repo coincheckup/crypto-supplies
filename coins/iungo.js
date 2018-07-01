@@ -1,9 +1,10 @@
 /**
-* @title Iungo
-* @symbol ING
-* @ethContractAddr 0x24ddff6d8b8a42d835af3b440de91f3386554aa4
-* @implementation Dynamic
-*/
+ * @title Iungo
+ * @symbol ING
+ * @ethContractAddr 0x24ddff6d8b8a42d835af3b440de91f3386554aa4
+ * @implementation Dynamic
+ * @cmcId iungo
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x24ddff6d8b8a42d835af3b440de91f3386554aa4?apiKey=freekey', (error, response, body) => {

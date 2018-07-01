@@ -2,6 +2,7 @@
  * @title Dinastycoin
  * @symbol DCY
  * @implementation Not Implemented
+ * @cmcId dinastycoin
  */
 
 module.exports = (callback, request) => {

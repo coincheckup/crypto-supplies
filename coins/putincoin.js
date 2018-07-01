@@ -2,6 +2,7 @@
  * @title PutinCoin
  * @symbol PUT
  * @implementation Dynamic
+ * @cmcId putincoin
  */
 
 module.exports = (callback, request) => {

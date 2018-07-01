@@ -2,6 +2,7 @@
  * @title EtherSportz
  * @symbol ESZ
  * @implementation Not Implemented
+ * @cmcId ethersportz
  */
 
 module.exports = (callback, request) => {

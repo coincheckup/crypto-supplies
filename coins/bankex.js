@@ -1,9 +1,10 @@
 /**
-* @title Bankex
-* @symbol BKX
-* @ethContractAddr 0x45245bc59219eeaaf6cd3f382e078a461ff9de7b
-* @implementation Dynamic
-*/
+ * @title Bankex
+ * @symbol BKX
+ * @ethContractAddr 0x45245bc59219eeaaf6cd3f382e078a461ff9de7b
+ * @implementation Dynamic
+ * @cmcId bankex
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x45245bc59219eeaaf6cd3f382e078a461ff9de7b?apiKey=freekey', (error, response, body) => {

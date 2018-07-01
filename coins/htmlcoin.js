@@ -2,6 +2,7 @@
  * @title HTMLCOIN
  * @symbol HTML
  * @implementation Not Implemented
+ * @cmcId html-coin
  */
 
 module.exports = (callback, request) => {

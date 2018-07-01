@@ -2,6 +2,7 @@
  * @title ACChain
  * @symbol ACC
  * @implementation Not Implemented
+ * @cmcId acchain
  */
 
 module.exports = (callback, request) => {

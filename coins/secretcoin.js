@@ -2,6 +2,7 @@
  * @title SecretCoin
  * @symbol SCRT
  * @implementation Not Implemented
+ * @cmcId secretcoin
  */
 
 module.exports = (callback, request) => {

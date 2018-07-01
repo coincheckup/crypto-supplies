@@ -1,9 +1,10 @@
 /**
-* @title Gifto
-* @symbol GTO
-* @ethContractAddr 0xc5bbae50781be1669306b9e001eff57a2957b09d
-* @implementation Dynamic
-*/
+ * @title Gifto
+ * @symbol GTO
+ * @ethContractAddr 0xc5bbae50781be1669306b9e001eff57a2957b09d
+ * @implementation Dynamic
+ * @cmcId gifto
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xc5bbae50781be1669306b9e001eff57a2957b09d?apiKey=freekey', (error, response, body) => {

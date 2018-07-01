@@ -1,9 +1,10 @@
 /**
-* @title MobileGo
-* @symbol MGO
-* @ethContractAddr 0x40395044Ac3c0C57051906dA938B54BD6557F212
-* @implementation Dynamic
-*/
+ * @title MobileGo
+ * @symbol MGO
+ * @ethContractAddr 0x40395044Ac3c0C57051906dA938B54BD6557F212
+ * @implementation Dynamic
+ * @cmcId mobilego
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x40395044Ac3c0C57051906dA938B54BD6557F212?apiKey=freekey', (error, response, body) => {

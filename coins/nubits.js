@@ -2,6 +2,7 @@
  * @title NuBits
  * @symbol USNBT
  * @implementation Not Implemented
+ * @cmcId nubits
  */
 
 module.exports = (callback, request) => {

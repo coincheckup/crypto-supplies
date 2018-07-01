@@ -1,9 +1,10 @@
 /**
-* @title EchoLink
-* @symbol EKO
-* @ethContractAddr 0xa6a840e50bcaa50da017b91a0d86b8b2d41156ee
-* @implementation Dynamic
-*/
+ * @title EchoLink
+ * @symbol EKO
+ * @ethContractAddr 0xa6a840e50bcaa50da017b91a0d86b8b2d41156ee
+ * @implementation Dynamic
+ * @cmcId echolink
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xa6a840e50bcaa50da017b91a0d86b8b2d41156ee?apiKey=freekey', (error, response, body) => {

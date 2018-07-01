@@ -1,9 +1,10 @@
 /**
-* @title Bread
-* @symbol BRD
-* @ethContractAddr 0x558ec3152e2eb2174905cd19aea4e34a23de9ad6
-* @implementation Dynamic
-*/
+ * @title Bread
+ * @symbol BRD
+ * @ethContractAddr 0x558ec3152e2eb2174905cd19aea4e34a23de9ad6
+ * @implementation Dynamic
+ * @cmcId bread
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x558ec3152e2eb2174905cd19aea4e34a23de9ad6?apiKey=freekey', (error, response, body) => {

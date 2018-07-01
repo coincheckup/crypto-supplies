@@ -1,9 +1,10 @@
 /**
-* @title Bitair
-* @symbol BTCA
-* @ethContractAddr 0x02725836ebf3ecdb1cdf1c7b02fcbbfaa2736af8
-* @implementation Dynamic
-*/
+ * @title Bitair
+ * @symbol BTCA
+ * @ethContractAddr 0x02725836ebf3ecdb1cdf1c7b02fcbbfaa2736af8
+ * @implementation Dynamic
+ * @cmcId bitair
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x02725836ebf3ecdb1cdf1c7b02fcbbfaa2736af8?apiKey=freekey', (error, response, body) => {

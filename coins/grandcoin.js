@@ -2,6 +2,7 @@
  * @title GrandCoin
  * @symbol GDC
  * @implementation Not Implemented
+ * @cmcId grandcoin
  */
 
 module.exports = (callback, request) => {

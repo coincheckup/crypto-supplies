@@ -1,9 +1,10 @@
 /**
-* @title Revain
-* @symbol R
-* @ethContractAddr 0x48f775efbe4f5ece6e0df2f7b5932df56823b990
-* @implementation Dynamic
-*/
+ * @title Revain
+ * @symbol R
+ * @ethContractAddr 0x48f775efbe4f5ece6e0df2f7b5932df56823b990
+ * @implementation Dynamic
+ * @cmcId revain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x48f775efbe4f5ece6e0df2f7b5932df56823b990?apiKey=freekey', (error, response, body) => {

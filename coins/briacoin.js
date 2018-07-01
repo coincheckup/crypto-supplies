@@ -2,6 +2,7 @@
  * @title BriaCoin
  * @symbol BRIA
  * @implementation Not Implemented
+ * @cmcId briacoin
  */
 
 module.exports = (callback, request) => {

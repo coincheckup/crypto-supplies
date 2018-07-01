@@ -1,9 +1,10 @@
 /**
-* @title Pareto Network
-* @symbol PARETO
-* @ethContractAddr 0xea5f88e54d982cbb0c441cde4e79bc305e5b43bc
-* @implementation Dynamic
-*/
+ * @title Pareto Network
+ * @symbol PARETO
+ * @ethContractAddr 0xea5f88e54d982cbb0c441cde4e79bc305e5b43bc
+ * @implementation Dynamic
+ * @cmcId pareto-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xea5f88e54d982cbb0c441cde4e79bc305e5b43bc?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title SingularityNET
-* @symbol AGI
-* @ethContractAddr 0x8eb24319393716668d768dcec29356ae9cffe285
-* @implementation Dynamic
-*/
+ * @title SingularityNET
+ * @symbol AGI
+ * @ethContractAddr 0x8eb24319393716668d768dcec29356ae9cffe285
+ * @implementation Dynamic
+ * @cmcId singularitynet
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x8eb24319393716668d768dcec29356ae9cffe285?apiKey=freekey', (error, response, body) => {

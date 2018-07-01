@@ -2,6 +2,7 @@
  * @title Lightning Bitcoin
  * @symbol LBTC
  * @implementation Dynamic
+ * @cmcId lightning-bitcoin
  */
 
 module.exports = (callback, request) => {

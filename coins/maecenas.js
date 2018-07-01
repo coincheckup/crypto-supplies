@@ -1,9 +1,10 @@
 /**
-* @title Maecenas
-* @symbol ART
-* @ethContractAddr 0xfec0cf7fe078a500abf15f1284958f22049c2c7e
-* @implementation Dynamic
-*/
+ * @title Maecenas
+ * @symbol ART
+ * @ethContractAddr 0xfec0cf7fe078a500abf15f1284958f22049c2c7e
+ * @implementation Dynamic
+ * @cmcId maecenas
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xfec0cf7fe078a500abf15f1284958f22049c2c7e?apiKey=freekey', (error, response, body) => {

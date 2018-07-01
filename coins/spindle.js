@@ -1,9 +1,10 @@
 /**
-* @title SPINDLE
-* @symbol SPD
-* @ethContractAddr 0x1dEa979ae76f26071870F824088dA78979eb91C8
-* @implementation Dynamic
-*/
+ * @title SPINDLE
+ * @symbol SPD
+ * @ethContractAddr 0x1dEa979ae76f26071870F824088dA78979eb91C8
+ * @implementation Dynamic
+ * @cmcId spindle
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1dEa979ae76f26071870F824088dA78979eb91C8?apiKey=freekey', (error, response, body) => {

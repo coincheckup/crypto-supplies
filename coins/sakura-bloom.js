@@ -1,9 +1,10 @@
 /**
-* @title Sakura Bloom
-* @symbol SKB
-* @ethContractAddr 0x4af328c52921706dcb739f25786210499169afe6
-* @implementation Dynamic
-*/
+ * @title Sakura Bloom
+ * @symbol SKB
+ * @ethContractAddr 0x4af328c52921706dcb739f25786210499169afe6
+ * @implementation Dynamic
+ * @cmcId sakura-bloom
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4af328c52921706dcb739f25786210499169afe6?apiKey=freekey', (error, response, body) => {

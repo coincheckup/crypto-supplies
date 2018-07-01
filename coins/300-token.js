@@ -1,9 +1,10 @@
 /**
-* @title 300 Token
-* @symbol 300
-* @ethContractAddr 0xaec98a708810414878c3bcdf46aad31ded4a4557
-* @implementation Dynamic
-*/
+ * @title 300 Token
+ * @symbol 300
+ * @ethContractAddr 0xaec98a708810414878c3bcdf46aad31ded4a4557
+ * @implementation Dynamic
+ * @cmcId 300-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xaec98a708810414878c3bcdf46aad31ded4a4557?apiKey=freekey', (error, response, body) => {

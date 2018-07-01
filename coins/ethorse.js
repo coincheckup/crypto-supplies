@@ -1,9 +1,10 @@
 /**
-* @title Ethorse
-* @symbol HORSE
-* @ethContractAddr 0x5b0751713b2527d7f002c0c4e2a37e1219610a6b
-* @implementation Dynamic
-*/
+ * @title Ethorse
+ * @symbol HORSE
+ * @ethContractAddr 0x5b0751713b2527d7f002c0c4e2a37e1219610a6b
+ * @implementation Dynamic
+ * @cmcId ethorse
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5b0751713b2527d7f002c0c4e2a37e1219610a6b?apiKey=freekey', (error, response, body) => {

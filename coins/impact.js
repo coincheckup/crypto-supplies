@@ -2,6 +2,7 @@
  * @title Impact
  * @symbol IMX
  * @implementation Dynamic
+ * @cmcId impact
  */
 
 module.exports = (callback, request) => {

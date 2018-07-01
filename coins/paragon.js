@@ -1,9 +1,10 @@
 /**
-* @title Paragon
-* @symbol PRG
-* @ethContractAddr 0x7728dFEF5aBd468669EB7f9b48A7f70a501eD29D
-* @implementation Dynamic
-*/
+ * @title Paragon
+ * @symbol PRG
+ * @ethContractAddr 0x7728dFEF5aBd468669EB7f9b48A7f70a501eD29D
+ * @implementation Dynamic
+ * @cmcId paragon
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x7728dFEF5aBd468669EB7f9b48A7f70a501eD29D?apiKey=freekey', (error, response, body) => {

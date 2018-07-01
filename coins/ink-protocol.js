@@ -1,9 +1,10 @@
 /**
-* @title Ink Protocol
-* @symbol XNK
-* @ethContractAddr 0xbc86727e770de68b1060c91f6bb6945c73e10388
-* @implementation Dynamic
-*/
+ * @title Ink Protocol
+ * @symbol XNK
+ * @ethContractAddr 0xbc86727e770de68b1060c91f6bb6945c73e10388
+ * @implementation Dynamic
+ * @cmcId ink-protocol
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xbc86727e770de68b1060c91f6bb6945c73e10388?apiKey=freekey', (error, response, body) => {

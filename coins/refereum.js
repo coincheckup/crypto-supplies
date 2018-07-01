@@ -1,9 +1,10 @@
 /**
-* @title Refereum
-* @symbol RFR
-* @ethContractAddr 0xd0929d411954c47438dc1d871dd6081f5c5e149c
-* @implementation Dynamic
-*/
+ * @title Refereum
+ * @symbol RFR
+ * @ethContractAddr 0xd0929d411954c47438dc1d871dd6081f5c5e149c
+ * @implementation Dynamic
+ * @cmcId refereum
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd0929d411954c47438dc1d871dd6081f5c5e149c?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Dollarcoin
  * @symbol DLC
  * @implementation Not Implemented
+ * @cmcId dollarcoin
  */
 
 module.exports = (callback, request) => {

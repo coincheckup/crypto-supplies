@@ -1,9 +1,10 @@
 /**
-* @title FunFair
-* @symbol FUN
-* @ethContractAddr 0x419d0d8bdd9af5e606ae2232ed285aff190e711b
-* @implementation Dynamic
-*/
+ * @title FunFair
+ * @symbol FUN
+ * @ethContractAddr 0x419d0d8bdd9af5e606ae2232ed285aff190e711b
+ * @implementation Dynamic
+ * @cmcId funfair
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x419d0d8bdd9af5e606ae2232ed285aff190e711b?apiKey=freekey', (error, response, body) => {

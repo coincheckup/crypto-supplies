@@ -2,6 +2,7 @@
  * @title NeosCoin
  * @symbol NEOS
  * @implementation Dynamic
+ * @cmcId neoscoin
  */
 
 module.exports = (callback, request) => {

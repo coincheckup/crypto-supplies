@@ -1,9 +1,10 @@
 /**
-* @title Gladius Token
-* @symbol GLA
-* @ethContractAddr 0x71D01dB8d6a2fBEa7f8d434599C237980C234e4C
-* @implementation Dynamic
-*/
+ * @title Gladius Token
+ * @symbol GLA
+ * @ethContractAddr 0x71D01dB8d6a2fBEa7f8d434599C237980C234e4C
+ * @implementation Dynamic
+ * @cmcId gladius-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x71D01dB8d6a2fBEa7f8d434599C237980C234e4C?apiKey=freekey', (error, response, body) => {

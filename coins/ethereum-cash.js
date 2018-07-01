@@ -1,7 +1,8 @@
 /**
- * @title 0xBitcoin
- * @symbol 0xBTC
+ * @title Ethereum Cash
+ * @symbol ECASH
  * @implementation Not Implemented
+ * @cmcId ethereumcash
  */
 
 module.exports = (callback, request) => {

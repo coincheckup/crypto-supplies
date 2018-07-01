@@ -2,6 +2,7 @@
  * @title Nimiq Exchange Token
  * @symbol NET
  * @implementation Not Implemented
+ * @cmcId nimiq
  */
 
 module.exports = (callback, request) => {

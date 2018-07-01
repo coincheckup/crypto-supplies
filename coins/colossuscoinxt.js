@@ -2,6 +2,7 @@
  * @title ColossusXT
  * @symbol COLX
  * @implementation Dynamic
+ * @cmcId colossusxt
  */
 
 module.exports = (callback, request) => {

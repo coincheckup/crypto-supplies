@@ -1,9 +1,10 @@
 /**
-* @title MediShares
-* @symbol MDS
-* @ethContractAddr 0x66186008C1050627F979d464eABb258860563dbE
-* @implementation Dynamic
-*/
+ * @title MediShares
+ * @symbol MDS
+ * @ethContractAddr 0x66186008C1050627F979d464eABb258860563dbE
+ * @implementation Dynamic
+ * @cmcId medishares
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x66186008C1050627F979d464eABb258860563dbE?apiKey=freekey', (error, response, body) => {

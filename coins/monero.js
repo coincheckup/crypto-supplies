@@ -2,6 +2,7 @@
  * @title Monero
  * @symbol XMR
  * @implementation Dynamic
+ * @cmcId monero
  */
 
 module.exports = (callback, request) => {

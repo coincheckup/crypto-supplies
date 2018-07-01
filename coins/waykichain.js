@@ -1,9 +1,10 @@
 /**
-* @title WaykiChain
-* @symbol WICC
-* @ethContractAddr 0x4f878c0852722b0976a955d68b376e4cd4ae99e5
-* @implementation Dynamic
-*/
+ * @title WaykiChain
+ * @symbol WICC
+ * @ethContractAddr 0x4f878c0852722b0976a955d68b376e4cd4ae99e5
+ * @implementation Dynamic
+ * @cmcId waykichain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4f878c0852722b0976a955d68b376e4cd4ae99e5?apiKey=freekey', (error, response, body) => {

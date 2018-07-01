@@ -1,9 +1,10 @@
 /**
-* @title BitRent
-* @symbol RNTB
-* @ethContractAddr 0x1fe70be734e473e5721ea57c8b5b01e6caa52686
-* @implementation Dynamic
-*/
+ * @title BitRent
+ * @symbol RNTB
+ * @ethContractAddr 0x1fe70be734e473e5721ea57c8b5b01e6caa52686
+ * @implementation Dynamic
+ * @cmcId bitrent
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1fe70be734e473e5721ea57c8b5b01e6caa52686?apiKey=freekey', (error, response, body) => {

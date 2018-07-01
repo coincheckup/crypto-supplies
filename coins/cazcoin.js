@@ -2,6 +2,7 @@
  * @title Cazcoin
  * @symbol CAZ
  * @implementation Not Implemented
+ * @cmcId cazcoin
  */
 
 module.exports = (callback, request) => {

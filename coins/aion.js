@@ -1,9 +1,10 @@
 /**
-* @title Aion
-* @symbol AION
-* @ethContractAddr 0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466
-* @implementation Dynamic
-*/
+ * @title Aion
+ * @symbol AION
+ * @ethContractAddr 0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466
+ * @implementation Dynamic
+ * @cmcId aion
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4CEdA7906a5Ed2179785Cd3A40A69ee8bc99C466?apiKey=freekey', (error, response, body) => {

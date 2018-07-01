@@ -1,9 +1,10 @@
 /**
-* @title DomRaider
-* @symbol DRT
-* @ethContractAddr 0x9af4f26941677c706cfecf6d3379ff01bb85d5ab
-* @implementation Dynamic
-*/
+ * @title DomRaider
+ * @symbol DRT
+ * @ethContractAddr 0x9af4f26941677c706cfecf6d3379ff01bb85d5ab
+ * @implementation Dynamic
+ * @cmcId domraider
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x9af4f26941677c706cfecf6d3379ff01bb85d5ab?apiKey=freekey', (error, response, body) => {

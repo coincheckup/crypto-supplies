@@ -2,6 +2,7 @@
  * @title SmileyCoin
  * @symbol SMLY
  * @implementation Dynamic
+ * @cmcId smileycoin
  */
 
 module.exports = (callback, request) => {

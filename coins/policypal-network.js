@@ -1,9 +1,10 @@
 /**
-* @title PolicyPal Network
-* @symbol PAL
-* @ethContractAddr 0xfedae5642668f8636a11987ff386bfd215f942ee
-* @implementation Dynamic
-*/
+ * @title PolicyPal Network
+ * @symbol PAL
+ * @ethContractAddr 0xfedae5642668f8636a11987ff386bfd215f942ee
+ * @implementation Dynamic
+ * @cmcId policypal-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xfedae5642668f8636a11987ff386bfd215f942ee?apiKey=freekey', (error, response, body) => {

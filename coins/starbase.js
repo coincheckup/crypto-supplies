@@ -1,9 +1,10 @@
 /**
-* @title Starbase
-* @symbol STAR
-* @ethContractAddr 0xf70a642bd387f94380ffb90451c2c81d4eb82cbc
-* @implementation Dynamic
-*/
+ * @title Starbase
+ * @symbol STAR
+ * @ethContractAddr 0xf70a642bd387f94380ffb90451c2c81d4eb82cbc
+ * @implementation Dynamic
+ * @cmcId starbase
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf70a642bd387f94380ffb90451c2c81d4eb82cbc?apiKey=freekey', (error, response, body) => {

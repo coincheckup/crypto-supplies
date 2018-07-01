@@ -1,9 +1,10 @@
 /**
-* @title Veritaseum
-* @symbol VERI
-* @ethContractAddr 0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374
-* @implementation Dynamic
-*/
+ * @title Veritaseum
+ * @symbol VERI
+ * @ethContractAddr 0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374
+ * @implementation Dynamic
+ * @cmcId veritaseum
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374?apiKey=freekey', (error, response, body) => {

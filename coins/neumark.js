@@ -1,9 +1,10 @@
 /**
-* @title Neumark
-* @symbol NEU
-* @ethContractAddr 0xa823e6722006afe99e91c30ff5295052fe6b8e32
-* @implementation Dynamic
-*/
+ * @title Neumark
+ * @symbol NEU
+ * @ethContractAddr 0xa823e6722006afe99e91c30ff5295052fe6b8e32
+ * @implementation Dynamic
+ * @cmcId neumark
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xa823e6722006afe99e91c30ff5295052fe6b8e32?apiKey=freekey', (error, response, body) => {

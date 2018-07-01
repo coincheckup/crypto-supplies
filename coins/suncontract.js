@@ -1,9 +1,10 @@
 /**
-* @title SunContract
-* @symbol SNC
-* @ethContractAddr 0xF4134146AF2d511Dd5EA8cDB1C4AC88C57D60404
-* @implementation Dynamic
-*/
+ * @title SunContract
+ * @symbol SNC
+ * @ethContractAddr 0xF4134146AF2d511Dd5EA8cDB1C4AC88C57D60404
+ * @implementation Dynamic
+ * @cmcId suncontract
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xF4134146AF2d511Dd5EA8cDB1C4AC88C57D60404?apiKey=freekey', (error, response, body) => {

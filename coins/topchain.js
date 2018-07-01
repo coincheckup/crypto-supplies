@@ -1,9 +1,10 @@
 /**
-* @title TopChain
-* @symbol TOPC
-* @ethContractAddr 0x1b6c5864375b34af3ff5bd2e5f40bc425b4a8d79
-* @implementation Dynamic
-*/
+ * @title TopChain
+ * @symbol TOPC
+ * @ethContractAddr 0x1b6c5864375b34af3ff5bd2e5f40bc425b4a8d79
+ * @implementation Dynamic
+ * @cmcId topchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1b6c5864375b34af3ff5bd2e5f40bc425b4a8d79?apiKey=freekey', (error, response, body) => {

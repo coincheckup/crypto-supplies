@@ -2,6 +2,7 @@
  * @title LetItRide
  * @symbol LIR
  * @implementation Dynamic
+ * @cmcId letitride
  */
 
 module.exports = (callback, request) => {

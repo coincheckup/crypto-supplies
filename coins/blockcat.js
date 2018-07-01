@@ -1,9 +1,10 @@
 /**
-* @title BlockCAT
-* @symbol CAT
-* @ethContractAddr 0x56ba2Ee7890461f463F7be02aAC3099f6d5811A8
-* @implementation Dynamic
-*/
+ * @title BlockCAT
+ * @symbol CAT
+ * @ethContractAddr 0x56ba2Ee7890461f463F7be02aAC3099f6d5811A8
+ * @implementation Dynamic
+ * @cmcId blockcat
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x56ba2Ee7890461f463F7be02aAC3099f6d5811A8?apiKey=freekey', (error, response, body) => {

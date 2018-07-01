@@ -1,9 +1,10 @@
 /**
-* @title Qvolta
-* @symbol QVT
-* @ethContractAddr 0x1183f92a5624d68e85ffb9170f16bf0443b4c242
-* @implementation Dynamic
-*/
+ * @title Qvolta
+ * @symbol QVT
+ * @ethContractAddr 0x1183f92a5624d68e85ffb9170f16bf0443b4c242
+ * @implementation Dynamic
+ * @cmcId qvolta
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1183f92a5624d68e85ffb9170f16bf0443b4c242?apiKey=freekey', (error, response, body) => {

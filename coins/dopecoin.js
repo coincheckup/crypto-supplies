@@ -2,6 +2,7 @@
  * @title DopeCoin
  * @symbol DOPE
  * @implementation Dynamic
+ * @cmcId dopecoin
  */
 
 module.exports = (callback, request) => {

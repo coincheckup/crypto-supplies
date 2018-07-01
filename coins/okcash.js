@@ -2,6 +2,7 @@
  * @title OKCash
  * @symbol OK
  * @implementation Dynamic
+ * @cmcId okcash
  */
 
 module.exports = (callback, request) => {

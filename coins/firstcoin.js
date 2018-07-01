@@ -2,6 +2,7 @@
  * @title FirstCoin
  * @symbol FRST
  * @implementation Not Implemented
+ * @cmcId firstcoin
  */
 
 module.exports = (callback, request) => {

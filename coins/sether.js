@@ -1,9 +1,10 @@
 /**
-* @title Sether
-* @symbol SETH
-* @ethContractAddr 0x78b039921e84e726eb72e7b1212bb35504c645ca
-* @implementation Dynamic
-*/
+ * @title Sether
+ * @symbol SETH
+ * @ethContractAddr 0x78b039921e84e726eb72e7b1212bb35504c645ca
+ * @implementation Dynamic
+ * @cmcId sether
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x78b039921e84e726eb72e7b1212bb35504c645ca?apiKey=freekey', (error, response, body) => {

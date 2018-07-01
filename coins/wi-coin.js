@@ -1,9 +1,10 @@
 /**
-* @title Wi Coin
-* @symbol WIC
-* @ethContractAddr 0x5e4abe6419650ca839ce5bb7db422b881a6064bb
-* @implementation Dynamic
-*/
+ * @title Wi Coin
+ * @symbol WIC
+ * @ethContractAddr 0x5e4abe6419650ca839ce5bb7db422b881a6064bb
+ * @implementation Dynamic
+ * @cmcId wi-coin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5e4abe6419650ca839ce5bb7db422b881a6064bb?apiKey=freekey', (error, response, body) => {

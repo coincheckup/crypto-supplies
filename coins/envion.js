@@ -1,9 +1,10 @@
 /**
-* @title Envion
-* @symbol EVN
-* @ethContractAddr 0xd780ae2bf04cd96e577d3d014762f831d97129d0
-* @implementation Dynamic
-*/
+ * @title Envion
+ * @symbol EVN
+ * @ethContractAddr 0xd780ae2bf04cd96e577d3d014762f831d97129d0
+ * @implementation Dynamic
+ * @cmcId envion
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd780ae2bf04cd96e577d3d014762f831d97129d0?apiKey=freekey', (error, response, body) => {

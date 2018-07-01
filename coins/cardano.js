@@ -2,6 +2,7 @@
  * @title Cardano
  * @symbol ADA
  * @implementation Static
+ * @cmcId cardano
  */
 module.exports = (callback, request) => {
     // Source: https://www.reddit.com/r/cardano/comments/7404yz/ada_circulating_supply_total_supply_and_max/

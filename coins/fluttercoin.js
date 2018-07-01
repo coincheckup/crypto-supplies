@@ -2,6 +2,7 @@
  * @title FlutterCoin
  * @symbol FLT
  * @implementation Not Implemented
+ * @cmcId fluttercoin
  */
 
 module.exports = (callback, request) => {

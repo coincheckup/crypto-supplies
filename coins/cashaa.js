@@ -1,9 +1,10 @@
 /**
-* @title Cashaa
-* @symbol CAS
-* @ethContractAddr 0xe8780b48bdb05f928697a5e8155f672ed91462f7
-* @implementation Dynamic
-*/
+ * @title Cashaa
+ * @symbol CAS
+ * @ethContractAddr 0xe8780b48bdb05f928697a5e8155f672ed91462f7
+ * @implementation Dynamic
+ * @cmcId cashaa
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe8780b48bdb05f928697a5e8155f672ed91462f7?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Veros
-* @symbol VRS
-* @ethContractAddr 0x92e78dae1315067a8819efd6dca432de9dcde2e9
-* @implementation Dynamic
-*/
+ * @title Veros
+ * @symbol VRS
+ * @ethContractAddr 0x92e78dae1315067a8819efd6dca432de9dcde2e9
+ * @implementation Dynamic
+ * @cmcId veros
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x92e78dae1315067a8819efd6dca432de9dcde2e9?apiKey=freekey', (error, response, body) => {

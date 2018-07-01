@@ -1,9 +1,10 @@
 /**
-* @title BelugaPay
-* @symbol BBI
-* @ethContractAddr 0x37d40510a2f5bc98aa7a0f7bf4b3453bcfb90ac1
-* @implementation Dynamic
-*/
+ * @title BelugaPay
+ * @symbol BBI
+ * @ethContractAddr 0x37d40510a2f5bc98aa7a0f7bf4b3453bcfb90ac1
+ * @implementation Dynamic
+ * @cmcId belugapay
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x37d40510a2f5bc98aa7a0f7bf4b3453bcfb90ac1?apiKey=freekey', (error, response, body) => {

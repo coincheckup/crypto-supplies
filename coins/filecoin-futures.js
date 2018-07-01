@@ -2,6 +2,7 @@
  * @title Filecoin [Futures]
  * @symbol FIL
  * @implementation Not Implemented
+ * @cmcId filecoin
  */
 
 module.exports = (callback, request) => {

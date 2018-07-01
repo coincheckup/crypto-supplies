@@ -1,7 +1,8 @@
 /**
- * @title Miners' Reward Token
- * @symbol MRT
+ * @title Bitcoin Atom
+ * @symbol BCA
  * @implementation Not Implemented
+ * @cmcId bitcoin-atom
  */
 
 module.exports = (callback, request) => {

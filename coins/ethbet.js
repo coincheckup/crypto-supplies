@@ -1,9 +1,10 @@
 /**
-* @title EthBet
-* @symbol EBET
-* @ethContractAddr 0x7D5Edcd23dAa3fB94317D32aE253eE1Af08Ba14d
-* @implementation Dynamic
-*/
+ * @title EthBet
+ * @symbol EBET
+ * @ethContractAddr 0x7D5Edcd23dAa3fB94317D32aE253eE1Af08Ba14d
+ * @implementation Dynamic
+ * @cmcId ethbet
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x7D5Edcd23dAa3fB94317D32aE253eE1Af08Ba14d?apiKey=freekey', (error, response, body) => {

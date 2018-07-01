@@ -1,9 +1,10 @@
 /**
-* @title Origami
-* @symbol ORI
-* @ethContractAddr 0xd2fa8f92ea72abb35dbd6deca57173d22db2ba49
-* @implementation Dynamic
-*/
+ * @title Origami
+ * @symbol ORI
+ * @ethContractAddr 0xd2fa8f92ea72abb35dbd6deca57173d22db2ba49
+ * @implementation Dynamic
+ * @cmcId origami
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd2fa8f92ea72abb35dbd6deca57173d22db2ba49?apiKey=freekey', (error, response, body) => {

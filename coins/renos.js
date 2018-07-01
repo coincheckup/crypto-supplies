@@ -2,6 +2,7 @@
  * @title Renos
  * @symbol RNS
  * @implementation Not Implemented
+ * @cmcId renos
  */
 
 module.exports = (callback, request) => {

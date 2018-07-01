@@ -1,9 +1,10 @@
 /**
-* @title ZIP
-* @symbol ZIP
-* @ethContractAddr 0xa9d2927d3a04309e008b6af6e2e282ae2952e7fd
-* @implementation Dynamic
-*/
+ * @title ZIP
+ * @symbol ZIP
+ * @ethContractAddr 0xa9d2927d3a04309e008b6af6e2e282ae2952e7fd
+ * @implementation Dynamic
+ * @cmcId zip
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xa9d2927d3a04309e008b6af6e2e282ae2952e7fd?apiKey=freekey', (error, response, body) => {

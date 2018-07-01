@@ -2,6 +2,7 @@
  * @title Eryllium
  * @symbol ERY
  * @implementation Dynamic
+ * @cmcId eryllium
  */
 
 module.exports = (callback, request) => {

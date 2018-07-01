@@ -1,9 +1,10 @@
 /**
-* @title TokenDesk
-* @symbol TDS
-* @ethContractAddr 0x6295Ab2BE04A617747481B292c390BfcA592Cf28
-* @implementation Dynamic
-*/
+ * @title TokenDesk
+ * @symbol TDS
+ * @ethContractAddr 0x6295Ab2BE04A617747481B292c390BfcA592Cf28
+ * @implementation Dynamic
+ * @cmcId tokendesk
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6295Ab2BE04A617747481B292c390BfcA592Cf28?apiKey=freekey', (error, response, body) => {

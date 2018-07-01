@@ -1,9 +1,10 @@
 /**
-* @title Eximchain
-* @symbol EXC
-* @ethContractAddr 0x00c4b398500645eb5da00a1a379a88b11683ba01
-* @implementation Dynamic
-*/
+ * @title Eximchain
+ * @symbol EXC
+ * @ethContractAddr 0x00c4b398500645eb5da00a1a379a88b11683ba01
+ * @implementation Dynamic
+ * @cmcId eximchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x00c4b398500645eb5da00a1a379a88b11683ba01?apiKey=freekey', (error, response, body) => {

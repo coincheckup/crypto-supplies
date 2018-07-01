@@ -2,6 +2,7 @@
  * @title Stratis
  * @symbol STRAT
  * @implementation Dynamic
+ * @cmcId stratis
  */
 
 module.exports = (callback, request) => {

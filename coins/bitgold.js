@@ -2,6 +2,7 @@
  * @title bitGold
  * @symbol BITGOLD
  * @implementation Not Implemented
+ * @cmcId bitgold
  */
 
 module.exports = (callback, request) => {

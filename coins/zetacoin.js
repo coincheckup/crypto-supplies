@@ -2,6 +2,7 @@
  * @title Zetacoin
  * @symbol ZET
  * @implementation Dynamic
+ * @cmcId zetacoin
  */
 
 module.exports = (callback, request) => {

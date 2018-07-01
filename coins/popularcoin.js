@@ -2,6 +2,7 @@
  * @title PopularCoin
  * @symbol POP
  * @implementation Not Implemented
+ * @cmcId popularcoin
  */
 
 module.exports = (callback, request) => {

@@ -1,9 +1,10 @@
 /**
-* @title IP Exchange
-* @symbol IPSX
-* @ethContractAddr 0x001f0aa5da15585e5b2305dbab2bac425ea71007
-* @implementation Dynamic
-*/
+ * @title IP Exchange
+ * @symbol IPSX
+ * @ethContractAddr 0x001f0aa5da15585e5b2305dbab2bac425ea71007
+ * @implementation Dynamic
+ * @cmcId ip-exchange
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x001f0aa5da15585e5b2305dbab2bac425ea71007?apiKey=freekey', (error, response, body) => {

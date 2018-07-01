@@ -1,9 +1,10 @@
 /**
-* @title Ethereum Movie Venture
-* @symbol EMV
-* @ethContractAddr 0xB802b24E0637c2B87D2E8b7784C055BBE921011a
-* @implementation Dynamic
-*/
+ * @title Ethereum Movie Venture
+ * @symbol EMV
+ * @ethContractAddr 0xB802b24E0637c2B87D2E8b7784C055BBE921011a
+ * @implementation Dynamic
+ * @cmcId ethereum-movie-venture
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xB802b24E0637c2B87D2E8b7784C055BBE921011a?apiKey=freekey', (error, response, body) => {

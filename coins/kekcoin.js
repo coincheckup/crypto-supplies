@@ -2,6 +2,7 @@
  * @title KekCoin
  * @symbol KEK
  * @implementation Not Implemented
+ * @cmcId kekcoin
  */
 
 module.exports = (callback, request) => {

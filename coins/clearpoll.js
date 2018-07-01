@@ -1,9 +1,10 @@
 /**
-* @title ClearPoll
-* @symbol POLL
-* @ethContractAddr 0x705EE96c1c160842C92c1aeCfCFfccc9C412e3D9
-* @implementation Dynamic
-*/
+ * @title ClearPoll
+ * @symbol POLL
+ * @ethContractAddr 0x705EE96c1c160842C92c1aeCfCFfccc9C412e3D9
+ * @implementation Dynamic
+ * @cmcId clearpoll
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x705EE96c1c160842C92c1aeCfCFfccc9C412e3D9?apiKey=freekey', (error, response, body) => {

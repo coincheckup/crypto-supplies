@@ -1,9 +1,10 @@
 /**
-* @title Playkey
-* @symbol PKT
-* @ethContractAddr 0x2604fa406be957e542beb89e6754fcde6815e83f
-* @implementation Dynamic
-*/
+ * @title Playkey
+ * @symbol PKT
+ * @ethContractAddr 0x2604fa406be957e542beb89e6754fcde6815e83f
+ * @implementation Dynamic
+ * @cmcId playkey
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2604fa406be957e542beb89e6754fcde6815e83f?apiKey=freekey', (error, response, body) => {

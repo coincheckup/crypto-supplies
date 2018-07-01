@@ -1,9 +1,10 @@
 /**
-* @title Nitro
-* @symbol NOX
-* @ethContractAddr 0xec46f8207d766012454c408de210bcbc2243e71c
-* @implementation Dynamic
-*/
+ * @title Nitro
+ * @symbol NOX
+ * @ethContractAddr 0xec46f8207d766012454c408de210bcbc2243e71c
+ * @implementation Dynamic
+ * @cmcId nitro
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xec46f8207d766012454c408de210bcbc2243e71c?apiKey=freekey', (error, response, body) => {

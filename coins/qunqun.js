@@ -1,9 +1,10 @@
 /**
-* @title QunQun
-* @symbol QUN
-* @ethContractAddr 0x264Dc2DedCdcbb897561A57CBa5085CA416fb7b4
-* @implementation Dynamic
-*/
+ * @title QunQun
+ * @symbol QUN
+ * @ethContractAddr 0x264Dc2DedCdcbb897561A57CBa5085CA416fb7b4
+ * @implementation Dynamic
+ * @cmcId qunqun
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x264Dc2DedCdcbb897561A57CBa5085CA416fb7b4?apiKey=freekey', (error, response, body) => {

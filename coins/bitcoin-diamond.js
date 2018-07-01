@@ -2,6 +2,7 @@
  * @title Bitcoin Diamond
  * @symbol BCD
  * @implementation Dynamic
+ * @cmcId bitcoin-diamond
  */
 
 module.exports = (callback, request) => {

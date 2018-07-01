@@ -3,6 +3,7 @@
  * @symbol XPA
  * @ethContractAddr 0x90528aeb3a2b736b780fd1b6c478bb7e1d643170
  * @implementation Dynamic
+ * @cmcId xpa
  */
  
  module.exports = (callback, request) => {

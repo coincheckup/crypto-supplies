@@ -1,9 +1,10 @@
 /**
-* @title Cappasity
-* @symbol CAPP
-* @ethContractAddr 0x04f2e7221fdb1b52a68169b25793e51478ff0329
-* @implementation Dynamic
-*/
+ * @title Cappasity
+ * @symbol CAPP
+ * @ethContractAddr 0x04f2e7221fdb1b52a68169b25793e51478ff0329
+ * @implementation Dynamic
+ * @cmcId cappasity
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x04f2e7221fdb1b52a68169b25793e51478ff0329?apiKey=freekey', (error, response, body) => {

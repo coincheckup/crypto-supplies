@@ -1,9 +1,10 @@
 /**
-* @title KickCoin
-* @symbol KICK
-* @ethContractAddr 0x27695e09149adc738a978e9a678f99e4c39e9eb9
-* @implementation Dynamic
-*/
+ * @title KickCoin
+ * @symbol KICK
+ * @ethContractAddr 0x27695e09149adc738a978e9a678f99e4c39e9eb9
+ * @implementation Dynamic
+ * @cmcId kickico
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x27695e09149adc738a978e9a678f99e4c39e9eb9?apiKey=freekey', (error, response, body) => {

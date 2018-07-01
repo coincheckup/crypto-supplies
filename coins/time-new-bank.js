@@ -1,9 +1,10 @@
 /**
-* @title Time New Bank
-* @symbol TNB
-* @ethContractAddr 0xf7920b0768ecb20a123fac32311d07d193381d6f
-* @implementation Dynamic
-*/
+ * @title Time New Bank
+ * @symbol TNB
+ * @ethContractAddr 0xf7920b0768ecb20a123fac32311d07d193381d6f
+ * @implementation Dynamic
+ * @cmcId time-new-bank
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xf7920b0768ecb20a123fac32311d07d193381d6f?apiKey=freekey', (error, response, body) => {

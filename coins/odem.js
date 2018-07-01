@@ -1,9 +1,10 @@
 /**
-* @title ODEM
-* @symbol ODE
-* @ethContractAddr 0xbf52f2ab39e26e0951d2a02b49b7702abe30406a
-* @implementation Dynamic
-*/
+ * @title ODEM
+ * @symbol ODE
+ * @ethContractAddr 0xbf52f2ab39e26e0951d2a02b49b7702abe30406a
+ * @implementation Dynamic
+ * @cmcId odem
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xbf52f2ab39e26e0951d2a02b49b7702abe30406a?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Target Coin
-* @symbol TGT
-* @ethContractAddr 0xac3da587eac229c9896d919abc235ca4fd7f72c1
-* @implementation Dynamic
-*/
+ * @title Target Coin
+ * @symbol TGT
+ * @ethContractAddr 0xac3da587eac229c9896d919abc235ca4fd7f72c1
+ * @implementation Dynamic
+ * @cmcId target-coin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xac3da587eac229c9896d919abc235ca4fd7f72c1?apiKey=freekey', (error, response, body) => {

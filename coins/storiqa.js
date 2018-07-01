@@ -1,9 +1,10 @@
 /**
-* @title Storiqa
-* @symbol STQ
-* @ethContractAddr 0x5c3a228510d246b78a3765c20221cbf3082b44a4
-* @implementation Dynamic
-*/
+ * @title Storiqa
+ * @symbol STQ
+ * @ethContractAddr 0x5c3a228510d246b78a3765c20221cbf3082b44a4
+ * @implementation Dynamic
+ * @cmcId storiqa
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5c3a228510d246b78a3765c20221cbf3082b44a4?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title XGOX
  * @symbol XGOX
  * @implementation Not Implemented
+ * @cmcId xgox
  */
 
 module.exports = (callback, request) => {

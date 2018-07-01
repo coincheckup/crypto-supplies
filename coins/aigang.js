@@ -1,9 +1,10 @@
 /**
-* @title Aigang
-* @symbol AIX
-* @ethContractAddr 0x1063ce524265d5a3a624f4914acd573dd89ce988
-* @implementation Dynamic
-*/
+ * @title Aigang
+ * @symbol AIX
+ * @ethContractAddr 0x1063ce524265d5a3a624f4914acd573dd89ce988
+ * @implementation Dynamic
+ * @cmcId aigang
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1063ce524265d5a3a624f4914acd573dd89ce988?apiKey=freekey', (error, response, body) => {

@@ -1,9 +1,10 @@
 /**
-* @title Cube
-* @symbol AUTO
-* @ethContractAddr 0x622dFfCc4e83C64ba959530A5a5580687a57581b
-* @implementation Dynamic
-*/
+ * @title Cube
+ * @symbol AUTO
+ * @ethContractAddr 0x622dFfCc4e83C64ba959530A5a5580687a57581b
+ * @implementation Dynamic
+ * @cmcId cube
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x622dFfCc4e83C64ba959530A5a5580687a57581b?apiKey=freekey', (error, response, body) => {

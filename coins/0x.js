@@ -1,9 +1,10 @@
 /**
-* @title 0x
-* @symbol ZRX
-* @ethContractAddr 0xe41d2489571d322189246dafa5ebde1f4699f498
-* @implementation Dynamic
-*/
+ * @title 0x
+ * @symbol ZRX
+ * @ethContractAddr 0xe41d2489571d322189246dafa5ebde1f4699f498
+ * @implementation Dynamic
+ * @cmcId 0x
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe41d2489571d322189246dafa5ebde1f4699f498?apiKey=freekey', (error, response, body) => {

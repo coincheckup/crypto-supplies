@@ -1,9 +1,10 @@
 /**
-* @title FLiK
-* @symbol FLIK
-* @ethContractAddr 0x17fd666fa0784885fa1afec8ac624d9b7e72b752
-* @implementation Dynamic
-*/
+ * @title FLiK
+ * @symbol FLIK
+ * @ethContractAddr 0x17fd666fa0784885fa1afec8ac624d9b7e72b752
+ * @implementation Dynamic
+ * @cmcId flik
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x17fd666fa0784885fa1afec8ac624d9b7e72b752?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Viacoin
  * @symbol VIA
  * @implementation Dynamic
+ * @cmcId viacoin
  */
 
 module.exports = (callback, request) => {

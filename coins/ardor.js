@@ -2,6 +2,7 @@
  * @title Ardor
  * @symbol ARDR
  * @implementation Static
+ * @cmcId ardor
  */
 
 module.exports = (callback, request) => {

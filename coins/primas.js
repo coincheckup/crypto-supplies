@@ -1,9 +1,10 @@
 /**
-* @title Primas
-* @symbol PST
-* @ethContractAddr 0xe3fedaecd47aa8eab6b23227b0ee56f092c967a9
-* @implementation Dynamic
-*/
+ * @title Primas
+ * @symbol PST
+ * @ethContractAddr 0xe3fedaecd47aa8eab6b23227b0ee56f092c967a9
+ * @implementation Dynamic
+ * @cmcId primas
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe3fedaecd47aa8eab6b23227b0ee56f092c967a9?apiKey=freekey', (error, response, body) => {

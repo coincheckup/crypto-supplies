@@ -1,9 +1,10 @@
 /**
-* @title CoinFi
-* @symbol COFI
-* @ethContractAddr 0x3136ef851592acf49ca4c825131e364170fa32b3
-* @implementation Dynamic
-*/
+ * @title CoinFi
+ * @symbol COFI
+ * @ethContractAddr 0x3136ef851592acf49ca4c825131e364170fa32b3
+ * @implementation Dynamic
+ * @cmcId coinfi
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x3136ef851592acf49ca4c825131e364170fa32b3?apiKey=freekey', (error, response, body) => {

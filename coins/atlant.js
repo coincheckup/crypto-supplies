@@ -1,9 +1,10 @@
 /**
-* @title ATLANT
-* @symbol ATL
-* @ethContractAddr 0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05
-* @implementation Dynamic
-*/
+ * @title ATLANT
+ * @symbol ATL
+ * @ethContractAddr 0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05
+ * @implementation Dynamic
+ * @cmcId atlant
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x78b7fada55a64dd895d8c8c35779dd8b67fa8a05?apiKey=freekey', (error, response, body) => {

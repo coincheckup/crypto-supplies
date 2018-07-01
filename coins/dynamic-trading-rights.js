@@ -1,9 +1,10 @@
 /**
-* @title Dynamic Trading Rights
-* @symbol DTR
-* @ethContractAddr 0xd234bf2410a0009df9c3c63b610c09738f18ccd7
-* @implementation Dynamic
-*/
+ * @title Dynamic Trading Rights
+ * @symbol DTR
+ * @ethContractAddr 0xd234bf2410a0009df9c3c63b610c09738f18ccd7
+ * @implementation Dynamic
+ * @cmcId dynamic-trading-rights
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd234bf2410a0009df9c3c63b610c09738f18ccd7?apiKey=freekey', (error, response, body) => {

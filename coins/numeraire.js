@@ -1,9 +1,10 @@
 /**
-* @title Numeraire
-* @symbol NMR
-* @ethContractAddr 0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671
-* @implementation Dynamic
-*/
+ * @title Numeraire
+ * @symbol NMR
+ * @ethContractAddr 0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671
+ * @implementation Dynamic
+ * @cmcId numeraire
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671?apiKey=freekey', (error, response, body) => {

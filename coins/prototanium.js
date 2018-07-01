@@ -2,6 +2,7 @@
  * @title Prototanium
  * @symbol PR
  * @implementation Dynamic
+ * @cmcId prototanium
  */
 
 module.exports = (callback, request) => {

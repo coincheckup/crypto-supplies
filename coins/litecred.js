@@ -2,6 +2,7 @@
  * @title Litecred
  * @symbol LTCR
  * @implementation Not Implemented
+ * @cmcId litecred
  */
 
 module.exports = (callback, request) => {

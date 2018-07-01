@@ -2,6 +2,7 @@
  * @title KushCoin
  * @symbol KUSH
  * @implementation Dynamic
+ * @cmcId kushcoin
  */
 
 module.exports = (callback, request) => {

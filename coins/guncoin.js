@@ -2,6 +2,7 @@
  * @title Guncoin
  * @symbol GUN
  * @implementation Dynamic
+ * @cmcId guncoin
  */
 
 module.exports = (callback, request) => {

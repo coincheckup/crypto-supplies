@@ -2,6 +2,7 @@
  * @title PoSW Coin
  * @symbol POSW
  * @implementation Not Implemented
+ * @cmcId posw-coin
  */
 
 module.exports = (callback, request) => {

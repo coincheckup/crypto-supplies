@@ -2,6 +2,7 @@
  * @title Swing
  * @symbol SWING
  * @implementation Dynamic
+ * @cmcId swing
  */
 
 module.exports = (callback, request) => {

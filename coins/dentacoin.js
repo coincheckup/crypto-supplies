@@ -1,9 +1,10 @@
 /**
-* @title Dentacoin
-* @symbol DCN
-* @ethContractAddr 0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6
-* @implementation Dynamic
-*/
+ * @title Dentacoin
+ * @symbol DCN
+ * @ethContractAddr 0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6
+ * @implementation Dynamic
+ * @cmcId dentacoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6?apiKey=freekey', (error, response, body) => {

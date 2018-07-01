@@ -1,7 +1,8 @@
 /**
- * @title Elcoin
- * @symbol EL
+ * @title LockTrip
+ * @symbol LOC
  * @implementation Not Implemented
+ * @cmcId lockchain
  */
 
 module.exports = (callback, request) => {

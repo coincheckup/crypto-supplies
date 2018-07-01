@@ -1,9 +1,10 @@
 /**
-* @title Kyber Network
-* @symbol KNC
-* @ethContractAddr 0xdd974d5c2e2928dea5f71b9825b8b646686bd200
-* @implementation Dynamic
-*/
+ * @title Kyber Network
+ * @symbol KNC
+ * @ethContractAddr 0xdd974d5c2e2928dea5f71b9825b8b646686bd200
+ * @implementation Dynamic
+ * @cmcId kyber-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xdd974d5c2e2928dea5f71b9825b8b646686bd200?apiKey=freekey', (error, response, body) => {

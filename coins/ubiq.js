@@ -2,6 +2,7 @@
  * @title Ubiq
  * @symbol UBQ
  * @implementation Not Implemented
+ * @cmcId ubiq
  */
 
 module.exports = (callback, request) => {

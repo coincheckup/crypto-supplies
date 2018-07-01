@@ -1,9 +1,10 @@
 /**
-* @title Auctus
-* @symbol AUC
-* @ethContractAddr 0xc12d099be31567add4e4e4d0d45691c3f58f5663
-* @implementation Dynamic
-*/
+ * @title Auctus
+ * @symbol AUC
+ * @ethContractAddr 0xc12d099be31567add4e4e4d0d45691c3f58f5663
+ * @implementation Dynamic
+ * @cmcId auctus
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xc12d099be31567add4e4e4d0d45691c3f58f5663?apiKey=freekey', (error, response, body) => {

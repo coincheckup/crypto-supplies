@@ -2,6 +2,7 @@
  * @title Bitmark
  * @symbol BTM
  * @implementation Dynamic
+ * @cmcId bitmark
  */
 
 module.exports = (callback, request) => {

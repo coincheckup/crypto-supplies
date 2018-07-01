@@ -1,9 +1,10 @@
 /**
-* @title SalPay
-* @symbol SAL
-* @ethContractAddr 0x75c5ee419331b6150879530d06f9ba054755f1da
-* @implementation Dynamic
-*/
+ * @title SalPay
+ * @symbol SAL
+ * @ethContractAddr 0x75c5ee419331b6150879530d06f9ba054755f1da
+ * @implementation Dynamic
+ * @cmcId salpay
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x75c5ee419331b6150879530d06f9ba054755f1da?apiKey=freekey', (error, response, body) => {

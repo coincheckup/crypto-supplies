@@ -2,6 +2,7 @@
  * @title Cryptonex
  * @symbol CNX
  * @implementation Dynamic
+ * @cmcId cryptonex
  */
 
 module.exports = (callback, request) => {

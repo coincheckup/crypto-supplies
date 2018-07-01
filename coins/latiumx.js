@@ -1,9 +1,10 @@
 /**
-* @title LatiumX
-* @symbol LATX
-* @ethContractAddr 0x2f85e502a988af76f7ee6d83b7db8d6c0a823bf9
-* @implementation Dynamic
-*/
+ * @title LatiumX
+ * @symbol LATX
+ * @ethContractAddr 0x2f85e502a988af76f7ee6d83b7db8d6c0a823bf9
+ * @implementation Dynamic
+ * @cmcId latiumx
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2f85e502a988af76f7ee6d83b7db8d6c0a823bf9?apiKey=freekey', (error, response, body) => {

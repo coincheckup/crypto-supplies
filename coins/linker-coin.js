@@ -1,9 +1,10 @@
 /**
-* @title Linker Coin
-* @symbol LNC
-* @ethContractAddr 0x6BEB418Fc6E1958204aC8baddCf109B8E9694966
-* @implementation Dynamic
-*/
+ * @title Linker Coin
+ * @symbol LNC
+ * @ethContractAddr 0x6BEB418Fc6E1958204aC8baddCf109B8E9694966
+ * @implementation Dynamic
+ * @cmcId linker-coin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6BEB418Fc6E1958204aC8baddCf109B8E9694966?apiKey=freekey', (error, response, body) => {

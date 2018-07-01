@@ -1,9 +1,10 @@
 /**
-* @title Bigbom
-* @symbol BBO
-* @ethContractAddr 0x84f7c44b6fed1080f647e354d552595be2cc602f
-* @implementation Dynamic
-*/
+ * @title Bigbom
+ * @symbol BBO
+ * @ethContractAddr 0x84f7c44b6fed1080f647e354d552595be2cc602f
+ * @implementation Dynamic
+ * @cmcId bigbom
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x84f7c44b6fed1080f647e354d552595be2cc602f?apiKey=freekey', (error, response, body) => {

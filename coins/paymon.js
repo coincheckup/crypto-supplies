@@ -1,9 +1,10 @@
 /**
-* @title Paymon
-* @symbol PMNT
-* @ethContractAddr 0x81b4d08645da11374a03749ab170836e4e539767
-* @implementation Dynamic
-*/
+ * @title Paymon
+ * @symbol PMNT
+ * @ethContractAddr 0x81b4d08645da11374a03749ab170836e4e539767
+ * @implementation Dynamic
+ * @cmcId paymon
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x81b4d08645da11374a03749ab170836e4e539767?apiKey=freekey', (error, response, body) => {
