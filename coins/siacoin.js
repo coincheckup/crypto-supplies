@@ -3,9 +3,8 @@
  * @symbol SC
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'http://explore.sia.tech/api/latest',
         json: true

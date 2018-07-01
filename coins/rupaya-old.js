@@ -3,9 +3,8 @@
  * @symbol RUPX
  * @implementation Dynamic
  */
- var request = require('request');
-
- module.exports = (callback) => {
+ 
+ module.exports = (callback, request) => {
     request({
         uri: 'https://node2.rupayacoin.org/ext/getmoneysupply',
         rejectUnauthorized: false,

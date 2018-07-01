@@ -3,9 +3,8 @@
  * @symbol KMD
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'http://kmd.komodochainz.info/ext/summary',
         json: true

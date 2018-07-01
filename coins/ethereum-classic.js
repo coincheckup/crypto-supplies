@@ -3,9 +3,8 @@
  * @symbol ETC
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://etcchain.com/api/v1/getIndex',
         json: true,
@@ -18,7 +17,7 @@ module.exports = (callback) => {
             })
         } else {
             if (typeof response !== 'undefined') {
-                callback(new Error('Request error ' + response.statusCode));
+                callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
             } else {
                 callback(new Error('Request error ' + error.message));
             }

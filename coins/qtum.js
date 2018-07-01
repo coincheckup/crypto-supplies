@@ -3,9 +3,8 @@
  * @symbol QTUM
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://explorer.qtum.org/insight-api/statistics/total-supply?format=plain',
         json: true

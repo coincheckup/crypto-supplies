@@ -3,9 +3,8 @@
  * @symbol XEM
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://www.nodeexplorer.com/api_network_status',
         json: true

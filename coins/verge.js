@@ -3,9 +3,8 @@
  * @symbol XVG
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://verge-blockchain.info/ext/getmoneysupply',
         rejectUnauthorized: false,

@@ -6,7 +6,7 @@
 var request = require('request'),
     cheerio = require('cheerio');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'http://mona-coin.com/en/',
         rejectUnauthorized: false,

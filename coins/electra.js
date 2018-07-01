@@ -3,9 +3,8 @@
  * @symbol ECA
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://cryptobe.com/chain/Electra/q/totalbc'
     }, (error, response, body) => {

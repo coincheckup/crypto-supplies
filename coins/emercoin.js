@@ -3,9 +3,8 @@
  * @symbol EMC
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://explorer.emercoin.com/api/stats/coin_supply',
         rejectUnauthorized: false,

@@ -3,9 +3,8 @@
  * @symbol ETH
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request('http://api.etherscan.io/api?module=stats&action=ethsupply', (error, response, body) => {
         if (!error && response.statusCode == 200) {
             let supply = Number(JSON.parse(body).result) * Math.pow(10, -18);
@@ -18,11 +17,11 @@ module.exports = (callback) => {
                         c: Math.round((supply - burnt) * 100) / 100
                     });
                 } else {
-                    callback(new Error('Request error ' + response.statusCode));
+                    callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
                 }
             });
         } else {
-            callback(new Error('Request error ' + response.statusCode));
+            callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
         }
     });
 };

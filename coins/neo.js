@@ -3,7 +3,7 @@
  * @symbol NEO
  * @implementation Static
  */
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     // Source: https://coinmarketcap.com/currencies/neo/
     callback({
         c: 65000000,

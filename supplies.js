@@ -4,10 +4,113 @@ const yargs = require('yargs');
 const fs = require('fs');
 const chalk = require('chalk');
 const Cacheman = require('cacheman-file');
+const express = require('express');
+const RateLimiter = require('request-rate-limiter');
+const { parse } = require('url');
+const rqst = require('request');
 
-var cacheTTL = 600;
+var cacheTTL = 600,
+    limiters = {};
 
 const cache = new Cacheman({ ttl: cacheTTL });
+
+const maybeParseJSON = (request, response) => {
+    if (typeof request === 'object'
+        && typeof request.json !== 'undefined'
+        && typeof response !== 'undefined'
+        && request.json == true
+    ) {
+        try {
+            response.body = typeof response.body !== 'undefined'
+                ? JSON.parse(response.body)
+                : undefined
+        } catch (e) {}
+    }
+
+    return response.body
+}
+
+const request = (req, callback) => {
+    let url,
+        limiterKey,
+        limits = {
+            'chainz.cryptoid.info': 6,
+            'api.ethplorer.io': 30
+        };
+
+    if (typeof req === 'string') {
+        url = req
+    } else if (typeof req === 'object') {
+        url = req.uri
+    }
+
+    limiterKey = parse(url).hostname
+
+    if (typeof limiters[limiterKey] === 'undefined') {
+        limiters[limiterKey] = new RateLimiter({
+            rate: typeof limits[limiterKey] !== 'undefined'
+                ? limits[limiterKey]
+                : 60,
+            maxWaitingTime: 60 * 60
+        });
+    }
+
+    let cb = (error, response) => {
+        if (typeof callback !== 'function') {
+            return;
+        }
+
+        if (typeof response === 'undefined') {
+            response = {
+                statusCode: 999
+            }
+        }
+
+        response.body = maybeParseJSON(req, response)
+
+        callback(error, response, typeof response !== 'undefined'
+            ? response.body
+            : undefined
+        )
+    }
+
+    if (typeof req.promise !== 'undefined') {
+        return new Promise((resolve, reject) => {
+            limiters[limiterKey]
+                .request(req)
+                .then(response => {
+                    response.body = maybeParseJSON(req, response)
+
+                    resolve(response.body)
+                })
+                .catch(err => {
+                    reject(err)
+                })
+        });
+    }
+
+    limiters[limiterKey].request((err, backoff) => {
+        if (err) {
+            backoff()
+        } else {
+            rqst(typeof req === 'object'
+                    ? req
+                    : {
+                        uri: url
+                    },
+                (err, response, body) => {
+                    if (err) {
+                        cb(err, response)
+                    } else if (response.statusCode === 429) {
+                        backoff()
+                    } else {
+                        cb(err, response)
+                    }
+                }
+            )
+        }
+    }, () => {})
+};
 
 const printSupplies = (id, supplies, opts) => {
     if (opts.pretty) {
@@ -21,52 +124,67 @@ const printSupplies = (id, supplies, opts) => {
             console.log('');
         }
     } else {
-        if (supplies instanceof Error) {
-            let payload = {
-                error: supplies.message
-            };
-
-            if (typeof opts.includeIds !== 'undefined' && opts.includeIds) {
-                payload.id = id;
-            }
-
-            console.log(JSON.stringify(payload));
-        } else {
-            if (typeof opts.includeIds !== 'undefined' && opts.includeIds) {
-                supplies.id = id;
-            }
-
-            console.log(JSON.stringify(supplies));
-        }
+        console.log(JSON.stringify(formatResult(id, supplies, opts)));
     }
 };
 
-const getSupplies = (id, opts) => {
-    var file = './coins/' + id + '.js';
+const formatResult = (id, supplies, opts) => {
+    if (supplies instanceof Error) {
+        let payload = {
+            error: supplies.message
+        };
 
-    cache.get(id, (err, value) => {
-        if (err === null && value !== null) {
-            printSupplies(id, value, opts);
-        } else {
-            try {
-                let res = require(file);
-
-                res((response) => {
-                    if (!(response instanceof Error)) {
-                        cache.set(id, response, opts.cacheTTL);
-                    }
-
-                    if (opts.onlyImplemented && response instanceof Error && response.message === 'Not Implemented') {
-                        return;
-                    }
-
-                    printSupplies(id, response, opts);
-                });
-            } catch (e) {
-                printSupplies(id, new Error(e.message), opts);
-            }
+        if (typeof opts.includeIds !== 'undefined' && opts.includeIds) {
+            payload.id = id;
         }
-    });
+
+        return payload
+    } else {
+        if (typeof opts.includeIds !== 'undefined' && opts.includeIds) {
+            supplies.id = id;
+        }
+
+        return supplies
+    }
+
+    return null
+}
+
+const getSupplies = async(id, opts) => {
+    return new Promise((resolve, reject) => {
+        var file = './coins/' + id + '.js';
+
+        cache.get(id, (err, value) => {
+            if (err === null && value !== null) {
+                resolve(formatResult(id, value, opts));
+            } else {
+                try {
+                    let res = require(file);
+
+                    res((response) => {
+                        if (!(response instanceof Error)) {
+                            cache.set(id, response, opts.cacheTTL);
+                        }
+
+                        if (response instanceof Error
+                            && response.message === 'Not Implemented'
+                            && opts.onlyImplemented
+                        ) {
+                            return
+                        }
+
+                        resolve(formatResult(id, response, opts));
+                    }, request);
+                } catch (e) {
+                    if (e.message === 'Not Implemented' && opts.onlyImplemented) {
+                        return
+                    }
+
+                    resolve(formatResult(id, new Error(e.message), opts));
+                }
+            }
+        });
+    })
 };
 
 yargs.usage('$0 <cmd> [args]')
@@ -75,18 +193,39 @@ yargs.usage('$0 <cmd> [args]')
             type: 'string',
             describe: 'the coin id to get supplies for'
         })
-    }, function (argv) {
-        getSupplies(argv.id, argv);
+    }, async(argv) => {
+        printSupplies(argv.id, await getSupplies(argv.id, argv), argv);
     })
     .command('get-all', 'Get supplies for all known coins', (yargs) => {
     }, function (argv) {
         argv.includeIds = true;
 
         fs.readdir('./coins', (err, files) => {
-            files.forEach(file => {
-                getSupplies(file.replace('.js', ''), argv);
+            files.forEach(async(file) => {
+                let id = file.replace('.js', '')
+
+                printSupplies(id, await getSupplies(id, argv), argv);
             });
         });
+    })
+    .command('serve', 'Start an express.js based web server', (yargs) => {
+        yargs.option('port', {
+            alias: 'p',
+            default: 3000
+        })
+    }, (argv) => {
+        const app = express()
+
+        app.get('/', (req, res) => res.send('Hello World!'))
+
+        app.listen(argv.port, () => console.log(`Now listening on port 3000
+
+> Available endpoints:
+
+    - GET /             (lists all available coins)
+    - GET /~all         (retrieves all supplies)
+    - GET /:coin-id:    (retrieves singular supply based on coin id)
+`))
     })
     .option('pretty', {
         default: false,

@@ -4,9 +4,8 @@
 * @ethContractAddr 0xea5f88e54d982cbb0c441cde4e79bc305e5b43bc
 * @implementation Dynamic
 */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xea5f88e54d982cbb0c441cde4e79bc305e5b43bc?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
@@ -16,7 +15,7 @@ request('http://api.ethplorer.io/getTokenInfo/0xea5f88e54d982cbb0c441cde4e79bc30
             t: Number(body.totalSupply) * Math.pow(10, -18)
         });
     } else {
-        callback(new Error('Request error ' + response.statusCode));
+        callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
     }
 });
 };

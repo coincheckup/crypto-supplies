@@ -5,7 +5,7 @@
  * @reference https://nano.org/en/explore/summary
  */
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     callback({
         c: 133248290.903651,
         m: 133248290.903651,

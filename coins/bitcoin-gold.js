@@ -3,9 +3,8 @@
  * @symbol BTG
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://btgexp.com/ext/getmoneysupply',
         rejectUnauthorized: false

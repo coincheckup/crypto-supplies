@@ -3,9 +3,8 @@
  * @symbol BTCP
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://explorer.btcprivate.org/api/status?q=getInfo',
         rejectUnauthorized: false,

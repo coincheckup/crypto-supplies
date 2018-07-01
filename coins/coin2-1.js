@@ -3,8 +3,7 @@
  * @symbol C2
  * @implementation Not Implemented
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     callback(new Error('Not Implemented'));
 };

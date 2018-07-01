@@ -3,9 +3,8 @@
  * @symbol ARDR
  * @implementation Static
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     callback({
         c: 998999495,
         m: 998999495
