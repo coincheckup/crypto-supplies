@@ -8,6 +8,7 @@ const express = require('express');
 const RateLimiter = require('request-rate-limiter');
 const { parse } = require('url');
 const rqst = require('request');
+const doctrine = require('doctrine');
 
 var cacheTTL = 600,
     limiters = {};
@@ -187,6 +188,40 @@ const getSupplies = async(id, opts) => {
     })
 };
 
+const getList = () => {
+    let list = []
+
+    let files = fs.readdirSync('./coins')
+
+    for (let filename of files) {
+        let file = {},
+            path = __dirname + '/coins/' + filename,
+            src = fs.readFileSync(path).toString(),
+            metaRaw = src.match(/\/\*\*\s*\n([^\*]|(\*(?!\/)))*\*\//gm),
+            metaParsed = metaRaw !== null
+                ? doctrine.parse(metaRaw[0], { unwrap: true, recoverable: true })
+                : {tags: []},
+            id = filename.replace('.js', ''),
+            metaObj = {};
+
+        metaParsed.tags.forEach(item => {
+            metaObj[item.title] = item.description;
+        });
+
+        file = {
+            id: id,
+            name: typeof metaObj.title !== 'undefined' ? metaObj.title : null,
+            symbol: typeof metaObj.symbol !== 'undefined' ? metaObj.symbol : null,
+            implementation: typeof metaObj.implementation !== 'undefined' ? metaObj.implementation : null,
+            cmcId: typeof metaObj.cmcId !== 'undefined' ? metaObj.cmcId : null,
+        }
+
+        list.push(file)
+    }
+
+    return list
+}
+
 yargs.usage('$0 <cmd> [args]')
     .command('get [id]', 'Get supplies for a specific coin id', (yargs) => {
         yargs.positional('id', {
@@ -216,9 +251,13 @@ yargs.usage('$0 <cmd> [args]')
     }, (argv) => {
         const app = express()
 
-        app.get('/', (req, res) => res.send('Hello World!'))
+        app.get('/', (req, res) => {
+            let list = getList()
 
-        app.listen(argv.port, () => console.log(`Now listening on port 3000
+            res.send(list)
+        })
+
+        app.listen(argv.port, () => console.log(`Now listening on port ${argv.port}
 
 > Available endpoints:
 
