@@ -3,9 +3,8 @@
  * @symbol BTC
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request('https://blockchain.info/q/totalbc', (error, response, body) => {
         if (!error && response.statusCode == 200) {
             body = Number(body) / 100000000;
@@ -16,7 +15,7 @@ module.exports = (callback) => {
                 t: 21000000
             });
         } else {
-            callback(new Error('Request error ' + response.statusCode));
+            callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
         }
     });
 };

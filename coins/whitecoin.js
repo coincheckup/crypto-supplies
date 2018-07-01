@@ -3,9 +3,8 @@
  * @symbol XWC
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'http://explorer.whitecoin.info/chain/Whitecoin/q/totalbc'
     }, (error, response, body) => {

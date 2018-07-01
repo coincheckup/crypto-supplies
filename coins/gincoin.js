@@ -3,9 +3,8 @@
  * @symbol GIN
  * @implementation Dynamic
  */
- var request = require('request');
-
- module.exports = (callback) => {
+ 
+ module.exports = (callback, request) => {
     request({
         uri: 'https://explorer.gincoin.io/ext/getmoneysupply',
         rejectUnauthorized: false,

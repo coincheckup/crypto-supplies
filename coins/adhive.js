@@ -3,13 +3,13 @@
  * @symbol ADH
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request('https://adhive.tv/circulatingsupply/', (error, response, body) => {
         if (!error && response.statusCode == 200) {
             body = body
                 .replace(/ ADH/g, '')
+                .replace(/ <br>/g, '')
                 .replace(/Circulating supply /i, '')
                 .replace(/Total supply: /i, '')
                 .replace(/,/g, '')
@@ -20,7 +20,7 @@ module.exports = (callback) => {
                 t: Number(body[1])
             });
         } else {
-            callback(new Error('Request error ' + response.statusCode));
+            callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
         }
     });
 };

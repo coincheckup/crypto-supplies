@@ -3,9 +3,8 @@
  * @symbol AEON
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://chainradar.com/api/v1/aeon/status',
         json: true

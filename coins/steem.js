@@ -3,9 +3,8 @@
  * @symbol STEEM
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://api.steemjs.com/get_dynamic_global_properties',
         json: true

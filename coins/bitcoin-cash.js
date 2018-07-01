@@ -3,9 +3,8 @@
  * @symbol BCH
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://api.blockchair.com/bitcoin-cash',
         json: true
@@ -49,7 +48,7 @@ module.exports = (callback) => {
                 m: 21000000
             });
         } else {
-            callback(new Error('Request error ' + response.statusCode));
+            callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
         }
     });
 };

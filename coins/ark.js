@@ -3,19 +3,19 @@
  * @symbol ARK
  * @implementation Dynamic
  */
-var request = require('request-promise');
-
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     Promise.all([
         request({
             uri: 'https://explorer.ark.io:8443/api/blocks/getSupply',
             rejectUnauthorized: false,
-            json: true
+            json: true,
+            promise: true
         }),
         request({
             uri: 'https://explorer.ark.io:8443/api/accounts/top?orderBy=balance:desc&limit=25&offset=0',
             rejectUnauthorized: false,
-            json: true
+            json: true,
+            promise: true
         })
     ])
     .then(results => {

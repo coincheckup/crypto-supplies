@@ -3,9 +3,8 @@
  * @symbol BCD
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'http://52.187.7.191:8080/info',
         json: true

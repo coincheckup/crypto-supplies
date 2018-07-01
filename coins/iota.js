@@ -3,7 +3,7 @@
  * @symbol MIOTA
  * @implementation Static
  */
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     // Source: https://coinmarketcap.com/currencies/iota/
     callback({
         c: 2779530283,

@@ -3,17 +3,17 @@
  * @symbol NEBL
  * @implementation Dynamic
  */
-var request = require('request-promise');
-
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     Promise.all([
         request({
             uri: 'http://explorer.nebl.io/ext/getmoneysupply',
-            rejectUnauthorized: false
+            rejectUnauthorized: false,
+            promise: true
         }),
         request({
             uri: 'http://explorer.nebl.io/ext/getbalance/NZREfode8XxDHndeoLGEeQKhsfvjWfHXUU',
-            rejectUnauthorized: false
+            rejectUnauthorized: false,
+            promise: true
         })
     ])
     .then(results => {

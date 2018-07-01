@@ -3,9 +3,8 @@
  * @symbol BURST
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://explore.burst.cryptoguru.org/api/v1/supply',
         rejectUnauthorized: false,

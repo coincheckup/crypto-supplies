@@ -3,9 +3,8 @@
  * @symbol CNX
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://explorer.cryptonex.org/ext/getmoneysupply',
         json: false

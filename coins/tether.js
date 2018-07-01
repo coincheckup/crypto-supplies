@@ -3,9 +3,8 @@
  * @symbol USDT
  * @implementation CoinMarketCap
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://api.coinmarketcap.com/v2/ticker/825/',
         json: true
@@ -16,7 +15,7 @@ module.exports = (callback) => {
                 t: Number(body.data.total_supply)
             })
         } else {
-            callback(new Error('Request error ' + response.statusCode));
+            callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
         }
     });
 };

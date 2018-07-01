@@ -3,9 +3,8 @@
  * @symbol XLM
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request('https://dashboard.stellar.org/api/lumens', (error, response, body) => {
         if (!error && response.statusCode == 200) {
             body = JSON.parse(body);
@@ -15,7 +14,7 @@ module.exports = (callback) => {
                 t: Number(body.totalCoins)
             });
         } else {
-            callback(new Error('Request error ' + response.statusCode));
+            callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
         }
     });
 };

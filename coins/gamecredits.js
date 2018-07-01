@@ -3,9 +3,8 @@
  * @symbol GAME
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://blockexplorer.gamecredits.com/api/network/info',
         json: true

@@ -3,9 +3,8 @@
  * @symbol MAID
  * @implementation Dynamic
  */
-var request = require('request');
 
-module.exports = (callback) => {
+module.exports = (callback, request) => {
     request({
         uri: 'https://api.omniexplorer.info/v1/property/3',
         rejectUnauthorized: false,
