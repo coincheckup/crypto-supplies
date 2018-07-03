@@ -168,7 +168,7 @@ async function getCMCSupply(id, opts) {
     let coinMeta = await getCoinMeta(id)
 
     if (_.isUndefined(cmcData[coinMeta.cmcId])) {
-        if (opts.fetchAll) {
+        if (opts.fetchAll || Object.keys(cmcData).length === 0) {
             cmcData = await request({
                 uri: 'https://api.coinmarketcap.com/v1/ticker/?limit=0',
                 json: true,
@@ -352,7 +352,11 @@ yargs.usage('$0 <cmd> [args]')
         })
 
         app.get('/:coinId', async(req, res) => {
-            let supplies = await getSupplies(req.params.coinId, {})
+            let opts = {
+                fallback: argv.fallback
+            }
+
+            let supplies = await getSupplies(req.params.coinId, opts)
 
             res.send(supplies)
         })
