@@ -320,6 +320,11 @@ yargs.usage('$0 <cmd> [args]')
             alias: 'p',
             default: 3000
         })
+
+        yargs.option('timeout', {
+            alias: 't',
+            default: 10000
+        })
     }, (argv) => {
         const app = express()
 
@@ -391,7 +396,7 @@ yargs.usage('$0 <cmd> [args]')
             res.send(result)
         })
 
-        app.listen(argv.port, () => console.log(`Now listening on port ${argv.port}
+        let srv = app.listen(argv.port, () => console.log(`Now listening on port ${argv.port}
 
 > Available endpoints:
 
@@ -399,6 +404,8 @@ yargs.usage('$0 <cmd> [args]')
     - GET /~all         (retrieves all supplies)
     - GET /coin-id:    (retrieves singular supply based on coin id)
 `))
+
+        srv.setTimeout(argv.timeout)
     })
     .option('pretty', {
         default: false,
