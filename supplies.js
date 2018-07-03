@@ -95,7 +95,7 @@ const request = (req, callback) => {
 
     limiters[limiterKey].request((err, backoff) => {
         if (err) {
-            backoff()
+            cb(err, null)
         } else {
             rqst(typeof req === 'object'
                     ? req
