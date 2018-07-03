@@ -353,12 +353,24 @@ yargs.usage('$0 <cmd> [args]')
 
         app.get('/:coinId', async(req, res) => {
             let opts = {
-                fallback: argv.fallback
+                    fallback: argv.fallback
+                },
+                id = req.params.coinId,
+                result = {}
+
+            try {
+                result = await getSupplies(id, opts)
+            } catch (e) {
+                result = e
             }
 
-            let supplies = await getSupplies(req.params.coinId, opts)
+            result = formatResult(id, result, opts)
 
-            res.send(supplies)
+            Object.assign(result, {
+                meta: await getCoinMeta(id)
+            })
+
+            res.send(result)
         })
 
         app.listen(argv.port, () => console.log(`Now listening on port ${argv.port}
