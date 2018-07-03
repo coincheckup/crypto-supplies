@@ -17,6 +17,8 @@ var cacheTTL = 3600,
 
 const cache = new Cacheman({ ttl: cacheTTL });
 
+class CoinNotFoundError extends Error {}
+
 const maybeParseJSON = (request, response) => {
     if (typeof request === 'object'
         && !_.isUndefined(request.json)
@@ -30,7 +32,9 @@ const maybeParseJSON = (request, response) => {
         } catch (e) {}
     }
 
-    return response.body
+    return !_.isNil(response.body)
+        ? response.body
+        : undefined
 }
 
 const request = (req, callback) => {
@@ -200,19 +204,23 @@ async function getCMCSupply(id, opts) {
 
 const getCoinMeta = async(id) => {
     return new Promise((resolve, reject) => {
-        let path = `${__dirname}/coins/${id}.js`,
-            src = fs.readFileSync(path).toString(),
-            metaRaw = src.match(/\/\*\*\s*\n([^\*]|(\*(?!\/)))*\*\//gm),
-            metaParsed = metaRaw !== null
-                ? doctrine.parse(metaRaw[0], { unwrap: true, recoverable: true })
-                : {tags: []},
-            metaObj = {}
+        try {
+            let path = `${__dirname}/coins/${id}.js`,
+                src = fs.readFileSync(path).toString(),
+                metaRaw = src.match(/\/\*\*\s*\n([^\*]|(\*(?!\/)))*\*\//gm),
+                metaParsed = metaRaw !== null
+                    ? doctrine.parse(metaRaw[0], { unwrap: true, recoverable: true })
+                    : {tags: []},
+                metaObj = {}
 
-        metaParsed.tags.forEach(item => {
-            metaObj[item.title] = item.description;
-        });
+            metaParsed.tags.forEach(item => {
+                metaObj[item.title] = item.description;
+            });
 
-        resolve(metaObj)
+            resolve(metaObj)
+        } catch (e) {
+            reject(new CoinNotFoundError(e.message))
+        }
     })
 }
 
@@ -356,7 +364,17 @@ yargs.usage('$0 <cmd> [args]')
                     fallback: argv.fallback
                 },
                 id = req.params.coinId,
-                result = {}
+                result = {},
+                meta = {};
+
+            try {
+                meta = await getCoinMeta(id)
+            } catch (e) {
+                res.status(404)
+                   .send(`Coin id ${id} not found`);
+
+                return
+            }
 
             try {
                 result = await getSupplies(id, opts)
@@ -367,7 +385,7 @@ yargs.usage('$0 <cmd> [args]')
             result = formatResult(id, result, opts)
 
             Object.assign(result, {
-                meta: await getCoinMeta(id)
+                meta: meta
             })
 
             res.send(result)
