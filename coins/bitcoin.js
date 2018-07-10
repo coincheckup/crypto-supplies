@@ -13,7 +13,8 @@ module.exports = (callback, request) => {
             body -= 3100;
             callback({
                 c: body,
-                t: 21000000
+                t: 21000000,
+                m: 21000000
             });
         } else {
             callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
