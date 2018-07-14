@@ -12,6 +12,7 @@ const doctrine = require('doctrine');
 const _ = require('lodash');
 
 var cacheTTL = 3600,
+    ethTokenCacheTTL = 86400,
     limiters = {},
     cmcData = {};
 
@@ -237,7 +238,20 @@ const getSupplies = async(id, opts) => {
 
                     res(async(response) => {
                         if (!(response instanceof Error)) {
-                            cache.set(id, response, opts.cacheTTL);
+                            getCoinMeta(id)
+                                .then((meta) => {
+                                    // Cache ETH token results longer
+                                    // since they are so slow to fetch
+                                    cache.set(id,
+                                        response,
+                                        !_.isUndefined(meta.ethContractAddr)
+                                            ? ethTokenCacheTTL
+                                            : opts.cacheTTL
+                                    );
+                                })
+                                .catch(() => {
+                                    cache.set(id, response, opts.cacheTTL);
+                                })
                         }
 
                         if (response instanceof Error && response.message === 'Not Implemented') {
@@ -293,6 +307,24 @@ const getList = async() => {
     })
 }
 
+let keepOneWarm = async(id, argv) => {
+    await getSupplies(id, argv)
+
+    keepOneWarm(id, argv)
+}
+
+let keepAllWarm = (argv) => {
+    argv.fetchAll = true;
+
+    fs.readdir('./coins', (err, files) => {
+        files.forEach(async(file) => {
+            let id = file.replace('.js', '')
+
+            keepOneWarm(id, argv)
+        });
+    });
+}
+
 yargs.usage('$0 <cmd> [args]')
     .command('get [id]', 'Get supplies for a specific coin id', (yargs) => {
         yargs.positional('id', {
@@ -327,6 +359,8 @@ yargs.usage('$0 <cmd> [args]')
         })
     }, (argv) => {
         const app = express()
+
+        keepAllWarm(argv);
 
         app.get('/', async(req, res) => {
             let list = await getList()
