@@ -7,9 +7,16 @@ const Cacheman = require('cacheman-file');
 const express = require('express');
 const RateLimiter = require('request-rate-limiter');
 const { parse } = require('url');
-const rqst = require('request');
+const rqstSrc = require('request');
 const doctrine = require('doctrine');
 const _ = require('lodash');
+
+const rqst = rqstSrc.defaults({
+    pool: {
+        maxSockets: Infinity
+    },
+    timeout: 10000
+})
 
 var cacheTTL = 3600,
     ethTokenCacheTTL = 86400,
@@ -238,20 +245,17 @@ const getSupplies = async(id, opts) => {
 
                     res(async(response) => {
                         if (!(response instanceof Error)) {
-                            getCoinMeta(id)
-                                .then((meta) => {
-                                    // Cache ETH token results longer
-                                    // since they are so slow to fetch
-                                    cache.set(id,
-                                        response,
-                                        !_.isUndefined(meta.ethContractAddr)
-                                            ? ethTokenCacheTTL
-                                            : opts.cacheTTL
-                                    );
-                                })
-                                .catch(() => {
-                                    cache.set(id, response, opts.cacheTTL);
-                                })
+                            let meta = await getCoinMeta(id)
+
+                            // Cache ETH token results longer
+                            // since they are so slow to fetch
+                            cache.set(
+                                id,
+                                response,
+                                !_.isUndefined(meta.ethContractAddr)
+                                    ? ethTokenCacheTTL
+                                    : opts.cacheTTL
+                            );
                         }
 
                         if (response instanceof Error && response.message === 'Not Implemented') {
@@ -310,7 +314,9 @@ const getList = async() => {
 let keepOneWarm = async(id, argv) => {
     await getSupplies(id, argv)
 
-    keepOneWarm(id, argv)
+    setTimeout(() => {
+        keepOneWarm(id, argv)
+    }, 5000)
 }
 
 let keepAllWarm = (argv) => {
