@@ -7,16 +7,20 @@
  */
 
 module.exports = (callback, request) => {
-request('http://api.ethplorer.io/getTokenInfo/0x6c6ee5e31d828de241282b9606c8e98ea48526e2?apiKey=freekey', (error, response, body) => {
-    if (!error && response.statusCode == 200) {
-        body = JSON.parse(body);
+    request('http://api.ethplorer.io/getTokenInfo/0x6c6ee5e31d828de241282b9606c8e98ea48526e2?apiKey=freekey', (error, response, body) => {
+        if (!error && response.statusCode == 200) {
+            body = JSON.parse(body);
 
-        callback({
-            c: Number(body.price.availableSupply),
-            t: Number(body.totalSupply) * Math.pow(10, -18)
-        });
-    } else {
-        callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
-    }
-});
+            if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply !== 'undefined') {
+                return callback(new Error('Not Available'));
+            }
+
+            callback({
+                c: Number(body.price.availableSupply),
+                t: Number(body.totalSupply) * Math.pow(10, -18)
+            });
+        } else {
+            callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
+        }
+    });
 };
