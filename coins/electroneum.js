@@ -11,7 +11,7 @@ module.exports = (callback, request) => {
         if (!error && response.statusCode == 200) {
             body = JSON.parse(body);
 
-            if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply !== 'undefined') {
+            if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined') {
                 return callback(new Error('Not Available'));
             }
 
