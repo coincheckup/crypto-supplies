@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1809 -- *Implemented*: 845 -- *To do*: 964
+*Total*: 1810 -- *Implemented*: 846 -- *To do*: 964
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1871,6 +1871,7 @@ ID | Name | Symbol | Implementation | Status
 [swaptoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swaptoken.js) | N/A | N/A | N/A | :x: Not done
 [sydpak](https://github.com/coincheckup/crypto-supplies/blob/master/coins/sydpak.js) | N/A | N/A | N/A | :x: Not done
 [tagrcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tagrcoin.js) | [TAGRcoin](https://coincheckup.com/coins/tagrcoin) | TAGR | Not Implemented | :x: Not done
+[tatatu](https://github.com/coincheckup/crypto-supplies/blob/master/coins/tatatu.js) | [TaTaTu](https://coincheckup.com/coins/tatatu) | TTU | Dynamic | :white_check_mark: Done
 [teamup](https://github.com/coincheckup/crypto-supplies/blob/master/coins/teamup.js) | N/A | N/A | N/A | :x: Not done
 [techshares](https://github.com/coincheckup/crypto-supplies/blob/master/coins/techshares.js) | [TechShares](https://coincheckup.com/coins/techshares) | THS | Not Implemented | :x: Not done
 [the-vegan-initiative](https://github.com/coincheckup/crypto-supplies/blob/master/coins/the-vegan-initiative.js) | N/A | N/A | N/A | :x: Not done
