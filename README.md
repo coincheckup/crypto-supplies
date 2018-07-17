@@ -141,7 +141,6 @@ ID | Name | Symbol | Implementation | Status
 [rchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/rchain.js) | [RChain](https://coincheckup.com/coins/rchain) | RHOC | Dynamic | :white_check_mark: Done
 [bitcoin-diamond](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-diamond.js) | [Bitcoin Diamond](https://coincheckup.com/coins/bitcoin-diamond) | BCD | Dynamic | :white_check_mark: Done
 [waves](https://github.com/coincheckup/crypto-supplies/blob/master/coins/waves.js) | [Waves](https://coincheckup.com/coins/waves) | WAVES | Static | :white_check_mark: Done
-[batcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/batcoin.js) | [Basic Attention Token](https://coincheckup.com/coins/batcoin) | BAT | Dynamic | :white_check_mark: Done
 [bitcoin-private](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-private.js) | [Bitcoin Private](https://coincheckup.com/coins/bitcoin-private) | BTCP | Dynamic | :white_check_mark: Done
 [wanchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/wanchain.js) | [Wanchain](https://coincheckup.com/coins/wanchain) | WAN | Static | :white_check_mark: Done
 [golem-network-tokens](https://github.com/coincheckup/crypto-supplies/blob/master/coins/golem-network-tokens.js) | [Golem](https://coincheckup.com/coins/golem-network-tokens) | GNT | Dynamic | :white_check_mark: Done
@@ -1686,6 +1685,7 @@ ID | Name | Symbol | Implementation | Status
 [antibitcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/antibitcoin.js) | N/A | N/A | N/A | :x: Not done
 [antilitecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/antilitecoin.js) | N/A | N/A | N/A | :x: Not done
 [aware](https://github.com/coincheckup/crypto-supplies/blob/master/coins/aware.js) | [AWARE](https://coincheckup.com/coins/aware) | AWR | Not Implemented | :x: Not done
+[basic-attention-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/basic-attention-token.js) | [Basic Attention Token](https://coincheckup.com/coins/basic-attention-token) | BAT | Dynamic | :white_check_mark: Done
 [bestchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bestchain.js) | [BestChain](https://coincheckup.com/coins/bestchain) | BEST | Not Implemented | :x: Not done
 [billarycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/billarycoin.js) | N/A | N/A | N/A | :x: Not done
 [bios-crypto](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bios-crypto.js) | [BiosCrypto](https://coincheckup.com/coins/bios-crypto) | BIOS | Not Implemented | :x: Not done
