@@ -11,6 +11,10 @@ request('http://api.ethplorer.io/getTokenInfo/0x68d57c9a1c35f63e2c83ee8e49a64e9d
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
 
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
+
         callback({
             c: Number(body.price.availableSupply),
             t: Number(body.totalSupply) * Math.pow(10, -18)
