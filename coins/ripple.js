@@ -8,7 +8,7 @@
 module.exports = (callback, request) => {
     request('https://data.ripple.com/v2/ledgers', (error, response, body) => {
         if (!error && response.statusCode == 200) {
-            body = Number(JSON.parse(body).ledger.totalCoins) * Math.pow(10, -6);
+            body = Number(JSON.parse(body).ledger.total_coins) * Math.pow(10, -6);
 
             callback({
                 c: body,
