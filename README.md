@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1810 -- *Implemented*: 851 -- *To do*: 959
+*Total*: 1810 -- *Implemented*: 852 -- *To do*: 958
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1764,7 +1764,7 @@ ID | Name | Symbol | Implementation | Status
 [gbcgoldcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gbcgoldcoin.js) | [GBCGoldCoin](https://coincheckup.com/coins/gbcgoldcoin) | GBC | Dynamic | :white_check_mark: Done
 [genstake](https://github.com/coincheckup/crypto-supplies/blob/master/coins/genstake.js) | N/A | N/A | N/A | :x: Not done
 [giga-watt-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/giga-watt-token.js) | N/A | N/A | N/A | :x: Not done
-[global-currency-reserve](https://github.com/coincheckup/crypto-supplies/blob/master/coins/global-currency-reserve.js) | [Global Currency Reserve](https://coincheckup.com/coins/global-currency-reserve) | GCR | Not Implemented | :x: Not done
+[global-currency-reserve](https://github.com/coincheckup/crypto-supplies/blob/master/coins/global-currency-reserve.js) | [Global Currency Reserve](https://coincheckup.com/coins/global-currency-reserve) | GCR | Dynamic | :white_check_mark: Done
 [global-jobcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/global-jobcoin.js) | [Global Jobcoin](https://coincheckup.com/coins/global-jobcoin) | GJC | Dynamic | :white_check_mark: Done
 [goldreserve](https://github.com/coincheckup/crypto-supplies/blob/master/coins/goldreserve.js) | N/A | N/A | N/A | :x: Not done
 [gpu-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gpu-coin.js) | N/A | N/A | N/A | :x: Not done
