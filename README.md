@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1810 -- *Implemented*: 848 -- *To do*: 962
+*Total*: 1810 -- *Implemented*: 849 -- *To do*: 961
 
 
 ID | Name | Symbol | Implementation | Status
@@ -485,7 +485,7 @@ ID | Name | Symbol | Implementation | Status
 [chronobank](https://github.com/coincheckup/crypto-supplies/blob/master/coins/chronobank.js) | [Chronobank](https://coincheckup.com/coins/chronobank) | TIME | Dynamic | :white_check_mark: Done
 [leocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/leocoin.js) | [LEOcoin](https://coincheckup.com/coins/leocoin) | LEO | Not Implemented | :x: Not done
 [zeusshield](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zeusshield.js) | [Zeusshield](https://coincheckup.com/coins/zeusshield) | ZSC | Dynamic | :white_check_mark: Done
-[deeponion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/deeponion.js) | [DeepOnion](https://coincheckup.com/coins/deeponion) | ONION | Not Implemented | :x: Not done
+[deeponion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/deeponion.js) | [DeepOnion](https://coincheckup.com/coins/deeponion) | ONION | Dynamic | :white_check_mark: Done
 [synereo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/synereo.js) | [Synereo](https://coincheckup.com/coins/synereo) | AMP | Not Implemented | :x: Not done
 [pascal-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/pascal-coin.js) | [Pascal Coin](https://coincheckup.com/coins/pascal-coin) | PASC | Not Implemented | :x: Not done
 [shield](https://github.com/coincheckup/crypto-supplies/blob/master/coins/shield.js) | [SHIELD](https://coincheckup.com/coins/shield) | XSH | Not Implemented | :x: Not done
