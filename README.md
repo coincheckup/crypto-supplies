@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1810 -- *Implemented*: 850 -- *To do*: 960
+*Total*: 1810 -- *Implemented*: 851 -- *To do*: 959
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1761,7 +1761,7 @@ ID | Name | Symbol | Implementation | Status
 [gameunits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gameunits.js) | [GameUnits](https://coincheckup.com/coins/gameunits) | UNITS | Not Implemented | :x: Not done
 [ganjacoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ganjacoin.js) | N/A | N/A | N/A | :x: Not done
 [gaycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gaycoin.js) | N/A | N/A | N/A | :x: Not done
-[gbcgoldcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gbcgoldcoin.js) | [GBCGoldCoin](https://coincheckup.com/coins/gbcgoldcoin) | GBC | Not Implemented | :x: Not done
+[gbcgoldcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gbcgoldcoin.js) | [GBCGoldCoin](https://coincheckup.com/coins/gbcgoldcoin) | GBC | Dynamic | :white_check_mark: Done
 [genstake](https://github.com/coincheckup/crypto-supplies/blob/master/coins/genstake.js) | N/A | N/A | N/A | :x: Not done
 [giga-watt-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/giga-watt-token.js) | N/A | N/A | N/A | :x: Not done
 [global-currency-reserve](https://github.com/coincheckup/crypto-supplies/blob/master/coins/global-currency-reserve.js) | [Global Currency Reserve](https://coincheckup.com/coins/global-currency-reserve) | GCR | Not Implemented | :x: Not done
