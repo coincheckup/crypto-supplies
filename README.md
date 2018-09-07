@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1810 -- *Implemented*: 846 -- *To do*: 964
+*Total*: 1810 -- *Implemented*: 847 -- *To do*: 963
 
 
 ID | Name | Symbol | Implementation | Status
@@ -368,7 +368,7 @@ ID | Name | Symbol | Implementation | Status
 [swftcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/swftcoin.js) | [SwftCoin](https://coincheckup.com/coins/swftcoin) | SWFTC | Dynamic | :white_check_mark: Done
 [ripio-credit-network](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ripio-credit-network.js) | [Ripio Credit Network](https://coincheckup.com/coins/ripio-credit-network) | RCN | Dynamic | :white_check_mark: Done
 [cpchain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cpchain.js) | [CPChain](https://coincheckup.com/coins/cpchain) | CPC | Dynamic | :white_check_mark: Done
-[constellation](https://github.com/coincheckup/crypto-supplies/blob/master/coins/constellation.js) | [Constellation](https://coincheckup.com/coins/constellation) | DAG | Not Implemented | :x: Not done
+[constellation](https://github.com/coincheckup/crypto-supplies/blob/master/coins/constellation.js) | [Constellation](https://coincheckup.com/coins/constellation) | DAG | Dynamic | :white_check_mark: Done
 [feathercoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/feathercoin.js) | [Feathercoin](https://coincheckup.com/coins/feathercoin) | FTC | Dynamic | :white_check_mark: Done
 [whitecoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/whitecoin.js) | [WhiteCoin](https://coincheckup.com/coins/whitecoin) | XWC | Dynamic | :white_check_mark: Done
 [spectre.ai-dividend-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/spectre.ai-dividend-token.js) | [Spectre.ai Dividend Token](https://coincheckup.com/coins/spectre.ai-dividend-token) | SXDT | Not Implemented | :x: Not done
