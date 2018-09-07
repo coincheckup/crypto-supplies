@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1810 -- *Implemented*: 849 -- *To do*: 961
+*Total*: 1810 -- *Implemented*: 850 -- *To do*: 960
 
 
 ID | Name | Symbol | Implementation | Status
@@ -546,7 +546,6 @@ ID | Name | Symbol | Implementation | Status
 [stk](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stk.js) | [STK](https://coincheckup.com/coins/stk) | STK | Dynamic | :white_check_mark: Done
 [ormeus-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/ormeus-coin.js) | [Ormeus Coin](https://coincheckup.com/coins/ormeus-coin) | ORME | Dynamic | :white_check_mark: Done
 [switcheo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/switcheo.js) | [Switcheo](https://coincheckup.com/coins/switcheo) | SWTH | Not Implemented | :x: Not done
-[bitcoin-lightning](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bitcoin-lightning.js) | [Bloom](https://coincheckup.com/coins/bitcoin-lightning) | BLT | Not Implemented | :x: Not done
 [stronghands](https://github.com/coincheckup/crypto-supplies/blob/master/coins/stronghands.js) | [StrongHands](https://coincheckup.com/coins/stronghands) | SHND | Not Implemented | :x: Not done
 [omni](https://github.com/coincheckup/crypto-supplies/blob/master/coins/omni.js) | [Omni](https://coincheckup.com/coins/omni) | OMNI | Not Implemented | :x: Not done
 [everus](https://github.com/coincheckup/crypto-supplies/blob/master/coins/everus.js) | [Everus](https://coincheckup.com/coins/everus) | EVR | Dynamic | :white_check_mark: Done
@@ -1700,6 +1699,7 @@ ID | Name | Symbol | Implementation | Status
 [blackstar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blackstar.js) | N/A | N/A | N/A | :x: Not done
 [blitzcash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blitzcash.js) | [Blitzcash](https://coincheckup.com/coins/blitzcash) | BLITZ | Dynamic | :white_check_mark: Done
 [blockpay](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blockpay.js) | [BlockPay](https://coincheckup.com/coins/blockpay) | BLOCKPAY | Not Implemented | :x: Not done
+[bloom](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bloom.js) | [Bloom](https://coincheckup.com/coins/bloom) | BLT | Dynamic | :white_check_mark: Done
 [braincoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/braincoin.js) | N/A | N/A | N/A | :x: Not done
 [caliphcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/caliphcoin.js) | [CaliphCoin](https://coincheckup.com/coins/caliphcoin) | CALC | Not Implemented | :x: Not done
 [cashme](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cashme.js) | N/A | N/A | N/A | :x: Not done
