@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1810 -- *Implemented*: 847 -- *To do*: 963
+*Total*: 1810 -- *Implemented*: 848 -- *To do*: 962
 
 
 ID | Name | Symbol | Implementation | Status
@@ -482,7 +482,7 @@ ID | Name | Symbol | Implementation | Status
 [covesting](https://github.com/coincheckup/crypto-supplies/blob/master/coins/covesting.js) | [Covesting](https://coincheckup.com/coins/covesting) | COV | Dynamic | :white_check_mark: Done
 [bismuth](https://github.com/coincheckup/crypto-supplies/blob/master/coins/bismuth.js) | [Bismuth](https://coincheckup.com/coins/bismuth) | BIS | Not Implemented | :x: Not done
 [luxcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/luxcoin.js) | [LUXCoin](https://coincheckup.com/coins/luxcoin) | LUX | Dynamic | :white_check_mark: Done
-[chronobank](https://github.com/coincheckup/crypto-supplies/blob/master/coins/chronobank.js) | [Chronobank](https://coincheckup.com/coins/chronobank) | TIME | Not Implemented | :x: Not done
+[chronobank](https://github.com/coincheckup/crypto-supplies/blob/master/coins/chronobank.js) | [Chronobank](https://coincheckup.com/coins/chronobank) | TIME | Dynamic | :white_check_mark: Done
 [leocoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/leocoin.js) | [LEOcoin](https://coincheckup.com/coins/leocoin) | LEO | Not Implemented | :x: Not done
 [zeusshield](https://github.com/coincheckup/crypto-supplies/blob/master/coins/zeusshield.js) | [Zeusshield](https://coincheckup.com/coins/zeusshield) | ZSC | Dynamic | :white_check_mark: Done
 [deeponion](https://github.com/coincheckup/crypto-supplies/blob/master/coins/deeponion.js) | [DeepOnion](https://coincheckup.com/coins/deeponion) | ONION | Not Implemented | :x: Not done
