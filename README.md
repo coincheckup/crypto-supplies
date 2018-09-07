@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1810 -- *Implemented*: 852 -- *To do*: 958
+*Total*: 1810 -- *Implemented*: 853 -- *To do*: 957
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1793,7 +1793,7 @@ ID | Name | Symbol | Implementation | Status
 [legends-room](https://github.com/coincheckup/crypto-supplies/blob/master/coins/legends-room.js) | [Legends Room](https://coincheckup.com/coins/legends-room) | LGD | Not Implemented | :x: Not done
 [lendconnect](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lendconnect.js) | N/A | N/A | N/A | :x: Not done
 [lepen](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lepen.js) | [LePen](https://coincheckup.com/coins/lepen) | LEPEN | Not Implemented | :x: Not done
-[leviar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/leviar.js) | [Leviar](https://coincheckup.com/coins/leviar) | XLC | Not Implemented | :x: Not done
+[leviar](https://github.com/coincheckup/crypto-supplies/blob/master/coins/leviar.js) | [Leviar](https://coincheckup.com/coins/leviar) | XLC | Dynamic | :white_check_mark: Done
 [link-platform](https://github.com/coincheckup/crypto-supplies/blob/master/coins/link-platform.js) | N/A | N/A | N/A | :x: Not done
 [linkedcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/linkedcoin.js) | [LinkedCoin](https://coincheckup.com/coins/linkedcoin) | LKC | Not Implemented | :x: Not done
 [lltoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/lltoken.js) | N/A | N/A | N/A | :x: Not done
