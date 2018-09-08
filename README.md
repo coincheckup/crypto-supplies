@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1810 -- *Implemented*: 853 -- *To do*: 957
+*Total*: 1810 -- *Implemented*: 854 -- *To do*: 956
 
 
 ID | Name | Symbol | Implementation | Status
@@ -245,7 +245,7 @@ ID | Name | Symbol | Implementation | Status
 [nexo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/nexo.js) | [Nexo](https://coincheckup.com/coins/nexo) | NEXO | Dynamic | :white_check_mark: Done
 [gnosis-gno](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gnosis-gno.js) | [Gnosis](https://coincheckup.com/coins/gnosis-gno) | GNO | Dynamic | :white_check_mark: Done
 [time-new-bank](https://github.com/coincheckup/crypto-supplies/blob/master/coins/time-new-bank.js) | [Time New Bank](https://coincheckup.com/coins/time-new-bank) | TNB | Dynamic | :white_check_mark: Done
-[skycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/skycoin.js) | [Skycoin](https://coincheckup.com/coins/skycoin) | SKY | Not Implemented | :x: Not done
+[skycoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/skycoin.js) | [Skycoin](https://coincheckup.com/coins/skycoin) | SKY | Dynamic | :white_check_mark: Done
 [cybervein](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cybervein.js) | [CyberVein](https://coincheckup.com/coins/cybervein) | CVT | Dynamic | :white_check_mark: Done
 [smartmesh](https://github.com/coincheckup/crypto-supplies/blob/master/coins/smartmesh.js) | [SmartMesh](https://coincheckup.com/coins/smartmesh) | SMT | Dynamic | :white_check_mark: Done
 [arcblock](https://github.com/coincheckup/crypto-supplies/blob/master/coins/arcblock.js) | [Arcblock](https://coincheckup.com/coins/arcblock) | ABT | Dynamic | :white_check_mark: Done
