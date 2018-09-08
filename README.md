@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 1810 -- *Implemented*: 854 -- *To do*: 956
+*Total*: 1810 -- *Implemented*: 855 -- *To do*: 955
 
 
 ID | Name | Symbol | Implementation | Status
@@ -260,7 +260,7 @@ ID | Name | Symbol | Implementation | Status
 [dai](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dai.js) | [Dai](https://coincheckup.com/coins/dai) | DAI | Dynamic | :white_check_mark: Done
 [gamecredits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/gamecredits.js) | [GameCredits](https://coincheckup.com/coins/gamecredits) | GAME | Dynamic | :white_check_mark: Done
 [dynamic-trading-rights](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dynamic-trading-rights.js) | [Dynamic Trading Rights](https://coincheckup.com/coins/dynamic-trading-rights) | DTR | Dynamic | :white_check_mark: Done
-[digitalnote](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digitalnote.js) | [DigitalNote](https://coincheckup.com/coins/digitalnote) | XDN | Not Implemented | :x: Not done
+[digitalnote](https://github.com/coincheckup/crypto-supplies/blob/master/coins/digitalnote.js) | [DigitalNote](https://coincheckup.com/coins/digitalnote) | XDN | Dynamic | :white_check_mark: Done
 [dent](https://github.com/coincheckup/crypto-supplies/blob/master/coins/dent.js) | [Dent](https://coincheckup.com/coins/dent) | DENT | Dynamic | :white_check_mark: Done
 [true-chain](https://github.com/coincheckup/crypto-supplies/blob/master/coins/true-chain.js) | [True Chain](https://coincheckup.com/coins/true-chain) | TRUE | Dynamic | :white_check_mark: Done
 [credits](https://github.com/coincheckup/crypto-supplies/blob/master/coins/credits.js) | [Credits](https://coincheckup.com/coins/credits) | CS | Dynamic | :white_check_mark: Done
