@@ -2,6 +2,7 @@
  * @title Nexus
  * @symbol NXS
  * @implementation Dynamic
+ * @cmcId nexus
  */
 var request = require('request'),
     cheerio = require('cheerio');

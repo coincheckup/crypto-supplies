@@ -2,6 +2,7 @@
  * @title SpaceChain
  * @symbol SPC
  * @implementation Not Implemented
+ * @cmcId spacechain
  */
 
 module.exports = (callback, request) => {

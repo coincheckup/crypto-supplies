@@ -2,6 +2,7 @@
  * @title PinkCoin
  * @symbol PINK
  * @implementation Dynamic
+ * @cmcId pinkcoin
  */
 
 module.exports = (callback, request) => {

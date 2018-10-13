@@ -1,14 +1,19 @@
 /**
-* @title STK
-* @symbol STK
-* @ethContractAddr 0xaE73B38d1c9A8b274127ec30160a4927C4d71824
-* @implementation Dynamic
-*/
+ * @title STK
+ * @symbol STK
+ * @ethContractAddr 0xaE73B38d1c9A8b274127ec30160a4927C4d71824
+ * @implementation Dynamic
+ * @cmcId stk
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xaE73B38d1c9A8b274127ec30160a4927C4d71824?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

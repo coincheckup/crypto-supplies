@@ -2,6 +2,7 @@
  * @title Bitcoin Gold
  * @symbol BTG
  * @implementation Dynamic
+ * @cmcId bitcoin-gold
  */
 
 module.exports = (callback, request) => {

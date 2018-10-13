@@ -2,6 +2,7 @@
  * @title InvestDigital
  * @symbol IDT
  * @implementation Not Implemented
+ * @cmcId investdigital
  */
 
 module.exports = (callback, request) => {

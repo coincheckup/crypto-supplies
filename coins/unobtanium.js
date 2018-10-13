@@ -2,6 +2,7 @@
  * @title Unobtanium
  * @symbol UNO
  * @implementation Dynamic
+ * @cmcId unobtanium
  */
 
 module.exports = (callback, request) => {

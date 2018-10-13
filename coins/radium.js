@@ -2,6 +2,7 @@
  * @title Radium
  * @symbol RADS
  * @implementation Dynamic
+ * @cmcId radium
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Groestlcoin
  * @symbol GRS
  * @implementation Dynamic
+ * @cmcId groestlcoin
  */
 
 module.exports = (callback, request) => {

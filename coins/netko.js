@@ -2,6 +2,7 @@
  * @title Netko
  * @symbol NETKO
  * @implementation Dynamic
+ * @cmcId netko
  */
 
 module.exports = (callback, request) => {

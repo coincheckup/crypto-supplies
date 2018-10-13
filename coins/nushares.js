@@ -2,6 +2,7 @@
  * @title NuShares
  * @symbol NSR
  * @implementation Not Implemented
+ * @cmcId nushares
  */
 
 module.exports = (callback, request) => {

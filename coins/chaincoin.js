@@ -2,6 +2,7 @@
  * @title ChainCoin
  * @symbol CHC
  * @implementation Not Implemented
+ * @cmcId chaincoin
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Budbo
  * @symbol BUBO
  * @implementation Not Implemented
+ * @cmcId budbo
  */
 
 module.exports = (callback, request) => {

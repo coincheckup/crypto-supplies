@@ -2,6 +2,7 @@
  * @title Pure
  * @symbol PURE
  * @implementation Not Implemented
+ * @cmcId pure
  */
 
 module.exports = (callback, request) => {

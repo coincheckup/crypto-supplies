@@ -2,6 +2,7 @@
  * @title VIVO
  * @symbol VIVO
  * @implementation Dynamic
+ * @cmcId vivo
  */
 
 module.exports = (callback, request) => {

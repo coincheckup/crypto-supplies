@@ -2,6 +2,7 @@
  * @title BitShares
  * @symbol BTS
  * @implementation Static
+ * @cmcId bitshares
  */
 
 module.exports = (callback, request) => {

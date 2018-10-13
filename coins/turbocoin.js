@@ -2,6 +2,7 @@
  * @title TurboCoin
  * @symbol TURBO
  * @implementation Not Implemented
+ * @cmcId turbocoin
  */
 
 module.exports = (callback, request) => {

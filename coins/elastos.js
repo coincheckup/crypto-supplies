@@ -2,6 +2,7 @@
  * @title Elastos
  * @symbol ELA
  * @implementation Not Implemented
+ * @cmcId elastos
  */
 
 module.exports = (callback, request) => {

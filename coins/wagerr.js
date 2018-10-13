@@ -2,6 +2,7 @@
  * @title Wagerr
  * @symbol WGR
  * @implementation Dynamic
+ * @cmcId wagerr
  */
 
 module.exports = (callback, request) => {

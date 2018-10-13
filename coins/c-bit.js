@@ -2,6 +2,7 @@
  * @title C-Bit
  * @symbol XCT
  * @implementation Not Implemented
+ * @cmcId c-bit
  */
 
 module.exports = (callback, request) => {

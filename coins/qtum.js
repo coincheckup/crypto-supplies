@@ -2,6 +2,7 @@
  * @title Qtum
  * @symbol QTUM
  * @implementation Dynamic
+ * @cmcId qtum
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Dimecoin
  * @symbol DIME
  * @implementation Dynamic
+ * @cmcId dimecoin
  */
 
 module.exports = (callback, request) => {

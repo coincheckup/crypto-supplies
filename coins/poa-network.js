@@ -1,9 +1,10 @@
 /**
-* @title POA Network
-* @symbol POA
-* @ethContractAddr 0x6758b7d441a9739b98552b373703d8d3d14f9e62
-* @implementation Dynamic
-*/
+ * @title POA Network
+ * @symbol POA
+ * @ethContractAddr 0x6758b7d441a9739b98552b373703d8d3d14f9e62
+ * @implementation Dynamic
+ * @cmcId poa-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6758b7d441a9739b98552b373703d8d3d14f9e62?apiKey=freekey', (error, response, body) => {

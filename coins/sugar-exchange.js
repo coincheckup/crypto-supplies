@@ -1,14 +1,19 @@
 /**
-* @title Sugar Exchange
-* @symbol SGR
-* @ethContractAddr 0xCB5A05beF3257613E984C17DbcF039952B6d883F
-* @implementation Dynamic
-*/
+ * @title Sugar Exchange
+ * @symbol SGR
+ * @ethContractAddr 0xCB5A05beF3257613E984C17DbcF039952B6d883F
+ * @implementation Dynamic
+ * @cmcId sugar-exchange
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xCB5A05beF3257613E984C17DbcF039952B6d883F?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

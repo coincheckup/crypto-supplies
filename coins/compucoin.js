@@ -2,6 +2,7 @@
  * @title CompuCoin
  * @symbol CPN
  * @implementation Not Implemented
+ * @cmcId compucoin
  */
 
 module.exports = (callback, request) => {

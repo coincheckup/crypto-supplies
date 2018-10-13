@@ -1,14 +1,19 @@
 /**
-* @title Hydrogen
-* @symbol HYDRO
-* @ethContractAddr 0xebbdf302c940c6bfd49c6b165f457fdb324649bc
-* @implementation Dynamic
-*/
+ * @title Hydrogen
+ * @symbol HYDRO
+ * @ethContractAddr 0xebbdf302c940c6bfd49c6b165f457fdb324649bc
+ * @implementation Dynamic
+ * @cmcId hydrogen
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xebbdf302c940c6bfd49c6b165f457fdb324649bc?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

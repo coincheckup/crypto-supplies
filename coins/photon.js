@@ -2,6 +2,7 @@
  * @title Photon
  * @symbol PHO
  * @implementation Dynamic
+ * @cmcId photon
  */
 
 module.exports = (callback, request) => {

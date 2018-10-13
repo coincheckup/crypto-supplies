@@ -2,6 +2,7 @@
  * @title FoldingCoin
  * @symbol FLDC
  * @implementation Not Implemented
+ * @cmcId foldingcoin
  */
 
 module.exports = (callback, request) => {

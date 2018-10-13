@@ -2,6 +2,7 @@
  * @title GuccioneCoin
  * @symbol GCC
  * @implementation Not Implemented
+ * @cmcId guccionecoin
  */
 
 module.exports = (callback, request) => {

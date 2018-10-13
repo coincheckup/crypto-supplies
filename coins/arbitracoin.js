@@ -2,6 +2,7 @@
  * @title Arbitracoin
  * @symbol ATC
  * @implementation Not Implemented
+ * @cmcId arbitracoin
  */
 
 module.exports = (callback, request) => {

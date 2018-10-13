@@ -2,6 +2,7 @@
  * @title LUXCoin
  * @symbol LUX
  * @implementation Dynamic
+ * @cmcId luxcoin
  */
 
 module.exports = (callback, request) => {

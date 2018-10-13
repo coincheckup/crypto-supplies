@@ -2,6 +2,7 @@
  * @title I0Coin
  * @symbol I0C
  * @implementation Dynamic
+ * @cmcId i0coin
  */
 
 module.exports = (callback, request) => {

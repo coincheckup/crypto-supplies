@@ -2,6 +2,7 @@
  * @title Magi
  * @symbol XMG
  * @implementation Dynamic
+ * @cmcId magi
  */
 
 module.exports = (callback, request) => {

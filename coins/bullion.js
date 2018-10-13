@@ -2,6 +2,7 @@
  * @title Bullion
  * @symbol CBX
  * @implementation Dynamic
+ * @cmcId bullion
  */
 
 module.exports = (callback, request) => {

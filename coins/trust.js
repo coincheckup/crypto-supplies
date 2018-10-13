@@ -2,6 +2,7 @@
  * @title WeTrust
  * @symbol TRST
  * @implementation Not Implemented
+ * @cmcId trust
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Litecoin
  * @symbol LTC
  * @implementation Dynamic
+ * @cmcId litecoin
  */
 
 module.exports = (callback, request) => {

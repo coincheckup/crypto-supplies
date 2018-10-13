@@ -1,7 +1,8 @@
 /**
- * @title Coin2.1
- * @symbol C2
+ * @title DigitalDevelopersFund
+ * @symbol DDF
  * @implementation Not Implemented
+ * @cmcId digital-developers-fund
  */
 
 module.exports = (callback, request) => {

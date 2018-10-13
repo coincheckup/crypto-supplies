@@ -1,9 +1,10 @@
 /**
-* @title MyWish
-* @symbol WISH
-* @ethContractAddr 0x1b22c32cd936cb97c28c5690a0695a82abf688e6
-* @implementation Dynamic
-*/
+ * @title MyWish
+ * @symbol WISH
+ * @ethContractAddr 0x1b22c32cd936cb97c28c5690a0695a82abf688e6
+ * @implementation Dynamic
+ * @cmcId mywish
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1b22c32cd936cb97c28c5690a0695a82abf688e6?apiKey=freekey', (error, response, body) => {

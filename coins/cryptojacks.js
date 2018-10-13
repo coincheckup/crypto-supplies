@@ -2,6 +2,7 @@
  * @title Cryptojacks
  * @symbol CJ
  * @implementation Not Implemented
+ * @cmcId cryptojacks
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Joulecoin
  * @symbol XJO
  * @implementation Dynamic
+ * @cmcId joulecoin
  */
 
 module.exports = (callback, request) => {

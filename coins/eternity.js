@@ -2,6 +2,7 @@
  * @title Eternity
  * @symbol ENT
  * @implementation Dynamic
+ * @cmcId eternity
  */
 
 module.exports = (callback, request) => {

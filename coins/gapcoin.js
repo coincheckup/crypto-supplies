@@ -2,6 +2,7 @@
  * @title Gapcoin
  * @symbol GAP
  * @implementation Dynamic
+ * @cmcId gapcoin
  */
 
 module.exports = (callback, request) => {

@@ -3,7 +3,8 @@
  * @symbol DAX
  * @ethContractAddr 0x0b4bdc478791897274652dc15ef5c135cae61e60
  * @implementation Dynamic
-*/
+ * @cmcId daex
+ */
 
 module.exports = (callback, request) => {
     request('http://api.ethplorer.io/getTokenInfo/0x0b4bdc478791897274652dc15ef5c135cae61e60?apiKey=freekey', (error, response, body) => {

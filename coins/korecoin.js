@@ -2,6 +2,7 @@
  * @title Kore
  * @symbol KORE
  * @implementation Not Implemented
+ * @cmcId korecoin
  */
 
 module.exports = (callback, request) => {

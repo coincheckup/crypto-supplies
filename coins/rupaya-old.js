@@ -2,6 +2,7 @@
  * @title Rupaya
  * @symbol RUPX
  * @implementation Dynamic
+ * @cmcId rupaya
  */
  
  module.exports = (callback, request) => {

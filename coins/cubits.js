@@ -2,6 +2,7 @@
  * @title Cubits
  * @symbol QBT
  * @implementation Not Implemented
+ * @cmcId cubits
  */
 
 module.exports = (callback, request) => {

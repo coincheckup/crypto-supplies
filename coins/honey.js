@@ -2,6 +2,7 @@
  * @title Honey
  * @symbol HONEY
  * @implementation Not Implemented
+ * @cmcId honey
  */
 
 module.exports = (callback, request) => {

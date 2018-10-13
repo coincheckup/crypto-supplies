@@ -1,14 +1,19 @@
 /**
-* @title SwftCoin
-* @symbol SWFTC
-* @ethContractAddr 0x0bb217E40F8a5Cb79Adf04E1aAb60E5abd0dfC1e
-* @implementation Dynamic
-*/
+ * @title SwftCoin
+ * @symbol SWFTC
+ * @ethContractAddr 0x0bb217E40F8a5Cb79Adf04E1aAb60E5abd0dfC1e
+ * @implementation Dynamic
+ * @cmcId swftcoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x0bb217E40F8a5Cb79Adf04E1aAb60E5abd0dfC1e?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

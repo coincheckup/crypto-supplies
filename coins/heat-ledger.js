@@ -2,6 +2,7 @@
  * @title HEAT
  * @symbol HEAT
  * @implementation Not Implemented
+ * @cmcId heat-ledger
  */
 
 module.exports = (callback, request) => {

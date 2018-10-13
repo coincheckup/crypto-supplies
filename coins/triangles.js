@@ -2,6 +2,7 @@
  * @title Triangles
  * @symbol TRI
  * @implementation Not Implemented
+ * @cmcId triangles
  */
 
 module.exports = (callback, request) => {

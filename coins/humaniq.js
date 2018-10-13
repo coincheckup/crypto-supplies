@@ -1,9 +1,10 @@
 /**
-* @title Humaniq
-* @symbol HMQ
-* @ethContractAddr 0xcbcc0f036ed4788f63fc0fee32873d6a7487b908
-* @implementation Dynamic
-*/
+ * @title Humaniq
+ * @symbol HMQ
+ * @ethContractAddr 0xcbcc0f036ed4788f63fc0fee32873d6a7487b908
+ * @implementation Dynamic
+ * @cmcId humaniq
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xcbcc0f036ed4788f63fc0fee32873d6a7487b908?apiKey=freekey', (error, response, body) => {

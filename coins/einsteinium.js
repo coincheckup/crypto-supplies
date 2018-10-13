@@ -2,6 +2,7 @@
  * @title Einsteinium
  * @symbol EMC2
  * @implementation Dynamic
+ * @cmcId einsteinium
  */
 
 module.exports = (callback, request) => {

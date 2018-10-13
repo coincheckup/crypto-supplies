@@ -3,6 +3,7 @@
  * @symbol GTC
  * @ethContractAddr 0xB70835D7822eBB9426B56543E391846C107bd32C
  * @implementation Dynamic
+ * @cmcId game
  */
 
 module.exports = (callback, request) => {

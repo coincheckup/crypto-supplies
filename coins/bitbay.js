@@ -2,6 +2,7 @@
  * @title BitBay
  * @symbol BAY
  * @implementation Dynamic
+ * @cmcId bitbay
  */
 
 module.exports = (callback, request) => {

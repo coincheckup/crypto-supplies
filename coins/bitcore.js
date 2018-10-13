@@ -2,6 +2,7 @@
  * @title Bitcore
  * @symbol BTX
  * @implementation Dynamic
+ * @cmcId bitcore
  */
 
 module.exports = (callback, request) => {

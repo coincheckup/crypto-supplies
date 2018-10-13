@@ -1,14 +1,19 @@
 /**
-* @title Maverick Chain
-* @symbol MVC
-* @ethContractAddr 0xb17df9a3b09583a9bdcf757d6367171476d4d8a3
-* @implementation Dynamic
-*/
+ * @title Maverick Chain
+ * @symbol MVC
+ * @ethContractAddr 0xb17df9a3b09583a9bdcf757d6367171476d4d8a3
+ * @implementation Dynamic
+ * @cmcId maverick-chain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb17df9a3b09583a9bdcf757d6367171476d4d8a3?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

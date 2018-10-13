@@ -2,6 +2,7 @@
  * @title Bastonet
  * @symbol BSN
  * @implementation Not Implemented
+ * @cmcId bastonet
  */
 
 module.exports = (callback, request) => {

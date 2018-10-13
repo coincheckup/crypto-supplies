@@ -1,14 +1,19 @@
 /**
-* @title CRYPTO20
-* @symbol C20
-* @ethContractAddr 0x26e75307fc0c021472feb8f727839531f112f317
-* @implementation Dynamic
-*/
+ * @title CRYPTO20
+ * @symbol C20
+ * @ethContractAddr 0x26e75307fc0c021472feb8f727839531f112f317
+ * @implementation Dynamic
+ * @cmcId c20
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x26e75307fc0c021472feb8f727839531f112f317?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

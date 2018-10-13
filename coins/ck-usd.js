@@ -2,6 +2,7 @@
  * @title CK USD
  * @symbol CKUSD
  * @implementation Not Implemented
+ * @cmcId ckusd
  */
 
 module.exports = (callback, request) => {

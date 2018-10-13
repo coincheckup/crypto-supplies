@@ -1,14 +1,19 @@
 /**
-* @title BitDice
-* @symbol CSNO
-* @ethContractAddr 0x29d75277ac7f0335b2165d0895e8725cbf658d73
-* @implementation Dynamic
-*/
+ * @title BitDice
+ * @symbol CSNO
+ * @ethContractAddr 0x29d75277ac7f0335b2165d0895e8725cbf658d73
+ * @implementation Dynamic
+ * @cmcId bitdice
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x29d75277ac7f0335b2165d0895e8725cbf658d73?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

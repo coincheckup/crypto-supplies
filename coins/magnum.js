@@ -2,6 +2,7 @@
  * @title Magnum
  * @symbol MGM
  * @implementation Not Implemented
+ * @cmcId magnum
  */
 
 module.exports = (callback, request) => {

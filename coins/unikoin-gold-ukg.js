@@ -1,14 +1,19 @@
 /**
-* @title Unikoin Gold
-* @symbol UKG
-* @ethContractAddr 0x24692791bc444c5cd0b81e3cbcaba4b04acd1f3b
-* @implementation Dynamic
-*/
+ * @title Unikoin Gold
+ * @symbol UKG
+ * @ethContractAddr 0x24692791bc444c5cd0b81e3cbcaba4b04acd1f3b
+ * @implementation Dynamic
+ * @cmcId unikoin-gold
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x24692791bc444c5cd0b81e3cbcaba4b04acd1f3b?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

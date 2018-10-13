@@ -2,6 +2,7 @@
  * @title PonziCoin
  * @symbol PONZI
  * @implementation Not Implemented
+ * @cmcId ponzicoin
  */
 
 module.exports = (callback, request) => {

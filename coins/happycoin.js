@@ -2,6 +2,7 @@
  * @title Happycoin
  * @symbol HPC
  * @implementation Not Implemented
+ * @cmcId happycoin
  */
 
 module.exports = (callback, request) => {

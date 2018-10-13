@@ -2,6 +2,7 @@
  * @title Jiyo
  * @symbol JIYO
  * @implementation Not Implemented
+ * @cmcId jiyo
  */
 
 module.exports = (callback, request) => {

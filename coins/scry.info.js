@@ -3,6 +3,7 @@
  * @symbol DDD
  * @ethContractAddr 0x9F5F3CFD7a32700C93F971637407ff17b91c7342
  * @implementation Dynamic
+ * @cmcId scryinfo
  */
 
 module.exports = (callback, request) => {

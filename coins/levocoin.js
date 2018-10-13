@@ -2,6 +2,7 @@
  * @title Levocoin
  * @symbol LEVO
  * @implementation Not Implemented
+ * @cmcId levocoin
  */
 
 module.exports = (callback, request) => {

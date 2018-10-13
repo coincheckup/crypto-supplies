@@ -2,6 +2,7 @@
  * @title DynamicCoin
  * @symbol DMC
  * @implementation Not Implemented
+ * @cmcId dynamiccoin
  */
 
 module.exports = (callback, request) => {

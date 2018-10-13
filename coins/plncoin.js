@@ -2,6 +2,7 @@
  * @title PLNcoin
  * @symbol PLNC
  * @implementation Not Implemented
+ * @cmcId plncoin
  */
 
 module.exports = (callback, request) => {

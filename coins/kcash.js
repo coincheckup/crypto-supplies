@@ -2,6 +2,7 @@
  * @title Kcash
  * @symbol KCASH
  * @implementation Not Implemented
+ * @cmcId kcash
  */
 
 module.exports = (callback, request) => {

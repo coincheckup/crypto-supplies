@@ -2,6 +2,7 @@
  * @title Bela
  * @symbol BELA
  * @implementation Dynamic
+ * @cmcId belacoin
  */
 
 module.exports = (callback, request) => {

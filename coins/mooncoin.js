@@ -2,6 +2,7 @@
  * @title Mooncoin
  * @symbol MOON
  * @implementation Dynamic
+ * @cmcId mooncoin
  */
 
 module.exports = (callback, request) => {

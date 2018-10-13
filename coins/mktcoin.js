@@ -2,6 +2,7 @@
  * @title MktCoin
  * @symbol MLM
  * @implementation Not Implemented
+ * @cmcId mktcoin
  */
 
 module.exports = (callback, request) => {

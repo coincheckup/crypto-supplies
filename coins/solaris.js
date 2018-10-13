@@ -2,6 +2,7 @@
  * @title Solaris
  * @symbol XLR
  * @implementation Dynamic
+ * @cmcId solaris
  */
 
 module.exports = (callback, request) => {

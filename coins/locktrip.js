@@ -1,7 +1,8 @@
 /**
- * @title ECC
- * @symbol ECC
+ * @title LockTrip
+ * @symbol LOC
  * @implementation Not Implemented
+ * @cmcId lockchain
  */
 
 module.exports = (callback, request) => {

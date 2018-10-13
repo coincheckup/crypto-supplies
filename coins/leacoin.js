@@ -2,6 +2,7 @@
  * @title LeaCoin
  * @symbol LEA
  * @implementation Not Implemented
+ * @cmcId leacoin
  */
 
 module.exports = (callback, request) => {

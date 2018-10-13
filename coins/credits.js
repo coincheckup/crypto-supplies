@@ -1,14 +1,19 @@
 /**
-* @title Credits
-* @symbol CS
-* @ethContractAddr 0x46b9ad944d1059450da1163511069c718f699d31
-* @implementation Dynamic
-*/
+ * @title Credits
+ * @symbol CS
+ * @ethContractAddr 0x46b9ad944d1059450da1163511069c718f699d31
+ * @implementation Dynamic
+ * @cmcId credits
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x46b9ad944d1059450da1163511069c718f699d31?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

@@ -1,7 +1,8 @@
 /**
  * @title Money
- * @symbol $$$
+ * @symbol $
  * @implementation Not Implemented
+ * @cmcId money
  */
 
 module.exports = (callback, request) => {

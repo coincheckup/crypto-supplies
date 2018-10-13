@@ -2,6 +2,7 @@
  * @title Emercoin
  * @symbol EMC
  * @implementation Dynamic
+ * @cmcId emercoin
  */
 
 module.exports = (callback, request) => {

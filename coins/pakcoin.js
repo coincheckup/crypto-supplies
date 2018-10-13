@@ -2,6 +2,7 @@
  * @title Pakcoin
  * @symbol PAK
  * @implementation Dynamic
+ * @cmcId pakcoin
  */
 
 module.exports = (callback, request) => {

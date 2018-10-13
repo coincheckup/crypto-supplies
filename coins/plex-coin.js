@@ -2,6 +2,7 @@
  * @title PlexCoin
  * @symbol PLX
  * @implementation Not Implemented
+ * @cmcId plexcoin
  */
 
 module.exports = (callback, request) => {

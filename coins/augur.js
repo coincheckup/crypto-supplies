@@ -1,9 +1,10 @@
 /**
-* @title Augur
-* @symbol REP
-* @ethContractAddr 0xe94327d07fc17907b4db788e5adf2ed424addff6
-* @implementation Dynamic
-*/
+ * @title Augur
+ * @symbol REP
+ * @ethContractAddr 0xe94327d07fc17907b4db788e5adf2ed424addff6
+ * @implementation Dynamic
+ * @cmcId augur
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe94327d07fc17907b4db788e5adf2ed424addff6?apiKey=freekey', (error, response, body) => {

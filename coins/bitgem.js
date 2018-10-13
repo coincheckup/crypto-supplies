@@ -2,6 +2,7 @@
  * @title Bitgem
  * @symbol BTG
  * @implementation Dynamic
+ * @cmcId bitgem
  */
 
 module.exports = (callback, request) => {

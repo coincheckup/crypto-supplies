@@ -2,6 +2,7 @@
  * @title Stellar
  * @symbol XLM
  * @implementation Dynamic
+ * @cmcId stellar
  */
 
 module.exports = (callback, request) => {

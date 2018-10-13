@@ -1,14 +1,19 @@
 /**
-* @title WAX
-* @symbol WAX
-* @ethContractAddr 0x39Bb259F66E1C59d5ABEF88375979b4D20D98022
-* @implementation Dynamic
-*/
+ * @title WAX
+ * @symbol WAX
+ * @ethContractAddr 0x39Bb259F66E1C59d5ABEF88375979b4D20D98022
+ * @implementation Dynamic
+ * @cmcId wax
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x39Bb259F66E1C59d5ABEF88375979b4D20D98022?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

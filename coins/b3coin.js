@@ -2,6 +2,7 @@
  * @title B3Coin
  * @symbol KB3
  * @implementation Dynamic
+ * @cmcId b3coin
  */
 
 module.exports = (callback, request) => {

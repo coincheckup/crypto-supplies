@@ -1,7 +1,8 @@
 /**
- * @title AMLT Token
- * @symbol AMLT
+ * @title Grid+
+ * @symbol GRID
  * @implementation Not Implemented
+ * @cmcId grid
  */
 
 module.exports = (callback, request) => {

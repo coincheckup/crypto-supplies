@@ -3,6 +3,7 @@
  * @symbol POLY
  * @ethContractAddr 0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec
  * @implementation Dynamic
+ * @cmcId polymath-network
  */
 
 module.exports = (callback, request) => {

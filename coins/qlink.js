@@ -2,6 +2,7 @@
  * @title QLINK
  * @symbol QLC
  * @implementation Not Implemented
+ * @cmcId qlink
  */
 
 module.exports = (callback, request) => {

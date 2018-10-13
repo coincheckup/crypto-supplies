@@ -1,14 +1,19 @@
 /**
-* @title Sharpe Platform Token
-* @symbol SHP
-* @ethContractAddr 0xef2463099360a085f1f10b076ed72ef625497a06
-* @implementation Dynamic
-*/
+ * @title Sharpe Platform Token
+ * @symbol SHP
+ * @ethContractAddr 0xef2463099360a085f1f10b076ed72ef625497a06
+ * @implementation Dynamic
+ * @cmcId sharpe-platform-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xef2463099360a085f1f10b076ed72ef625497a06?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

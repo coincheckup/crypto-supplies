@@ -1,14 +1,19 @@
 /**
-* @title Leadcoin
-* @symbol LDC
-* @ethContractAddr 0x5102791ca02fc3595398400bfe0e33d7b6c82267
-* @implementation Dynamic
-*/
+ * @title Leadcoin
+ * @symbol LDC
+ * @ethContractAddr 0x5102791ca02fc3595398400bfe0e33d7b6c82267
+ * @implementation Dynamic
+ * @cmcId leadcoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5102791ca02fc3595398400bfe0e33d7b6c82267?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

@@ -2,6 +2,7 @@
  * @title Zeepin
  * @symbol ZPT
  * @implementation Not Implemented
+ * @cmcId zeepin
  */
 
 module.exports = (callback, request) => {

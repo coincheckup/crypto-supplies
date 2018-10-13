@@ -2,6 +2,7 @@
  * @title Birds
  * @symbol BIRDS
  * @implementation Not Implemented
+ * @cmcId birds
  */
 
 module.exports = (callback, request) => {

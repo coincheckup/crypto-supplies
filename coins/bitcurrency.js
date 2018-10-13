@@ -2,6 +2,7 @@
  * @title Bitcurrency
  * @symbol BTCR
  * @implementation Dynamic
+ * @cmcId bitcurrency
  */
 
 module.exports = (callback, request) => {

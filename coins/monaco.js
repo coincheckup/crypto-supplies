@@ -1,9 +1,10 @@
 /**
-* @title Monaco
-* @symbol MCO
-* @ethContractAddr 0xb63b606ac810a52cca15e44bb630fd42d8d1d83d
-* @implementation Dynamic
-*/
+ * @title Monaco
+ * @symbol MCO
+ * @ethContractAddr 0xb63b606ac810a52cca15e44bb630fd42d8d1d83d
+ * @implementation Dynamic
+ * @cmcId monaco
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xb63b606ac810a52cca15e44bb630fd42d8d1d83d?apiKey=freekey', (error, response, body) => {

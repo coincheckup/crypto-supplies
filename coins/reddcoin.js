@@ -2,6 +2,7 @@
  * @title ReddCoin
  * @symbol RDD
  * @implementation Dynamic
+ * @cmcId reddcoin
  */
 
 module.exports = (callback, request) => {

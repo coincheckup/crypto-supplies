@@ -2,6 +2,7 @@
  * @title Halcyon
  * @symbol HAL
  * @implementation Not Implemented
+ * @cmcId halcyon
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title SelfSell
  * @symbol SSC
  * @implementation Not Implemented
+ * @cmcId selfsell
  */
 
 module.exports = (callback, request) => {

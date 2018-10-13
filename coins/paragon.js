@@ -1,14 +1,19 @@
 /**
-* @title Paragon
-* @symbol PRG
-* @ethContractAddr 0x7728dFEF5aBd468669EB7f9b48A7f70a501eD29D
-* @implementation Dynamic
-*/
+ * @title Paragon
+ * @symbol PRG
+ * @ethContractAddr 0x7728dFEF5aBd468669EB7f9b48A7f70a501eD29D
+ * @implementation Dynamic
+ * @cmcId paragon
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x7728dFEF5aBd468669EB7f9b48A7f70a501eD29D?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

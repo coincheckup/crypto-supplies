@@ -2,6 +2,7 @@
  * @title BitSend
  * @symbol BSD
  * @implementation Dynamic
+ * @cmcId bitsend
  */
 
 module.exports = (callback, request) => {

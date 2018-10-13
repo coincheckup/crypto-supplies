@@ -2,6 +2,7 @@
  * @title Tether
  * @symbol USDT
  * @implementation CoinMarketCap
+ * @cmcId tether
  */
 
 module.exports = (callback, request) => {

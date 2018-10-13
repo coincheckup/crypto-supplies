@@ -2,6 +2,7 @@
  * @title Zayedcoin
  * @symbol ZYD
  * @implementation Not Implemented
+ * @cmcId zayedcoin
  */
 
 module.exports = (callback, request) => {

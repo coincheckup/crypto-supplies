@@ -1,9 +1,10 @@
 /**
-* @title Etheroll
-* @symbol DICE
-* @ethContractAddr 0x2e071D2966Aa7D8dECB1005885bA1977D6038A65
-* @implementation Dynamic
-*/
+ * @title Etheroll
+ * @symbol DICE
+ * @ethContractAddr 0x2e071D2966Aa7D8dECB1005885bA1977D6038A65
+ * @implementation Dynamic
+ * @cmcId etheroll
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2e071D2966Aa7D8dECB1005885bA1977D6038A65?apiKey=freekey', (error, response, body) => {

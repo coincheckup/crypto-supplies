@@ -7,27 +7,42 @@ const Cacheman = require('cacheman-file');
 const express = require('express');
 const RateLimiter = require('request-rate-limiter');
 const { parse } = require('url');
-const rqst = require('request');
+const rqstSrc = require('request');
+const doctrine = require('doctrine');
+const _ = require('lodash');
 
-var cacheTTL = 600,
-    limiters = {};
+const rqst = rqstSrc.defaults({
+    pool: {
+        maxSockets: Infinity
+    },
+    timeout: 10000
+})
+
+var cacheTTL = 3600,
+    ethTokenCacheTTL = 86400,
+    limiters = {},
+    cmcData = {};
 
 const cache = new Cacheman({ ttl: cacheTTL });
 
+class CoinNotFoundError extends Error {}
+
 const maybeParseJSON = (request, response) => {
     if (typeof request === 'object'
-        && typeof request.json !== 'undefined'
-        && typeof response !== 'undefined'
+        && !_.isUndefined(request.json)
+        && !_.isUndefined(response)
         && request.json == true
     ) {
         try {
-            response.body = typeof response.body !== 'undefined'
+            response.body = !_.isUndefined(response.body)
                 ? JSON.parse(response.body)
                 : undefined
         } catch (e) {}
     }
 
-    return response.body
+    return !_.isNil(response.body)
+        ? response.body
+        : undefined
 }
 
 const request = (req, callback) => {
@@ -35,7 +50,8 @@ const request = (req, callback) => {
         limiterKey,
         limits = {
             'chainz.cryptoid.info': 6,
-            'api.ethplorer.io': 30
+            'api.ethplorer.io': 30,
+            'api.coinmarketcap.com': 30
         };
 
     if (typeof req === 'string') {
@@ -91,7 +107,7 @@ const request = (req, callback) => {
 
     limiters[limiterKey].request((err, backoff) => {
         if (err) {
-            backoff()
+            cb(err, null)
         } else {
             rqst(typeof req === 'object'
                     ? req
@@ -150,6 +166,72 @@ const formatResult = (id, supplies, opts) => {
     return null
 }
 
+async function getCMCSupply(id, opts) {
+    if (_.isUndefined(opts)) {
+        opts = {
+            fetchAll: false
+        }
+    }
+
+    if (_.isUndefined(opts.fetchAll)) {
+        opts.fetchAll = false
+    }
+
+    let coinMeta = await getCoinMeta(id)
+
+    if (_.isUndefined(cmcData[coinMeta.cmcId])) {
+        if (opts.fetchAll || Object.keys(cmcData).length === 0) {
+            cmcData = await request({
+                uri: 'https://api.coinmarketcap.com/v1/ticker/?limit=0',
+                json: true,
+                promise: true
+            })
+
+            cmcData = _.keyBy(cmcData, 'id')
+        } else {
+            cmcData[coinMeta.cmcId] = (await request({
+                uri: `https://api.coinmarketcap.com/v1/ticker/${coinMeta.cmcId}`,
+                json: true,
+                promise: true
+            }))[0]
+        }
+    }
+
+    return !_.isNil(cmcData[coinMeta.cmcId])
+        ? _.mapValues({
+            c: cmcData[coinMeta.cmcId].available_supply,
+            t: cmcData[coinMeta.cmcId].total_supply,
+            m: cmcData[coinMeta.cmcId].max_supply
+        }, value => {
+            return _.isNull(value)
+                ? null
+                : Number(value)
+        })
+        : null
+}
+
+const getCoinMeta = async(id) => {
+    return new Promise((resolve, reject) => {
+        try {
+            let path = `${__dirname}/coins/${id}.js`,
+                src = fs.readFileSync(path).toString(),
+                metaRaw = src.match(/\/\*\*\s*\n([^\*]|(\*(?!\/)))*\*\//gm),
+                metaParsed = metaRaw !== null
+                    ? doctrine.parse(metaRaw[0], { unwrap: true, recoverable: true })
+                    : {tags: []},
+                metaObj = {}
+
+            metaParsed.tags.forEach(item => {
+                metaObj[item.title] = item.description;
+            });
+
+            resolve(metaObj)
+        } catch (e) {
+            reject(new CoinNotFoundError(e.message))
+        }
+    })
+}
+
 const getSupplies = async(id, opts) => {
     return new Promise((resolve, reject) => {
         var file = './coins/' + id + '.js';
@@ -161,16 +243,33 @@ const getSupplies = async(id, opts) => {
                 try {
                     let res = require(file);
 
-                    res((response) => {
+                    res(async(response) => {
                         if (!(response instanceof Error)) {
-                            cache.set(id, response, opts.cacheTTL);
+                            let meta = await getCoinMeta(id)
+
+                            // Cache ETH token results longer
+                            // since they are so slow to fetch
+                            cache.set(
+                                id,
+                                response,
+                                !_.isUndefined(meta.ethContractAddr)
+                                    ? ethTokenCacheTTL
+                                    : opts.cacheTTL
+                            );
                         }
 
-                        if (response instanceof Error
-                            && response.message === 'Not Implemented'
-                            && opts.onlyImplemented
-                        ) {
-                            return
+                        if (response instanceof Error && (response.message === 'Not Implemented' || response.message === 'Not Available')) {
+                            if (opts.onlyImplemented && !opts.fallback) {
+                                return
+                            }
+
+                            if (opts.fallback) {
+                                let cmcSupply = await getCMCSupply(id)
+
+                                if (!_.isNil(cmcSupply)) {
+                                    response = cmcSupply
+                                }
+                            }
                         }
 
                         resolve(formatResult(id, response, opts));
@@ -187,6 +286,51 @@ const getSupplies = async(id, opts) => {
     })
 };
 
+const getList = async() => {
+    return new Promise(async(resolve, reject) => {
+        let list = []
+
+        let files = fs.readdirSync('./coins')
+
+        for (let filename of files) {
+            let id = filename.replace('.js', ''),
+                metaObj = await getCoinMeta(id);
+
+            file = {
+                id: id,
+                name: typeof metaObj.title !== 'undefined' ? metaObj.title : null,
+                symbol: typeof metaObj.symbol !== 'undefined' ? metaObj.symbol : null,
+                implementation: typeof metaObj.implementation !== 'undefined' ? metaObj.implementation : null,
+                cmcId: typeof metaObj.cmcId !== 'undefined' ? metaObj.cmcId : null,
+            }
+
+            list.push(file)
+        }
+
+        resolve(list)
+    })
+}
+
+let keepOneWarm = async(id, argv) => {
+    await getSupplies(id, argv)
+
+    setTimeout(() => {
+        keepOneWarm(id, argv)
+    }, 5000)
+}
+
+let keepAllWarm = (argv) => {
+    argv.fetchAll = true;
+
+    fs.readdir('./coins', (err, files) => {
+        files.forEach(async(file) => {
+            let id = file.replace('.js', '')
+
+            keepOneWarm(id, argv)
+        });
+    });
+}
+
 yargs.usage('$0 <cmd> [args]')
     .command('get [id]', 'Get supplies for a specific coin id', (yargs) => {
         yargs.positional('id', {
@@ -199,6 +343,7 @@ yargs.usage('$0 <cmd> [args]')
     .command('get-all', 'Get supplies for all known coins', (yargs) => {
     }, function (argv) {
         argv.includeIds = true;
+        argv.fetchAll = true;
 
         fs.readdir('./coins', (err, files) => {
             files.forEach(async(file) => {
@@ -213,23 +358,102 @@ yargs.usage('$0 <cmd> [args]')
             alias: 'p',
             default: 3000
         })
+
+        yargs.option('timeout', {
+            alias: 't',
+            default: 10000
+        })
     }, (argv) => {
         const app = express()
 
-        app.get('/', (req, res) => res.send('Hello World!'))
+        keepAllWarm(argv);
 
-        app.listen(argv.port, () => console.log(`Now listening on port 3000
+        app.get('/', async(req, res) => {
+            let list = await getList()
+
+            res.send(list)
+        })
+
+        app.get('/~all', async(req, res) => {
+            res.setHeader('Transfer-Encoding', 'chunked');
+
+            let opts = {
+                    fallback: argv.fallback
+                },
+                files = await getList(),
+                remaining = files.length
+
+            files.forEach(async(file) => {
+                let id = file.id,
+                    result = {}
+
+                try {
+                    result = await getSupplies(id, opts)
+                } catch (e) {
+                    result = e
+                }
+
+                result = formatResult(id, result, opts)
+
+                Object.assign(result, {
+                    meta: file
+                })
+
+                res.write(JSON.stringify(result) + "\n");
+                remaining--
+            })
+        })
+
+        app.get('/:coinId', async(req, res) => {
+            let opts = {
+                    fallback: argv.fallback
+                },
+                id = req.params.coinId,
+                result = {},
+                meta = {};
+
+            try {
+                meta = await getCoinMeta(id)
+            } catch (e) {
+                res.status(404)
+                   .send(`Coin id ${id} not found`);
+
+                return
+            }
+
+            try {
+                result = await getSupplies(id, opts)
+            } catch (e) {
+                result = e
+            }
+
+            result = formatResult(id, result, opts)
+
+            Object.assign(result, {
+                meta: meta
+            })
+
+            res.send(result)
+        })
+
+        let srv = app.listen(argv.port, () => console.log(`Now listening on port ${argv.port}
 
 > Available endpoints:
 
     - GET /             (lists all available coins)
     - GET /~all         (retrieves all supplies)
-    - GET /:coin-id:    (retrieves singular supply based on coin id)
+    - GET /coin-id:    (retrieves singular supply based on coin id)
 `))
+
+        srv.setTimeout(argv.timeout)
     })
     .option('pretty', {
         default: false,
         describe: 'pretty print output',
+        type: 'boolean'
+    })
+    .option('fallback', {
+        default: false,
         type: 'boolean'
     })
     .option('only-implemented', {

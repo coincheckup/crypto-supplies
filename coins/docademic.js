@@ -1,14 +1,19 @@
 /**
-* @title Docademic
-* @symbol MTC
-* @ethContractAddr 0x905E337c6c8645263D3521205Aa37bf4d034e745
-* @implementation Dynamic
-*/
+ * @title Docademic
+ * @symbol MTC
+ * @ethContractAddr 0x905E337c6c8645263D3521205Aa37bf4d034e745
+ * @implementation Dynamic
+ * @cmcId docademic
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x905E337c6c8645263D3521205Aa37bf4d034e745?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

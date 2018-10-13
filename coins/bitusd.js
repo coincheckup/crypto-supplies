@@ -2,6 +2,7 @@
  * @title bitUSD
  * @symbol BITUSD
  * @implementation Not Implemented
+ * @cmcId bitusd
  */
 
 module.exports = (callback, request) => {

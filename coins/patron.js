@@ -1,14 +1,19 @@
 /**
-* @title Patron
-* @symbol PAT
-* @ethContractAddr 0xF3b3Cad094B89392fcE5faFD40bC03b80F2Bc624
-* @implementation Dynamic
-*/
+ * @title Patron
+ * @symbol PAT
+ * @ethContractAddr 0xF3b3Cad094B89392fcE5faFD40bC03b80F2Bc624
+ * @implementation Dynamic
+ * @cmcId patron
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xF3b3Cad094B89392fcE5faFD40bC03b80F2Bc624?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

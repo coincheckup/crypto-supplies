@@ -1,14 +1,19 @@
 /**
-* @title TokenStars
-* @symbol TEAM
-* @ethContractAddr 0x1c79ab32C66aCAa1e9E81952B8AAa581B43e54E7
-* @implementation Dynamic
-*/
+ * @title TokenStars
+ * @symbol TEAM
+ * @ethContractAddr 0x1c79ab32C66aCAa1e9E81952B8AAa581B43e54E7
+ * @implementation Dynamic
+ * @cmcId tokenstars
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1c79ab32C66aCAa1e9E81952B8AAa581B43e54E7?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

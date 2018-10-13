@@ -2,6 +2,7 @@
  * @title TransferCoin
  * @symbol TX
  * @implementation Dynamic
+ * @cmcId transfercoin
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Bitradio
  * @symbol BRO
  * @implementation Dynamic
+ * @cmcId bitradio
  */
 
 module.exports = (callback, request) => {

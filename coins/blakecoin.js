@@ -2,6 +2,7 @@
  * @title Blakecoin
  * @symbol BLC
  * @implementation Not Implemented
+ * @cmcId blakecoin
  */
 
 module.exports = (callback, request) => {

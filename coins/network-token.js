@@ -1,14 +1,19 @@
 /**
-* @title Network Token
-* @symbol NTWK
-* @ethContractAddr 0x2233799ee2683d75dfefacbcd2a26c78d34b470d
-* @implementation Dynamic
-*/
+ * @title Network Token
+ * @symbol NTWK
+ * @ethContractAddr 0x2233799ee2683d75dfefacbcd2a26c78d34b470d
+ * @implementation Dynamic
+ * @cmcId network-token
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2233799ee2683d75dfefacbcd2a26c78d34b470d?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

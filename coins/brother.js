@@ -1,7 +1,8 @@
 /**
- * @title LockTrip
- * @symbol LOC
+ * @title BROTHER
+ * @symbol BRAT
  * @implementation Not Implemented
+ * @cmcId brat
  */
 
 module.exports = (callback, request) => {

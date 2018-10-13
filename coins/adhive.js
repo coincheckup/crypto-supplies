@@ -2,6 +2,7 @@
  * @title AdHive
  * @symbol ADH
  * @implementation Dynamic
+ * @cmcId adhive
  */
 
 module.exports = (callback, request) => {

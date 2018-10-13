@@ -2,6 +2,7 @@
  * @title NEO
  * @symbol NEO
  * @implementation Static
+ * @cmcId neo
  */
 module.exports = (callback, request) => {
     // Source: https://coinmarketcap.com/currencies/neo/

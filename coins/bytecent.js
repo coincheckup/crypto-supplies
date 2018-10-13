@@ -2,6 +2,7 @@
  * @title Bytecent
  * @symbol BYC
  * @implementation Dynamic
+ * @cmcId bytecent
  */
 
 module.exports = (callback, request) => {

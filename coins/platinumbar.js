@@ -2,6 +2,7 @@
  * @title PlatinumBAR
  * @symbol XPTX
  * @implementation Not Implemented
+ * @cmcId platinumbar
  */
 
 module.exports = (callback, request) => {

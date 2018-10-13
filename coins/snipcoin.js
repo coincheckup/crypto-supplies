@@ -2,6 +2,7 @@
  * @title SnipCoin
  * @symbol SNIP
  * @implementation Not Implemented
+ * @cmcId snipcoin
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Infinity Economics
  * @symbol XIN
  * @implementation Static
+ * @cmcId infinity-economics
  */
 module.exports = (callback, request) => {
     callback({

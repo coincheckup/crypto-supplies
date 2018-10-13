@@ -2,6 +2,7 @@
  * @title Canada eCoin
  * @symbol CDN
  * @implementation Not Implemented
+ * @cmcId canada-ecoin
  */
 
 module.exports = (callback, request) => {

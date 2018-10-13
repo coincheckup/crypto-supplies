@@ -2,6 +2,7 @@
  * @title Bitcoin Private
  * @symbol BTCP
  * @implementation Dynamic
+ * @cmcId bitcoin-private
  */
 
 module.exports = (callback, request) => {

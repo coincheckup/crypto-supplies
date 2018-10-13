@@ -2,6 +2,7 @@
  * @title Acute Angle Cloud
  * @symbol AAC
  * @implementation Not Implemented
+ * @cmcId acute-angle-cloud
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Wild Beast Block
  * @symbol WBB
  * @implementation Not Implemented
+ * @cmcId wild-beast-block
  */
 
 module.exports = (callback, request) => {

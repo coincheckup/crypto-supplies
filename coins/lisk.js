@@ -2,6 +2,7 @@
  * @title Lisk
  * @symbol LSK
  * @implementation Not Implemented
+ * @cmcId lisk
  */
 
 module.exports = (callback, request) => {

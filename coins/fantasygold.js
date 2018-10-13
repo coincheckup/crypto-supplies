@@ -2,6 +2,7 @@
  * @title FantasyGold
  * @symbol FGC
  * @implementation Not Implemented
+ * @cmcId fantasygold
  */
 
 module.exports = (callback, request) => {

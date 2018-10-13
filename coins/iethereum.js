@@ -1,14 +1,19 @@
 /**
-* @title iEthereum
-* @symbol IETH
-* @ethContractAddr 0x859a9c0b44cb7066d956a958b0b82e54c9e44b4b
-* @implementation Dynamic
-*/
+ * @title iEthereum
+ * @symbol IETH
+ * @ethContractAddr 0x859a9c0b44cb7066d956a958b0b82e54c9e44b4b
+ * @implementation Dynamic
+ * @cmcId iethereum
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x859a9c0b44cb7066d956a958b0b82e54c9e44b4b?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

@@ -2,6 +2,7 @@
  * @title MAZA
  * @symbol MZC
  * @implementation Not Implemented
+ * @cmcId mazacoin
  */
 
 module.exports = (callback, request) => {

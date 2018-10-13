@@ -1,14 +1,19 @@
 /**
-* @title Rentberry
-* @symbol BERRY
-* @ethContractAddr 0x6aeb95f06cda84ca345c2de0f3b7f96923a44f4c
-* @implementation Dynamic
-*/
+ * @title Rentberry
+ * @symbol BERRY
+ * @ethContractAddr 0x6aeb95f06cda84ca345c2de0f3b7f96923a44f4c
+ * @implementation Dynamic
+ * @cmcId rentberry
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x6aeb95f06cda84ca345c2de0f3b7f96923a44f4c?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

@@ -2,6 +2,7 @@
  * @title Shekel
  * @symbol JEW
  * @implementation Not Implemented
+ * @cmcId shekel
  */
 
 module.exports = (callback, request) => {

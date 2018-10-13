@@ -2,6 +2,7 @@
  * @title Crown
  * @symbol CRW
  * @implementation Dynamic
+ * @cmcId crown
  */
 
 module.exports = (callback, request) => {

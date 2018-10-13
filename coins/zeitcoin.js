@@ -2,6 +2,7 @@
  * @title Zeitcoin
  * @symbol ZEIT
  * @implementation Dynamic
+ * @cmcId zeitcoin
  */
 
 module.exports = (callback, request) => {

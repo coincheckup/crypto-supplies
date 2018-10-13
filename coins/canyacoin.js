@@ -1,14 +1,19 @@
 /**
-* @title CanYaCoin
-* @symbol CAN
-* @ethContractAddr 0x1d462414fe14cf489c7a21cac78509f4bf8cd7c0
-* @implementation Dynamic
-*/
+ * @title CanYaCoin
+ * @symbol CAN
+ * @ethContractAddr 0x1d462414fe14cf489c7a21cac78509f4bf8cd7c0
+ * @implementation Dynamic
+ * @cmcId canyacoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1d462414fe14cf489c7a21cac78509f4bf8cd7c0?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

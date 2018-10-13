@@ -2,6 +2,7 @@
  * @title Luna Coin
  * @symbol LUNA
  * @implementation Not Implemented
+ * @cmcId luna-coin
  */
 
 module.exports = (callback, request) => {

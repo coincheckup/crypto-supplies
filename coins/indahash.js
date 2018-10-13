@@ -1,14 +1,19 @@
 /**
-* @title indaHash
-* @symbol IDH
-* @ethContractAddr 0x5136C98A80811C3f46bDda8B5c4555CFd9f812F0
-* @implementation Dynamic
-*/
+ * @title indaHash
+ * @symbol IDH
+ * @ethContractAddr 0x5136C98A80811C3f46bDda8B5c4555CFd9f812F0
+ * @implementation Dynamic
+ * @cmcId indahash
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5136C98A80811C3f46bDda8B5c4555CFd9f812F0?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

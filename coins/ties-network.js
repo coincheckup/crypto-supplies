@@ -3,6 +3,7 @@
  * @symbol TIE
  * @ethContractAddr 0x999967e2ec8a74b7c8e9db19e039d920b31d39d0
  * @implementation Dynamic
+ * @cmcId tiesdb
  */
  
  module.exports = (callback, request) => {

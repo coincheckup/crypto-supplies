@@ -2,6 +2,7 @@
  * @title MarteXcoin
  * @symbol MXT
  * @implementation Not Implemented
+ * @cmcId martexcoin
  */
 
 module.exports = (callback, request) => {

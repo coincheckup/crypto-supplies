@@ -2,6 +2,7 @@
  * @title Phantomx
  * @symbol PNX
  * @implementation Not Implemented
+ * @cmcId phantomx
  */
 
 module.exports = (callback, request) => {

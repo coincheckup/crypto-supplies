@@ -2,6 +2,7 @@
  * @title NEM
  * @symbol XEM
  * @implementation Dynamic
+ * @cmcId nem
  */
 
 module.exports = (callback, request) => {

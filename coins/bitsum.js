@@ -2,6 +2,7 @@
  * @title Bitsum
  * @symbol BSM
  * @implementation Not Implemented
+ * @cmcId bitsum
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Creativecoin
  * @symbol CREA
  * @implementation Dynamic
+ * @cmcId creativecoin
  */
 
 module.exports = (callback, request) => {

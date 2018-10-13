@@ -2,6 +2,7 @@
  * @title CrevaCoin
  * @symbol CREVA
  * @implementation Not Implemented
+ * @cmcId crevacoin
  */
 
 module.exports = (callback, request) => {

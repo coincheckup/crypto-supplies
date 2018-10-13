@@ -2,6 +2,7 @@
  * @title TeslaCoin
  * @symbol TES
  * @implementation Dynamic
+ * @cmcId teslacoin
  */
 
 module.exports = (callback, request) => {

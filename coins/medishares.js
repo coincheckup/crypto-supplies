@@ -1,14 +1,19 @@
 /**
-* @title MediShares
-* @symbol MDS
-* @ethContractAddr 0x66186008C1050627F979d464eABb258860563dbE
-* @implementation Dynamic
-*/
+ * @title MediShares
+ * @symbol MDS
+ * @ethContractAddr 0x66186008C1050627F979d464eABb258860563dbE
+ * @implementation Dynamic
+ * @cmcId medishares
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x66186008C1050627F979d464eABb258860563dbE?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

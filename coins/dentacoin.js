@@ -1,14 +1,19 @@
 /**
-* @title Dentacoin
-* @symbol DCN
-* @ethContractAddr 0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6
-* @implementation Dynamic
-*/
+ * @title Dentacoin
+ * @symbol DCN
+ * @ethContractAddr 0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6
+ * @implementation Dynamic
+ * @cmcId dentacoin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

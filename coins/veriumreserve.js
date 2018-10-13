@@ -2,6 +2,7 @@
  * @title VeriumReserve
  * @symbol VRM
  * @implementation Not Implemented
+ * @cmcId veriumreserve
  */
 
 module.exports = (callback, request) => {

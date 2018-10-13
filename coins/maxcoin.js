@@ -2,6 +2,7 @@
  * @title MaxCoin
  * @symbol MAX
  * @implementation Dynamic
+ * @cmcId maxcoin
  */
 
 module.exports = (callback, request) => {

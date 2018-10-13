@@ -2,6 +2,7 @@
  * @title Neblio
  * @symbol NEBL
  * @implementation Dynamic
+ * @cmcId neblio
  */
 module.exports = (callback, request) => {
     Promise.all([

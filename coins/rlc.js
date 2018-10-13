@@ -1,9 +1,10 @@
 /**
-* @title iExec RLC
-* @symbol RLC
-* @ethContractAddr 0x607f4c5bb672230e8672085532f7e901544a7375
-* @implementation Dynamic
-*/
+ * @title iExec RLC
+ * @symbol RLC
+ * @ethContractAddr 0x607f4c5bb672230e8672085532f7e901544a7375
+ * @implementation Dynamic
+ * @cmcId rlc
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x607f4c5bb672230e8672085532f7e901544a7375?apiKey=freekey', (error, response, body) => {

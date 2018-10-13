@@ -2,6 +2,7 @@
  * @title Megacoin
  * @symbol MEC
  * @implementation Dynamic
+ * @cmcId megacoin
  */
 
 module.exports = (callback, request) => {

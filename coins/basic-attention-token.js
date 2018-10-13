@@ -2,7 +2,8 @@
  * @title Basic Attention Token
  * @symbol BAT
  * @implementation Dynamic
- * @ethContractAddr 0x86fa049857e0209aa7d9e616f7eb3b3b78ecfdb0
+ * @ethContractAddr 0x0d8775f648430679a709e98d2b0cb6250d2887ef
+ * @cmcId basic-attention-token
  */
 
 module.exports = (callback, request) => {

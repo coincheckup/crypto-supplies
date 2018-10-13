@@ -2,6 +2,7 @@
  * @title Zcash
  * @symbol ZEC
  * @implementation Dynamic
+ * @cmcId zcash
  */
 
 module.exports = (callback, request) => {

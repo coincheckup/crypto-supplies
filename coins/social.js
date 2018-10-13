@@ -3,6 +3,7 @@
  * @symbol SCL
  * @ethContractAddr 0xd7631787b4dcc87b1254cfd1e5ce48e96823dee8
  * @implementation Dynamic
+ * @cmcId sociall
  */
  
  module.exports = (callback, request) => {

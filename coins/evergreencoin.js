@@ -2,6 +2,7 @@
  * @title EverGreenCoin
  * @symbol EGC
  * @implementation Dynamic
+ * @cmcId evergreencoin
  */
 
 module.exports = (callback, request) => {

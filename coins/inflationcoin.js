@@ -2,6 +2,7 @@
  * @title InflationCoin
  * @symbol IFLT
  * @implementation Not Implemented
+ * @cmcId inflationcoin
  */
 
 module.exports = (callback, request) => {

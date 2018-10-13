@@ -2,6 +2,7 @@
  * @title MetalCoin
  * @symbol METAL
  * @implementation Not Implemented
+ * @cmcId metalcoin
  */
 
 module.exports = (callback, request) => {

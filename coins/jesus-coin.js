@@ -1,14 +1,19 @@
 /**
-* @title Jesus Coin
-* @symbol JC
-* @ethContractAddr 0xe2d82dc7da0e6f882e96846451f4fabcc8f90528
-* @implementation Dynamic
-*/
+ * @title Jesus Coin
+ * @symbol JC
+ * @ethContractAddr 0xe2d82dc7da0e6f882e96846451f4fabcc8f90528
+ * @implementation Dynamic
+ * @cmcId jesus-coin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe2d82dc7da0e6f882e96846451f4fabcc8f90528?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

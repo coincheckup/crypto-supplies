@@ -1,14 +1,19 @@
 /**
-* @title CommerceBlock
-* @symbol CBT
-* @ethContractAddr 0x076C97e1c869072eE22f8c91978C99B4bcB02591
-* @implementation Dynamic
-*/
+ * @title CommerceBlock
+ * @symbol CBT
+ * @ethContractAddr 0x076C97e1c869072eE22f8c91978C99B4bcB02591
+ * @implementation Dynamic
+ * @cmcId commerceblock
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x076C97e1c869072eE22f8c91978C99B4bcB02591?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

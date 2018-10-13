@@ -2,6 +2,7 @@
  * @title 42-coin
  * @symbol 42
  * @implementation Dynamic
+ * @cmcId 42-coin
  */
 
 module.exports = (callback, request) => {

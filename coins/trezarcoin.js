@@ -2,6 +2,7 @@
  * @title TrezarCoin
  * @symbol TZC
  * @implementation Dynamic
+ * @cmcId trezarcoin
  */
 
 module.exports = (callback, request) => {

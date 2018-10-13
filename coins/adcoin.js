@@ -2,6 +2,7 @@
  * @title AdCoin
  * @symbol ACC
  * @implementation Not Implemented
+ * @cmcId adcoin
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title TokenPay
  * @symbol TPAY
  * @implementation Dynamic
+ * @cmcId tokenpay
  */
  
  module.exports = (callback, request) => {

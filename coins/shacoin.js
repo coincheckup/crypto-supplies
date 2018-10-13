@@ -2,6 +2,7 @@
  * @title SHACoin
  * @symbol SHA
  * @implementation Dynamic
+ * @cmcId shacoin
  */
 
 module.exports = (callback, request) => {

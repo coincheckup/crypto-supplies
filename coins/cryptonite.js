@@ -2,6 +2,7 @@
  * @title Cryptonite
  * @symbol XCN
  * @implementation Not Implemented
+ * @cmcId cryptonite
  */
 
 module.exports = (callback, request) => {

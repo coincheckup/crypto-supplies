@@ -2,6 +2,7 @@
  * @title MagicCoin
  * @symbol MAGE
  * @implementation Not Implemented
+ * @cmcId magiccoin
  */
 
 module.exports = (callback, request) => {

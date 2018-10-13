@@ -2,6 +2,7 @@
  * @title LiteBitcoin
  * @symbol LBTC
  * @implementation Not Implemented
+ * @cmcId litebitcoin
  */
 
 module.exports = (callback, request) => {

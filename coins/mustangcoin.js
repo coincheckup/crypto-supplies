@@ -2,6 +2,7 @@
  * @title MustangCoin
  * @symbol MST
  * @implementation Dynamic
+ * @cmcId mustangcoin
  */
 
 module.exports = (callback, request) => {

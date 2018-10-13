@@ -3,6 +3,7 @@
  * @symbol TRDT
  * @ethContractAddr 0x33f90Dee07c6E8B9682dD20F73E6C358B2ED0f03
  * @implementation Dynamic
+ * @cmcId trident
  */
  
  module.exports = (callback, request) => {

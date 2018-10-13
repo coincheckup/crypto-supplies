@@ -2,6 +2,7 @@
  * @title Aeon
  * @symbol AEON
  * @implementation Dynamic
+ * @cmcId aeon
  */
 
 module.exports = (callback, request) => {
@@ -10,10 +11,14 @@ module.exports = (callback, request) => {
         json: true
     }, (error, response, body) => {
         if (!error && response.statusCode == 200) {
-            callback({
-                c: Number(body.alreadyGeneratedCoins) * Math.pow(10, -9),
-                m: 184470000000
-            })
+            if (typeof body.alreadyGeneratedCoins !== 'undefined' && typeof body.code === 'undefined') {
+                callback({
+                    c: Number(body.alreadyGeneratedCoins) * Math.pow(10, -9),
+                    m: 184470000000
+                })
+            } else if (typeof body.code !== 'undefined' && typeof body.message !== 'undefined') {
+                callback(new Error('API error ' + body.message));
+            }
         } else {
             callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error.message));
         }

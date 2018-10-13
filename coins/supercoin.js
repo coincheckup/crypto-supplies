@@ -2,6 +2,7 @@
  * @title SuperCoin
  * @symbol SUPER
  * @implementation Dynamic
+ * @cmcId supercoin
  */
 
 module.exports = (callback, request) => {

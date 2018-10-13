@@ -2,6 +2,7 @@
  * @title Royalties
  * @symbol XRY
  * @implementation Not Implemented
+ * @cmcId royalties
  */
 
 module.exports = (callback, request) => {

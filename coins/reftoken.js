@@ -2,6 +2,7 @@
  * @title RefToken
  * @symbol REF
  * @implementation Not Implemented
+ * @cmcId reftoken
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title SmartCoin
  * @symbol SMC
  * @implementation Not Implemented
+ * @cmcId smartcoin
  */
 
 module.exports = (callback, request) => {

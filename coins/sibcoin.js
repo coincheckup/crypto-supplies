@@ -2,6 +2,7 @@
  * @title SIBCoin
  * @symbol SIB
  * @implementation Not Implemented
+ * @cmcId sibcoin
  */
 
 module.exports = (callback, request) => {

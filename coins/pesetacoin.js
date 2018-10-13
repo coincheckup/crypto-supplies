@@ -2,6 +2,7 @@
  * @title Pesetacoin
  * @symbol PTC
  * @implementation Dynamic
+ * @cmcId pesetacoin
  */
 
 module.exports = (callback, request) => {

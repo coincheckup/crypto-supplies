@@ -2,6 +2,7 @@
  * @title MIRQ
  * @symbol MRQ
  * @implementation Not Implemented
+ * @cmcId mirq
  */
 
 module.exports = (callback, request) => {

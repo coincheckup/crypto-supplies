@@ -1,7 +1,8 @@
 /**
- * @title ExchangeN
- * @symbol EXN
+ * @title ArtByte
+ * @symbol ABY
  * @implementation Not Implemented
+ * @cmcId artbyte
  */
 
 module.exports = (callback, request) => {

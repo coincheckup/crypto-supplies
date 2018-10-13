@@ -2,6 +2,7 @@
  * @title LEOcoin
  * @symbol LEO
  * @implementation Not Implemented
+ * @cmcId leocoin
  */
 
 module.exports = (callback, request) => {

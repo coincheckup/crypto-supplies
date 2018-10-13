@@ -2,6 +2,7 @@
  * @title WhiteCoin
  * @symbol XWC
  * @implementation Dynamic
+ * @cmcId whitecoin
  */
 
 module.exports = (callback, request) => {

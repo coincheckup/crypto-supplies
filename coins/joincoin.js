@@ -2,6 +2,7 @@
  * @title Joincoin
  * @symbol J
  * @implementation Dynamic
+ * @cmcId joincoin
  */
 
 module.exports = (callback, request) => {

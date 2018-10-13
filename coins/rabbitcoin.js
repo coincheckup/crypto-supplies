@@ -2,6 +2,7 @@
  * @title RabbitCoin
  * @symbol RBBT
  * @implementation Not Implemented
+ * @cmcId rabbitcoin
  */
 
 module.exports = (callback, request) => {

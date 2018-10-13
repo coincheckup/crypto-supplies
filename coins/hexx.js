@@ -2,6 +2,7 @@
  * @title Hexx
  * @symbol HXX
  * @implementation Not Implemented
+ * @cmcId hexx
  */
 
 module.exports = (callback, request) => {

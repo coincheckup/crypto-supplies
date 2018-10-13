@@ -2,6 +2,7 @@
  * @title Stellite
  * @symbol XTL
  * @implementation Not Implemented
+ * @cmcId stellite
  */
 
 module.exports = (callback, request) => {

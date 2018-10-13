@@ -2,6 +2,7 @@
  * @title Dash
  * @symbol DASH
  * @implementation Dynamic
+ * @cmcId dash
  */
 
 module.exports = (callback, request) => {

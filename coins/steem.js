@@ -2,6 +2,7 @@
  * @title Steem
  * @symbol STEEM
  * @implementation Dynamic
+ * @cmcId steem
  */
 
 module.exports = (callback, request) => {

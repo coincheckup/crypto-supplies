@@ -2,6 +2,7 @@
  * @title CORION
  * @symbol COR
  * @implementation Not Implemented
+ * @cmcId corion
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title OceanChain
  * @symbol OC
  * @implementation Not Implemented
+ * @cmcId oceanchain
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title AvatarCoin
  * @symbol AV
  * @implementation Not Implemented
+ * @cmcId avatarcoin
  */
 
 module.exports = (callback, request) => {

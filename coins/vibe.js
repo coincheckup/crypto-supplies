@@ -1,14 +1,19 @@
 /**
-* @title VIBE
-* @symbol VIBE
-* @ethContractAddr 0xe8ff5c9c75deb346acac493c463c8950be03dfba
-* @implementation Dynamic
-*/
+ * @title VIBE
+ * @symbol VIBE
+ * @ethContractAddr 0xe8ff5c9c75deb346acac493c463c8950be03dfba
+ * @implementation Dynamic
+ * @cmcId vibe
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xe8ff5c9c75deb346acac493c463c8950be03dfba?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

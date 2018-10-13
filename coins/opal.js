@@ -2,6 +2,7 @@
  * @title Opal
  * @symbol OPAL
  * @implementation Not Implemented
+ * @cmcId opal
  */
 
 module.exports = (callback, request) => {

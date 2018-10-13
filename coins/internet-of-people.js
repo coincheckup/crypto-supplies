@@ -2,6 +2,7 @@
  * @title Internet of People
  * @symbol IOP
  * @implementation Not Implemented
+ * @cmcId internet-of-people
  */
 
 module.exports = (callback, request) => {

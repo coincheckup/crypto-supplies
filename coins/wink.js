@@ -2,6 +2,7 @@
  * @title Wink
  * @symbol WINK
  * @implementation Not Implemented
+ * @cmcId wink
  */
 
 module.exports = (callback, request) => {

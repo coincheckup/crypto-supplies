@@ -1,14 +1,19 @@
 /**
-* @title Auctus
-* @symbol AUC
-* @ethContractAddr 0xc12d099be31567add4e4e4d0d45691c3f58f5663
-* @implementation Dynamic
-*/
+ * @title Auctus
+ * @symbol AUC
+ * @ethContractAddr 0xc12d099be31567add4e4e4d0d45691c3f58f5663
+ * @implementation Dynamic
+ * @cmcId auctus
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xc12d099be31567add4e4e4d0d45691c3f58f5663?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

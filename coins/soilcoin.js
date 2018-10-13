@@ -2,6 +2,7 @@
  * @title SOILcoin
  * @symbol SOIL
  * @implementation Not Implemented
+ * @cmcId soilcoin
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Oxycoin
  * @symbol OXY
  * @implementation Not Implemented
+ * @cmcId oxycoin
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Infinitecoin
  * @symbol IFC
  * @implementation Dynamic
+ * @cmcId infinitecoin
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Sprouts
  * @symbol SPRTS
  * @implementation Dynamic
+ * @cmcId sprouts
  */
 
 module.exports = (callback, request) => {

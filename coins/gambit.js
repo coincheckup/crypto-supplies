@@ -2,6 +2,7 @@
  * @title Gambit
  * @symbol GAM
  * @implementation Dynamic
+ * @cmcId gambit
  */
 
 module.exports = (callback, request) => {

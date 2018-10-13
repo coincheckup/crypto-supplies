@@ -1,14 +1,19 @@
 /**
-* @title OAX
-* @symbol OAX
-* @ethContractAddr 0x701c244b988a513c945973defa05de933b23fe1d
-* @implementation Dynamic
-*/
+ * @title OAX
+ * @symbol OAX
+ * @ethContractAddr 0x701c244b988a513c945973defa05de933b23fe1d
+ * @implementation Dynamic
+ * @cmcId oax
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x701c244b988a513c945973defa05de933b23fe1d?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

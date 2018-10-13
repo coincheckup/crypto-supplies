@@ -2,6 +2,7 @@
  * @title Pabyosi Coin (Special)
  * @symbol PCS
  * @implementation Not Implemented
+ * @cmcId pabyosi-coin-special
  */
 
 module.exports = (callback, request) => {

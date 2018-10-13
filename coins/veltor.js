@@ -2,6 +2,7 @@
  * @title Veltor
  * @symbol VLT
  * @implementation Not Implemented
+ * @cmcId veltor
  */
 
 module.exports = (callback, request) => {

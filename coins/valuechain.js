@@ -2,6 +2,7 @@
  * @title ValueChain
  * @symbol VLC
  * @implementation Not Implemented
+ * @cmcId valuechain
  */
 
 module.exports = (callback, request) => {

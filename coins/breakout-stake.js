@@ -2,6 +2,7 @@
  * @title Breakout Stake
  * @symbol BRX
  * @implementation Not Implemented
+ * @cmcId breakout-stake
  */
 
 module.exports = (callback, request) => {

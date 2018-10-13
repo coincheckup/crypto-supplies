@@ -2,6 +2,7 @@
  * @title Machinecoin
  * @symbol MAC
  * @implementation Dynamic
+ * @cmcId machinecoin
  */
 
 module.exports = (callback, request) => {

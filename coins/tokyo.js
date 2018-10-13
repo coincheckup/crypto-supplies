@@ -2,6 +2,7 @@
  * @title TOKYO
  * @symbol TOKC
  * @implementation Not Implemented
+ * @cmcId tokyo
  */
 
 module.exports = (callback, request) => {

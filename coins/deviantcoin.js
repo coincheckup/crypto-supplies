@@ -2,6 +2,7 @@
  * @title DeviantCoin
  * @symbol DEV
  * @implementation Not Implemented
+ * @cmcId deviantcoin
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Piggycoin
  * @symbol PIGGY
  * @implementation Dynamic
+ * @cmcId piggycoin
  */
 
 module.exports = (callback, request) => {

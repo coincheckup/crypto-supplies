@@ -1,7 +1,8 @@
 /**
- * @title Miners' Reward Token
- * @symbol MRT
+ * @title Regacoin
+ * @symbol REGA
  * @implementation Not Implemented
+ * @cmcId regacoin
  */
 
 module.exports = (callback, request) => {

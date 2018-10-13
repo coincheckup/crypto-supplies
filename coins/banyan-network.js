@@ -1,14 +1,19 @@
 /**
-* @title Banyan Network
-* @symbol BBN
-* @ethContractAddr 0x35a69642857083ba2f30bfab735dacc7f0bac969
-* @implementation Dynamic
-*/
+ * @title Banyan Network
+ * @symbol BBN
+ * @ethContractAddr 0x35a69642857083ba2f30bfab735dacc7f0bac969
+ * @implementation Dynamic
+ * @cmcId banyan-network
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x35a69642857083ba2f30bfab735dacc7f0bac969?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

@@ -1,14 +1,19 @@
 /**
-* @title StockChain
-* @symbol SCC
-* @ethContractAddr 0x355a458d555151d3b27f94227960ade1504e526a
-* @implementation Dynamic
-*/
+ * @title StockChain
+ * @symbol SCC
+ * @ethContractAddr 0x355a458d555151d3b27f94227960ade1504e526a
+ * @implementation Dynamic
+ * @cmcId stockchain
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x355a458d555151d3b27f94227960ade1504e526a?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

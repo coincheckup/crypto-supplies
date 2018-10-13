@@ -1,9 +1,10 @@
 /**
-* @title vSlice
-* @symbol VSL
-* @ethContractAddr 0x5c543e7ae0a1104f78406c340e9c64fd9fce5170
-* @implementation Dynamic
-*/
+ * @title vSlice
+ * @symbol VSL
+ * @ethContractAddr 0x5c543e7ae0a1104f78406c340e9c64fd9fce5170
+ * @implementation Dynamic
+ * @cmcId vslice
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5c543e7ae0a1104f78406c340e9c64fd9fce5170?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title Powercoin
  * @symbol PWR
  * @implementation Not Implemented
+ * @cmcId powercoin
  */
 
 module.exports = (callback, request) => {

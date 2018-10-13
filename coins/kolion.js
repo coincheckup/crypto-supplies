@@ -2,6 +2,7 @@
  * @title Kolion
  * @symbol KLN
  * @implementation Not Implemented
+ * @cmcId kolion
  */
 
 module.exports = (callback, request) => {

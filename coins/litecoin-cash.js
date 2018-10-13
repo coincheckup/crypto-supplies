@@ -2,6 +2,7 @@
  * @title Litecoin Cash
  * @symbol LCC
  * @implementation Not Implemented
+ * @cmcId litecoin-cash
  */
 
 module.exports = (callback, request) => {

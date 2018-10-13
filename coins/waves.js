@@ -2,6 +2,7 @@
  * @title Waves
  * @symbol WAVES
  * @implementation Static
+ * @cmcId waves
  */
 module.exports = (callback, request) => {
     callback({

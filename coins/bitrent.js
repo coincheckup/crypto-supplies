@@ -1,14 +1,19 @@
 /**
-* @title BitRent
-* @symbol RNTB
-* @ethContractAddr 0x1fe70be734e473e5721ea57c8b5b01e6caa52686
-* @implementation Dynamic
-*/
+ * @title BitRent
+ * @symbol RNTB
+ * @ethContractAddr 0x1fe70be734e473e5721ea57c8b5b01e6caa52686
+ * @implementation Dynamic
+ * @cmcId bitrent
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1fe70be734e473e5721ea57c8b5b01e6caa52686?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

@@ -3,6 +3,7 @@
  * @symbol REBL
  * @ethContractAddr 0x5f53f7a8075614b699baad0bc2c899f4bad8fbbf
  * @implementation Dynamic
+ * @cmcId rebl
  */
  
  module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title TrumpCoin
  * @symbol TRUMP
  * @implementation Dynamic
+ * @cmcId trumpcoin
  */
 
 module.exports = (callback, request) => {

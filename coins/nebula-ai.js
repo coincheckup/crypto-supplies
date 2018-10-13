@@ -1,14 +1,19 @@
 /**
-* @title Nebula AI
-* @symbol NBAI
-* @ethContractAddr 0x17f8afb63dfcdcc90ebe6e84f060cc306a98257d
-* @implementation Dynamic
-*/
+ * @title Nebula AI
+ * @symbol NBAI
+ * @ethContractAddr 0x17f8afb63dfcdcc90ebe6e84f060cc306a98257d
+ * @implementation Dynamic
+ * @cmcId nebula-ai
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x17f8afb63dfcdcc90ebe6e84f060cc306a98257d?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

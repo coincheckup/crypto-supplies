@@ -1,9 +1,10 @@
 /**
-* @title SingularDTV
-* @symbol SNGLS
-* @ethContractAddr 0xaec2e87e0a235266d9c5adc9deb4b2e29b54d009
-* @implementation Dynamic
-*/
+ * @title SingularDTV
+ * @symbol SNGLS
+ * @ethContractAddr 0xaec2e87e0a235266d9c5adc9deb4b2e29b54d009
+ * @implementation Dynamic
+ * @cmcId singulardtv
+ */
 
 module.exports = (callback, request) => {
     request('http://api.ethplorer.io/getTokenInfo/0xaec2e87e0a235266d9c5adc9deb4b2e29b54d009?apiKey=freekey', (error, response, body) => {

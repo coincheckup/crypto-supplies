@@ -2,6 +2,7 @@
  * @title Show
  * @symbol SHOW
  * @implementation Not Implemented
+ * @cmcId show
  */
 
 module.exports = (callback, request) => {

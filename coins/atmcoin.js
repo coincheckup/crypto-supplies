@@ -2,6 +2,7 @@
  * @title ATMCoin
  * @symbol ATMC
  * @implementation Not Implemented
+ * @cmcId atmcoin
  */
 
 module.exports = (callback, request) => {

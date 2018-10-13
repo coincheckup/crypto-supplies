@@ -1,9 +1,10 @@
 /**
-* @title Experty
-* @symbol EXY
-* @ethContractAddr 0x5c743a35e903f6c584514ec617acee0611cf44f3
-* @implementation Dynamic
-*/
+ * @title Experty
+ * @symbol EXY
+ * @ethContractAddr 0x5c743a35e903f6c584514ec617acee0611cf44f3
+ * @implementation Dynamic
+ * @cmcId experty
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x5c743a35e903f6c584514ec617acee0611cf44f3?apiKey=freekey', (error, response, body) => {

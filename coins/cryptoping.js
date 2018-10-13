@@ -2,6 +2,7 @@
  * @title CryptoPing
  * @symbol PING
  * @implementation Not Implemented
+ * @cmcId cryptoping
  */
 
 module.exports = (callback, request) => {

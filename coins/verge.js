@@ -2,6 +2,7 @@
  * @title Verge
  * @symbol XVG
  * @implementation Dynamic
+ * @cmcId verge
  */
 
 module.exports = (callback, request) => {

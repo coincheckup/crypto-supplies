@@ -2,6 +2,7 @@
  * @title AquariusCoin
  * @symbol ARCO
  * @implementation Dynamic
+ * @cmcId aquariuscoin
  */
 
 module.exports = (callback, request) => {

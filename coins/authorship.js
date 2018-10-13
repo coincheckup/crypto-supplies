@@ -1,14 +1,19 @@
 /**
-* @title Authorship
-* @symbol ATS
-* @ethContractAddr 0x2dAEE1AA61D60A252DC80564499A69802853583A
-* @implementation Dynamic
-*/
+ * @title Authorship
+ * @symbol ATS
+ * @ethContractAddr 0x2dAEE1AA61D60A252DC80564499A69802853583A
+ * @implementation Dynamic
+ * @cmcId authorship
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2dAEE1AA61D60A252DC80564499A69802853583A?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

@@ -1,9 +1,10 @@
 /**
-* @title Bancor
-* @symbol BNT
-* @ethContractAddr 0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c
-* @implementation Dynamic
-*/
+ * @title Bancor
+ * @symbol BNT
+ * @ethContractAddr 0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c
+ * @implementation Dynamic
+ * @cmcId bancor
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c?apiKey=freekey', (error, response, body) => {

@@ -3,6 +3,7 @@
  * @symbol DGD
  * @ethContractAddr 0xe0b7927c4af23765cb51314a0e0521a9645f0e2a
  * @implementation Dynamic
+ * @cmcId digixdao
  */
 
 module.exports = (callback, request) => {

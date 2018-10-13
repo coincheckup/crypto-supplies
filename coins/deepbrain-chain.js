@@ -2,6 +2,7 @@
  * @title DeepBrain Chain
  * @symbol DBC
  * @implementation Not Implemented
+ * @cmcId deepbrain-chain
  */
 
 module.exports = (callback, request) => {

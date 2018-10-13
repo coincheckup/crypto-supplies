@@ -2,6 +2,7 @@
  * @title CryptoCarbon
  * @symbol CCRB
  * @implementation Not Implemented
+ * @cmcId cryptocarbon
  */
 
 module.exports = (callback, request) => {

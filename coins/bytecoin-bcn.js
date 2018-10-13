@@ -2,6 +2,7 @@
  * @title Bytecoin
  * @symbol BCN
  * @implementation Dynamic
+ * @cmcId bytecoin-bcn
  */
 
 module.exports = (callback, request) => {

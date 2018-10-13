@@ -2,6 +2,7 @@
  * @title InsaneCoin
  * @symbol INSN
  * @implementation Not Implemented
+ * @cmcId insanecoin-insn
  */
 
 module.exports = (callback, request) => {

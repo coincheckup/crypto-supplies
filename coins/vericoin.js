@@ -2,6 +2,7 @@
  * @title VeriCoin
  * @symbol VRC
  * @implementation Dynamic
+ * @cmcId vericoin
  */
 
 module.exports = (callback, request) => {

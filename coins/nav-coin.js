@@ -2,6 +2,7 @@
  * @title NavCoin
  * @symbol NAV
  * @implementation Dynamic
+ * @cmcId nav-coin
  */
 
 module.exports = (callback, request) => {

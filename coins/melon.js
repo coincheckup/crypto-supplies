@@ -1,9 +1,10 @@
 /**
-* @title Melon
-* @symbol MLN
-* @ethContractAddr 0xbeb9ef514a379b997e0798fdcc901ee474b6d9a1
-* @implementation Dynamic
-*/
+ * @title Melon
+ * @symbol MLN
+ * @ethContractAddr 0xbeb9ef514a379b997e0798fdcc901ee474b6d9a1
+ * @implementation Dynamic
+ * @cmcId melon
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xbeb9ef514a379b997e0798fdcc901ee474b6d9a1?apiKey=freekey', (error, response, body) => {

@@ -2,6 +2,7 @@
  * @title PlayerCoin
  * @symbol PLACO
  * @implementation Not Implemented
+ * @cmcId playercoin
  */
 
 module.exports = (callback, request) => {

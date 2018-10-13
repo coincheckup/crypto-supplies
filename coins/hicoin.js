@@ -2,6 +2,7 @@
  * @title HiCoin
  * @symbol XHI
  * @implementation Not Implemented
+ * @cmcId hicoin
  */
 
 module.exports = (callback, request) => {

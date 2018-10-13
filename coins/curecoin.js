@@ -2,6 +2,7 @@
  * @title Curecoin
  * @symbol CURE
  * @implementation Dynamic
+ * @cmcId curecoin
  */
 
 module.exports = (callback, request) => {

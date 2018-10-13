@@ -1,9 +1,10 @@
 /**
-* @title Aragon
-* @symbol ANT
-* @ethContractAddr 0x960b236a07cf122663c4303350609a66a7b288c0
-* @implementation Dynamic
-*/
+ * @title Aragon
+ * @symbol ANT
+ * @ethContractAddr 0x960b236a07cf122663c4303350609a66a7b288c0
+ * @implementation Dynamic
+ * @cmcId aragon
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x960b236a07cf122663c4303350609a66a7b288c0?apiKey=freekey', (error, response, body) => {

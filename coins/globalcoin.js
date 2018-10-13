@@ -2,6 +2,7 @@
  * @title GlobalCoin
  * @symbol GLC
  * @implementation Dynamic
+ * @cmcId globalcoin
  */
 
 module.exports = (callback, request) => {

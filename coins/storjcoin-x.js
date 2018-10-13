@@ -2,6 +2,7 @@
  * @title Storjcoin X
  * @symbol SJCX
  * @implementation Not Implemented
+ * @cmcId storjcoin-x
  */
 
 module.exports = (callback, request) => {

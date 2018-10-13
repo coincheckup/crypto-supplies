@@ -2,6 +2,7 @@
  * @title BOAT
  * @symbol BOAT
  * @implementation Not Implemented
+ * @cmcId doubloon
  */
 
 module.exports = (callback, request) => {

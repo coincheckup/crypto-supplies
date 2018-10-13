@@ -1,14 +1,19 @@
 /**
-* @title adbank
-* @symbol ADB
-* @ethContractAddr 0x2baac9330cf9ac479d819195794d79ad0c7616e3
-* @implementation Dynamic
-*/
+ * @title adbank
+ * @symbol ADB
+ * @ethContractAddr 0x2baac9330cf9ac479d819195794d79ad0c7616e3
+ * @implementation Dynamic
+ * @cmcId adbank
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x2baac9330cf9ac479d819195794d79ad0c7616e3?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

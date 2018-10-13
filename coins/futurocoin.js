@@ -2,6 +2,7 @@
  * @title FuturoCoin
  * @symbol FTO
  * @implementation Not Implemented
+ * @cmcId futurocoin
  */
 
 module.exports = (callback, request) => {

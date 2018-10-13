@@ -2,6 +2,7 @@
  * @title GeoCoin
  * @symbol GEO
  * @implementation Dynamic
+ * @cmcId geocoin
  */
 
 module.exports = (callback, request) => {

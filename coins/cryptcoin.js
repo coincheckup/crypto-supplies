@@ -2,6 +2,7 @@
  * @title CryptCoin
  * @symbol CRYPT
  * @implementation Dynamic
+ * @cmcId cryptcoin
  */
 
 module.exports = (callback, request) => {

@@ -36,8 +36,11 @@
     "cacheman": "^2.2.1",
     "cacheman-file": "^0.2.1",
     "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
+    "request-rate-limiter": "^1.0.2",
     "yargs": "^11.0.0"
   },
   "devDependencies": {

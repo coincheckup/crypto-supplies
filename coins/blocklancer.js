@@ -1,14 +1,19 @@
 /**
-* @title Blocklancer
-* @symbol LNC
-* @ethContractAddr 0x63e634330a20150dbb61b15648bc73855d6ccf07
-* @implementation Dynamic
-*/
+ * @title Blocklancer
+ * @symbol LNC
+ * @ethContractAddr 0x63e634330a20150dbb61b15648bc73855d6ccf07
+ * @implementation Dynamic
+ * @cmcId blocklancer
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x63e634330a20150dbb61b15648bc73855d6ccf07?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

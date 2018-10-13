@@ -1,14 +1,19 @@
 /**
-* @title Wild Crypto
-* @symbol WILD
-* @ethContractAddr 0xd3c00772b24d997a812249ca637a921e81357701
-* @implementation Dynamic
-*/
+ * @title Wild Crypto
+ * @symbol WILD
+ * @ethContractAddr 0xd3c00772b24d997a812249ca637a921e81357701
+ * @implementation Dynamic
+ * @cmcId wild-crypto
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd3c00772b24d997a812249ca637a921e81357701?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

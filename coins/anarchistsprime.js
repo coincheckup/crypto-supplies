@@ -2,6 +2,7 @@
  * @title AnarchistsPrime
  * @symbol ACP
  * @implementation Not Implemented
+ * @cmcId anarchistsprime
  */
 
 module.exports = (callback, request) => {

@@ -1,14 +1,19 @@
 /**
-* @title Kubera Coin
-* @symbol KBR
-* @ethContractAddr 0xd5527579226e4ebc8864906e49d05d4458ccf47f
-* @implementation Dynamic
-*/
+ * @title Kubera Coin
+ * @symbol KBR
+ * @ethContractAddr 0xd5527579226e4ebc8864906e49d05d4458ccf47f
+ * @implementation Dynamic
+ * @cmcId kubera-coin
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xd5527579226e4ebc8864906e49d05d4458ccf47f?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

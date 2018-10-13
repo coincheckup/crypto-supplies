@@ -2,6 +2,7 @@
  * @title PRIZM
  * @symbol PZM
  * @implementation Not Implemented
+ * @cmcId prizm
  */
 
 module.exports = (callback, request) => {

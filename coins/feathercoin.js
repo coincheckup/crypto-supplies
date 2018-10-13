@@ -2,6 +2,7 @@
  * @title Feathercoin
  * @symbol FTC
  * @implementation Dynamic
+ * @cmcId feathercoin
  */
 
 module.exports = (callback, request) => {

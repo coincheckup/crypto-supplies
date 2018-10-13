@@ -2,6 +2,7 @@
  * @title Woodcoin
  * @symbol LOG
  * @implementation Not Implemented
+ * @cmcId woodcoin
  */
 
 module.exports = (callback, request) => {

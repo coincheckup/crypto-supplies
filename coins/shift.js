@@ -2,6 +2,7 @@
  * @title Shift
  * @symbol SHIFT
  * @implementation Not Implemented
+ * @cmcId shift
  */
 
 module.exports = (callback, request) => {

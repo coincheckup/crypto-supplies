@@ -1,9 +1,10 @@
 /**
-* @title Status
-* @symbol SNT
-* @ethContractAddr 0x744d70fdbe2ba4cf95131626614a1763df805b9e
-* @implementation Dynamic
-*/
+ * @title Status
+ * @symbol SNT
+ * @ethContractAddr 0x744d70fdbe2ba4cf95131626614a1763df805b9e
+ * @implementation Dynamic
+ * @cmcId status
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x744d70fdbe2ba4cf95131626614a1763df805b9e?apiKey=freekey', (error, response, body) => {

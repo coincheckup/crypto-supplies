@@ -2,6 +2,7 @@
  * @title ClubCoin
  * @symbol CLUB
  * @implementation Dynamic
+ * @cmcId clubcoin
  */
 
 module.exports = (callback, request) => {

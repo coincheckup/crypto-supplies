@@ -2,6 +2,7 @@
  * @title Loopring [NEO]
  * @symbol LRN
  * @implementation Not Implemented
+ * @cmcId loopring-neo
  */
 
 module.exports = (callback, request) => {

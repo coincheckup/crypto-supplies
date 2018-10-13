@@ -2,6 +2,7 @@
  * @title Flash
  * @symbol FLASH
  * @implementation Not Implemented
+ * @cmcId flash
  */
 
 module.exports = (callback, request) => {

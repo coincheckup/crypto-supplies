@@ -1,14 +1,19 @@
 /**
-* @title Dent
-* @symbol DENT
-* @ethContractAddr 0x3597bfd533a99c9aa083587b074434e61eb0a258
-* @implementation Dynamic
-*/
+ * @title Dent
+ * @symbol DENT
+ * @ethContractAddr 0x3597bfd533a99c9aa083587b074434e61eb0a258
+ * @implementation Dynamic
+ * @cmcId dent
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x3597bfd533a99c9aa083587b074434e61eb0a258?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

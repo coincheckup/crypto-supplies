@@ -3,6 +3,7 @@
  * @symbol LUN
  * @ethContractAddr 0xfa05A73FfE78ef8f1a739473e462c54bae6567D9
  * @implementation Dynamic
+ * @cmcId lunyr
  */
  
  module.exports = (callback, request) => {

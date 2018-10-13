@@ -2,6 +2,7 @@
  * @title CloakCoin
  * @symbol CLOAK
  * @implementation Dynamic
+ * @cmcId cloakcoin
  */
 
 module.exports = (callback, request) => {

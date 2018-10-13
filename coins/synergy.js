@@ -2,6 +2,7 @@
  * @title Synergy
  * @symbol SNRG
  * @implementation Dynamic
+ * @cmcId synergy
  */
 
 module.exports = (callback, request) => {

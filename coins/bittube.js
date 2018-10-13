@@ -1,7 +1,8 @@
 /**
- * @title Bloom
- * @symbol BLT
+ * @title BitTube
+ * @symbol TUBE
  * @implementation Not Implemented
+ * @cmcId bit-tube
  */
 
 module.exports = (callback, request) => {

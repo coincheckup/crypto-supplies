@@ -1,17 +1,18 @@
 /**
- * @title NaPoleonX
- * @symbol NPX
- * @ethContractAddr 0x28b5e12cce51f15594b0b91d5b5adaa70f684a02
+ * @title SportyCo
+ * @symbol SPF
+ * @ethContractAddr 0x85089389c14bd9c77fc2b8f0c3d1dc3363bf06ef
  * @implementation Dynamic
+ * @cmcId sportyco
  */
  
  module.exports = (callback, request) => {
- request('http://api.ethplorer.io/getTokenInfo/0x28b5e12cce51f15594b0b91d5b5adaa70f684a02?apiKey=freekey', (error, response, body) => {
+ request('http://api.ethplorer.io/getTokenInfo/0x85089389c14bd9c77fc2b8f0c3d1dc3363bf06ef?apiKey=freekey', (error, response, body) => {
      if (!error && response.statusCode == 200) {
          body = JSON.parse(body);
 
          var resp = {
-             t: Number(body.totalSupply) * Math.pow(10, -2)
+             t: Number(body.totalSupply) * Math.pow(10, -18)
          };
 
          if (typeof body.price !== 'undefined' && typeof body.price.availableSupply !== 'undefined') {

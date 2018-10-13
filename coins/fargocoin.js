@@ -2,6 +2,7 @@
  * @title Fargocoin
  * @symbol FRGC
  * @implementation Not Implemented
+ * @cmcId fargocoin
  */
 
 module.exports = (callback, request) => {

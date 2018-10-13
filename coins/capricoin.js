@@ -2,6 +2,7 @@
  * @title Capricoin
  * @symbol CPC
  * @implementation Dynamic
+ * @cmcId capricoin
  */
 
 module.exports = (callback, request) => {

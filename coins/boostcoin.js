@@ -2,6 +2,7 @@
  * @title BoostCoin
  * @symbol BOST
  * @implementation Not Implemented
+ * @cmcId boostcoin
  */
 
 module.exports = (callback, request) => {

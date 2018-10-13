@@ -2,6 +2,7 @@
  * @title Digitex Futures
  * @symbol DGTX
  * @implementation Not Implemented
+ * @cmcId digitex-futures
  */
 
 module.exports = (callback, request) => {

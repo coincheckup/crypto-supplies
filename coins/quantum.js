@@ -1,14 +1,19 @@
 /**
-* @title Quantum
-* @symbol QAU
-* @ethContractAddr 0x671abbe5ce652491985342e85428eb1b07bc6c64
-* @implementation Dynamic
-*/
+ * @title Quantum
+ * @symbol QAU
+ * @ethContractAddr 0x671abbe5ce652491985342e85428eb1b07bc6c64
+ * @implementation Dynamic
+ * @cmcId quantum
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x671abbe5ce652491985342e85428eb1b07bc6c64?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

@@ -2,6 +2,7 @@
  * @title Lendingblock
  * @symbol LND
  * @implementation Not Implemented
+ * @cmcId lendingblock
  */
 
 module.exports = (callback, request) => {

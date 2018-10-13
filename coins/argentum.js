@@ -2,6 +2,7 @@
  * @title Argentum
  * @symbol ARG
  * @implementation Dynamic
+ * @cmcId argentum
  */
 
 module.exports = (callback, request) => {

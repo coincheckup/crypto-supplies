@@ -3,6 +3,7 @@
  * @symbol WTC
  * @ethContractAddr 0xb7cb1c96db6b22b0d3d9536e0108d062bd488f74
  * @implementation Dynamic
+ * @cmcId waltonchain
  */
 
 module.exports = (callback, request) => {

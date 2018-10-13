@@ -2,6 +2,7 @@
  * @title Zoin
  * @symbol ZOI
  * @implementation Dynamic
+ * @cmcId zoin
  */
 module.exports = (callback, request) => {
     request('https://chainz.cryptoid.info/zoi/api.dws?q=circulating', (error, response, body) => {

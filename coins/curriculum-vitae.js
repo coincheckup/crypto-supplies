@@ -1,14 +1,19 @@
 /**
-* @title Curriculum Vitae
-* @symbol CVH
-* @ethContractAddr 0x52DB8ebF894036ec997Da693C5fa237A4fb69d10
-* @implementation Dynamic
-*/
+ * @title Curriculum Vitae
+ * @symbol CVH
+ * @ethContractAddr 0x52DB8ebF894036ec997Da693C5fa237A4fb69d10
+ * @implementation Dynamic
+ * @cmcId curriculum-vitae
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x52DB8ebF894036ec997Da693C5fa237A4fb69d10?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

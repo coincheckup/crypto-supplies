@@ -2,6 +2,7 @@
  * @title Prime-XI
  * @symbol PXI
  * @implementation Dynamic
+ * @cmcId prime-xi
  */
 
 module.exports = (callback, request) => {

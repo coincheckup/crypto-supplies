@@ -1,7 +1,8 @@
 /**
- * @title BitTube
- * @symbol TUBE
+ * @title eBitcoin
+ * @symbol EBTC
  * @implementation Not Implemented
+ * @cmcId ebtcnew
  */
 
 module.exports = (callback, request) => {

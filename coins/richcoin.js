@@ -2,6 +2,7 @@
  * @title RichCoin
  * @symbol RICHX
  * @implementation Not Implemented
+ * @cmcId richcoin
  */
 
 module.exports = (callback, request) => {

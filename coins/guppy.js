@@ -2,6 +2,7 @@
  * @title Matchpool
  * @symbol GUP
  * @implementation Not Implemented
+ * @cmcId guppy
  */
 
 module.exports = (callback, request) => {

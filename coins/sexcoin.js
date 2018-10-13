@@ -2,6 +2,7 @@
  * @title Sexcoin
  * @symbol SXC
  * @implementation Dynamic
+ * @cmcId sexcoin
  */
 
 module.exports = (callback, request) => {

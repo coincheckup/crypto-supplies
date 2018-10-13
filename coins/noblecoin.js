@@ -2,6 +2,7 @@
  * @title NobleCoin
  * @symbol NOBL
  * @implementation Dynamic
+ * @cmcId noblecoin
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title Blocknet
  * @symbol BLOCK
  * @implementation Dynamic
+ * @cmcId blocknet
  */
 
 module.exports = (callback, request) => {

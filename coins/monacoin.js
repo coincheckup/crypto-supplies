@@ -2,6 +2,7 @@
  * @title MonaCoin
  * @symbol MONA
  * @implementation Dynamic
+ * @cmcId monacoin
  */
 var request = require('request'),
     cheerio = require('cheerio');

@@ -1,9 +1,10 @@
 /**
-* @title district0x
-* @symbol DNT
-* @ethContractAddr 0x0abdace70d3790235af448c88547603b945604ea
-* @implementation Dynamic
-*/
+ * @title district0x
+ * @symbol DNT
+ * @ethContractAddr 0x0abdace70d3790235af448c88547603b945604ea
+ * @implementation Dynamic
+ * @cmcId district0x
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x0abdace70d3790235af448c88547603b945604ea?apiKey=freekey', (error, response, body) => {

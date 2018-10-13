@@ -2,6 +2,7 @@
  * @title Particl
  * @symbol PART
  * @implementation Dynamic
+ * @cmcId particl
  */
 
 module.exports = (callback, request) => {

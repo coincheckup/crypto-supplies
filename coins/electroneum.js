@@ -1,21 +1,26 @@
 /**
-* @title Electroneum
-* @symbol ETN
-* @ethContractAddr 0x81f89694ac96fefd794cb2c8526d2bd8da74b1fb
-* @implementation Dynamic
-*/
+ * @title Electroneum
+ * @symbol ETN
+ * @ethContractAddr 0x81f89694ac96fefd794cb2c8526d2bd8da74b1fb
+ * @implementation Dynamic
+ * @cmcId electroneum
+ */
 
 module.exports = (callback, request) => {
-request('http://api.ethplorer.io/getTokenInfo/0x81f89694ac96fefd794cb2c8526d2bd8da74b1fb?apiKey=freekey', (error, response, body) => {
-    if (!error && response.statusCode == 200) {
-        body = JSON.parse(body);
+    request('http://api.ethplorer.io/getTokenInfo/0x81f89694ac96fefd794cb2c8526d2bd8da74b1fb?apiKey=freekey', (error, response, body) => {
+        if (!error && response.statusCode == 200) {
+            body = JSON.parse(body);
 
-        callback({
-            c: Number(body.price.availableSupply),
-            t: Number(body.totalSupply) * Math.pow(10, -18)
-        });
-    } else {
-        callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
-    }
-});
+            if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+                return callback(new Error('Not Available'));
+            }
+
+            callback({
+                c: Number(body.price.availableSupply),
+                t: Number(body.totalSupply) * Math.pow(10, -18)
+            });
+        } else {
+            callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
+        }
+    });
 };

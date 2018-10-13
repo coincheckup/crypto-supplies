@@ -2,6 +2,7 @@
  * @title Anoncoin
  * @symbol ANC
  * @implementation Dynamic
+ * @cmcId anoncoin
  */
 
 module.exports = (callback, request) => {

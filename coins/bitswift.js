@@ -2,6 +2,7 @@
  * @title Bitswift
  * @symbol SWIFT
  * @implementation Dynamic
+ * @cmcId bitswift
  */
 
 module.exports = (callback, request) => {

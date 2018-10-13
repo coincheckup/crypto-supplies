@@ -2,6 +2,7 @@
  * @title Ignition
  * @symbol IC
  * @implementation Dynamic
+ * @cmcId ignition
  */
 
 module.exports = (callback, request) => {

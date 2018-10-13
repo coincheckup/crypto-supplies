@@ -1,9 +1,10 @@
 /**
-* @title Nucleus Vision
-* @symbol NCASH
-* @ethContractAddr 0x809826cceab68c387726af962713b64cb5cb3cca
-* @implementation Dynamic
-*/
+ * @title Nucleus Vision
+ * @symbol NCASH
+ * @ethContractAddr 0x809826cceab68c387726af962713b64cb5cb3cca
+ * @implementation Dynamic
+ * @cmcId nucleus-vision
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x809826cceab68c387726af962713b64cb5cb3cca?apiKey=freekey', (error, response, body) => {

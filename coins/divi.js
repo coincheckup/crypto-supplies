@@ -1,14 +1,19 @@
 /**
-* @title Divi
-* @symbol DIVX
-* @ethContractAddr 0x13f11c9905a08ca76e3e853be63d4f0944326c72
-* @implementation Dynamic
-*/
+ * @title Divi
+ * @symbol DIVX
+ * @ethContractAddr 0x13f11c9905a08ca76e3e853be63d4f0944326c72
+ * @implementation Dynamic
+ * @cmcId divi
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x13f11c9905a08ca76e3e853be63d4f0944326c72?apiKey=freekey', (error, response, body) => {
     if (!error && response.statusCode == 200) {
         body = JSON.parse(body);
+
+        if (typeof body.price === 'undefined' || body.price === false || typeof body.price.availableSupply === 'undefined' || body.price.availableSupply === null) {
+            return callback(new Error('Not Available'));
+        }
 
         callback({
             c: Number(body.price.availableSupply),

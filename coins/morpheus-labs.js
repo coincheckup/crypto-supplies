@@ -1,9 +1,10 @@
 /**
-* @title Morpheus Labs
-* @symbol MITX
-* @ethContractAddr 0x4a527d8fc13c5203ab24ba0944f4cb14658d1db6
-* @implementation Dynamic
-*/
+ * @title Morpheus Labs
+ * @symbol MITX
+ * @ethContractAddr 0x4a527d8fc13c5203ab24ba0944f4cb14658d1db6
+ * @implementation Dynamic
+ * @cmcId morpheus-labs
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0x4a527d8fc13c5203ab24ba0944f4cb14658d1db6?apiKey=freekey', (error, response, body) => {

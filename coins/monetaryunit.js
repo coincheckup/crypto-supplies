@@ -2,6 +2,7 @@
  * @title MonetaryUnit
  * @symbol MUE
  * @implementation Dynamic
+ * @cmcId monetaryunit
  */
 
 module.exports = (callback, request) => {

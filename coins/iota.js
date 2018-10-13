@@ -2,6 +2,7 @@
  * @title IOTA
  * @symbol MIOTA
  * @implementation Static
+ * @cmcId iota
  */
 module.exports = (callback, request) => {
     // Source: https://coinmarketcap.com/currencies/iota/

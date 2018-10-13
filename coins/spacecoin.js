@@ -2,6 +2,7 @@
  * @title SpaceCoin
  * @symbol SPACE
  * @implementation Not Implemented
+ * @cmcId spacecoin
  */
 
 module.exports = (callback, request) => {

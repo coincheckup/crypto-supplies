@@ -2,6 +2,7 @@
  * @title EuropeCoin
  * @symbol ERC
  * @implementation Dynamic
+ * @cmcId europecoin
  */
 
 module.exports = (callback, request) => {

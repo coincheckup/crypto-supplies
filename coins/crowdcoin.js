@@ -2,6 +2,7 @@
  * @title CrowdCoin
  * @symbol CRC
  * @implementation Not Implemented
+ * @cmcId crowdcoin
  */
 
 module.exports = (callback, request) => {

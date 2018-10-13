@@ -2,6 +2,7 @@
  * @title Electra
  * @symbol ECA
  * @implementation Dynamic
+ * @cmcId electra
  */
 
 module.exports = (callback, request) => {

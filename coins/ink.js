@@ -2,6 +2,7 @@
  * @title Ink
  * @symbol INK
  * @implementation Not Implemented
+ * @cmcId ink
  */
 
 module.exports = (callback, request) => {

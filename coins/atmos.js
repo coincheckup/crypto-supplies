@@ -2,6 +2,7 @@
  * @title Atmos
  * @symbol ATMOS
  * @implementation Dynamic
+ * @cmcId atmos
  */
 
 module.exports = (callback, request) => {

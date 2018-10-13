@@ -2,6 +2,7 @@
  * @title Titcoin
  * @symbol TIT
  * @implementation Not Implemented
+ * @cmcId titcoin
  */
 
 module.exports = (callback, request) => {

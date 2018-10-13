@@ -2,6 +2,7 @@
  * @title LanaCoin
  * @symbol LANA
  * @implementation Dynamic
+ * @cmcId lanacoin
  */
 
 module.exports = (callback, request) => {

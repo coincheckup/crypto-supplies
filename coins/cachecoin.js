@@ -2,6 +2,7 @@
  * @title CacheCoin
  * @symbol CACH
  * @implementation Dynamic
+ * @cmcId cachecoin
  */
 
 module.exports = (callback, request) => {

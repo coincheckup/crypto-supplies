@@ -1,7 +1,8 @@
 /**
- * @title Grid+
- * @symbol GRID
+ * @title ExchangeN
+ * @symbol EXN
  * @implementation Not Implemented
+ * @cmcId exchangen
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title StrongHands
  * @symbol SHND
  * @implementation Not Implemented
+ * @cmcId stronghands
  */
 
 module.exports = (callback, request) => {

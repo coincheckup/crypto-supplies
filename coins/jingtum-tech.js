@@ -2,6 +2,7 @@
  * @title Jingtum Tech
  * @symbol SWTC
  * @implementation Not Implemented
+ * @cmcId jingtum-tech
  */
 
 module.exports = (callback, request) => {

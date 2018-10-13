@@ -2,6 +2,7 @@
  * @title MARK.SPACE
  * @symbol MRK
  * @implementation Not Implemented
+ * @cmcId mark-space
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title TajCoin
  * @symbol TAJ
  * @implementation Dynamic
+ * @cmcId tajcoin
  */
 
 module.exports = (callback, request) => {

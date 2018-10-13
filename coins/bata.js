@@ -2,6 +2,7 @@
  * @title Bata
  * @symbol BTA
  * @implementation Dynamic
+ * @cmcId bata
  */
 
 module.exports = (callback, request) => {

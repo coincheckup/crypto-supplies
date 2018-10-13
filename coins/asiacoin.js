@@ -2,6 +2,7 @@
  * @title AsiaCoin
  * @symbol AC
  * @implementation Dynamic
+ * @cmcId asiacoin
  */
 
 module.exports = (callback, request) => {

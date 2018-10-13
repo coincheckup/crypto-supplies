@@ -2,6 +2,7 @@
  * @title Memetic / PepeCoin
  * @symbol MEME
  * @implementation Not Implemented
+ * @cmcId memetic
  */
 
 module.exports = (callback, request) => {

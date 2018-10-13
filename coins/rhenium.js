@@ -2,6 +2,7 @@
  * @title Rhenium
  * @symbol XRH
  * @implementation Not Implemented
+ * @cmcId rhenium
  */
 
 module.exports = (callback, request) => {

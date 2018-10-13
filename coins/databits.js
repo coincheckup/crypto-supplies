@@ -2,6 +2,7 @@
  * @title Databits
  * @symbol DTB
  * @implementation Not Implemented
+ * @cmcId databits
  */
 
 module.exports = (callback, request) => {

@@ -2,6 +2,7 @@
  * @title GameCredits
  * @symbol GAME
  * @implementation Dynamic
+ * @cmcId gamecredits
  */
 
 module.exports = (callback, request) => {

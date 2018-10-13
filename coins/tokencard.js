@@ -1,9 +1,10 @@
 /**
-* @title TokenCard
-* @symbol TKN
-* @ethContractAddr 0xaaaf91d9b90df800df4f55c205fd6989c977e73a
-* @implementation Dynamic
-*/
+ * @title TokenCard
+ * @symbol TKN
+ * @ethContractAddr 0xaaaf91d9b90df800df4f55c205fd6989c977e73a
+ * @implementation Dynamic
+ * @cmcId tokencard
+ */
 
 module.exports = (callback, request) => {
 request('http://api.ethplorer.io/getTokenInfo/0xaaaf91d9b90df800df4f55c205fd6989c977e73a?apiKey=freekey', (error, response, body) => {

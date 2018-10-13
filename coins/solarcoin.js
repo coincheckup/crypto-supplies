@@ -2,6 +2,7 @@
  * @title SolarCoin
  * @symbol SLR
  * @implementation Dynamic
+ * @cmcId solarcoin
  */
 
 module.exports = (callback, request) => {

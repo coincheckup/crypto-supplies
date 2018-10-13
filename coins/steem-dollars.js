@@ -2,6 +2,7 @@
  * @title Steem Dollars
  * @symbol SBD
  * @implementation Not Implemented
+ * @cmcId steem-dollars
  */
 
 module.exports = (callback, request) => {

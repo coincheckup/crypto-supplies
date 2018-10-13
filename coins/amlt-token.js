@@ -1,7 +1,8 @@
 /**
- * @title BlockMason Credit Protocol
- * @symbol BCPT
+ * @title AMLT Token
+ * @symbol AMLT
  * @implementation Not Implemented
+ * @cmcId amlt
  */
 
 module.exports = (callback, request) => {

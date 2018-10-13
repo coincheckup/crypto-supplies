@@ -2,6 +2,7 @@
  * @title Gold Pressed Latinum
  * @symbol GPL
  * @implementation Not Implemented
+ * @cmcId gold-pressed-latinum
  */
 
 module.exports = (callback, request) => {

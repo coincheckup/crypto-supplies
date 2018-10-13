@@ -2,6 +2,7 @@
  * @title Neuro
  * @symbol NRO
  * @implementation Dynamic
+ * @cmcId neuro
  */
 
 module.exports = (callback, request) => {

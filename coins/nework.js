@@ -2,6 +2,7 @@
  * @title Nework
  * @symbol NKC
  * @implementation Not Implemented
+ * @cmcId nework
  */
 
 module.exports = (callback, request) => {

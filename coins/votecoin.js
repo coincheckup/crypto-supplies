@@ -2,6 +2,7 @@
  * @title VoteCoin
  * @symbol VOT
  * @implementation Not Implemented
+ * @cmcId votecoin
  */
 
 module.exports = (callback, request) => {

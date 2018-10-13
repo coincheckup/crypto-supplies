@@ -2,6 +2,7 @@
  * @title Digitalcoin
  * @symbol DGC
  * @implementation Dynamic
+ * @cmcId digitalcoin
  */
 
 module.exports = (callback, request) => {

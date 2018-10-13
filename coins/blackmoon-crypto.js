@@ -2,6 +2,7 @@
  * @title Blackmoon
  * @symbol BMC
  * @implementation Not Implemented
+ * @cmcId blackmoon
  */
 
 module.exports = (callback, request) => {

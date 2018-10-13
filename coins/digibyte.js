@@ -2,6 +2,7 @@
  * @title DigiByte
  * @symbol DGB
  * @implementation Dynamic
+ * @cmcId digibyte
  */
 
 module.exports = (callback, request) => {

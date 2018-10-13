@@ -2,6 +2,7 @@
  * @title NewYorkCoin
  * @symbol NYC
  * @implementation Not Implemented
+ * @cmcId newyorkcoin
  */
 
 module.exports = (callback, request) => {

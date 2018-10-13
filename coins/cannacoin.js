@@ -2,6 +2,7 @@
  * @title CannaCoin
  * @symbol CCN
  * @implementation Dynamic
+ * @cmcId cannacoin
  */
 
 module.exports = (callback, request) => {

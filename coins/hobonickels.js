@@ -2,6 +2,7 @@
  * @title HoboNickels
  * @symbol HBN
  * @implementation Dynamic
+ * @cmcId hobonickels
  */
 
 module.exports = (callback, request) => {

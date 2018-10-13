@@ -2,6 +2,7 @@
  * @title Bitcloud
  * @symbol BTDX
  * @implementation Dynamic
+ * @cmcId bitcloud
  */
 
 module.exports = (callback, request) => {

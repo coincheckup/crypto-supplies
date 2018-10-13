@@ -2,6 +2,7 @@
  * @title SpeedCash
  * @symbol SCS
  * @implementation Not Implemented
+ * @cmcId speedcash
  */
 
 module.exports = (callback, request) => {

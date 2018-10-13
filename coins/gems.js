@@ -1,7 +1,8 @@
 /**
- * @title Gems 
+ * @title Gems
  * @symbol GEM
  * @implementation Not Implemented
+ * @cmcId gems-protocol
  */
 
 module.exports = (callback, request) => {
