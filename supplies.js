@@ -272,6 +272,14 @@ const getSupplies = async(id, opts) => {
                             }
                         }
 
+                        if (_.isNil(response.c) || _.isNaN(response.c) || response.c <= 0) {
+                            let cmcSupply = await getCMCSupply(id)
+
+                            if (!_.isNil(cmcSupply)) {
+                                response = cmcSupply
+                            }
+                        }
+
                         resolve(formatResult(id, response, opts));
                     }, request);
                 } catch (e) {
