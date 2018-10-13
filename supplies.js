@@ -258,8 +258,8 @@ const getSupplies = async(id, opts) => {
                             );
                         }
 
-                        if (response instanceof Error && (response.message === 'Not Implemented' || response.message === 'Not Available')) {
-                            if (opts.onlyImplemented && !opts.fallback) {
+                        if (response instanceof Error) {
+                            if (opts.onlyImplemented && !opts.fallback && (response.message === 'Not Implemented' || response.message === 'Not Available')) {
                                 return
                             }
 
