@@ -2,6 +2,7 @@
  * @title Karmacoin
  * @symbol KARMA
  * @implementation Not Implemented
+ * @cmcId karma-eos
  */
 
 module.exports = (callback, request) => {

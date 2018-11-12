@@ -2,6 +2,7 @@
  * @title AWARE
  * @symbol AWR
  * @implementation Not Implemented
+ * @cmcId aware
  */
 
 module.exports = (callback, request) => {
