@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 2577 -- *Implemented*: 855 -- *To do*: 1722
+*Total*: 2578 -- *Implemented*: 856 -- *To do*: 1722
 
 
 ID | Name | Symbol | Implementation | Status
@@ -208,7 +208,7 @@ ID | Name | Symbol | Implementation | Status
 [blocknet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blocknet.js) | [Blocknet](https://coincheckup.com/coins/blocknet) | BLOCK | Dynamic | :white_check_mark: Done
 [cortex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cortex.js) | [Cortex](https://coincheckup.com/coins/cortex) | CTXC | Dynamic | :white_check_mark: Done
 [theta-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/theta-token.js) | [Theta Token](https://coincheckup.com/coins/theta-token) | THETA | Dynamic | :white_check_mark: Done
-[monaco](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monaco.js) | [Monaco](https://coincheckup.com/coins/monaco) | MCO | Dynamic | :white_check_mark: Done
+[monaco](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monaco.js) | [crypto.com](https://coincheckup.com/coins/monaco) | MCO | Dynamic | :white_check_mark: Done
 [byteball](https://github.com/coincheckup/crypto-supplies/blob/master/coins/byteball.js) | [Byteball Bytes](https://coincheckup.com/coins/byteball) | GBYTE | Not Implemented | :x: Not done
 [storm](https://github.com/coincheckup/crypto-supplies/blob/master/coins/storm.js) | [Storm](https://coincheckup.com/coins/storm) | STORM | Dynamic | :white_check_mark: Done
 [game.com](https://github.com/coincheckup/crypto-supplies/blob/master/coins/game.com.js) | [Game.com](https://coincheckup.com/coins/game.com) | GTC | Dynamic | :white_check_mark: Done
@@ -1905,6 +1905,7 @@ ID | Name | Symbol | Implementation | Status
 [crypto-com](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crypto-com.js) | [Crypto.com](https://coincheckup.com/coins/crypto-com) | MCO | Not Implemented | :x: Not done
 [crypto-harbor-exchange](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crypto-harbor-exchange.js) | [Crypto Harbor Exchange](https://coincheckup.com/coins/crypto-harbor-exchange) | CHE | Not Implemented | :x: Not done
 [crypto-improvement-fund](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crypto-improvement-fund.js) | [Crypto Improvement Fund](https://coincheckup.com/coins/crypto-improvement-fund) | CIF | Not Implemented | :x: Not done
+[crypto.com](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crypto.com.js) | [Monaco](https://coincheckup.com/coins/crypto.com) | MCO | Dynamic | :white_check_mark: Done
 [cryptoescudo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptoescudo.js) | N/A | N/A | N/A | :x: Not done
 [cryptoflow](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptoflow.js) | [CryptoFlow](https://coincheckup.com/coins/cryptoflow) | CFL | Not Implemented | :x: Not done
 [cryptoforecast](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptoforecast.js) | N/A | N/A | N/A | :x: Not done
