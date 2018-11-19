@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 2578 -- *Implemented*: 856 -- *To do*: 1722
+*Total*: 2577 -- *Implemented*: 856 -- *To do*: 1721
 
 
 ID | Name | Symbol | Implementation | Status
@@ -1901,10 +1901,9 @@ ID | Name | Symbol | Implementation | Status
 [cruisebit](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cruisebit.js) | [Cruisebit](https://coincheckup.com/coins/cruisebit) | CRBT | Not Implemented | :x: Not done
 [cryptaldash](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptaldash.js) | [CryptalDash](https://coincheckup.com/coins/cryptaldash) | CRD | Not Implemented | :x: Not done
 [crypticcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crypticcoin.js) | [CrypticCoin](https://coincheckup.com/coins/crypticcoin) | CRYP | Not Implemented | :x: Not done
-[crypto-com](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crypto-com.js) | [Crypto.com](https://coincheckup.com/coins/crypto-com) | MCO | Not Implemented | :x: Not done
 [crypto-harbor-exchange](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crypto-harbor-exchange.js) | [Crypto Harbor Exchange](https://coincheckup.com/coins/crypto-harbor-exchange) | CHE | Not Implemented | :x: Not done
 [crypto-improvement-fund](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crypto-improvement-fund.js) | [Crypto Improvement Fund](https://coincheckup.com/coins/crypto-improvement-fund) | CIF | Not Implemented | :x: Not done
-[crypto.com](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crypto.com.js) | [Monaco](https://coincheckup.com/coins/crypto.com) | MCO | Dynamic | :white_check_mark: Done
+[crypto.com](https://github.com/coincheckup/crypto-supplies/blob/master/coins/crypto.com.js) | [crypto.com](https://coincheckup.com/coins/crypto.com) | MCO | Dynamic | :white_check_mark: Done
 [cryptoescudo](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptoescudo.js) | N/A | N/A | N/A | :x: Not done
 [cryptoflow](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptoflow.js) | [CryptoFlow](https://coincheckup.com/coins/cryptoflow) | CFL | Not Implemented | :x: Not done
 [cryptoforecast](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cryptoforecast.js) | N/A | N/A | N/A | :x: Not done

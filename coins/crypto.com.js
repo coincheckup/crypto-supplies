@@ -1,9 +1,9 @@
 /**
- * @title Monaco
+ * @title crypto.com
  * @symbol MCO
  * @ethContractAddr 0xb63b606ac810a52cca15e44bb630fd42d8d1d83d
  * @implementation Dynamic
- * @cmcId monaco
+ * @cmcId crypto-com
  */
 
 module.exports = (callback, request) => {
