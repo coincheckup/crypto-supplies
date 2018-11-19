@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 2577 -- *Implemented*: 855 -- *To do*: 1722
+*Total*: 2578 -- *Implemented*: 856 -- *To do*: 1722
 
 
 ID | Name | Symbol | Implementation | Status
@@ -2584,6 +2584,7 @@ ID | Name | Symbol | Implementation | Status
 [uralscoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/uralscoin.js) | [UralsCoin](https://coincheckup.com/coins/uralscoin) | URALS | Not Implemented | :x: Not done
 [uro](https://github.com/coincheckup/crypto-supplies/blob/master/coins/uro.js) | [Uro](https://coincheckup.com/coins/uro) | URO | Not Implemented | :x: Not done
 [usd-coin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/usd-coin.js) | [USD Coin](https://coincheckup.com/coins/usd-coin) | USDC | Not Implemented | :x: Not done
+[usdcoin](https://github.com/coincheckup/crypto-supplies/blob/master/coins/usdcoin.js) | [USD Coin](https://coincheckup.com/coins/usdcoin) | USDC | Dynamic | :white_check_mark: Done
 [usechain-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/usechain-token.js) | [Usechain Token](https://coincheckup.com/coins/usechain-token) | USE | Not Implemented | :x: Not done
 [uttoken](https://github.com/coincheckup/crypto-supplies/blob/master/coins/uttoken.js) | [United Traders Token](https://coincheckup.com/coins/uttoken) | UTT | Not Implemented | :x: Not done
 [valorbit](https://github.com/coincheckup/crypto-supplies/blob/master/coins/valorbit.js) | N/A | N/A | N/A | :x: Not done
