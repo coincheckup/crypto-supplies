@@ -17,6 +17,8 @@ request('http://api.ethplorer.io/getTokenInfo/0xb63b606ac810a52cca15e44bb630fd42
 
         if (typeof body.price !== 'undefined' && typeof body.price.availableSupply !== 'undefined') {
             resp.c = Number(body.price.availableSupply);
+        } else {
+            return callback(new Error('Circulating supply not available'));
         }
 
         callback(resp);
