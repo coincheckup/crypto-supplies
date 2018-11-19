@@ -93,7 +93,7 @@ litecoin
 
 # Coin implementation statuses
 
-*Total*: 2578 -- *Implemented*: 856 -- *To do*: 1722
+*Total*: 2577 -- *Implemented*: 855 -- *To do*: 1722
 
 
 ID | Name | Symbol | Implementation | Status
@@ -208,7 +208,6 @@ ID | Name | Symbol | Implementation | Status
 [blocknet](https://github.com/coincheckup/crypto-supplies/blob/master/coins/blocknet.js) | [Blocknet](https://coincheckup.com/coins/blocknet) | BLOCK | Dynamic | :white_check_mark: Done
 [cortex](https://github.com/coincheckup/crypto-supplies/blob/master/coins/cortex.js) | [Cortex](https://coincheckup.com/coins/cortex) | CTXC | Dynamic | :white_check_mark: Done
 [theta-token](https://github.com/coincheckup/crypto-supplies/blob/master/coins/theta-token.js) | [Theta Token](https://coincheckup.com/coins/theta-token) | THETA | Dynamic | :white_check_mark: Done
-[monaco](https://github.com/coincheckup/crypto-supplies/blob/master/coins/monaco.js) | [crypto.com](https://coincheckup.com/coins/monaco) | MCO | Dynamic | :white_check_mark: Done
 [byteball](https://github.com/coincheckup/crypto-supplies/blob/master/coins/byteball.js) | [Byteball Bytes](https://coincheckup.com/coins/byteball) | GBYTE | Not Implemented | :x: Not done
 [storm](https://github.com/coincheckup/crypto-supplies/blob/master/coins/storm.js) | [Storm](https://coincheckup.com/coins/storm) | STORM | Dynamic | :white_check_mark: Done
 [game.com](https://github.com/coincheckup/crypto-supplies/blob/master/coins/game.com.js) | [Game.com](https://coincheckup.com/coins/game.com) | GTC | Dynamic | :white_check_mark: Done
