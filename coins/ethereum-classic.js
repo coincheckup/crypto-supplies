@@ -12,16 +12,20 @@ module.exports = (callback, request) => {
         rejectUnauthorized: false,
         requestCert: true
     }, (error, response, body) => {
-        if (!error && response.statusCode == 200) {
-            callback({
-                c: Number(body.etc.available_supply)
-            })
-        } else {
-            if (typeof response !== 'undefined') {
-                callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
+        try {
+            if (!error && response.statusCode == 200) {
+                callback({
+                    c: Number(body.etc.available_supply)
+                })
             } else {
-                callback(new Error('Request error ' + error.message));
+                if (typeof response !== 'undefined') {
+                    callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
+                } else {
+                    callback(new Error('Request error ' + error.message));
+                }
             }
+        } catch (e) {
+            callback(new Error('Request error ' + e.message));
         }
     });
 };
