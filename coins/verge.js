@@ -9,7 +9,7 @@ module.exports = (callback, request) => {
     request({
         uri: 'https://verge-blockchain.info/api/moneysupply',
         rejectUnauthorized: false,
-        json: false
+        json: true
     }, (error, response, body) => {
         if (!error && response.statusCode == 200) {
             callback({
