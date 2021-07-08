@@ -15,9 +15,20 @@ request('http://api.ethplorer.io/getTokenInfo/0xb6ee9668771a79be7967ee29a63d4184
             return callback(new Error('Not Available'));
         }
 
-        callback({
-            c: Number(body.price.availableSupply),
-            t: Number(body.totalSupply) * Math.pow(10, -18)
+        request('http://api.ethplorer.io/getAddressInfo/0x0000000000000000000000000000000000000000?apiKey=freekey', (addressInfoError, addressInfoResponse, addressInfoBody) => {
+            addressInfoBody = JSON.parse(addressInfoBody);
+
+            var cxoToken = addressInfoBody.tokens.find(obj => {
+              return obj.tokenInfo.address === '0xb6ee9668771a79be7967ee29a63d4184f8097143'
+            })
+
+            var burntTokens = Number(cxoToken.balance) * Math.pow(10, -18);            
+
+            callback({
+                c: Number(body.price.availableSupply) - burntTokens,
+                t: Number(body.totalSupply) * Math.pow(10, -18)
+            });
+
         });
     } else {
         callback(new Error('Request error ' + typeof response !== 'undefined' ? response.statusCode : error));
